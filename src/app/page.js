@@ -28,7 +28,8 @@ import headertopicon from "../app/img/header-top-icon.png";
 import TrustedTwo from "../app/img/shutterstock_2433120923@2x.png";
 import Expert from "../app/img/Component-12-1@2x.png";
 import ExpertTwo from "../app/img/shutterstock-5402044.png";
-import ExpertThree from "../app/img/Ellipse-6@2x.png";     
+import ExpertThree from "../app/img/Ellipse-6@2x.png";    
+import ExpertThreeTW from "../app/img/Fundedd-logo-04@2x.png";    
 
 export default function Home() {
   
@@ -228,6 +229,9 @@ export default function Home() {
           <ClientsSay/>
        </div>
   </div>
+  </div>
+  <div className="client-name-right-mig">
+     <Image src={ExpertThreeTW} alt=""/>  
   </div>
 </section>
 <section className="Insights-Industry-Trends">
