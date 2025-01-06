@@ -6,7 +6,7 @@ import Link from "next/link";
 import Header from "../app/common/Header.js";
 import Footer from "../app/common/Footer.js";
 import TestimonialSlide from "../app/common/TestimonialSlide.js"; 
-import Marquee from "../app/common/Marqueee.js"; 
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
 import Script from "next/script";
@@ -57,7 +57,7 @@ export default function Home() {
         </div>  
    </div>
 </div>
-<Marquee /> 
+
 </section>
 
 
