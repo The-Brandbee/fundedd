@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
-
+import Logo from "../img/fund-l.png";
 function IndexPage() {
   return (
     <footer>
@@ -16,7 +16,9 @@ function IndexPage() {
                 <input type="text"/>
                 <button>SUBSCRIBE</button>
                </div>
-             
+               <Link href="/">
+          <Image src={Logo} alt="" />
+          </Link>
             </div>
             <div className="footer-middle-right">
                <div className="footer-middle-r">
