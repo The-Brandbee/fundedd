@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../img/Logo.png";
+
 import headertopicon from "../img/header-top-icon.png";
 import Search from "../img/search.png";
 
@@ -12,9 +12,7 @@ function IndexPage() {
       <div className="container">
       <div className="header-top-frame">
           <div className="header-top-left">
-          <Link href="/">
-          <Image src={Logo} alt="" />
-          </Link>
+          
           </div>
           <div className="header-top-right">
               <ul>
