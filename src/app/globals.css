@@ -774,12 +774,13 @@ display: none;
   margin: 0 auto !important;
   margin-top: 50px !important;
   padding: 5px 11px !important;
-}      
+}   
+
 .tab-view .react-tabs__tab--selected {
   color: #FF7518 !important;
   border-radius: 5px 5px 0 0;
   background: #222222 0% 0% no-repeat padding-box;
-  border: 4px solid #000000;
+  border: 0px solid #000000;
   border-radius: 100px;
   opacity: 1;
 }      
