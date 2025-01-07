@@ -666,7 +666,7 @@ content: "";
 }
 .Reliable-Funding-When-You-Need::before{
   content: "";
-  background: url(/_next/static/media/Fundedd-logo-04@2x-new.583b6ad4.png);
+  background: url(../app/img/Fundedd-logo-04@2x-new.png);
   position: absolute;
   bottom: -44%;
   left: -7%;
@@ -693,9 +693,7 @@ content: "";
 }
 .Your-Trusted-Partner-for-Payroll-Funding-left{
   width: 40%;
-  display: flex;
-  background: #FF7518;
-  border-radius: 25px;
+  
 
 }
 .Your-Trusted-Partner-for-Payroll-Funding-right{
@@ -707,6 +705,8 @@ content: "";
 .Your-Trusted-Partner-for-Payroll-Funding-left-left{
   width: 100%;
   padding: 8%;
+  background: #FF7518;
+  border-radius: 25px;
 }
 .Your-Trusted-Partner-for-Payroll-Funding-left-right{
   width: 40%;
@@ -987,6 +987,80 @@ margin-bottom: 30px;
 }
 .client-name-right-mig img{
 width: 100%;
+}
+.Your-Trusted-Partner-for-Payroll-Funding-left.none{   
+  display: none;
+}
+.Your-Trusted-Partner-for-Payroll-Funding-left.nn:hover .Your-Trusted-Partner-for-Payroll-Funding-left-left{
+display: none;
+}
+.Your-Trusted-Partner-for-Payroll-Funding-left.nn:hover .Your-Trusted-Partner-for-Payroll-Funding-left.none{
+ display: block;
+ width: 100%;
+}
+.Your-Trusted-Partner-for-Payroll-Funding-left-none-middle{
+  background: #222222 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  opacity: 1;
+  display: flex;                                            
+  justify-content: space-between;
+}
+.Your-Trusted-Partner-for-Payroll-Funding-left.nn:hover{
+  width: 56%;
+}
+.Your-Trusted-Partner-for-Payroll-Funding-left-none-middle-left h4{
+  color: #fff;
+  font-size: 32px;
+}
+.Your-Trusted-Partner-for-Payroll-Funding-left-none-middle-left p:nth-child(2){
+  color: #fff;
+  margin-top: 35%;
+
+}
+.Your-Trusted-Partner-for-Payroll-Funding-left-none-middle-left p a{
+
+  background: #FF7518 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  color: #fff;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 7px 15px;
+  margin-top: 10px;
+  display: inline-block;
+  border: 1px solid #FF7518;
+}
+.Your-Trusted-Partner-for-Payroll-Funding-left-none-middle-right img{
+  width: 100%;
+}
+.Your-Trusted-Partner-for-Payroll-Funding-left-none-middle-left{
+  width: 65%;
+  padding: 45px;
+}
+.Your-Trusted-Partner-for-Payroll-Funding-left-none-middle-right{
+  width: 34%;
+}
+.Your-Trusted-Partner-for-Payroll-Funding-right.two{
+  display: none;
+}
+.Your-Trusted-Partner-for-Payroll-Funding-left.twoo:hover .Your-Trusted-Partner-for-Payroll-Funding-left-left.two{
+display: none;
+
+}
+.Your-Trusted-Partner-for-Payroll-Funding-left.twoo:hover .Your-Trusted-Partner-for-Payroll-Funding-right.two{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  }
+.Your-Trusted-Partner-for-Payroll-Funding-left.twoo:hover{    
+  width: 56%; 
+}
+.Your-Trusted-Partner-for-Payroll-Funding-right.two .Your-Trusted-Partner-for-Payroll-Funding-right-left{
+ width: 65%;
+ padding: 6%;  
+}
+.Your-Trusted-Partner-for-Payroll-Funding-right.two .Your-Trusted-Partner-for-Payroll-Funding-right-right{
+  width: 29%;
 }
 @media all and (min-width:120px) and (max-width:680px){
 

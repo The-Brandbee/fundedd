@@ -143,16 +143,33 @@ export default function Home() {
 <section className="Your-Trusted-Partner-for-Payroll-Funding">
 <div className="container">
     <div className="Your-Trusted-Partner-for-Payroll-Funding-middle">
-      <div className="Your-Trusted-Partner-for-Payroll-Funding-left">
+      <div className="Your-Trusted-Partner-for-Payroll-Funding-left nn">
           <div className="Your-Trusted-Partner-for-Payroll-Funding-left-left">
                <h4>Your Trusted Partner for Payroll Funding</h4>
                <p>At Fundedd, we deliver specialized AR factoring solutions that put you in control of your cash flow. Our flexible funding approach ensures you can meet payroll demands, fuel growth, and optimize operations at every stage of your business journey.</p>
           </div>
-          <div className="Your-Trusted-Partner-for-Payroll-Funding-left-right">
-             <Image src={Trusted} alt="" />  
+          <div className="Your-Trusted-Partner-for-Payroll-Funding-left none">
+          <div className="Your-Trusted-Partner-for-Payroll-Funding-left-none-middle">
+              <div className="Your-Trusted-Partner-for-Payroll-Funding-left-none-middle-left">
+                  <h4>Your Trusted Partner for Payroll Funding</h4>
+                  <p>At Fundedd, we deliver specialized AR factoring solutions that put you in control of your cash flow. Our flexible funding approach ensures you can meet payroll demands, fuel growth, and optimize operations at every stage of your business journey.</p>
+                  <p><a href="#">APPLY NOW</a></p>                                       
+              </div>
+              <div className="Your-Trusted-Partner-for-Payroll-Funding-left-none-middle-right">
+              <Image src={Trusted} alt="" />  
+
+                </div>
           </div>
+          
       </div>
-      <div className="Your-Trusted-Partner-for-Payroll-Funding-right">
+      </div>
+     
+      <div className="Your-Trusted-Partner-for-Payroll-Funding-left twoo">
+          <div className="Your-Trusted-Partner-for-Payroll-Funding-left-left two">
+               <h4>Funding Solutions To Fuel Growth</h4>
+               <p>At Fundedd, we deliver specialized AR factoring solutions that put you in control of your cash flow. Our flexible funding approach ensures you can meet payroll demands, fuel growth, and optimize operations at every stage of your business journey.</p>
+          </div>
+          <div className="Your-Trusted-Partner-for-Payroll-Funding-right two">
         <div className="Your-Trusted-Partner-for-Payroll-Funding-right-left">
           <h4>Funding Solutions To Fuel Growth</h4>
           <ul>
@@ -166,6 +183,9 @@ export default function Home() {
         <Image src={TrustedTwo} alt="" />  
         </div>
       </div>
+      </div>  
+      
+      
     </div>
 </div>
 </section>
