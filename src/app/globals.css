@@ -92,14 +92,19 @@ color: #727272;
 margin-bottom: 0px;
 }
 .header-top-right ul li a{
-  background: #FF7518 0% 0% no-repeat padding-box;
+  background: #000;
   border-radius: 5px;
   color: #fff;
   height: -moz-fit-content;
   height: fit-content;
   margin: 0 auto;
   padding: 7px 15px;
-
+  border: 1px solid #FF7518;
+  width: 110px;
+  height: 37px;
+}
+.header-top-right ul li a:hover{
+  background: #FF7518;
 }
 .header-bottom-frame_main-middle{
   display: flex;
@@ -229,12 +234,16 @@ footer{
   margin-bottom: 30px;
 }
 .footer-middle-left .footer-middle-left-search button{
-  background: #FF7518 0% 0% no-repeat padding-box;
+  background: #000 0% 0% no-repeat padding-box;
   border-radius: 5px;
-  height: 45px;
+  height: 41px;
   color: #fff;
   border: 0px;
-  width: 150px;
+  width: 130px;
+  border: 1px solid #FF7518;
+}
+.footer-middle-left .footer-middle-left-search button:hover{
+  background: #FF7518;
 }
 .footer-middle-left a img{
   width: 230px;
@@ -262,16 +271,20 @@ position: relative;
   padding-right: 50px;
 }
 .Begin-Your-Funding-Journey-middle-left-left p a{
-  background: #FF7518 0% 0% no-repeat padding-box;
+  background: #000 0% 0% no-repeat padding-box;
   border-radius: 5px;
   color: #fff;
   height: -moz-fit-content;
   height: fit-content;
   margin: 0 auto;
-  padding: 7px 15px;
+  padding: 9px 20px;
   margin-top: 10px;
   display: inline-block;
+  border: 1px solid #FF7518;
 } 
+.Begin-Your-Funding-Journey-middle-left-left p a:hover{
+   background: #FF7518;
+}
 .Begin-Your-Funding-Journey-middle-left-left p a img{
   width: 12px;
   margin-left: 15px;
@@ -402,7 +415,7 @@ position: relative;
   color: #F2F2F2;
 }
 .Empowering-Staffing-Companies-middle-right a{
-  background: #FF7518 0% 0% no-repeat padding-box;
+  background: #000 0% 0% no-repeat padding-box;
     border-radius: 5px;
     color: #fff;
     height: -moz-fit-content;
@@ -411,9 +424,13 @@ position: relative;
     padding: 7px 15px;
     margin-top: 10px;
     display: inline-block;
+    border: 1px solid #FF7518;
+}
+.Empowering-Staffing-Companies-middle-right a:hover{
+  background: #FF7518;
 }
 .marqu-main-frame{
-  display: flex;
+  display: flex; 
 }
 .marqu-main-frame-img{
 width: 15%;
@@ -450,18 +467,21 @@ margin-right: 40px;
   right: 35px;
 }
 .rfm-marquee-container {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 .rfm-marquee-container:hover .rfm-marquee{
   animation-play-state: paused;
 }
 .Reliable-Funding-When-You-Need{
   background: #000000;
-  padding-top: 0px;   
+  padding-top: 60px;   
   padding-bottom: 60px;
+
 }
 .Reliable-Funding-When-You-Need-middle{
-  display: flex;
+      display: flex;
+      position: relative;
+      z-index: 9999;
 }
 .Reliable-Funding-When-You-Need-middle-left{
   width: 40%;
@@ -482,7 +502,7 @@ margin-right: 40px;
   color: #F2F2F2; 
 }
 .Reliable-Funding-When-You-Need-middle-left-header-cont p a{
-  background: #FF7518 0% 0% no-repeat padding-box;
+  background: #000 0% 0% no-repeat padding-box;
     border-radius: 5px;
     color: #fff;
     height: -moz-fit-content;
@@ -491,6 +511,10 @@ margin-right: 40px;
     padding: 7px 15px;
     margin-top: 10px;
     display: inline-block;
+    border: 1px solid #FF7518;
+}
+.Reliable-Funding-When-You-Need-middle-left-header-cont p a:hover{
+  background: #FF7518;
 }
 .Reliable-Funding-When-You-Need-middle-left-header-cont-bottom{
   display: flex;
@@ -620,18 +644,52 @@ display: block;
   background: #000;
   padding-bottom: 7%;
   padding-top: 4%;
+  position: relative;
 }
+
 .Your-Trusted-Partner-for-Payroll-Funding::after{
 background: url(../app/img/Ellipse-4@2x.png);
 content: "";
 }
-.Your-Trusted-Partner-for-Payroll-Funding::before{
-  background: url(../app/img/Ellipse-4@2x.png);
+.Reliable-Funding-When-You-Need{
+  position: relative;
+}
+.Reliable-Funding-When-You-Need::after{
   content: "";
+  background: linear-gradient(90deg, #ff75184a 0%, #00000030 35%, #ff75184a 100%);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.Reliable-Funding-When-You-Need::before{
+  content: "";
+  background: url(/_next/static/media/Fundedd-logo-04@2x-new.583b6ad4.png);
+  position: absolute;
+  bottom: -44%;
+  left: -7%;
+  width: 40%;
+  height: 100%;
+  z-index: 0;
+  background-size: 500px;
+  background-repeat: no-repeat;
+}
+.Your-Trusted-Partner-for-Payroll-Funding::before{
+  content: "";
+    background: linear-gradient(90deg, #ff75184a 0%, #00000030 35%, #ff75184a 100%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
 }
 .Your-Trusted-Partner-for-Payroll-Funding-middle{
   display: flex;
   justify-content: space-between;
+  position: relative; 
 }
 .Your-Trusted-Partner-for-Payroll-Funding-left{
   width: 40%;
@@ -731,8 +789,8 @@ display: none;
   font-size: 15px;
   font-weight: 600;
   padding: 10px 30px;
-}  
-.tab-view  .react-tabs__tab:focus { outline: none; border: 0px !important;}     
+}   
+.tab-view  .react-tabs__tab:focus { margin:0px !important;outline: none; border: 0px !important;    padding: 10px 30px !important;}     
 
 .tab-view  .react-tabs__tab:focus:after {
   background: transparent !important;

@@ -15,7 +15,7 @@ export default function TestimonialSlide() {
   
   return (
    <>
-     <Marquee pauseOnHover={false}>
+     <Marquee pauseOnHover={false} gradient={false} speed={50} loop={0}>
       <div className="marqu-main-frame">
          <div className="marqu-main-frame-img">
             <Image src={Girl} alt="" />
@@ -35,6 +35,121 @@ export default function TestimonialSlide() {
          </div>
          
       </div>
+      <div className="marqu-main-frame">
+         <div className="marqu-main-frame-img">
+            <Image src={Girl} alt="" />
+         </div>
+         <div className="marqu-main-frame-img-cont">
+            <h4>Simplify Payroll with Expertise You Can Trust</h4>
+            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+            <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
+         </div>
+         <div className="marqu-main-frame-img">
+            <Image src={Girl} alt="" />
+         </div>
+         <div className="marqu-main-frame-img-cont">
+            <h4>Simplify Payroll with Expertise You Can Trust</h4>
+            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+            <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
+         </div>
+         
+      </div>
+      <div className="marqu-main-frame">
+         <div className="marqu-main-frame-img">
+            <Image src={Girl} alt="" />
+         </div>
+         <div className="marqu-main-frame-img-cont">
+            <h4>Simplify Payroll with Expertise You Can Trust</h4>
+            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+            <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
+         </div>
+         <div className="marqu-main-frame-img">
+            <Image src={Girl} alt="" />
+         </div>
+         <div className="marqu-main-frame-img-cont">
+            <h4>Simplify Payroll with Expertise You Can Trust</h4>
+            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+            <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
+         </div>
+         
+      </div>
+      <div className="marqu-main-frame">
+         <div className="marqu-main-frame-img">
+            <Image src={Girl} alt="" />
+         </div>
+         <div className="marqu-main-frame-img-cont">
+            <h4>Simplify Payroll with Expertise You Can Trust</h4>
+            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+            <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
+         </div>
+         <div className="marqu-main-frame-img">
+            <Image src={Girl} alt="" />
+         </div>
+         <div className="marqu-main-frame-img-cont">
+            <h4>Simplify Payroll with Expertise You Can Trust</h4>
+            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+            <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
+         </div>
+         
+      </div>
+      <div className="marqu-main-frame">
+         <div className="marqu-main-frame-img">
+            <Image src={Girl} alt="" />
+         </div>
+         <div className="marqu-main-frame-img-cont">
+            <h4>Simplify Payroll with Expertise You Can Trust</h4>
+            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+            <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
+         </div>
+         <div className="marqu-main-frame-img">
+            <Image src={Girl} alt="" />
+         </div>
+         <div className="marqu-main-frame-img-cont">
+            <h4>Simplify Payroll with Expertise You Can Trust</h4>
+            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+            <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
+         </div>
+         
+      </div>
+      <div className="marqu-main-frame">
+         <div className="marqu-main-frame-img">
+            <Image src={Girl} alt="" />
+         </div>
+         <div className="marqu-main-frame-img-cont">
+            <h4>Simplify Payroll with Expertise You Can Trust</h4>
+            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+            <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
+         </div>
+         <div className="marqu-main-frame-img">
+            <Image src={Girl} alt="" />
+         </div>
+         <div className="marqu-main-frame-img-cont">
+            <h4>Simplify Payroll with Expertise You Can Trust</h4>
+            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+            <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
+         </div>
+         
+      </div>
+      <div className="marqu-main-frame">
+         <div className="marqu-main-frame-img">
+            <Image src={Girl} alt="" />
+         </div>
+         <div className="marqu-main-frame-img-cont">
+            <h4>Simplify Payroll with Expertise You Can Trust</h4>
+            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+            <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
+         </div>
+         <div className="marqu-main-frame-img">
+            <Image src={Girl} alt="" />
+         </div>
+         <div className="marqu-main-frame-img-cont">
+            <h4>Simplify Payroll with Expertise You Can Trust</h4>
+            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+            <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
+         </div>
+         
+      </div>
+      
   </Marquee>
    </>
    

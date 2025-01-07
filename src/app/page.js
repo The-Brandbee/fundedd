@@ -249,7 +249,7 @@ export default function Home() {
            <div className="Begin-Your-Funding-Journey-middle-left-left">
              <h4>Begin Your Funding Journey <br/><span>with Fundedd</span></h4>
              <p>Speak to our experts about tailored financing that meets your staffing needs</p>
-             <p><a href="#">APPLY NOW <Image src={Arrow} alt="" /></a></p>
+             <p><a href="#">APPLY NOW </a></p>
            </div>
            <div className="Begin-Your-Funding-Journey-middle-left-right">
             <Image src={Girl} alt="" />
