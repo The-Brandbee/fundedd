@@ -33,13 +33,13 @@ export default () => (
     <TabPanel>
      <div className='tab-inner-frame'>
         <p>Specialized financial solutions, particularly for IT staffing businesses.</p>
-        <p><a href="#">APPLY NOW4</a></p>
+        <p><a href="#">APPLY NOW</a></p>
         </div>
     </TabPanel>
     <TabPanel>
      <div className='tab-inner-frame'>
         <p>Dedicated to fostering long-term relationships and sustained business growth.</p>
-        <p><a href="#">APPLY NOW5</a></p> 
+        <p><a href="#">APPLY NOW</a></p> 
         </div>
     </TabPanel>
   </Tabs>
