@@ -1062,6 +1062,15 @@ display: none;
 .Your-Trusted-Partner-for-Payroll-Funding-right.two .Your-Trusted-Partner-for-Payroll-Funding-right-right{
   width: 29%;
 }
+.two-two{
+  display: none;
+}
+.Begin-Your-Funding-Journey-right-icon:hover .one-one{
+ display: none;
+}
+.Begin-Your-Funding-Journey-right-icon:hover .two-two{
+  display: inline;                              
+ }
 @media all and (min-width:120px) and (max-width:680px){
 
   

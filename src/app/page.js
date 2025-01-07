@@ -17,6 +17,7 @@ import Girl from "../app/img/Mask-Group-1.png";
 import Arrow from "../app/img/arrow-up-right.png";
 import BeginYour from "../app/img/Layer_1.png";
 import GroupTW from "../app/img/Group-25.png";
+import GroupTWoo from "../app/img/Layer_1@2x.png";
 import GirlTwo from "../app/img/support_2058768@2x.png";
 import GirlThree from "../app/img/management_11063187-1@2x.png";
 import GirlFour from "../app/img/factors_18377058@2x.png";    
@@ -275,13 +276,15 @@ export default function Home() {
             <Image src={Girl} alt="" />
            </div>
       </div>
-      <div className="Begin-Your-Funding-Journey-right-icon2">
-         <Image src={GroupTW} alt="" />
-      </div>
+      <div className="Begin-Your-Funding-Journey-right-icon2">   
+         <Image src={GroupTW} alt="" className="one-one" />
+         <Image src={GroupTWoo} alt="" className="two-two" />
+      </div>             
   </div>
   </div>
   <div className="Begin-Your-Funding-Journey-right-icon">
-  <Image src={BeginYour} alt="" />
+         <Image src={BeginYour} alt="" className="one-one" />
+         <Image src={GroupTWoo} alt="" className="two-two" />
   </div>
 </section>
         <Footer />
