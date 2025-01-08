@@ -47,7 +47,7 @@ function IndexPage() {
                 </li>
                 <li>
                 <Link href="/">
-                APPLY NOW
+                GET FUNDEDD
           </Link>
                 </li>
               </ul>

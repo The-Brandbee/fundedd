@@ -129,7 +129,7 @@ export default function Home() {
               </div>
               <div className="Rapid-Fund-Processing-main-right">
                  <div className="Rapid-Fund-Processing-main-right-midl">
-                 <Image src={GirlFive} alt="" />  
+                 <Image src={GirlThree} alt="" />  
                  <h4>Industry Expertise</h4>
                  <p>Specialized in staffing sector funding, delivering solutions that address your unique industry challenges.</p>
                  </div>
