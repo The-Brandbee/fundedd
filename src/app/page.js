@@ -20,6 +20,7 @@ import GroupTW from "../app/img/Group-25.png";
 import GroupTWoo from "../app/img/Layer_1@2x.png";
 import GirlTwo from "../app/img/support_2058768@2x.png";
 import GirlThree from "../app/img/management_11063187-1@2x.png";
+import GirlThreeNN from "../app/img/reputation-12133556@2x.png"; 
 import GirlFour from "../app/img/factors_18377058@2x.png";    
 import GirlFive from "../app/img/icckd.png"; 
 import GirlFourT from "../app/img/factors_18377058@2x-white.png";    
@@ -129,7 +130,7 @@ export default function Home() {
               </div>
               <div className="Rapid-Fund-Processing-main-right">
                  <div className="Rapid-Fund-Processing-main-right-midl">
-                 <Image src={GirlThree} alt="" />  
+                 <Image src={GirlThreeNN} alt="" />  
                  <h4>Industry Expertise</h4>
                  <p>Specialized in staffing sector funding, delivering solutions that address your unique industry challenges.</p>
                  </div>

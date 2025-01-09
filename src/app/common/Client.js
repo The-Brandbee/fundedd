@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from "next/image";
 const App = () => {
   return (
-    <div active={true} className="client-say-frame">
+    <div  className="client-say-frame">
        <Carousel>
                 <div>
                 <div className="test-midl-f">
