@@ -12,7 +12,6 @@ import Marquee from "../app/common/Marqueee.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
 import Script from "next/script";
-
 import Girl from "../app/img/Mask-Group-1.png";
 import Arrow from "../app/img/arrow-up-right.png";
 import BeginYour from "../app/img/Layer_1.png";
@@ -34,12 +33,9 @@ import ExpertThree from "../app/img/Ellipse-6@2x.png";
 import ExpertThreeTW from "../app/img/Fundedd-logo-04@2x.png";    
 
 export default function Home() {
-  
-  
   return (
-    <>
-     
-      <main>
+    <>                      
+      <main>                   
         <Head>
           <meta charset="utf-8" />
           <meta
@@ -190,7 +186,7 @@ export default function Home() {
       
     </div>
 </div>
-</section>
+</section>         
 
 
 <section className="How-Fundedd-Stands-Out">

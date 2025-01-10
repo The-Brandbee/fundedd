@@ -799,6 +799,9 @@ display: none;
 } 
 .tab-inner-frame p{
   color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 25px;
 } 
 .tab-inner-frame p a{ 
   background: #FF7518 0% 0% no-repeat padding-box;
