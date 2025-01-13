@@ -2,7 +2,8 @@ import React from "react";
 import "react-multi-carousel/lib/styles.css";
 import Industry from "../img/shutterstock_1932.png";
 import Arrow from "../img/arrow-up-right.png";
-import Girl from "../img/portrait-successful-businessm.png";
+import Girl from "../img/shutterstock_2390304441@2x.png";
+import GirlNN from "../img/shutterstock_2524186197@2x.png";
 import Image from "next/image";
 import Head from "next/head";
 
@@ -29,7 +30,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -45,7 +46,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -61,7 +62,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -77,7 +78,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -93,7 +94,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -109,7 +110,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -125,7 +126,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -141,7 +142,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -157,7 +158,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -173,7 +174,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -189,7 +190,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -205,7 +206,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -221,7 +222,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -237,7 +238,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -253,7 +254,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -269,7 +270,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -285,7 +286,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -301,7 +302,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -317,7 +318,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -333,7 +334,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -349,7 +350,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -365,7 +366,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -381,7 +382,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -397,7 +398,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -413,7 +414,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
@@ -429,7 +430,7 @@ export default function TestimonialSlide() {
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
-            <Image src={Girl} alt="" />
+            <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
             <h4>Simplify Payroll with Expertise You Can Trust</h4>
