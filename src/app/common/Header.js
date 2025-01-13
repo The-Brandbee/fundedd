@@ -19,30 +19,24 @@ function IndexPage() {
           <div className="header-top-right">
               <ul>
                 <li>
+                  
+                </li>
+                <li>
+                  <div className="header-top-right-left">
+                  <Image src={headertopicon} alt="" />
+                  </div>
+                  <div className="header-top-right-right">
+                    <h5>Seamless Funding</h5>
+                    <p>Get funds quickly to ensure uninterrupted operations.</p>
+                  </div>
+                </li>
+                <li>
                   <div className="header-top-right-left">
                   <Image src={headertopicon} alt="" />
                   </div>
                   <div className="header-top-right-right">
                     <h5>Industry Expertise</h5>
-                    <p>Minimal Documentation Required</p>
-                  </div>
-                </li>
-                <li>
-                  <div className="header-top-right-left">
-                  <Image src={headertopicon} alt="" />
-                  </div>
-                  <div className="header-top-right-right">
-                    <h5>Rapid Fund Processing</h5>
-                    <p>Minimal Documentation Required</p>
-                  </div>
-                </li>
-                <li>
-                  <div className="header-top-right-left">
-                  <Image src={headertopicon} alt="" />
-                  </div>
-                  <div className="header-top-right-right">
-                    <h5>Easy Online Application </h5>
-                    <p>Minimal Documentation Required</p>
+                    <p>Custom solutions for staffing industry challenges.</p>
                   </div>
                 </li>
                 <li>
