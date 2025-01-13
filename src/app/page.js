@@ -205,16 +205,20 @@ export default function Home() {
   <div className="Expert-Advisory-for-middle">
       <div className="Expert-Advisory-for-middle-left">
         <div className="Expert-Advisory-for-middle-left-cont">
-         <h3>Expert Advisory for Staffing <span>Industry Debt Consolidation</span></h3>
-         <h4>“Simplify Debt, Strengthen Growth”</h4>
-         <p>Streamline your financial obligations with tailored debt consolidation solutions designed specifically for the staffing sector. Our expertise helps you reduce costs, improve cash flow, and refocus on scaling your business.</p>
+        <h3>Expert Advisory for  <span>Growth and Stability</span></h3>
+         <h4>“Empowering Staffing Success”</h4>
+         <p>Unlock tailored strategies to navigate challenges, optimize operations, and drive sustainable growth in the staffing and services industry. Partner with us for insights that help your business thrive.</p>
          </div>
       </div>
       <div className="Expert-Advisory-for-middle-right">
       <Image src={Expert} alt="" />  
       </div>
   </div>
-  <div className="Expert-Advisory-for-middle two">
+  {
+  /* This is a multi-line
+     comment! 
+
+  <div className="Expert-Advisory-for-middle two" >
       <div className="Expert-Advisory-for-middle-left">
        
       </div>
@@ -225,16 +229,23 @@ export default function Home() {
          <p>Unlock tailored strategies to navigate challenges, optimize operations, and drive sustainable growth in the staffing and services industry. Partner with us for insights that help your business thrive.</p>
          </div>
       </div>
+  </div>*/
+  }
   </div>
-  
-  </div>
-
-  <div className="Expert-Advisory-img-resp-main"> 
+{
+  /*
+ <div className="Expert-Advisory-img-resp-main"> 
   <Image src={ExpertTwo} alt="" className="left-Advisory"/>  
   <Image src={ExpertThree} alt="" className="right-Advisory" />  
   </div>
+  */
+}
+ 
 
 </section>
+
+
+
 
 <section className="What-Our-Clients-Say">
 <div className="container">

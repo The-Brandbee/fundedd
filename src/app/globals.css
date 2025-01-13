@@ -595,10 +595,10 @@ width: 50%;
   right: 0px;
 }
 .Rapid-Fund-Processing-main-left-middl img.Hover{
-  display: none;
+display: none;
 }
 .Rapid-Fund-Processing-main-left-middl:hover img.Hover{
-display: block;
+
 } 
 .Rapid-Fund-Processing-main-left-middl.twoo img{
   right: -13px;
@@ -635,10 +635,13 @@ display: block;
   color: #fff;
 }
 .Rapid-Fund-Processing-main-left-middl:hover{
-  background: #FF7518;
+  background: #cdcdcd;
 }
 .Rapid-Fund-Processing-main-left-middl:hover h4{
-  color: #fff;
+  color: #FF7518;
+}
+.Rapid-Fund-Processing-main-left-middl:hover p{
+  color: #222222;
 }
 .Your-Trusted-Partner-for-Payroll-Funding{
   background: #000;
@@ -1076,6 +1079,140 @@ display: none;
 .Begin-Your-Funding-Journey-right-icon:hover .two-two{
   display: inline;                              
  }
+ .Accelerate-Your-Business-frame{
+  padding: 50px 0px;
+  background: #000;
+ }
+ .Accelerate-Your-Business-frame-middle{
+  display: flex ;
+      justify-content: space-between;
+ }
+ .Accelerate-Your-Business-frame-left{
+  width: 40%;
+ }
+ .Accelerate-Your-Business-frame-left h3{
+  color: #fff;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 40px;  
+ }
+ .Accelerate-Your-Business-frame-left h3 span{
+  color: #FF7518;
+ }
+ .Accelerate-Your-Business-frame-left-cont p{
+  color: #fff;
+ }
+ .Accelerate-Your-Business-frame-left-cont p a{
+
+ }
+ .Accelerate-Your-Business-frame-right{
+   width: 53%;
+ }
+ .Accelerate-Your-Business-frame-right img{
+  width: 100%;
+ }
+ .Accelerate-Your-Business-frame-left-cont{
+  padding-left: 50px;
+ }
+ .normal-color-buttom{
+  background: #000 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    color: #fff;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 7px 15px;
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid #FF7518;
+ }
+ .normal-color-buttom:hover{
+  background: #FF7518;
+ }
+ .Reliable-Funding-When-You-Need.What-is-AR-Factoring{
+  padding-top: 0px;
+  padding-bottom: 0px;
+ }
+ .Reliable-Funding-When-You-Need.What-is-AR-Factoring .Expert-Advisory-for {
+padding-top: 0px;
+}
+.Reliable-Funding-When-You-Need.What-is-AR-Factoring .Expert-Advisory-for-middle-left-cont h3 span{
+  color: #FF7518;
+}
+.Reliable-Funding-When-You-Need.What-is-AR-Factoring .Expert-Advisory-for-middle-left-cont p {
+  color: #fff;
+  margin-top: 25px;
+  padding-left: 0px;
+  width: 100%;
+}
+.Reliable-Funding-When-You-Need.What-is-AR-Factoring .Expert-Advisory-img-resp-main img.left-Advisory{
+  bottom: 50px;
+}
+.Reliable-Funding-When-You-Need.What-is-AR-Factoring .Expert-Advisory-img-resp-main {
+  width: 45%;                    
+}
+.How-Fundedd-Stands-Out{
+  position: relative; 
+}
+.Top-Benefits-of-AR-Factoring-for-Your-Business{
+  background: #000;
+  padding-bottom: 7%;
+  padding-top: 4%;
+  position: relative;
+}
+.Top-Benefits-of-AR-Factoring-for-Your-Business::before {
+  content: "";
+  background: linear-gradient(90deg, #ff75184a 0%, #00000030 35%, #ff75184a 100%);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.Top-Benefits-of-AR-Factoring-for-Your-Business-middle{
+  position: relative;
+  z-index: 999;
+  display: flex;                          
+}
+.Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left{
+    width: 50%;
+}
+.Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left h3{      
+  color: #fff;
+  font-size: 32px;
+}
+.Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left h3 span{      
+    color: #FF7518;
+}
+.Top-Benefits-of-AR-Factoring-for-Your-Business-middle-right{               
+  width: 50%;
+}
+.Top-Benefits-of-AR-Factoring-for-Your-Business-middle-right p{
+    color: #fff;
+} 
+.ma-slider-new-frame-inner{
+  background: #222222;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 25px;
+  height: 370px;
+  position: relative;
+}
+.ma-slider-new-frame-inner-two{
+  position: absolute;
+  bottom: 0px;
+  padding: 30px 30px;     
+}
+.ma-slider-new-frame-inner-two h4{
+  color: #FF7518;
+  font-size: 26px;    
+}
+.ma-slider-new-frame-inner-two p{
+  color: #fff;
+  margin-top: 15px;
+  display: none;
+}
 @media all and (min-width:120px) and (max-width:680px){
 
   

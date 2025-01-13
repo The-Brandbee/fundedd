@@ -26,7 +26,7 @@ const App = () => {
 
                 </div>
                 <div>
-                <div className="test-midl-f">
+                <div className="test-midl-f">  
               <div className="test-midl-f-left">
                <Image src={GirlTwoL} alt="" />
               </div>
@@ -38,7 +38,7 @@ const App = () => {
                   <p>We were able to grow faster thanks to Fundedd's tailored AR factoring. Their transparent terms and quick access to funds kept our business running smoothly.</p>
                   <p>- Sara P., Staffing Agency Owner</p>
               </div>
-           </div>
+           </div>    
 
                 </div>
                 <div>
