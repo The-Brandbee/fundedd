@@ -24,9 +24,9 @@ import GirlFour from "../app/img/factors_18377058@2x.png";
 import GirlFive from "../app/img/icckd.png"; 
 import GirlFourT from "../app/img/factors_18377058@2x-white.png";    
 import GirlFiveT from "../app/img/icckd-white.png"; 
-import Trusted from "../app/img/shutterstock_2510817173.png";
+import Trusted from "../app/img/shutterstock_2429463813@2x.png";
 import headertopicon from "../app/img/header-top-icon.png";
-import TrustedTwo from "../app/img/shutterstock_2433120923@2x.png";
+import TrustedTwo from "../app/img/pexels-shkrabaanthony-5816291@2x.png";  
 import Expert from "../app/img/Component-12-1@2x.png";
 import ExpertTwo from "../app/img/shutterstock-5402044.png";
 import ExpertThree from "../app/img/Ellipse-6@2x.png";    
@@ -178,7 +178,7 @@ export default function Home() {
           </ul>
         </div>
         <div className="Your-Trusted-Partner-for-Payroll-Funding-right-right">
-        <Image src={TrustedTwo} alt="" />  
+          <Image src={TrustedTwo} alt="" />  
         </div>
       </div>
       </div>  
