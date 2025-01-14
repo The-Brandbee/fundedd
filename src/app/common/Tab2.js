@@ -15,7 +15,7 @@ export default () => (
     <TabPanel>
      <div className='tab-inner-frame'>
         <p>Begin by submitting your outstanding invoices to Fundedd. Our team will carefully review and verify their eligibility for factoring, ensuring that the invoices meet the necessary criteria. This step is crucial to streamline the process and avoid any disruptions, enabling you to access funds faster and more efficiently.</p>
-        <p><a href="#">APPLY NOW</a></p>
+        <p><a className="normal-color-buttom" href="#">APPLY NOW</a></p>
         </div>
     </TabPanel>
     <TabPanel>

@@ -1116,19 +1116,19 @@ display: none;
   padding-left: 50px;
  }
  .normal-color-buttom{
-  background: #000 0% 0% no-repeat padding-box;
+  background: #000 0% 0% no-repeat padding-box !important;
     border-radius: 5px;
     color: #fff;
     height: -moz-fit-content;
     height: fit-content;
     margin: 0 auto;
-    padding: 7px 15px;
+    padding: 7px 21px;        
     margin-top: 10px;
     display: inline-block;
     border: 1px solid #FF7518;
  }
  .normal-color-buttom:hover{
-  background: #FF7518;
+  background: #FF7518 !important;
  }
  .Reliable-Funding-When-You-Need.What-is-AR-Factoring{
   padding-top: 0px;
@@ -1199,6 +1199,8 @@ padding-top: 0px;
   border-radius: 25px;
   height: 370px;
   position: relative;
+  transition: transform 1s ease-in-out;
+  margin-top: 50px;
 }
 .ma-slider-new-frame-inner-two{
   position: absolute;
@@ -1213,6 +1215,193 @@ padding-top: 0px;
   color: #fff;
   margin-top: 15px;
   display: none;
+}
+.more-fel-slider{
+  margin-top:50px;
+}
+.ma-slider-new-frame-inner:hover .ma-slider-new-frame-inner-two p{
+display: block;
+}
+.ma-slider-new-frame-inner:hover .ma-slider-new-frame-inner-two h4{
+  color: #fff;
+  }
+.ma-slider-new-frame-inner:hover{
+  transform: translate(0px, -25px);
+  background: #FF7518;
+}
+
+.How-Fundedd-Stands-Out.ndpage .Top-Benefits-of-AR-Factoring-for-Your-Business-middle{
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;   
+}
+.How-Fundedd-Stands-Out.ndpage .Top-Benefits-of-AR-Factoring-for-Your-Business-middle-right {
+  width: 40%; 
+  
+}
+.total-invoice-value-frame-main-page{
+  background: #222222;
+  padding: 50px 0px;
+}
+.total-invoice-value-frame-main-page-middle{
+  display: flex;
+  align-items: center;     
+}
+.total-invoice-value-frame-main-page-middle p{
+  color: #fff;
+  width: 40%;  
+  margin: 0px;
+}
+.total-invoice-value-frame-main-page-middle h4{
+  color: #fff;
+  width: 60%;
+  font-size: 18px; 
+}
+.total-invoice-value-frame-main-page-middle h4 span{
+  color: #FF7518;
+}
+.read-jon-main-frame-inner-two{
+  background: #222222;
+  padding: 70px 0px;
+  position: relative;
+}
+.read-jon-main-frame-inner-two-middle{
+  display: flex;
+}
+.read-jon-main-frame-inner-two-middle-right img{
+  width: 100%;
+}
+.read-jon-main-frame-inner-two-middle-left{
+  width: 50%;
+}
+.read-jon-main-frame-inner-two-middle-right {
+  width: 55%;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.read-jon-main-frame-inner-two .Begin-Your-Funding-Journey-middle-left-left p{
+padding-right: 0px;
+}
+.read-jon-main-frame-inner-two .Begin-Your-Funding-Journey-middle-left-left {
+  padding: 0px 0px 0px 0px;
+  width: 80%;
+}
+.Why-Fundedd-Stands-Out{
+  background: #3C3C3C;
+  padding: 70px 0px; 
+}
+.Why-Fundedd-Stands-Out-middle{
+  display: flex;  
+}
+.Why-Fundedd-Stands-Out .Begin-Your-Funding-Journey-middle-left-left {
+  padding: 0px;
+  width: 80%;
+}
+.Why-Fundedd-Stands-Out-middle-left{
+  width: 47%;
+}
+.Why-Fundedd-Stands-Out-middle-right{
+  width: 53%;
+}
+.Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame{
+  background: #222222 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  opacity: 1;
+  padding: 35px 30px;
+  justify-content: space-between;
+  margin-top: 0px;
+  transform: translate(0px, 0px);
+  transition: transform 1s ease-in-out;
+  margin-bottom: 30px;                            
+}   
+.Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame.righr{
+  padding-bottom: 90px;
+} 
+.Why-Fundedd-Stands-Out-middle-right-top{
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+}
+.Why-Fundedd-Stands-Out-middle-right-top-left{
+width: 50%;
+}
+.Why-Fundedd-Stands-Out-middle-right-top-right{
+  width: 45%; 
+}
+.Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame h4{
+  color: #FF7518;
+  font-size: 18px;
+  font-weight: 600;
+}
+.Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame p{
+  color: #F2F2F2;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame img{
+  width: 22px;
+  margin-right: 10px;
+}
+.Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame.righr h4 img{
+  display: block;  
+  margin-bottom: 15px;     
+}
+.Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame.righrtwo{
+  display: flex;
+  align-items: center;
+}
+.Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame.righrtwo h4{
+  width: 90%;
+  margin: 0px;
+}
+.Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame.righrtwo p{
+
+  margin: 0px;
+}
+.simple-prosess-main-frame{
+  padding: 80px 0px;
+  background: #000; 
+}
+.simple-prosess-main-frame-middle{
+  display: flex;
+ 
+}
+.simple-prosess-main-frame-middle-left{
+  width: 70%;
+}
+.simple-prosess-main-frame-middle-left h4{
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.simple-prosess-main-frame-middle-left h4 span{ 
+  color:#FF7518;
+
+}
+.simple-prosess-main-frame-middle-left p{
+  color: #fff;
+  padding-left: 50px;
+}
+.simple-prosess-main-frame-middle-left h5{
+  color:#FF7518;
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+.simple-prosess-main-frame-middle-right{
+  width: 20%;
+}
+.simple-prosess-main-frame-middle-right img{
+  width: 100%;
+}
+.Accelerate-Your-Business-frame-middle.new .Accelerate-Your-Business-frame-left-cont{
+
+  margin-top: 90px;
+  padding-left: 100px;
+}
+.Accelerate-Your-Business-frame-middle.new .Accelerate-Your-Business-frame-left-cont .normal-color-buttom{
+  margin-top: 30px;
 }
 @media all and (min-width:120px) and (max-width:680px){
 
