@@ -1796,8 +1796,8 @@ text-align: center;
   .mobile-menu-header{
     margin: 0px;
     display: flex;
-    background: #000;
-    padding: 20px 18px;
+    background: #222222;
+    padding: 10px 18px;
   }
 .header-top-frame_main-desktop{
   display: none;

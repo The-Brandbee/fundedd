@@ -46,7 +46,7 @@ class MobileMenu extends React.Component {
               <Menu>
                 <Accordion allowZeroExpanded>
                   <AccordionItem>
-                    <Link href="/">
+                    <Link href="/ar-factoring">
                       <AccordionItemHeading>
                         <AccordionItemButton>AR Factoring</AccordionItemButton>
                       </AccordionItemHeading>
