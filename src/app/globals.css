@@ -1665,6 +1665,7 @@ margin-top: 30px !important;
   background-color: #222;
   position: relative;
   color: #fff;
+  
 }
 .bm-menu-wrap .bm-cross-button {
   height: 100%!important;
@@ -2065,6 +2066,9 @@ display: none;
   width: 100%;
 }
 .Accelerate-Your-Business-frame-left {
+  width: 100%;
+}
+.Reliable-Funding-When-You-Need-middle-left-header-cont-bottom-to-right img {
   width: 100%;
 }
 }
