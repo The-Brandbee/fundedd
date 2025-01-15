@@ -4,6 +4,8 @@ import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../common/Header.js";
+import HeaderMobileIn from "../common/HeaderMobile.js";
+
 import Footer from "../common/Footer.js";
 import TestimonialSlideTwoN from "../common/TestimonialSlideTwo2.js";                 
 import ClientsSay from "../common/Client.js"; 
@@ -48,6 +50,7 @@ export default function Arfactoring() {
 
         <header>
           <Header />
+          <HeaderMobileIn />
           </header> 
 
           <section className="Accelerate-Your-Business-frame">

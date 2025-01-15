@@ -4,6 +4,7 @@ import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../app/common/Header.js";
+import HeaderMobileIn from "../app/common/HeaderMobile.js";
 import Footer from "../app/common/Footer.js";
 import TestimonialSlide from "../app/common/TestimonialSlide.js"; 
 import ClientsSay from "../app/common/Client.js"; 
@@ -48,6 +49,7 @@ export default function Home() {
 
         <header>
           <Header />
+          <HeaderMobileIn />
           </header> 
 <section className="Empowering-Staffing-Companies">
 <div className="container">

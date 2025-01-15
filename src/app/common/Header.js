@@ -7,8 +7,8 @@ import Search from "../img/search.png";
 
 function IndexPage() {
   return (
-    <>
-    <div className="header-top-frame_main">
+    <div className="header-top-frame_main-desktop">
+    <div className="header-top-frame_main desktop">
       <div className="container">
       <div className="header-top-frame">
           <div className="header-top-left">
@@ -79,7 +79,7 @@ function IndexPage() {
            </div>
         </div>
        </div>
-    </>
+    </div>
   );
 }
 
