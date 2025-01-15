@@ -31,7 +31,8 @@ import TrustedTwo from "../app/img/pexels-shkrabaanthony-5816291@2x.png";
 import Expert from "../app/img/Component-12-1@2x.png";
 import ExpertTwo from "../app/img/shutterstock-5402044.png";
 import ExpertThree from "../app/img/Ellipse-6@2x.png";    
-import ExpertThreeTW from "../app/img/Fundedd-logo-04@2x.png";    
+import ExpertThreeTW from "../app/img/Fundedd-logo-04@2x.png"; 
+import Logo from "../app/img/fund-l.png";   
 
 export default function Home() {
   return (
@@ -49,7 +50,14 @@ export default function Home() {
 
         <header>
           <Header />
+          <div className="mobile-menu-header">
+            <div className="logo-mobilr">
+            <Link href="/">
+          <Image src={Logo} alt="" />
+          </Link>
+            </div>
           <HeaderMobileIn />
+          </div>
           </header> 
 <section className="Empowering-Staffing-Companies">
 <div className="container">
