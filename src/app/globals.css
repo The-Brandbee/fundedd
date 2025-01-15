@@ -1657,13 +1657,14 @@ margin-top: 30px !important;
   z-index: 99999999 !important;
 }
 .bm-menu-wrap .bm-menu {
-  background: #fff;
+  background: #222;
   width: 70%!important;
   position: relative;
 }
 .mobilemenu-new .accordion__button{
-  background-color: #fff;
+  background-color: #222;
   position: relative;
+  color: #fff;
 }
 .bm-menu-wrap .bm-cross-button {
   height: 100%!important;
@@ -1689,7 +1690,7 @@ margin-top: 30px !important;
   width: 36px;
 }
 .bm-burger-bars {
-  background-color: #fff!important;
+  background-color: #222!important;
   border-radius: 1px;
   display: block;
   height: 3px!important;
@@ -1797,7 +1798,7 @@ text-align: center;
     margin: 0px;
     display: flex;
     background: #222222;
-    padding: 10px 18px;
+    padding: 10px 18px;  
   }
 .header-top-frame_main-desktop{
   display: none;
