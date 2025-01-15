@@ -31,7 +31,7 @@ import headertopicon from "../img/header-top-icon.png";
 import TrustedTwo from "../img/shutterstock_2433120923@2x.png";
 import headertopiconFL from "../img/15-Money@2x.png";
 import ExpertTwo from "../img/pexels-tima-miroshnichenko-6693661@2x.png";
- 
+import Logo from "../img/fund-l.png";  
 import ExpertThree from "../img/shutterstock_2280786247@2x.png";    
 
 export default function Arfactoring() {
@@ -50,7 +50,14 @@ export default function Arfactoring() {
 
         <header>
           <Header />
+          <div className="mobile-menu-header">
+            <div className="logo-mobilr">
+            <Link href="/">
+          <Image src={Logo} alt="" />
+          </Link>
+            </div>
           <HeaderMobileIn />
+          </div>
           </header> 
 
           <section className="Accelerate-Your-Business-frame">
@@ -81,10 +88,19 @@ export default function Arfactoring() {
       <div className="Expert-Advisory-for-middle-right">
       <div className="Expert-Advisory-for-middle-left-cont">
          <h3>What is <span>AR Factoring?</span></h3>        
-         <p>At Fundedd, we make managing your cash flow simpler with Accounts Receivable (AR) Factoring. This innovative financial solution allows you to convert your outstanding invoices into immediate cash, ensuring you always have the working capital needed to keep your operations running smoothly.</p>
-         <p>Instead of waiting for your clients to pay their invoices, we help you unlock cash quickly by purchasing your accounts receivable. This means you can focus on growing your business without worrying about payment delays or cash flow gaps.</p>
-         <p>Unlike traditional loans, AR factoring with Fundedd doesn’t require collateral or impact your credit rating. It’s a flexible, non-debt financing solution designed to help you stay on top of your payments, improve cash flow, and focus on growing your business. Let us take the financial burden off your shoulders so you can concentrate on what matters most—your success.</p>
-         </div>
+         <p>Tired of waiting 30, 60, or 90 days for invoice payments? With Fundedd's Accounts Receivable (AR) Factoring, you can convert those unpaid invoices into instant cash.
+We purchase your outstanding invoices at competitive rates, giving you immediate access to working capital
+</p>
+<h5>Unlike traditional loans, there are:
+</h5>
+<ul>
+  <li>No collateral required</li>
+  <li>No impact on your credit score</li>
+  <li>No long-term debt obligations</li>
+</ul>
+        <p>Simply sell us your invoices, and get paid right away. We handle the collections while you focus on growing your business.
+        </p>
+        </div>
       </div>
   </div>
   

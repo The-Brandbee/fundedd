@@ -55,7 +55,7 @@ function IndexPage() {
               <div className="header-bottom-frame_main-middle-left">
                 <ul>
                   <li>
-                  <Link href="/">AR Factoring</Link>
+                  <Link href="/ar-factoring">AR Factoring</Link>
                   </li>
                   <li>
                   <Link href="/">Partner</Link>

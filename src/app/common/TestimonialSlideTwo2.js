@@ -46,8 +46,17 @@ export default function TestimonialSlide() {
           <div>
            <div className="ma-slider-new-frame-inner">
            <div className="ma-slider-new-frame-inner-two">
-               <h4>No Impact on Credit</h4>
-               <p>Unlike loans, AR factoring doesn't affect your credit score. It provides a way to access funds without the risk of damaging your creditworthiness.</p>
+               <h4>More Feasible than Loans</h4>
+               <p>AR factoring doesn't require collateral and doesn't impact your credit rating, making it a more accessible option than traditional loans. </p>
+            </div>
+             </div>
+           </div>
+           
+           <div>
+           <div className="ma-slider-new-frame-inner">
+           <div className="ma-slider-new-frame-inner-two">
+               <h4>Improved Cash Flow</h4>
+               <p>Convert outstanding invoices into immediate cash, ensuring a steady cash flow for operational expenses, payroll, and other business needs.</p>
             </div>
              </div>
            </div>
@@ -56,7 +65,7 @@ export default function TestimonialSlide() {
            <div className="ma-slider-new-frame-inner">
            <div className="ma-slider-new-frame-inner-two">
                <h4>No Impact on Credit</h4>
-               <p>Unlike loans, AR factoring doesn't affect your credit score. It provides a way to access funds without the risk of damaging your creditworthiness.</p>
+               <p> Unlike loans, AR factoring doesn't affect your credit score. It provides a way to access funds without the risk of damaging your creditworthiness.</p>
             </div>
              </div>
            </div>
@@ -64,8 +73,8 @@ export default function TestimonialSlide() {
            <div>
            <div className="ma-slider-new-frame-inner">
            <div className="ma-slider-new-frame-inner-two">
-               <h4>No Impact on Credit</h4>
-               <p>Unlike loans, AR factoring doesn't affect your credit score. It provides a way to access funds without the risk of damaging your creditworthiness.</p>
+               <h4>Maintains Business Control</h4>
+               <p>Factoring doesn’t require monthly payments or the use of assets as collateral, giving you more control over your finances without the strain of debt obligations.</p>
             </div>
              </div>
            </div>
@@ -73,64 +82,16 @@ export default function TestimonialSlide() {
            <div>
            <div className="ma-slider-new-frame-inner">
            <div className="ma-slider-new-frame-inner-two">
-               <h4>No Impact on Credit</h4>
-               <p>Unlike loans, AR factoring doesn't affect your credit score. It provides a way to access funds without the risk of damaging your creditworthiness.</p>
+               <h4>Outsourced Receivables Management</h4>
+               <p>Factoring companies often manage accounts receivable tasks like credit checks, collections, and invoice verification, saving you time and resources while allowing you to focus on growing your business.</p>
             </div>
              </div>
            </div>
            
-           <div>
-           <div className="ma-slider-new-frame-inner">
-           <div className="ma-slider-new-frame-inner-two">
-               <h4>No Impact on Credit</h4>
-               <p>Unlike loans, AR factoring doesn't affect your credit score. It provides a way to access funds without the risk of damaging your creditworthiness.</p>
-            </div>
-             </div>
-           </div>
+          
            
-           <div>
-           <div className="ma-slider-new-frame-inner">
-           <div className="ma-slider-new-frame-inner-two">
-               <h4>No Impact on Credit</h4>
-               <p>Unlike loans, AR factoring doesn't affect your credit score. It provides a way to access funds without the risk of damaging your creditworthiness.</p>
-            </div>
-             </div>
-           </div>
+         
            
-           <div>
-           <div className="ma-slider-new-frame-inner">
-           <div className="ma-slider-new-frame-inner-two">
-               <h4>No Impact on Credit</h4>
-               <p>Unlike loans, AR factoring doesn't affect your credit score. It provides a way to access funds without the risk of damaging your creditworthiness.</p>
-            </div>
-             </div>
-           </div>
-           
-           <div>
-           <div className="ma-slider-new-frame-inner">
-           <div className="ma-slider-new-frame-inner-two">
-               <h4>No Impact on Credit</h4>
-               <p>Unlike loans, AR factoring doesn't affect your credit score. It provides a way to access funds without the risk of damaging your creditworthiness.</p>
-            </div>
-             </div>
-           </div>
-           <div>
-           <div className="ma-slider-new-frame-inner">
-           <div className="ma-slider-new-frame-inner-two">
-               <h4>No Impact on Credit</h4>
-               <p>Unlike loans, AR factoring doesn't affect your credit score. It provides a way to access funds without the risk of damaging your creditworthiness.</p>
-            </div>
-             </div>
-           </div>
-           
-           <div>
-           <div className="ma-slider-new-frame-inner">
-           <div className="ma-slider-new-frame-inner-two">
-               <h4>No Impact on Credit</h4>
-               <p>Unlike loans, AR factoring doesn't affect your credit score. It provides a way to access funds without the risk of damaging your creditworthiness.</p>
-            </div>
-             </div>
-           </div>
         
       
       
