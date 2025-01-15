@@ -1421,7 +1421,212 @@ width: 50%;
 .mobile-menu-header{
   display: none;
 }
+.Lets-break-it-down-heading-2{
+display: inline-block;
+}
+.Lets-break-it-down-heading-2:hover .Lets-break-it-down-heading-bottom{
+  display: block;
+  margin-bottom: 40px;
+}
+.Lets-break-it-down-heading-2 h4{
+  color: #FF7518;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 50px;
+    cursor: pointer; 
+}
+.expl-air-far h4 {
+  color: #FF7518;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+.expl-air-far h4 span{
+  margin-left: 10px;
+}
+.Lets-break-it-down-headingthre{
+  margin-bottom: 180px;
+}
+.Lets-break-it-down-heading-2:hover .Lets-break-it-down-headingthre{
+  margin-bottom: 0px;
+}
+.Lets-break-it-down-heading-2 h4 span{
+  margin-left: 10px;
+}
+.Lets-break-it-down-heading-bottom{
+  display: none;
+}
+.Lets-break-it-down-heading-bottom ul{
+  background: #222222 0% 0% no-repeat padding-box;
+box-shadow: 25px 25px 25px #0000002B;
+border-radius: 25px;
+margin-left: 50px !important;
+display:flex;
+padding: 30px !important;
+width: 75%;
+justify-content: space-between;
+margin-top: 30px !important;
+
+}
+.Lets-break-it-down-heading-bottom ul li{
+  width: 30%;
+}
+.Lets-break-it-down-heading-bottom ul li h4{
+  color: #FF7518;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.Lets-break-it-down-heading-bottom ul li p{
+  color: #fff;
+  margin-top: 13px;
+}
 @media all and (min-width:120px) and (max-width:680px){
+  .Top-Benefits-of-AR-Factoring-for-Your-Business-middle {
+    position: relative;
+    z-index: 999;
+    display: inline-block;
+}
+.Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left {
+  width: 100%;
+}
+.Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left h3 {
+  color: #fff;
+  font-size: 22px;
+}
+.Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left h3 br{
+  display: none;
+}
+.Top-Benefits-of-AR-Factoring-for-Your-Business-middle-right {
+  width: 100%;
+}
+.How-Fundedd-Stands-Out.ndpage .Top-Benefits-of-AR-Factoring-for-Your-Business-middle-right{
+  width: 100%;
+}
+.simple-prosess-main-frame-middle {
+  display: inline-block;
+}
+.simple-prosess-main-frame-middle-left{
+  width: 100%;
+}
+.simple-prosess-main-frame-middle-left h4{
+  font-size: 22px;
+}
+.simple-prosess-main-frame-middle-left p{
+  padding-left: 0px;
+}
+.simple-prosess-main-frame-middle-right{
+  width: 82%;
+}
+.Lets-break-it-down-headingthre{
+  margin-bottom: 0px;
+}
+.Lets-break-it-down-heading-bottom{
+  display: block;
+}
+.Lets-break-it-down-heading-bottom ul{
+  display: inline-block;
+  width: 100%;
+  margin-left:0px !important;
+  margin-bottom: 20px !important;
+}
+.total-invoice-value-frame-main-page-middle {
+  display: inline-block;
+  align-items: center;
+}
+.total-invoice-value-frame-main-page-middle p{
+  width: 100%;
+}
+.total-invoice-value-frame-main-page-middle h4{
+  width: 100%;
+  margin-top: 20px;
+}
+.Why-Fundedd-Stands-Out-middle{
+  display: inline-block;
+}
+.Why-Fundedd-Stands-Out .Begin-Your-Funding-Journey-middle-left-left{
+  width: 100%;
+}
+.Why-Fundedd-Stands-Out-middle-left{
+  width: 100%;
+}
+.Why-Fundedd-Stands-Out-middle-right{
+  width: 100%;
+}
+.Why-Fundedd-Stands-Out-middle-right-top{
+  display: inline-block;
+}
+.Why-Fundedd-Stands-Out-middle-right-top-left{
+  width: 100%;
+}
+.Lets-break-it-down-heading-bottom ul li{
+  width: 100%;
+}
+.Why-Fundedd-Stands-Out-middle-right-top-right{
+  width: 100%;
+}
+.Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame.righrtwo{
+  display: inline-block;
+}
+.Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame.righrtwo h4{
+  margin-bottom: 10px;
+}
+.read-jon-main-frame-inner-two-middle{
+  display: flex;
+}
+.read-jon-main-frame-inner-two-middle-left{
+  width: 100%;
+}
+.read-jon-main-frame-inner-two-middle-right {
+  width: 100%;
+  position: relative;
+  right: 0px;
+  bottom: 0px;
+}
+.more-fel-slider {
+  margin-top: 0px;
+}
+.read-jon-main-frame-inner-two-middle {
+  display: inline-block;
+}
+.ma-slider-new-frame-inner-two p{
+  display: block;
+}
+.How-Fundedd-Stands-Out{
+  padding: 40px 0px;
+}
+.How-Fundedd-Stands-Out.ndpage .Top-Benefits-of-AR-Factoring-for-Your-Business-middle{
+  width: 100%;
+}
+  .Reliable-Funding-When-You-Need.What-is-AR-Factoring .Expert-Advisory-img-resp-main img.left-Advisory {
+    bottom: 0px;
+    position: relative;
+}
+  .Accelerate-Your-Business-frame-middle.new .Accelerate-Your-Business-frame-left-cont {
+    margin-top: 0px;
+    padding-left: 0px;
+}
+.Expert-Advisory-for-middle.two .Expert-Advisory-for-middle-right {
+  margin-top: 30px;
+  margin-left: 0px;
+}
+.Reliable-Funding-When-You-Need.What-is-AR-Factoring .Expert-Advisory-img-resp-main {
+  width: 100%;
+}
+.Accelerate-Your-Business-frame-right {
+  width: 100%;
+}
+  .Accelerate-Your-Business-frame-left h3 {
+    color: #fff;
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+.Accelerate-Your-Business-frame-left h3 br{
+  display: none;
+}
   .logo-mobilr{
     width: 50%;
     margin-top: 9px;

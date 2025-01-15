@@ -162,6 +162,33 @@ We purchase your outstanding invoices at competitive rates, giving you immediate
        <Image src={headertopiconFL} alt="" />
        </div>
   </div>
+  <div className="Lets-break-it-down">
+     <div className="Lets-break-it-down-heading-2">
+      <div className="Lets-break-it-down-headingthre">
+        <h4>Let's break it down <span>&#11208;</span></h4>
+        </div>
+        <div className="Lets-break-it-down-heading-bottom">
+       <ul>
+        <li>
+          <h4>Total Invoice Value</h4>
+          <p>The total amount of the invoices you want to factor.</p>
+        </li>
+        <li>
+          <h4>Advance Rate</h4>
+          <p>The percentage of the invoice value the factoring company will provide upfront, typically between 80%-95%.</p>
+        </li>
+        <li>
+          <h4>Factoring Fee</h4>
+          <p>The fee charged by the factoring company, usually a percentage of the invoice value. </p>
+        </li>
+       </ul>
+     </div>
+     </div>
+     <div className="expl-air-far">
+     <h4>Example <span>&#11208;</span></h4>
+     </div>
+     
+  </div>
   </div>
 </section>
 
