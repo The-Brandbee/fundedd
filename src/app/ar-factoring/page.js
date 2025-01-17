@@ -182,7 +182,7 @@ We purchase your outstanding invoices at competitive rates, giving you immediate
           <p>The fee charged by the factoring company, usually a percentage of the invoice value. </p>
         </li>
        </ul>
-     </div>
+     </div>  
      </div>
      <div className="expl-air-far">
      <h4>Example <span>&#11208;</span></h4>

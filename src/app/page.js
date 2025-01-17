@@ -212,11 +212,11 @@ export default function Home() {
 
 <section className="Expert-Advisory-for">    
 <div className="container">
-  <div className="Expert-Advisory-for-middle">
+  <div className="Expert-Advisory-for-middle home-sect-page">
       <div className="Expert-Advisory-for-middle-left">
-        <div className="Expert-Advisory-for-middle-left-cont">
-        <h3>Expert Advisory for  <span>Growth and Stability</span></h3>
-         <h4>“Empowering Staffing Success”</h4>
+        <div className="Expert-Advisory-for-middle-left-cont ">
+        <h3>Empowering Staffing Success</h3>
+       
          <p>Unlock tailored strategies to navigate challenges, optimize operations, and drive sustainable growth in the staffing and services industry. Partner with us for insights that help your business thrive.</p>
          </div>
       </div>

@@ -438,6 +438,11 @@ width: 800px;
 }
 .marqu-main-frame-img img{
 width: 100%;
+filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+.Expert-Advisory-for-middle.home-sect-page{
+        align-items: center;
 }
 .marqu-main-frame-img-cont{
 position: relative;
