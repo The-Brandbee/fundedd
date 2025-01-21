@@ -28,7 +28,7 @@ import GirlFourT from "../img/factors_18377058@2x-white.png";
 import GirlFiveT from "../img/icckd-white.png"; 
 import Trusted from "../img/shutterstock_2510817173.png";
 import headertopicon from "../img/header-top-icon.png";
-import TrustedTwo from "../img/shutterstock_2433120923@2x.png";
+import Arrowm from "../img/arrow-small.png";  
 import headertopiconFL from "../img/15-Money@2x.png";
 import ExpertTwo from "../img/pexels-tima-miroshnichenko-6693661@2x.png";
 import Logo from "../img/fund-l.png";  
@@ -165,7 +165,7 @@ We purchase your outstanding invoices at competitive rates, giving you immediate
   <div className="Lets-break-it-down">
      <div className="Lets-break-it-down-heading-2">
       <div className="Lets-break-it-down-headingthre">
-        <h4>Let's break it down <span>&#11208;</span></h4>
+        <h4>Let's break it down <span><Image src={Arrowm} alt="" /></span></h4>
         </div>
         <div className="Lets-break-it-down-heading-bottom">
        <ul>
@@ -185,7 +185,7 @@ We purchase your outstanding invoices at competitive rates, giving you immediate
      </div>  
      </div>
      <div className="expl-air-far">
-     <h4>Example <span>&#11208;</span></h4>
+     <h4>Example <span><Image src={Arrowm} alt="" /></span></h4>
      </div>
      
   </div>

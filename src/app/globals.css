@@ -1449,6 +1449,12 @@ display: inline-block;
 .expl-air-far h4 span{
   margin-left: 10px;
 }
+.expl-air-far h4 span img{
+  width: 10px;
+}
+.Lets-break-it-down-heading-2 h4 span img{
+  width: 10px;
+}
 .Lets-break-it-down-headingthre{
   margin-bottom: 180px;
 }
