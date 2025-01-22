@@ -252,7 +252,7 @@ Our robust underwriting and credit risk analytics ensure you get the best fundin
     <div className="Begin-Your-Funding-Journey-middle-left-left">
       <h4><span>Get Started</span> Today</h4> 
       <p>Ready to boost your business cash flow with AR factoring? Apply now and get the funding you need to keep your operations running smoothly.</p>
-      <p><a href="#">APPLY NOW </a></p></div>
+      <p><a target="_blank" href="https://share.hsforms.com/1M2ptOmxZTIOXFrkiaMvAIQt58xb">APPLY NOW </a></p></div>
     </div>
     <div className="read-jon-main-frame-inner-two-middle-right">
     <Image src={ExpertTwoJoin} alt="" className="left-Advisory"/>  
