@@ -66,7 +66,7 @@ export default function Arfactoring() {
                       <div className="Accelerate-Your-Business-frame-left">
                           <h3>Turn Unpaid Invoices<br/> into Immediate Capital<br/> - Fuel Your Business<br/> Growth Today.</h3>
                           <div className="Accelerate-Your-Business-frame-left-cont">
-                            <p>Get paid instantly on your outstanding invoices.<br/> No collateral. No credit checks. Just fast, reliable<br/> funding when you need it most.</p>
+                            <p>Get the working capital you need without delays. No collateral, no credit checks—just transparent funding solutions.</p>
                             <p><a className="normal-color-buttom" href="#">GET FUNDEDD</a></p>
                           </div>
                       </div>
@@ -88,19 +88,23 @@ export default function Arfactoring() {
       <div className="Expert-Advisory-for-middle-right">
       <div className="Expert-Advisory-for-middle-left-cont">
          <h3>What is <span>AR Factoring?</span></h3>        
-         <p>Tired of waiting 30, 60, or 90 days for invoice payments? With Fundedd's Accounts Receivable (AR) Factoring, you can convert those unpaid invoices into instant cash.
-We purchase your outstanding invoices at competitive rates, giving you immediate access to working capital
-</p>
-<h5>Unlike traditional loans, there are:
+         <p>
+         Waiting months for invoice payments can slow your business growth. With Fundedd's Accounts Receivable (AR) Factoring, turn your unpaid invoices into immediate cash.
+Our robust underwriting and credit risk analytics ensure you get the best funding solution tailored to your needs. Whether you need working capital or a risk-free way to improve cash flow, AR factoring offers the flexibility to meet your goals."
+
+         </p>
+<h5>Key Advantages Over Loans:
 </h5>
 <ul>
-  <li>No collateral required</li>
-  <li>No impact on your credit score</li>
-  <li>No long-term debt obligations</li>
+  <li>No collateral requirements</li>
+  <li>Zero impact on credit scores
+  </li>
+  <li>Transparent, no-obligation agreements
+  </li>
+  <li>No long-term debt commitments.</li>  
 </ul>
-        <p>Simply sell us your invoices, and get paid right away. We handle the collections while you focus on growing your business.
-        </p>
-        </div>
+       
+        </div>  
       </div>
   </div>
   
@@ -118,7 +122,8 @@ We purchase your outstanding invoices at competitive rates, giving you immediate
 <div className="container">      
     <div className="Top-Benefits-of-AR-Factoring-for-Your-Business-middle">
         <div className="Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left">
-              <h3><span>Top Benefits</span> of AR Factoring<br/> for Your Business</h3>
+              <h3>Why <span>AR Factoring</span> is a <br/>Game-Changer for Your Business?
+              </h3>
         </div>           
         <div className="Top-Benefits-of-AR-Factoring-for-Your-Business-middle-right">
               <p>AR factoring provides numerous advantages<br/> that can significantly benefit your business.<br/> Here's how:</p>   
@@ -135,10 +140,10 @@ We purchase your outstanding invoices at competitive rates, giving you immediate
 <div className="container">
 <div className="Top-Benefits-of-AR-Factoring-for-Your-Business-middle">
         <div className="Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left">
-              <h3><span>Top Benefits</span> of AR Factoring<br/> for Your Business</h3>
+              <h3>How Does <span>AR Factoring</span> Work?</h3>
         </div>           
         <div className="Top-Benefits-of-AR-Factoring-for-Your-Business-middle-right">
-              <p>AR factoring provides numerous advantages<br/> that can significantly benefit your business.<br/> Here's how:</p>   
+              <p>The process of AR factoring with Fundedd is designed to be simple, transparent, and efficient, ensuring businesses can focus on growth while we handle cash flow needs.</p>   
               
         </div> 
     </div>
@@ -206,8 +211,8 @@ We purchase your outstanding invoices at competitive rates, giving you immediate
      <div className="Why-Fundedd-Stands-Out-middle">
           <div className="Why-Fundedd-Stands-Out-middle-left">
           <div className="Begin-Your-Funding-Journey-middle-left-left">
-            <h4>Why Fundedd Stands Out in <span>AR Factoring</span> Solutions for Your Business</h4>
-              <p>At Fundedd, we specialize in helping businesses like yours to access quick, hassle-free funding through AR factoring. Our process is simple, transparent, and designed to get you the cash you need without unnecessary delays or complicated terms. Whether you are a small or medium-sized business, our flexible AR factoring solutions can meet your unique financial needs and support your growth.</p>
+            <h4>Why Fundedd Stands Out in <span>AR Factoring</span> Solutions for Your Business </h4>
+              <p>At Fundedd, we specialize in helping businesses like yours access quick, hassle-free funding through AR factoring. Our process is simple, transparent, and tailored to your needs.</p>
               <p><a href="#">GET FUNDEDD</a></p>         
           </div>  
           </div>
@@ -216,24 +221,24 @@ We purchase your outstanding invoices at competitive rates, giving you immediate
                 <div className="Why-Fundedd-Stands-Out-middle-right-top-left">
                     <div className="Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame">
                       <h4> <Image src={headertopicon} alt="" /> No Collateral Required</h4>
-                      <p>Unlike traditional loans, we don't require collateral, which means no risk to your assets.</p>
+                      <p>Protect your assets while accessing funds.</p>
                     </div>
                     <div className="Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame">
-                      <h4> <Image src={headertopicon} alt="" />Competitive Rates</h4>
-                      <p>We offer fair and transparent rates with no hidden fees, ensuring you get the most out of your invoices.</p>
+                      <h4> <Image src={headertopicon} alt="" />Quick Access to Funds</h4>
+                      <p>Efficient processes ensure timely cash flow.</p>
                     </div>    
                 </div>
                 <div className="Why-Fundedd-Stands-Out-middle-right-top-right">
                 <div className="Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame righr">
-                      <h4> <Image src={headertopicon} alt="" /> Industry Expertise</h4>
-                      <p>Years of experience serving businesses across multiple sectors</p>
+                      <h4> <Image src={headertopicon} alt="" /> Competitive Rates</h4>
+                      <p>Transparent pricing with no hidden fees.</p>
                     </div>   
                   </div>
                </div>
                <div className="Why-Fundedd-Stands-Out-middle-right-bottom">
                <div className="Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame righrtwo">
-                      <h4> <Image src={headertopicon} alt="" /> Quick Access to Funds</h4>
-                      <p>Our easy and efficient process means you get the cash you need without waiting for customer payments.</p>
+                      <h4> <Image src={headertopicon} alt="" /> Robust Technology Platform</h4>
+                      <p>Seamlessly manage underwriting and operations.</p>
                     </div>        
                </div>
               </div>

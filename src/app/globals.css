@@ -1258,7 +1258,7 @@ display: block;
   width: 40%; 
   
 }
-.total-invoice-value-frame-main-page{
+.total-invoice-value-frame-main-page{    
   background: #222222;
   padding: 50px 0px;
 }
@@ -1494,6 +1494,7 @@ margin-top: 30px !important;
   color: #fff;
   margin-top: 13px;
 }
+ 
 @media all and (min-width:120px) and (max-width:680px){
   .Top-Benefits-of-AR-Factoring-for-Your-Business-middle {
     position: relative;
