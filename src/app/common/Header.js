@@ -40,7 +40,7 @@ function IndexPage() {
                   </div>
                 </li>
                 <li>
-                <Link href="/">
+                <Link href="/lead-from">
                 GET FUNDEDD
           </Link>
                 </li>

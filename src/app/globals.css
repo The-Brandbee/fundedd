@@ -1494,7 +1494,15 @@ margin-top: 30px !important;
   color: #fff;
   margin-top: 13px;
 }
- 
+ .lead-from-main-section-middle{
+  width: 50%;
+  margin: 0 auto;
+  padding: 100px 0px;
+
+ }
+.lead-from-main-section{
+  background: #fff;
+}
 @media all and (min-width:120px) and (max-width:680px){
   .Top-Benefits-of-AR-Factoring-for-Your-Business-middle {
     position: relative;

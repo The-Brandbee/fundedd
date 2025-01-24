@@ -67,7 +67,7 @@ export default function Home() {
        </div>
        <div className="Empowering-Staffing-Companies-middle-right">
            <p>Optimize your payroll and cash flow with funding solutions customized to your business needs. Access the funding you need, when you need it, by unlocking the value in your invoices</p>
-           <p><a href="#">GET FUNDEDD</a></p>
+           <p><a href="/lead-from">GET FUNDEDD</a></p>
         </div>  
    </div>
 </div>
@@ -75,7 +75,7 @@ export default function Home() {
 </section>
 
 
-<section className="Reliable-Funding-When-You-Need">  
+<section className="Reliable-Funding-When-You-Need">     
 <div className="container">
     <div className="Reliable-Funding-When-You-Need-middle">
         <div className="Reliable-Funding-When-You-Need-middle-left">
@@ -84,7 +84,7 @@ export default function Home() {
            </div>
            <div className="Reliable-Funding-When-You-Need-middle-left-header-cont">
             <p>At Fundedd, we deliver specialized AR factoring solutions that put you in control of your cash flow. Our flexible funding approach ensures you can meet payroll demands, fuel growth, and optimize operations at every stage of your business journey.</p>
-           <p><a target="_blank" href="https://share.hsforms.com/1M2ptOmxZTIOXFrkiaMvAIQt58xb">APPLY NOW</a></p>
+           <p><a  href="/lead-from">APPLY NOW</a></p> 
            </div>
            <div className="Reliable-Funding-When-You-Need-middle-left-header-cont-bottom">
              <div className="Reliable-Funding-When-You-Need-middle-left-header-cont-bottom-to-left">
@@ -161,7 +161,7 @@ export default function Home() {
               <div className="Your-Trusted-Partner-for-Payroll-Funding-left-none-middle-left">
                   <h4>Your Trusted Partner for Payroll Funding</h4>
                   <p>At Fundedd, we deliver specialized AR factoring solutions that put you in control of your cash flow. Our flexible funding approach ensures you can meet payroll demands, fuel growth, and optimize operations at every stage of your business journey.</p>
-                  <p><a target="_blank" href="https://share.hsforms.com/1M2ptOmxZTIOXFrkiaMvAIQt58xb">APPLY NOW</a></p>                                       
+                  <p><a  href="/lead-from">APPLY NOW</a></p>                                       
               </div>
               <div className="Your-Trusted-Partner-for-Payroll-Funding-left-none-middle-right">
               <Image src={Trusted} alt="" />  
@@ -288,7 +288,7 @@ export default function Home() {
            <div className="Begin-Your-Funding-Journey-middle-left-left">
              <h4>Begin Your Funding Journey <br/><span>with Fundedd</span></h4>
              <p>Speak to our experts about tailored financing that meets your staffing needs</p>
-             <p><a target="_blank" href="https://share.hsforms.com/1M2ptOmxZTIOXFrkiaMvAIQt58xb">APPLY NOW </a></p>
+             <p><a  href="/lead-from">APPLY NOW </a></p>
            </div>
            <div className="Begin-Your-Funding-Journey-middle-left-right">
             <Image src={Girl} alt="" />
