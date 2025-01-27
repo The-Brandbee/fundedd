@@ -1503,7 +1503,168 @@ margin-top: 30px !important;
 .lead-from-main-section{
   background: #fff;
 }
+.about-us-main-page{
+
+}
+.about-us-main-page .Accelerate-Your-Business-frame-right img {
+  width: 50%;
+  margin: 0 auto;
+  display: table;
+}
+.about-us-main-page .Accelerate-Your-Business-frame-left {
+  width: 50%;
+}
+.about-us-main-page .Expert-Advisory-for-middle-left img{
+  width: 100%;
+}
+.about-us-main-page .Reliable-Funding-When-You-Need.What-is-AR-Factoring .Expert-Advisory-for {
+  padding-top: 70px;
+}
+.about-us-main-page .Expert-Advisory-for-middle-left-cont h3 span {
+  display: inline-block;
+}
+.our-misson-middlem-main{
+  background: #000;
+  padding: 80px 0px;
+  text-align: center;
+}
+.about-us-main-page .Reliable-Funding-When-You-Need.What-is-AR-Factoring{
+  overflow: hidden;
+}
+.about-us-main-page .Expert-Advisory-for-middle {
+  z-index: 999;
+  position: relative;
+}
+.our-misson-middlem-main h3{
+  color: #fff;
+  font-size: 32px;
+}
+.our-misson-middlem-main p{
+  color: #fff;
+  margin-top: 40px;
+  line-height: 26px;
+}
+.about-us-main-page .more-fel-slider {
+  margin-top: 0px;
+}
+.about-us-main-page .react-multiple-carousel__arrow{
+  display: none !important;
+}
+.Our-Values-main-about{
+  padding: 80px 0px;
+  background: #222222;
+}
+.Our-Values-main-about-middle{
+  display: flex;
+  justify-content: space-between;
+}
+.Our-Values-main-about-middle-left{
+width: 40%;
+}
+.Our-Values-main-about-middle-right{
+  width: 55%;
+}
+.Our-Values-main-about-middle-right img{
+  width: 100%;
+}
+.heading-about-us h3{
+  color: #fff;
+  font-size: 32px;
+}
+.heading-about-us h3 span{
+  color: #FF7518;
+}
+.heading-about-us p{
+  color: #fff;
+  margin-top: 25px;
+}
+.Our-Values-main-about-middle-left ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Our-Values-main-about-middle-left ul li{
+  display: flex ;
+      width: 48%;
+      align-items: center;
+      margin-top: 35px;
+}
+.Our-Values-main-about-middle-left ul li img{
+  width: 55px;
+  margin-right: 20px;
+}
+.Our-Values-main-about-middle-left ul li h4{
+  color: #FF7518;
+  width: 100%;
+  font-size: 16px;
+  font-weight: normal;
+}
+.leadership-team-about-us-middle{
+  display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+}
+.leadership-team-about-us{
+  padding: 70px 0px;
+  background: #000000;
+  padding-bottom: 30px;
+}
+.leadership-team-about-us-left{
+  width: 30%;
+  margin-top: 35px;
+}
+.team-img img{
+  width: 90%;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.team-name{
+  display: flex;
+}
+.team-name-left{
+  width: 80%;
+}
+.team-name-right{
+  width: 20%;
+}
+.team-name-left h4{
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.team-name-left p{
+  color: #fff;
+}
 @media all and (min-width:120px) and (max-width:680px){
+  .about-us-main-page .Accelerate-Your-Business-frame-left {
+    width: 100%;
+}
+.Our-Values-main-about-middle-right {
+  width: 100%;
+  margin-top: 30px;
+}
+.leadership-team-about-us-left {
+  width: 100%;
+  margin-top: 35px;
+}
+.leadership-team-about-us{
+  padding-top: 30px;
+}
+.heading-about-us h3 br{
+  display: none;
+}
+.Our-Values-main-about-middle {
+  display: inline-block;
+  width: 100%;
+}
+.Our-Values-main-about-middle-left {
+  width: 100%;
+}
+.Our-Values-main-about-middle-left ul li {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 35px;
+}
   .Top-Benefits-of-AR-Factoring-for-Your-Business-middle {
     position: relative;
     z-index: 999;
