@@ -24,37 +24,55 @@ function IndexPage() {
                <div className="footer-middle-r">
                   <h4>Products</h4>
                   <ul>
-                    <li><a href="#">Option 1</a></li>
-                    <li><a href="#">Option 2</a></li>
-                    <li><a href="#">Option 3</a></li>
-                    <li><a href="#">Option 4</a></li>
+                    <li><a href="/partner">Partner </a></li>
+                    
+                    <li><a href="#">Banks
+                    </a></li>
+                    <li><a href="#">Business Advisors
+                    </a></li>
+                    <li><a href="#">Investment Firms
+                    </a></li>
                   </ul>
                </div>
                <div className="footer-middle-r">
                   <h4>Company</h4>
                   <ul>
-                    <li><a href="#">Option 1</a></li>
-                    <li><a href="#">Option 2</a></li>
-                    <li><a href="#">Option 3</a></li>
-                    <li><a href="#">Option 4</a></li>
+                    <li><a href="/about-us">About Us
+                    </a></li>
+                    <li><a href="#">Who we are?
+                    </a></li>
+                    <li><a href="#">How it works?
+                    </a></li>
+                    <li><a href="#">Our Differentiation
+                    </a></li>
+                    <li><a href="#">Our Team
+
+                    </a></li>
                   </ul>
                </div>
                <div className="footer-middle-r">
                   <h4>Resources</h4>
                   <ul>
-                    <li><a href="#">Option 1</a></li>
-                    <li><a href="#">Option 2</a></li>
-                    <li><a href="#">Option 3</a></li>
-                    <li><a href="#">Option 4</a></li>
+                    <li><a href="#">Application</a></li>
+                    <li><a href="#">Blog
+                    </a></li>
+                    <li><a href="#">Case Studies
+                    </a></li>
+                    <li><a href="#">Rates
+                    </a></li>
+                    <li><a href="#">FAQs
+
+                    </a></li>
+                    <li><a href="#">Calculators
+
+                    </a></li>
                   </ul>
                </div>
                <div className="footer-middle-r">
-                  <h4>Contact</h4>
+                  <h4>Connect Today</h4>
                   <ul>
-                    <li><a href="#">Option 1</a></li>
-                    <li><a href="#">Option 2</a></li>
-                    <li><a href="#">Option 3</a></li>
-                    <li><a href="#">Option 4</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                   
                   </ul>
                </div>
             </div>
