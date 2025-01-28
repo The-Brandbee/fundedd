@@ -1651,7 +1651,210 @@ width: 40%;
 .team-name-left p{
   color: #fff;
 }
+.partner-main-page .Expert-Advisory-for-middle-left img{
+  width: 100%;
+}
+.partner-main-page .Expert-Advisory-for-middle.two{
+  z-index: 999;
+  position: relative;
+}
+.partner-main-page .Expert-Advisory-for-middle.two .Expert-Advisory-for-middle-right {
+  margin-top: 0px;
+}
+.partner-main-page .Reliable-Funding-When-You-Need.What-is-AR-Factoring {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.Customized-Financing-main-frame{
+  margin-top: 30px;
+}
+.Customized-Financing-main-frame p{
+  margin-top: 0px !important;
+}
+.Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame:hover{
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+box-shadow: 25px 25px 25px #0000002B;
+}
+.Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame:hover p{
+  color: #000;
+}
+.How-Banks-Benefit-parter-page{
+  background: #222222 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  padding: 50px 80px;
+  box-shadow: 25px 25px 25px #0000002B;
+  margin-top: 50px;
+}
+.How-Banks-Benefit-parter-page h3{
+  color: #FF7518;
+  font-size: 24px;
+}
+.How-Banks-Benefit-parter-page p{
+  color: #fff;
+  margin-top: 15px;
+}
+.Why-Fundedd-Stands-Out.partnerpgae--f{
+background: #F2F2F2;
+}
+.Why-Fundedd-Stands-Out.partnerpgae--f .How-Banks-Benefit-parter-page{
+  background: #fff;
+}
+.Why-Fundedd-Stands-Out.partnerpgae--f .How-Banks-Benefit-parter-page h3 {
+  color: #000;
+}
+.Why-Fundedd-Stands-Out.partnerpgae--f .How-Banks-Benefit-parter-page p {
+  color: #727272;
+}
+.Why-Fundedd-Stands-Out.partnerpgae--f .Begin-Your-Funding-Journey-middle-left-left p{
+  color: #000;
+}
+.Why-Fundedd-Stands-Out.partnerpgae--f .Begin-Your-Funding-Journey-middle-left-left h4{
+  color: #000;
+}
+.partner-list-main-frame li{
+  display: flex ;
+  margin-bottom: 40px;
+  align-items: center;
+}
+.partner-list-main-frame-middle{
+
+}
+.partner-list-main-frame-middle-right{
+  width: 70%;
+}
+.partner-list-main-frame-middle-right h4{
+  color: #FF7518;
+  font-size: 18px;
+  font-weight: 600;
+}
+.partner-list-main-frame-middle-right p{
+  color: #707070;
+  margin-bottom: 0px;
+}
+.today-and-help-your{
+  margin-top: 25px !important;
+}
+.How-It-Works-main-frame-partner{
+  background: #F2F2F2;
+  padding: 70px 0px;
+}
+.How-It-Works-main-frame-partner-heading {
+  display: flex;
+}
+.How-It-Works-main-frame-partner-heading-left{
+width: 40%;
+margin-right: 10%;
+}
+.How-It-Works-main-frame-partner-heading-left h3{
+  color: #FF7518;
+}
+.How-It-Works-main-frame-partner-heading-left p{
+color: #000000;
+}
+.How-It-Works-main-frame-partner-heading-right{
+  width: 500px;
+  height: 140px;
+  background: #e5e5e5;
+  margin-top: 20px;
+}
+.Referral-Process-work-frame{
+  display: flex;
+justify-content: space-between;
+margin-top: 50px;
+}
+.Referral-Process-work-frame-left{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  padding: 40px 20px;
+  width: 27%;
+}
+.Referral-Process-work-frame-left h4{
+  color: #FF7518;
+  font-size: 18px;
+  font-weight: 600;
+}
+.Referral-Process-work-frame-left p{
+  color: #000;
+  margin-top: 15px;
+}
+.Referral-Process-work-frame-left-two{
+  display: flex;
+  align-items: center;
+}
+.Referral-Process-work-frame-left-two img{
+  width: 30px;
+  height: 30px;
+}
+.Ongoing-Support-bottom-frame{
+  display: flex;
+}
+.Ongoing-Support-bottom-frame-left{
+width: 50%;
+margin-top: 60px;
+}
+.Ongoing-Support-bottom-frame-left p{
+  color: #727272;
+  font-weight: 600;
+}
+.Ongoing-Support-bottom-frame-right{
+  width: 190px;
+  height: 190px;
+  background: #e5e5e5;
+  border-radius: 130px;
+  margin-top: 10px;
+}
+.Why-Fundedd-Stands-Out.partner{
+background: #000;
+}
+.partner-list-main-frame-middle img{
+  width: 70px;
+  margin-right: 25px;
+}
 @media all and (min-width:120px) and (max-width:680px){
+  .How-Banks-Benefit-parter-page{
+    padding: 20px 20px;
+    margin-top: 20px;
+  }
+  .How-It-Works-main-frame-partner-heading {
+    display: inline-block;
+    width: 100%;
+}
+.How-It-Works-main-frame-partner-heading-left {
+  width: 100%;
+  margin-right: 0px;
+}
+.How-It-Works-main-frame-partner-heading-right{
+  display: none;
+}
+.Referral-Process-work-frame {
+  display: inline-block;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.Referral-Process-work-frame-left{
+  padding: 25px 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+.Ongoing-Support-bottom-frame {
+  display: inline-block;
+}
+.Ongoing-Support-bottom-frame-right{
+  display: none;
+}
+.Ongoing-Support-bottom-frame-left {
+  width: 100%;
+  margin-top: 40px;
+}
+.Referral-Process-work-frame-left-two{
+  display: none;
+}
+  .Expert-Advisory-for-middle-left-cont h3 br{
+    display: none;
+  }
+  .Expert-Advisory-for-middle-left-cont{
+    margin-top: 10px;
+  }
   .about-us-main-page .Accelerate-Your-Business-frame-left {
     width: 100%;
 }
