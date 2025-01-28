@@ -32,7 +32,7 @@ import Arrowm from "../img/arrow-small.png";
 import headertopiconFL from "../img/15-Money@2x.png";
 import ExpertTwo from "../img/shutterstock_2159023891.png";
 import Logo from "../img/fund-l.png";  
-import ExpertThree from "../img/about-us-1.png";    
+import ExpertThree from "../img/about-us-1.svg";    
 
 export default function Arfactoring() {
   return (
@@ -195,8 +195,8 @@ export default function Arfactoring() {
             <Image src={Trusted} alt="" className=""/>  
             <div className="team-name">
                 <div className="team-name-left">
-                    <h4>Rahul Bajaj</h4>
-                    <p>Strategic Chief Advisor</p>
+                    <h4>Anirban Ghosh</h4>
+                    <p>Global Head of Growth and Strategy</p>
                 </div>
                 <div className="team-name-right"></div>
             </div>
@@ -207,8 +207,8 @@ export default function Arfactoring() {
             <Image src={Trusted} alt="" className=""/>  
             <div className="team-name">
                 <div className="team-name-left">
-                    <h4>Rahul Bajaj</h4>
-                    <p>Strategic Chief Advisor</p>
+                    <h4>Asma Manzar</h4>
+                    <p>Global Head of Finance and Revenue</p>
                 </div>
                 <div className="team-name-right"></div>
             </div>
@@ -219,8 +219,8 @@ export default function Arfactoring() {
             <Image src={Trusted} alt="" className=""/>  
             <div className="team-name">
                 <div className="team-name-left">
-                    <h4>Rahul Bajaj</h4>
-                    <p>Strategic Chief Advisor</p>
+                    <h4>Amal Ali</h4>
+                    <p>Global Head of Marketing</p>
                 </div>
                 <div className="team-name-right"></div>
             </div>
@@ -231,8 +231,8 @@ export default function Arfactoring() {
             <Image src={Trusted} alt="" className=""/>  
             <div className="team-name">
                 <div className="team-name-left">
-                    <h4>Rahul Bajaj</h4>
-                    <p>Strategic Chief Advisor</p>
+                    <h4>Varun Ahuja</h4>
+                    <p>Global Head of Operations</p>
                 </div>
                 <div className="team-name-right"></div>
             </div>
