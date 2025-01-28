@@ -1526,11 +1526,11 @@ margin-top: 30px !important;
 .our-misson-middlem-main{
   padding: 90px 0px;
   text-align: center;
-  background: url(../app/img/shutterstock_1363289006@2x.be63624e.png);
-  background-repeat: no-repeat;
+  background: url(../app/img/shutterstock_1363289006@2x.png);
+  background-repeat: no-repeat; 
   background-size: 100%;
   position: relative;
-  
+    
 }
 .our-misson-middlem-main::before{
   background: #0000007a;
