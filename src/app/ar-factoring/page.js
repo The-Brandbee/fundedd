@@ -5,7 +5,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../common/Header.js";
 import HeaderMobileIn from "../common/HeaderMobile.js";
-
+import GETFUNDEDD from "../common/GETFUNDEDDTWO.js";
+import ApplyNow from "../common/ApplyNow.js"; 
 import Footer from "../common/Footer.js";
 import TestimonialSlideTwoN from "../common/TestimonialSlideTwo2.js";                 
 import ClientsSay from "../common/Client.js"; 
@@ -67,7 +68,7 @@ export default function Arfactoring() {
                           <h3>Turn Unpaid Invoices<br/> into Immediate Capital<br/> - Fuel Your Business<br/> Growth Today.</h3>
                           <div className="Accelerate-Your-Business-frame-left-cont">
                             <p>Get the working capital you need without delays. No collateral, no credit checks—just transparent funding solutions.</p>
-                            <p><a className="normal-color-buttom" href="/lead-from">GET FUNDEDD</a></p>
+                            <p><GETFUNDEDD/> </p>
                           </div>
                       </div>
                       <div className="Accelerate-Your-Business-frame-right">
@@ -213,7 +214,7 @@ Our robust underwriting and credit risk analytics ensure you get the best fundin
           <div className="Begin-Your-Funding-Journey-middle-left-left">
             <h4>Why Fundedd Stands Out in <span>AR Factoring</span> Solutions for Your Business </h4>
               <p>At Fundedd, we specialize in helping businesses like yours access quick, hassle-free funding through AR factoring. Our process is simple, transparent, and tailored to your needs.</p>
-              <p><a href="/lead-from">GET FUNDEDD</a></p>         
+              <p><GETFUNDEDD/></p>         
           </div>  
           </div>
           <div className="Why-Fundedd-Stands-Out-middle-right">
@@ -252,7 +253,7 @@ Our robust underwriting and credit risk analytics ensure you get the best fundin
     <div className="Begin-Your-Funding-Journey-middle-left-left">
       <h4><span>Get Started</span> Today</h4> 
       <p>Ready to boost your business cash flow with AR factoring? Apply now and get the funding you need to keep your operations running smoothly.</p>
-      <p><a  href="/lead-from">APPLY NOW </a></p></div>
+      <p> <ApplyNow/> </p></div>
     </div>
     <div className="read-jon-main-frame-inner-two-middle-right">
     <Image src={ExpertTwoJoin} alt="" className="left-Advisory"/>  

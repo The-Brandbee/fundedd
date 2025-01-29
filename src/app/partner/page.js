@@ -5,7 +5,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../common/Header.js";
 import HeaderMobileIn from "../common/HeaderMobile.js";
-
+import GETFUNDEDD from "../common/GETFUNDEDDTWO.js";
+import PARTNERWITHUS from "../common/PARTNERWITHUS.js";
 import Footer from "../common/Footer.js";
 import TestimonialSlideTwoN from "../common/TestimonialSlideTwo2.js";                 
 import ClientsSay from "../common/Client.js"; 
@@ -67,7 +68,8 @@ export default function Arfactoring() {
                           <h3>Empowering Staffing<br/> Companies Through<br/> <span>Strategic Partnerships</span></h3>
                           <div className="Accelerate-Your-Business-frame-left-cont">
                             <p>Partner with Fundedd to unlock tailored financial solutions and support the growth of staffing companies with accessible funding and expert guidance.</p>
-                            <p><a className="normal-color-buttom" href="/lead-from">GET FUNDEDD</a></p>
+                            <p><GETFUNDEDD/> 
+                            </p>
                           </div>
                       </div>
                       <div className="Accelerate-Your-Business-frame-right">
@@ -157,7 +159,7 @@ export default function Arfactoring() {
      <div className="How-Banks-Benefit-parter-page">
         <h3>How Banks Benefit?</h3>
         <p>Partnering with Fundedd allows banks to enhance their service offerings, attract new clients, and provide tailored financial solutions that strengthen customer relationships. Join us and offer seamless financial support to your clients today.</p>
-        <p><a className="normal-color-buttom" href="#">PARTNER WITH US</a></p>
+        <p> <PARTNERWITHUS/></p>
      </div>
   </div>
 </div>
@@ -209,7 +211,7 @@ export default function Arfactoring() {
      <div className="How-Banks-Benefit-parter-page "> 
         <h3>How Business Advisors Benefit?</h3>
         <p>By partnering with Fundedd, business advisors can diversify their service offerings and deliver more value to clients through flexible, alternative financing solutions. Grow your advisory business while offering impactful financial support.</p>
-        <p><a className="normal-color-buttom" href="#">PARTNER WITH US</a></p>
+        <p> <PARTNERWITHUS/></p>
      </div>
   </div>
 </div>
@@ -248,7 +250,7 @@ export default function Arfactoring() {
      <div className="How-Banks-Benefit-parter-page">
         <h3>How Investment Firms Benefit?</h3>
         <p>Partnering with Fundedd allows investment firms to enhance their portfolio by providing their clients with customized financing solutions that support growth and sustainability. Strengthen your firm’s impact with tailored funding options for staffing businesses.</p>
-        <p><a className="normal-color-buttom" href="#">PARTNER WITH US</a></p>
+        <p> <PARTNERWITHUS/></p>
      </div>
   </div>
 </div>
@@ -286,7 +288,7 @@ export default function Arfactoring() {
      <div className="Ongoing-Support-bottom-frame">
         <div className="Ongoing-Support-bottom-frame-left">
               <p>Get started today and refer your clients for immediate financial support!</p>
-              <p><a className="normal-color-buttom" href="#">PARTNER WITH US</a></p>
+              <p> <PARTNERWITHUS/></p>
         </div>
         <div className="Ongoing-Support-bottom-frame-right">
             
@@ -302,7 +304,7 @@ export default function Arfactoring() {
       <h4><span>Partner with</span> Us Today!</h4> 
       <p className="today-and-help-your">By partnering with Fundedd, you're giving staffing companies the tools they need to thrive. Whether you're a bank, business advisor, or investment firm, together we can make a real difference in the financial success of staffing companies.</p>
     <p className="today-and-help-your">Ready to partner with Fundedd? Get in touch with us today and help your clients access the funding they need to grow and succeed!</p>
-      <p className="today-and-help-your"><a  href="/lead-from">PARTNER WITH US</a></p></div>
+      <p className="today-and-help-your"> <PARTNERWITHUS/> </p></div>
     </div>
     <div className="read-jon-main-frame-inner-two-middle-right">
     <Image src={ExpertTwoJoin} alt="" className="left-Advisory"/>  

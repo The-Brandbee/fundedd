@@ -1,5 +1,6 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import ApplyNow from "../common/ApplyNow.js";
 
 export default () => (
   <Tabs>
@@ -15,31 +16,31 @@ export default () => (
     <TabPanel>
      <div className='tab-inner-frame'>
         <p>Submit your outstanding invoices to Fundedd. We review and verify their eligibility to streamline the process and enable faster access to funds.</p>
-        <p><a  className="normal-color-buttom" href="/lead-from">APPLY NOW</a></p>
+        <p><ApplyNow/></p>
         </div>
     </TabPanel>
     <TabPanel>
      <div className='tab-inner-frame'>
      <p>Once approved, Fundedd provides an advance of 80%-90% of the total invoice value. For example, for an invoice worth $10,000 with a 90% advance rate, you’ll receive $9,000 upfront.</p>
-     <p><a  className="normal-color-buttom" href="/lead-from">APPLY NOW</a></p>
+     <p><ApplyNow/></p>
         </div>
     </TabPanel>
     <TabPanel>
      <div className='tab-inner-frame'>
      <p>Fundedd retains 8-10% as a security buffer. Once your customer pays the invoice in full, this amount (minus fees) is released to you.</p>
-     <p><a  className="normal-color-buttom" href="/lead-from">APPLY NOW</a></p>
+     <p><ApplyNow/></p>
         </div>
     </TabPanel>
     <TabPanel>
      <div className='tab-inner-frame'>
      <p>We take over payment collections based on agreed terms (30-90 days). You can focus on your operations while we handle the administrative follow-ups.</p>
-     <p><a  className="normal-color-buttom" href="/lead-from">APPLY NOW</a></p>
+     <p><ApplyNow/></p>
         </div>
     </TabPanel>
     <TabPanel>
      <div className='tab-inner-frame'>
      <p>After receiving full payment, we deduct our fees and transfer the remaining balance to your account. This ensures maximum benefit while we manage the complexities of factoring.</p>
-     <p><a  className="normal-color-buttom" href="/lead-from">APPLY NOW</a></p>
+     <p><ApplyNow/></p>
         </div>
     </TabPanel>  
   </Tabs>
