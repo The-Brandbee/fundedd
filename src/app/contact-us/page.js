@@ -72,13 +72,13 @@ export default function Arfactoring() {
                            <ul className="conta-us-list-main-page"> 
                             <h4>Get in Touch</h4>
                             <li>
-                            <Image src={ExpertTwo} alt="" />  <span>123 Business Lane, Suite 456, Cityville, Country.</span>
+                            <Image src={ExpertTwo} alt="" />  <span>2598 E. Sunrise Blvd., Suite 2104, Fort Lauderdale, Florida, 33304, United States of America</span>
                             </li>
-                            <li>
+                            <li className="nonenone">
                             <Image src={Arrowm} alt="" />  <span>+1 (123) 456-7890</span>
                             </li>
                             <li>
-                            <Image src={GirlFourT} alt="" />  <span> support@fundedd.com </span>
+                            <Image src={GirlFourT} alt="" />  <span> growth@fundedd.com </span>
                             </li>
                            </ul>
                            <GETFUNDEDD/> 
@@ -115,7 +115,7 @@ export default function Arfactoring() {
     <div className="Begin-Your-Funding-Journey-middle-left-left">
       <h4><span>Stay Connected</span></h4> 
       <p>Follow us on social media for the latest updates and insights:</p>
-      <ul className="social-media-icon">
+      <ul className="social-media-icon nonenone">
         <li>
             <a href="#">
             <Image src={IN} alt=""/>  

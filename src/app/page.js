@@ -277,7 +277,7 @@ export default function Home() {
      <Image src={ExpertThreeTW} alt=""/>  
   </div>
 </section>
-<section className="Insights-Industry-Trends nonenone">
+<section className="Insights-Industry-Trends nonenone"> 
 <h4><span>Insights</span> and Industry Trends</h4>
 <p>Stay updated with the latest trends and expert opinions in staffing and funding through our blog. Gain <span>the knowledge to keep your business thriving.</span></p>
 <div className="rain-main-images-main">

@@ -1413,7 +1413,7 @@ width: 50%;
   width: 20%;
 }
 .simple-prosess-main-frame-middle-right img{
-  width: 100%;
+  width: 90%;
 }
 .Accelerate-Your-Business-frame-middle.new .Accelerate-Your-Business-frame-left-cont{
 
@@ -1430,16 +1430,13 @@ width: 50%;
 .Lets-break-it-down-heading-2{
 display: inline-block;
 }
-.Lets-break-it-down-heading-2:hover .Lets-break-it-down-heading-bottom{
-  display: block;
-  margin-bottom: 40px;
-}
+
 .Lets-break-it-down-heading-2 h4{
   color: #FF7518;
     font-size: 18px;
     font-weight: bold;
     padding-left: 50px;
-    cursor: pointer; 
+   
 }
 .expl-air-far h4 {
   color: #FF7518;
@@ -1457,7 +1454,7 @@ display: inline-block;
   width: 10px;
 }
 .Lets-break-it-down-headingthre{
-  margin-bottom: 180px;
+  margin-bottom: 0px;
 }
 .Lets-break-it-down-heading-2:hover .Lets-break-it-down-headingthre{
   margin-bottom: 0px;
@@ -1466,7 +1463,7 @@ display: inline-block;
   margin-left: 10px;
 }
 .Lets-break-it-down-heading-bottom{
-  display: none;
+ margin-bottom: 30px;
 }
 .Lets-break-it-down-heading-bottom ul{
   background: #222222 0% 0% no-repeat padding-box;
@@ -1856,7 +1853,7 @@ color: #FF7518;
   background: transparent !important;
 }
 .nonenone{
-  display: none;
+  display: none !important;
 }
 .contact-us-page .Accelerate-Your-Business-frame-middle.new .Accelerate-Your-Business-frame-left-cont {
       margin-top: 40px;
@@ -2070,7 +2067,112 @@ z-index: 99999999999999999999999;
 .Why-Fundedd-Stands-Out.new-add-section .Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame h4{
   font-size: 15px;
 }
+.simple-prosess-main-frame-middle-left h6{
+  color: #fff;
+  padding-left: 50px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 25px;
+}
+.simple-prosess-main-frame-middle-left h6 span{
+  color: #FF7518;
+}
+.Example-Calculation-newaa h4{
+  color: #FF7518;
+  font-size: 18px;
+  padding-left: 50px;
+}
+.Example-Calculation-new{
+  margin-left: 50px;
+  background: #222222 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  padding: 20px 20px;
+  width: 65%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.Example-Calculation-new-middle {
+  display: flex;
+}
+.Example-Calculation-new-middle ul li{
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 10px;;
+  list-style-type: disc;
+}
+.Example-Calculation-new-middle ul li::marker {
+  color: #FF7518;
+}
+.Example-Calculation-new-middle ul{
+  padding-left: 20px !important;
+}
+.Example-Calculation-new-middle-right h5{
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 35px;
+}
+.Example-Calculation-new-middle-right h5 span{
+  color: #FF7518;
+}
+.Example-Calculation-new-middle-right{
+  padding-left: 10%;
+}
+.Example-Calculation-new p{
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.simple-prosess-main-frame.ne-section .Lets-break-it-down-heading-bottom ul{
+background: transparent;
+box-shadow: inherit;
+width: 100%;
+padding: 0px !important;
+justify-content: normal;
+}
+.simple-prosess-main-frame.ne-section .Lets-break-it-down-heading-bottom ul li{
+  background: #222222 0% 0% no-repeat padding-box;
+  box-shadow: 25px 25px 25px #0000002B;
+  border-radius: 25px;
+  margin-right: 2%;
+  padding: 30px;
+}
+.simple-prosess-main-frame.ne-section .Lets-break-it-down-heading-bottom ul li h4 span{
+  display: block;
+  margin-left: 0px;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 6px;
+}
+.simple-prosess-main-frame.ne-section .Lets-break-it-down-heading-bottom ul li ul{
+  display: inline-block;
+  margin-top: 0px !important;
+  width: 100%;
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+  box-shadow: initial;
+  margin-top: 15px !important;
+}
+.simple-prosess-main-frame.ne-section .Lets-break-it-down-heading-bottom ul li ul li{
+  color: #fff;
+  box-shadow: initial;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 15px;
+  list-style-type: disc;
+}
+.simple-prosess-main-frame.ne-section .Lets-break-it-down-heading-bottom ul li ul li::marker {
+  color: #FF7518;
+}
+.These-components-ensure p{
+  color: #fff;
+  padding-left: 50px; 
+  margin-bottom: 40px; 
+}
 @media all and (min-width:120px) and (max-width:680px){
+
   .contact-us-page-middle-middle {
     display: inline-block;
     width: 100%;
@@ -2297,8 +2399,54 @@ z-index: 99999999999999999999999;
   width: 100%;
 }
   .Reliable-Funding-When-You-Need.What-is-AR-Factoring .Expert-Advisory-img-resp-main img.left-Advisory {
-    bottom: 0px;
+    bottom: 0px !important; 
     position: relative;
+}
+.Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left h3 br{
+  display: none;
+}
+.Top-Benefits-of-AR-Factoring-for-Your-Business-middle.new-md .Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left {
+  width: 100%;
+}
+.simple-prosess-main-frame-middle-left h4 br{
+  display: none;
+}
+.Example-Calculation-new-middle {
+  display: inline-block;
+}
+.simple-prosess-main-frame.ne-section .Lets-break-it-down-heading-bottom ul li{
+  margin-bottom: 20px;
+}
+.total-invoice-value-frame-main-page-middle ul li {
+  width: 100%;
+}
+.total-invoice-value-frame-main-page-middle ul li h4{
+  margin-top: 0px;
+}
+.total-invoice-value-frame-main-page-middle ul li:nth-child(4) {
+  margin-bottom: 20px;
+}
+.Why-Fundedd-Stands-Out.new-add-section .Begin-Your-Funding-Journey-middle-left-left {
+  padding: 0px;
+  width: 100%;
+  display: inline-block;
+}
+.Why-Fundedd-Stands-Out.new-add-section .Why-Fundedd-Stands-Out-middle-left {
+  width: 100%;
+}
+.Why-Fundedd-Stands-Out.new-add-section .Why-Fundedd-Stands-Out-middle-right-top-right {
+  width: 100%;
+}
+.Why-Fundedd-Stands-Out.new-add-section .Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame.righrtwo {
+  width: 100%;
+  margin: 0 auto;
+}
+.Why-Fundedd-Stands-Out.new-add-section .Why-Fundedd-Stands-Out-middle-right {
+  width: 100%;
+}
+.ar-part-footer-page-middle h5 {
+  color: #F2F2F2;
+  font-size: 13px;
 }
   .Accelerate-Your-Business-frame-middle.new .Accelerate-Your-Business-frame-left-cont {
     margin-top: 0px;

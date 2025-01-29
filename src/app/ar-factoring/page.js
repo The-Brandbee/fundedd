@@ -164,42 +164,84 @@ export default function Arfactoring() {
 </div>
 </div>
 </section>     
-<section className="simple-prosess-main-frame">
+<section className="simple-prosess-main-frame ne-section">  
 <div className="container">
   <div className="simple-prosess-main-frame-middle"> 
        <div className="simple-prosess-main-frame-middle-left">  
             <h4>How to <span>Calculate</span> <br/>AR Factoring</h4>
-            <p>Calculating the amount of funding you can receive from AR <br/>factoring is simple. Use the following formula:</p>
-            <h5>Funding Amount</h5>         
+            <h5>The Simple Formula</h5>     
+            <h6>Funding Amount <span>=</span> Total Invoice Value <span>×</span> Advance Rate</h6>    
        </div>
        <div className="simple-prosess-main-frame-middle-right">
        <Image src={headertopiconFL} alt="" />
        </div>
   </div>
+  <div className="Example-Calculation-newaa">
+    <h4>Example Calculation</h4>
+  </div>
+  <div className="Example-Calculation-new">
+     <div className="Example-Calculation-new-middle">
+       <div className="Example-Calculation-new-middle-left">
+           <ul>
+            <li>
+          Total Invoice Value: $10,000 
+            </li>
+            <li>
+          Advance Rate: 90%
+            </li>
+           </ul>
+       </div>
+       <div className="Example-Calculation-new-middle-right">
+        <h5><span>Funding Amount</span> = $10,000 × 90% = ($10,000 × 2%) <br/><span>Funding Amount</span> = $9,000</h5>
+       </div>
+     </div>
+     <p>Note: Charges of Discount fee/Interest will be charged after collection from the Customer.</p>
+  </div>
   <div className="Lets-break-it-down">
      <div className="Lets-break-it-down-heading-2">
       <div className="Lets-break-it-down-headingthre">
-        <h4>Let's break it down <span><Image src={Arrowm} alt="" /></span></h4>
+        <h4>Core Pricing Explained </h4>
         </div>
         <div className="Lets-break-it-down-heading-bottom">
        <ul>
         <li>
-          <h4>Total Invoice Value</h4>
-          <p>The total amount of the invoices you want to factor.</p>
+          <h4>Discount Rate/Fee <span>(1.5% - 5% per month)</span></h4>
+          <ul>
+            <li>
+            A fee for factoring, calculated as a percentage of the invoice value.
+            </li>
+            <li>Lower rates (e.g., 1%) apply to low-risk invoices.</li>
+            <li>Example: For a $10,000 invoice with a 1% fee, the cost is $100 per month.</li>
+          </ul>
         </li>
         <li>
-          <h4>Advance Rate</h4>
-          <p>The percentage of the invoice value the factoring company will provide upfront, typically between 80%-95%.</p>
+          <h4>Advance Rate <span>(75%-90%):</span></h4>
+          <ul>
+            <li>
+            The percentage of the invoice value you receive upfront.
+            </li>
+            <li>Example: For a $10,000 invoice with a 90% advance rate, you get $9,000 upfront.</li>
+          
+          </ul>
         </li>
         <li>
-          <h4>Factoring Fee</h4>
-          <p>The fee charged by the factoring company, usually a percentage of the invoice value. </p>
+          <h4>Reserve <span>(Based on Underwriting):</span></h4>
+          <ul>
+            <li>
+            A portion of the invoice value held back to cover risks, is released after the invoice is paid.
+            </li>
+            <li>90% advance is provided, with 10% reserved and returned after customer payment, minus discount fees.</li>
+          
+          </ul>
         </li>
        </ul>
      </div>  
      </div>
+     <div className="These-components-ensure">
+      <p>These components ensure pricing is tailored to your business risk level, offering transparency and flexibility.</p>
+     </div>
      <div className="expl-air-far">
-     <h4>Example <span><Image src={Arrowm} alt="" /></span></h4>
+     <h4>Additional Fees </h4>
      </div>
      
   </div>
