@@ -1858,6 +1858,11 @@ color: #FF7518;
   display: none;
 }
 @media all and (min-width:120px) and (max-width:680px){
+  .hubspot-form-pop-main-all-page-middle {
+    width: 90%;
+    overflow: auto;
+    height: 100%;
+  }
   .How-Banks-Benefit-parter-page{
     padding: 20px 20px;
     margin-top: 20px;
