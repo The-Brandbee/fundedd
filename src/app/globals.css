@@ -1857,7 +1857,136 @@ color: #FF7518;
 .nonenone{
   display: none;
 }
+.contact-us-page .Accelerate-Your-Business-frame-middle.new .Accelerate-Your-Business-frame-left-cont {
+      margin-top: 40px;
+}
+.conta-us-list-main-page{
+  margin-top: 30px !important;
+}
+.conta-us-list-main-page h4{
+  color: #FF7518;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.conta-us-list-main-page li{
+  display: flex;
+      align-items: center;
+      color: #f2f2f2;
+      margin-bottom: 20px;
+}
+.conta-us-list-main-page li img{
+  width: 25px;
+  margin-right: 10px;
+}
+.social-media-icon{
+  display: flex;
+  margin: 40px 0px !important;
+}
+.social-media-icon li{
+  margin-right: 20px;
+}
+.social-media-icon li img{
+  width: 35px;
+}
+.contact-us-page .read-jon-main-frame-inner-two .Begin-Your-Funding-Journey-middle-left-left p{
+  padding-left: 0px;
+  padding-top: 0px;
+  margin-top: 15px;
+}
+.contact-us-page .Begin-Your-Funding-Journey-middle-left-left h4 {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.contact-us-page-middle{
+  background: #222222;
+  padding: 70px 0px;
+}
+.contact-us-page-middle-middle{
+  display: flex;
+  justify-content: space-between;
+}
+.contact-us-page-middle-middle-left{
+width: 40%;
+z-index: 99999999999999999999999;
+}
+.contact-us-page-middle-middle-left h4{
+  color: #fff;
+  font-size: 32px;
+}
+.contact-us-page-middle-middle-left h4 span{
+  color: #FF7518;
+}
+.contact-us-page-middle-middle-left p{
+  color: #fff;
+  margin-top: 40px;
+  padding-left: 50px;
+} 
+.contact-us-page-middle-middle-right{
+  width: 55%;
+  }
+  .contact-us-page-middle-middle-right p{
+    color: #fff;
+  }
+  .contact-us-page-middle-middle-right-from{
+    background: #727272;
+    padding: 25px 30px;
+    border-radius: 20px;
+  }
+  .contact-us-page .read-jon-main-frame-inner-two{
+    padding-top: 40px;
+  }
+  .contact-us-page .read-jon-main-frame-inner-two-middle-left {
+    padding-left: 50px;
+   }
+   .contact-us-page-middle .container{
+    position: relative;
+   }
+   .contact-us-page-middle .container::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: url(../app/img/Fundedd-logo-04@2x-new-new.png); 
+    left: 1%;
+    bottom: -30%;
+    background-size: 61%;
+    background-repeat: no-repeat;
+    z-index: 999;
+    opacity: 0.5;
+    display: none;
+   }
 @media all and (min-width:120px) and (max-width:680px){
+  .contact-us-page-middle-middle {
+    display: inline-block;
+    width: 100%;
+}
+.contact-us-page-middle .container::after{
+  display: none;
+}
+.contact-us-page-middle-middle-right {
+  width: 100%;
+}
+.contact-us-page .read-jon-main-frame-inner-two {
+  padding-top: 0px;
+}
+.contact-us-page .read-jon-main-frame-inner-two-middle-left {
+  padding-left: 0px;
+}
+.contact-us-page .read-jon-main-frame-inner-two {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.contact-us-page-middle {
+  padding: 40px 0px;
+}
+.contact-us-page-middle-middle-left {
+  width: 100%;
+  z-index: 99999999999999999999999;
+}
+  .contact-us-page .Accelerate-Your-Business-frame-left{
+    margin-bottom: 25px;
+  }
   .hubspot-form-pop-main-all-page-middle {
     width: 90%;
     overflow: auto;
