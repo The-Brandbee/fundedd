@@ -1332,7 +1332,8 @@ padding-right: 0px;
   margin-top: 0px;
   transform: translate(0px, 0px);
   transition: transform 1s ease-in-out;
-  margin-bottom: 30px;                            
+  margin-bottom: 30px; 
+  box-shadow: 25px 25px 25px #0000002B;                           
 }   
 .Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame.righr{
   padding-bottom: 90px;
@@ -1947,15 +1948,128 @@ z-index: 99999999999999999999999;
     position: absolute;
     width: 50%;
     height: 100%;
-    background: url(../app/img/Fundedd-logo-04@2x-new-new.png); 
+    background: url(../app/img/Layer1@2x.png); 
     left: 1%;
     bottom: -30%;
     background-size: 61%;
     background-repeat: no-repeat;
     z-index: 999;
     opacity: 0.5;
-    display: none;
+   
    }
+   .ar-factoring-main-page .Expert-Advisory-img-resp-main img{
+    bottom: 125px !important;
+   }
+   .Reliable-Funding-When-You-Need.What-is-AR-Factoring .Expert-Advisory-for-middle-left-cont ul li{
+    font-size: 14px;
+   }
+   .Reliable-Funding-When-You-Need.What-is-AR-Factoring .Expert-Advisory-for-middle-left-cont p{
+    font-size: 14px;
+   }
+   .ar-factoring-main-page .Top-Benefits-of-AR-Factoring-for-Your-Business-middle{
+    flex-wrap: wrap;
+   }
+   .ar-factoring-main-page .Top-Benefits-of-AR-Factoring-for-Your-Business-middle .Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left{
+    width: 100%;
+   }
+   .ar-factoring-main-page .Top-Benefits-of-AR-Factoring-for-Your-Business-middle .Top-Benefits-of-AR-Factoring-for-Your-Business-middle-right{
+    width: 100%;
+   }
+   .Top-Benefits-of-AR-Factoring-for-Your-Business-middle.new-md .Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left{
+    width: 50%;
+   }
+   .Top-Benefits-of-AR-Factoring-for-Your-Business-middle.new-md .Top-Benefits-of-AR-Factoring-for-Your-Business-middle-right{
+    width: 50%;
+   }
+   .ar-part-footer-page-middle{
+    background: #000;
+    padding-top:40px;
+   }
+   .ar-part-footer-page-middle h5{
+    color: #F2F2F2;
+    font-size: 16px;
+   }
+   .ar-part-footer-page-middle p{
+    color: #F2F2F2;
+    margin-bottom: 0px;
+    margin-top: 24px;
+    font-size: 12px;
+    line-height: 25px;
+   }
+   .total-invoice-value-frame-main-page-middle ul {
+    display: flex;
+    flex-wrap: wrap;
+   
+    width: 92%;
+    margin: 0 auto !important;
+   }
+   .total-invoice-value-frame-main-page-middle ul li{
+    width: 33%;
+    display: flex;
+    margin-bottom: 20px;
+
+   }
+   .total-invoice-value-frame-main-page-middle ul li:nth-child(4){
+    margin-bottom: 0px;
+   }
+   .total-invoice-value-frame-main-page-middle ul li:nth-child(5){
+    margin-bottom: 0px;
+   }
+   .total-invoice-value-frame-main-page-middle ul li h4{
+    color: #F2F2F2;
+    font-size: 18px;
+    font-weight: 600; 
+   }
+   .total-invoice-value-frame-main-page-middle ul li p{
+    width: 100%;
+      color: #F2F2F2;
+      margin-top: 10px;
+   }
+   .total-invoice-value-frame-main-page-middle ul li .right-ico{
+
+   }
+   .total-invoice-value-frame-main-page-middle ul li img{
+    width: 22px;
+    margin-right: 10px;
+   }
+   .Why-Fundedd-Stands-Out.new-add-section{
+ 
+   } 
+   .Why-Fundedd-Stands-Out.new-add-section .Begin-Your-Funding-Journey-middle-left-left {
+    padding: 0px;
+    width: 100%;
+    display: flex;
+} 
+.Why-Fundedd-Stands-Out.new-add-section .Key-Advantages-main-frame h4{
+  color: #FF7518;
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.Why-Fundedd-Stands-Out.new-add-section .Why-Fundedd-Stands-Out-middle-right-top-left {
+  width: 100%;
+}
+.Why-Fundedd-Stands-Out.new-add-section .Why-Fundedd-Stands-Out-middle-left {
+  width: 25%;
+}
+.Why-Fundedd-Stands-Out.new-add-section .Why-Fundedd-Stands-Out-middle-right {
+  width: 70%;
+}
+.Why-Fundedd-Stands-Out.new-add-section .Why-Fundedd-Stands-Out-middle {
+
+  justify-content: space-between;
+}
+.Why-Fundedd-Stands-Out.new-add-section .Why-Fundedd-Stands-Out-middle-right-top-right {
+  width: 31%;
+}
+.Why-Fundedd-Stands-Out.new-add-section .Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame.righrtwo {
+
+  width: 80%;
+  margin: 0 auto;
+}
+.Why-Fundedd-Stands-Out.new-add-section .Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame h4{
+  font-size: 15px;
+}
 @media all and (min-width:120px) and (max-width:680px){
   .contact-us-page-middle-middle {
     display: inline-block;

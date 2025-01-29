@@ -38,7 +38,7 @@ import ExpertThree from "../img/shutterstock_2280786247@2x.png";
 export default function Arfactoring() {
   return (
     <>                      
-      <main>                   
+      <main className="ar-factoring-main-page">                   
         <Head>
           <meta charset="utf-8" />
           <meta
@@ -90,8 +90,7 @@ export default function Arfactoring() {
       <div className="Expert-Advisory-for-middle-left-cont">
          <h3>What is <span>AR Factoring?</span></h3>        
          <p>
-         Waiting months for invoice payments can slow your business growth. With Fundedd's Accounts Receivable (AR) Factoring, turn your unpaid invoices into immediate cash.
-Our robust underwriting and credit risk analytics ensure you get the best funding solution tailored to your needs. Whether you need working capital or a risk-free way to improve cash flow, AR factoring offers the flexibility to meet your goals.
+         Waiting months for invoice payments can slow your business growth. With Fundedd's Accounts Receivable (AR) Factoring, turn your unpaid invoices into immediate cash. Our robust underwriting and credit risk analytics ensure you get the best funding solution tailored to your needs. Whether you need working capital or a risk-free way to improve cash flow, AR factoring offers the flexibility to meet your goals.
 
          </p>
 <h5>Key Advantages Over Loans:
@@ -104,6 +103,15 @@ Our robust underwriting and credit risk analytics ensure you get the best fundin
   </li>
   <li>No long-term debt commitments.</li>  
 </ul>
+<h5>Why Fundedd?
+  <p>Credit risk analytics play a pivotal role in our pricing and approval process. We evaluate:</p>
+  <ul>
+    <li>Customer creditworthiness</li>
+    <li>Invoice volume</li>  
+    <li>Industry-specific risks</li>
+  </ul>
+  <p>Simply sell us your invoices, and get paid right away. We handle the collections while you focus on growing your business.</p>
+</h5>   
        
         </div>  
       </div>
@@ -123,11 +131,11 @@ Our robust underwriting and credit risk analytics ensure you get the best fundin
 <div className="container">      
     <div className="Top-Benefits-of-AR-Factoring-for-Your-Business-middle">
         <div className="Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left">
-              <h3>Why <span>AR Factoring</span> is a <br/>Game-Changer for Your Business?
+              <h3>Why <span>AR Factoring</span> is a Game-Changer for Your Business?
               </h3>
         </div>           
         <div className="Top-Benefits-of-AR-Factoring-for-Your-Business-middle-right">
-              <p>AR factoring provides numerous advantages<br/> that can significantly benefit your business.<br/> Here's how:</p>   
+              <p>AR factoring provides numerous advantages that can significantly benefit your business. Here's how:</p>   
               
         </div> 
     </div>
@@ -139,12 +147,12 @@ Our robust underwriting and credit risk analytics ensure you get the best fundin
 </section>      
 <section className="How-Fundedd-Stands-Out ndpage">
 <div className="container">
-<div className="Top-Benefits-of-AR-Factoring-for-Your-Business-middle">
+<div className="Top-Benefits-of-AR-Factoring-for-Your-Business-middle new-md">
         <div className="Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left">
-              <h3>How Does <span>AR Factoring</span> Work?</h3>
+              <h3>How Does AR <br/>Factoring Work?</h3>
         </div>           
         <div className="Top-Benefits-of-AR-Factoring-for-Your-Business-middle-right">
-              <p>The process of AR factoring with Fundedd is designed to be simple, transparent, and efficient, ensuring businesses can focus on growth while we handle cash flow needs.</p>   
+              <p>The process of AR factoring with Fundedd is designed to be<br/> simple, transparent, and efficient, ensuring businesses can focus<br/> on growth while we handle cash flow needs.</p>   
               
         </div> 
     </div>
@@ -160,7 +168,7 @@ Our robust underwriting and credit risk analytics ensure you get the best fundin
 <div className="container">
   <div className="simple-prosess-main-frame-middle"> 
        <div className="simple-prosess-main-frame-middle-left">  
-            <h4>The Simple Process to Calculate<br/> <span>AR Factoring</span> and Unlock Funding</h4>
+            <h4>How to <span>Calculate</span> <br/>AR Factoring</h4>
             <p>Calculating the amount of funding you can receive from AR <br/>factoring is simple. Use the following formula:</p>
             <h5>Funding Amount</h5>         
        </div>
@@ -200,46 +208,108 @@ Our robust underwriting and credit risk analytics ensure you get the best fundin
 
 <section className="total-invoice-value-frame-main-page">
 <div className="container">
-   <div className="total-invoice-value-frame-main-page-middle">      
-     <p>If your total invoice value is $10,000, the advance rate is 90%,<br/> and the factoring fee is 2%, the calculation would be:</p>
-   <h4>Funding Amount <span>=</span> $10,000 <span>×</span> 90% <span>-</span> ($10,000 <span>×</span> 2%) = $9,000 <span>-</span> $200 <span>=</span> $8,800</h4>
-   </div>
+   <div className="total-invoice-value-frame-main-page-middle">  
+      <ul>
+        <li>
+          <div>
+          <Image src={headertopicon} alt="" />
+          </div>
+          <div className="right-ico">
+          <h4>Origination Fee</h4>
+          <p>One-time fee during account setup.</p>
+          </div>
+        </li>
+        <li>
+          <div>
+          <Image src={headertopicon} alt="" />
+          </div>
+          <div className="right-ico">
+          <h4>Service Fee</h4>
+          <p>No service fee is required.</p>
+          </div>
+        </li>
+        <li>
+          <div>
+          <Image src={headertopicon} alt="" />
+          </div>
+          <div className="right-ico">
+          <h4>Late Payment Fee</h4>
+          <p>A late payment fee is applied if the invoice remains unpaid for more than 91 days past the due date.</p>
+          </div>
+        </li>
+        <li>
+          <div>
+          <Image src={headertopicon} alt="" />
+          </div>
+          <div className="right-ico">
+          <h4>Credit Check Fee</h4>
+          <p>For customer creditworthiness checks.</p>
+          </div>
+        </li>
+        <li>
+          <div>
+          <Image src={headertopicon} alt="" />
+          </div>
+          <div>
+          <h4>Default Fee</h4>
+          <p>Legal collection or bankruptcy servicing.</p>
+          </div>
+        </li>
+        </ul>    
+    </div>
 </div>
 </section>
 
-<div className="Why-Fundedd-Stands-Out">
+<div className="Why-Fundedd-Stands-Out new-add-section">
 <div className="container">    
+<div className="Begin-Your-Funding-Journey-middle-left-left">
+            <h4>Why Fundedd Stands Out <br/>in <span>AR Factoring</span> Solutions for Your Business </h4>
+              <p>At Fundedd, we specialize in helping businesses like yours access quick, hassle-free funding through AR factoring. Our process is simple, transparent, and tailored to your needs.</p>
+                
+          </div> 
+          <div className="Key-Advantages-main-frame">
+            <h4>Key Advantages:</h4>
+            </div> 
      <div className="Why-Fundedd-Stands-Out-middle">
           <div className="Why-Fundedd-Stands-Out-middle-left">
-          <div className="Begin-Your-Funding-Journey-middle-left-left">
-            <h4>Why Fundedd Stands Out in <span>AR Factoring</span> Solutions for Your Business </h4>
-              <p>At Fundedd, we specialize in helping businesses like yours access quick, hassle-free funding through AR factoring. Our process is simple, transparent, and tailored to your needs.</p>
-              <p><GETFUNDEDD/></p>         
-          </div>  
+          <div className="Why-Fundedd-Stands-Out-middle-right-top-left">
+                    <div className="Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame">
+                      <h4> <Image src={headertopicon} alt="" /> No Collateral Required</h4>
+                      <p>Unlike traditional loans, we don't require collateral, which means no risk to your assets.</p>
+                    </div>
+                    <div className="Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame">
+                      <h4> <Image src={headertopicon} alt="" /> Competitive Rates</h4>
+                      <p>We offer fair and transparent rates with no hidden fees, ensuring you get the most out of your invoices.</p>
+                    </div>    
+                </div>
+             
           </div>
           <div className="Why-Fundedd-Stands-Out-middle-right">
                <div className="Why-Fundedd-Stands-Out-middle-right-top">
-                <div className="Why-Fundedd-Stands-Out-middle-right-top-left">
-                    <div className="Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame">
-                      <h4> <Image src={headertopicon} alt="" /> No Collateral Required</h4>
-                      <p>Protect your assets while accessing funds.</p>
-                    </div>
-                    <div className="Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame">
-                      <h4> <Image src={headertopicon} alt="" />Quick Access to Funds</h4>
-                      <p>Efficient processes ensure timely cash flow.</p>
-                    </div>    
-                </div>
-                <div className="Why-Fundedd-Stands-Out-middle-right-top-right">
+               <div className="Why-Fundedd-Stands-Out-middle-right-top-right">
                 <div className="Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame righr">
-                      <h4> <Image src={headertopicon} alt="" /> Competitive Rates</h4>
-                      <p>Transparent pricing with no hidden fees.</p>
+                      <h4> <Image src={headertopicon} alt="" /> Industry Expertise</h4>
+                      <p>Years of experience serving businesses across multiple sectors</p>
                     </div>   
                   </div>
+                  <div className="Why-Fundedd-Stands-Out-middle-right-top-right">
+                <div className="Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame righr">
+                      <h4> <Image src={headertopicon} alt="" /> Comprehensive <br/>Support</h4>
+                      <p>Expert guidance from our financial team.</p>
+                    </div>   
+                  </div>
+                  <div className="Why-Fundedd-Stands-Out-middle-right-top-right">
+                <div className="Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame righr">
+                      <h4> <Image src={headertopicon} alt="" /> Robust Technology <br/>Platform</h4>
+                      <p>Seamlessly manage underwriting and operations.</p>
+                    </div>   
+                  </div>
+               
                </div>
                <div className="Why-Fundedd-Stands-Out-middle-right-bottom">
                <div className="Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame righrtwo">
-                      <h4> <Image src={headertopicon} alt="" /> Robust Technology Platform</h4>
-                      <p>Seamlessly manage underwriting and operations.</p>
+                      <h4> <Image src={headertopicon} alt="" /> Quick Access to Funds</h4>
+                      <p>Our easy and efficient process means you get the cash you need without waiting for customer payments.</p>
                     </div>        
                </div>
               </div>
@@ -259,6 +329,12 @@ Our robust underwriting and credit risk analytics ensure you get the best fundin
     <Image src={ExpertTwoJoin} alt="" className="left-Advisory"/>  
     </div>
   </div>
+  </div>
+</section>
+<section className="ar-part-footer-page-middle">
+  <div className="container">
+     <h5>*Streamlined Application Process ( Disclosure )</h5>
+     <p>Our application process is designed to be straightforward and convenient, taking only a few minutes of your time to complete. Once you’ve submitted your application to Fundded, we will promptly provide you with an initial proposal that outlines your factoring and advance rates. It’s important to note that signing the application and proposal does not commit your business to utilize our services. It is also not a commitment for Fundded to advance any funds whatsoever until we conduct a complete review of the underlying information that we request. We prioritize privacy and are fully dedicated to maintaining the confidentiality of all information shared with us.</p>
   </div>
 </section>
 
