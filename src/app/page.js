@@ -10,6 +10,7 @@ import TestimonialSlide from "../app/common/TestimonialSlide.js";
 import ClientsSay from "../app/common/Client.js"; 
 import Tab from "../app/common/Tab.js"; 
 import Marquee from "../app/common/Marqueee.js"; 
+import HubSpotFormpopup from "../app/common/HubSpotFormpopup.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
 import Script from "next/script";
@@ -35,6 +36,13 @@ import ExpertThreeTW from "../app/img/Fundedd-logo-04@2x.png";
 import Logo from "../app/img/fund-l.png";   
 
 export default function Home() {
+    // State to track whether the content is visible
+    const [isVisible, setIsVisible] = useState(false);
+
+    // Function to toggle visibility
+    const toggleVisibility = () => {
+      setIsVisible((prev) => !prev);
+    };
   return (
     <>                      
       <main>                   
@@ -67,7 +75,14 @@ export default function Home() {
        </div>
        <div className="Empowering-Staffing-Companies-middle-right">
            <p>Optimize your payroll and cash flow with funding solutions customized to your business needs. Access the funding you need, when you need it, by unlocking the value in your invoices</p>
-           <p><a href="/lead-from">GET FUNDEDD</a></p>
+           <p>
+           <Link href="#" onClick={toggleVisibility}>
+                   {isVisible ? '' : ''} GET FUNDEDD
+                </Link>
+                {isVisible && (
+                  <HubSpotFormpopup /> 
+                 )}
+           </p>
         </div>  
    </div>
 </div>
@@ -84,7 +99,14 @@ export default function Home() {
            </div>
            <div className="Reliable-Funding-When-You-Need-middle-left-header-cont">
             <p>At Fundedd, we deliver specialized AR factoring solutions that put you in control of your cash flow. Our flexible funding approach ensures you can meet payroll demands, fuel growth, and optimize operations at every stage of your business journey.</p>
-           <p><a  href="/lead-from">APPLY NOW</a></p> 
+           <p>
+           <Link href="#" onClick={toggleVisibility}>
+                   {isVisible ? '' : ''} APPLY NOW
+                </Link>
+                {isVisible && (
+                  <HubSpotFormpopup /> 
+                 )}
+           </p> 
            </div>
            <div className="Reliable-Funding-When-You-Need-middle-left-header-cont-bottom">
              <div className="Reliable-Funding-When-You-Need-middle-left-header-cont-bottom-to-left">
@@ -288,7 +310,12 @@ export default function Home() {
            <div className="Begin-Your-Funding-Journey-middle-left-left">
              <h4>Begin Your Funding Journey <br/><span>with Fundedd</span></h4>
              <p>Speak to our experts about tailored financing that meets your staffing needs</p>
-             <p><a  href="/lead-from">APPLY NOW </a></p>
+             <p>  <Link href="#" onClick={toggleVisibility}>
+                   {isVisible ? '' : ''} APPLY NOW
+                </Link>
+                {isVisible && (
+                  <HubSpotFormpopup /> 
+                 )}</p>
            </div>
            <div className="Begin-Your-Funding-Journey-middle-left-right">
             <Image src={Girl} alt="" />
