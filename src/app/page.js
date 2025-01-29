@@ -89,7 +89,7 @@ export default function Home() {
            <div className="Reliable-Funding-When-You-Need-middle-left-header-cont-bottom">
              <div className="Reliable-Funding-When-You-Need-middle-left-header-cont-bottom-to-left">
                 <h4>Long-Term Partnership</h4>
-                <p>Building lasting relationships through dedicated support and consistent service delivery</p>
+                <p>Building lasting relationships through dedicated support and consistent service delivery.</p>
              </div>
              <div className="Reliable-Funding-When-You-Need-middle-left-header-cont-bottom-to-right">
              <Image src={GirlTwo} alt="" />
@@ -101,7 +101,7 @@ export default function Home() {
         <div className="Reliable-Funding-When-You-Need-middle-left-header-cont-bottom two">
              <div className="Reliable-Funding-When-You-Need-middle-left-header-cont-bottom-to-left">
                 <h4>Custom Solutions</h4>
-                <p>Designed to align with your business objectives and industry needs</p>
+                <p>Designed to align with your business objectives and industry needs.</p>
              </div>
              <div className="Reliable-Funding-When-You-Need-middle-left-header-cont-bottom-to-right">
              <Image src={GirlThree} alt="" />
@@ -113,7 +113,7 @@ export default function Home() {
                 <h4>Rapid Fund Processing</h4>
                 <div className="Rapid-Fund-Processing-main-left-middle">
                   <div className="Rapid-Fund-Processing-main-left-middle-left">
-                    <p>Team response within 24 hours, ensuring your business operations stay on track</p>
+                    <p>Team response within 24 hours, ensuring your business operations stay on track.</p>
                   </div>
                   <div className="Rapid-Fund-Processing-main-left-middle-right">
                      <Image src={GirlFour} alt="" className="normal" /> 
@@ -257,7 +257,7 @@ export default function Home() {
 
 
 
-<section className="What-Our-Clients-Say">
+<section className="What-Our-Clients-Say nonenone">   
 <div className="container">
   <div className="Our-Clients-middle">
        <div className="Our-Clients-middle-left">

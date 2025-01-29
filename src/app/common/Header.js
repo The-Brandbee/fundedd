@@ -1,13 +1,26 @@
 import Head from "next/head";
+import { useState } from 'react';
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../img/fund-l.png";
 import headertopicon from "../img/header-top-icon.png";
 import Search from "../img/search.png";
+import HubSpotFormpopup from "../common/HubSpotFormpopup.js";
 
 function IndexPage() {
+    // State to track whether the content is visible
+    const [isVisible, setIsVisible] = useState(false);
+
+    // Function to toggle visibility
+    const toggleVisibility = () => {
+      setIsVisible((prev) => !prev);
+    };
+  
+  
   return (
     <div className="header-top-frame_main-desktop">
+      
+
     <div className="header-top-frame_main desktop">
       <div className="container">
       <div className="header-top-frame">
@@ -26,8 +39,8 @@ function IndexPage() {
                   <Image src={headertopicon} alt="" />
                   </div>
                   <div className="header-top-right-right">
-                    <h5>Seamless Funding</h5>
-                    <p>Get funds quickly to ensure uninterrupted operations.</p>
+                    <h5>Fast, Seamless Funding</h5>
+                    <p>Get to Access funds quickly to ensure uninterrupted operations.</p>
                   </div>
                 </li>
                 <li>
@@ -40,10 +53,14 @@ function IndexPage() {
                   </div>
                 </li>
                 <li>
-                <Link href="/lead-from">
-                GET FUNDEDD
-          </Link>
-                </li>
+                <Link href="#" onClick={toggleVisibility}>
+                   {isVisible ? '' : ''} GET FUNDEDD
+                </Link>
+                {isVisible && (
+                  <HubSpotFormpopup /> 
+                 )}
+          
+                </li>    
               </ul>
           </div>
       </div>

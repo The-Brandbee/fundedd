@@ -90,7 +90,7 @@ export default function Arfactoring() {
          <h3>What is <span>AR Factoring?</span></h3>        
          <p>
          Waiting months for invoice payments can slow your business growth. With Fundedd's Accounts Receivable (AR) Factoring, turn your unpaid invoices into immediate cash.
-Our robust underwriting and credit risk analytics ensure you get the best funding solution tailored to your needs. Whether you need working capital or a risk-free way to improve cash flow, AR factoring offers the flexibility to meet your goals."
+Our robust underwriting and credit risk analytics ensure you get the best funding solution tailored to your needs. Whether you need working capital or a risk-free way to improve cash flow, AR factoring offers the flexibility to meet your goals.
 
          </p>
 <h5>Key Advantages Over Loans:

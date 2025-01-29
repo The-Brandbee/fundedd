@@ -33,8 +33,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+            <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -49,8 +49,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -65,8 +65,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -81,8 +81,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -97,8 +97,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -113,8 +113,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -129,8 +129,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -145,8 +145,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -161,8 +161,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -177,8 +177,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -193,8 +193,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -209,8 +209,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -225,8 +225,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -241,8 +241,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -257,8 +257,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -273,8 +273,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -289,8 +289,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -305,8 +305,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -321,8 +321,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -337,8 +337,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -353,8 +353,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -369,8 +369,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -385,8 +385,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -401,8 +401,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -417,8 +417,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
@@ -433,8 +433,8 @@ export default function TestimonialSlide() {
             <Image src={GirlNN} alt="" />
          </div>
          <div className="marqu-main-frame-img-cont">
-            <h4>Simplify Payroll with Expertise You Can Trust</h4>
-            <p>Drive growth with flexible funding options and industry-specific expertise you can count on.</p>
+         <h4>Trusted Payroll Funding Partner</h4>
+            <p>Get specialized AR factoring solutions that put you in control of your cash flow, ensuring you never miss a payroll deadline while fueling your business growth.</p>
             <p><a href="#"> <Image src={Arrow} alt="" /></a></p>
          </div>
          <div className="marqu-main-frame-img">
