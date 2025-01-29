@@ -220,7 +220,7 @@ footer{
   display: block;
 }
 .footer-middle-left .footer-middle-left-search{
-  
+  width: 55%;
 }
 .footer-middle-left .footer-middle-left-search input{
   background: #F2F2F2 0% 0% no-repeat padding-box;
@@ -2172,6 +2172,9 @@ justify-content: normal;
   margin-bottom: 40px; 
 }
 @media all and (min-width:120px) and (max-width:680px){
+  .footer-middle-left .footer-middle-left-search{
+    width: 100%;
+  }
 
   .contact-us-page-middle-middle {
     display: inline-block;

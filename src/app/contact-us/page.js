@@ -108,7 +108,7 @@ export default function Arfactoring() {
     </div>
  </section>
 
-<section className="read-jon-main-frame-inner-two">
+<section className="read-jon-main-frame-inner-two nonenone">
 <div className="container">
   <div className="read-jon-main-frame-inner-two-middle">
     <div className="read-jon-main-frame-inner-two-middle-left">

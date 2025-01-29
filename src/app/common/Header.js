@@ -40,7 +40,7 @@ function IndexPage() {
                   </div>
                   <div className="header-top-right-right">
                     <h5>Fast, Seamless Funding</h5>
-                    <p>Get to Access funds quickly to ensure uninterrupted operations.</p>
+                    <p>Get to access funds quickly to ensure uninterrupted operations.</p>
                   </div>
                 </li>
                 <li>

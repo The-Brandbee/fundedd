@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
+import SUBSCRIBE from "../common/SUBSCRIBE.js";
 import Logo from "../img/fund-l.png";
 function IndexPage() {
   return (
@@ -12,10 +13,8 @@ function IndexPage() {
 
                <h4><span>Sign up</span> for email updates</h4>
                <p>Your one-stop shop for the tech, business, and finance news you need <span>to know each week.</span></p>
-               <div className="footer-middle-left-search">
-                <input type="text"/>
-                <button>SUBSCRIBE</button>
-               </div>
+             
+               <SUBSCRIBE/>  
                <Link href="/">
           <Image src={Logo} alt="" />
           </Link>
