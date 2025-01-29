@@ -169,7 +169,7 @@ export default function Arfactoring() {
 </section>
 
 
-<section className="leadership-team-about-us">
+<section className="leadership-team-about-us nonenone">
 <div className="container">
      <div className="leadership-team-about-us-middle">
         <div className="leadership-team-about-us-left">
