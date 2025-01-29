@@ -31,9 +31,9 @@ import Trusted from "../img/cash-flow_2751464@2x.png";
 import headertopicon from "../img/header-top-icon.png";
 import Arrowm from "../img/arrow-small.png";  
 import headertopiconFL from "../img/Gear-Light-Bulb-Idea-Business-Management@2x.png";
-import ExpertTwo from "../img/shutterstock_2231746737@2x.png";
+import ExpertTwo from "../img/shutterstock_2479065559@2x.png";
 import Logo from "../img/fund-l.png";  
-import ExpertThree from "../img/shutterstock_2475089779@2x.png";    
+import ExpertThree from "../img/shutterstock_1955362555@2x.png";    
 
 export default function Arfactoring() {
   return (
