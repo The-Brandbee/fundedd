@@ -2171,7 +2171,40 @@ justify-content: normal;
   padding-left: 50px; 
   margin-bottom: 40px; 
 }
+.simple-prosess-main-frame.ne-section {
+  padding-bottom: 20px;
+}
+
 @media all and (min-width:120px) and (max-width:680px){
+  .simple-prosess-main-frame.ne-section .simple-prosess-main-frame-middle-right {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .Example-Calculation-new {
+    margin-left: 0px;
+    width: 100%;
+}
+.Example-Calculation-newaa h4 {
+  padding-left: 0px;
+}
+.Lets-break-it-down-heading-2 h4{
+  padding-left: 0px;
+}
+.These-components-ensure p{
+  padding-left: 0px;
+}
+.These-components-ensure p{
+  padding-left: 0px;
+}
+.expl-air-far h4{
+  padding-left: 0px;
+}
+.read-jon-main-frame-inner-two{
+  padding-bottom: 0px;
+}
+.Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame.righr {
+  padding-bottom: 40px;
+}
   .footer-middle-left .footer-middle-left-search{
     width: 100%;
   }

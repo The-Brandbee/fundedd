@@ -238,7 +238,7 @@ export default function Arfactoring() {
      </div>  
      </div>
      <div className="These-components-ensure">
-      <p>These components ensure pricing is tailored to your business risk level, offering transparency and flexibility.</p>
+      <p>These components ensure pricing is tailored to your business risk level, offering transparency and flexibility. Sample calculations are <br/>hypothetical examples and not guarantees. Disclosure details below.</p>
      </div>
      <div className="expl-air-far">
      <h4>Additional Fees </h4>
