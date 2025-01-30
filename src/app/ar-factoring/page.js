@@ -205,7 +205,7 @@ export default function Arfactoring() {
         <div className="Lets-break-it-down-heading-bottom">
        <ul>
         <li>
-          <h4>Discount Rate/Fee <span>(1.5% - 5% per month)</span></h4>
+          <h4>Discount Rate/Fee <span>(1% - 2.5% per month)</span></h4>
           <ul>
             <li>
             A fee for factoring, calculated as a percentage of the invoice value.
@@ -220,7 +220,7 @@ export default function Arfactoring() {
             <li>
             The percentage of the invoice value you receive upfront.
             </li>
-            <li>Example: For a $10,000 invoice with a 90% advance rate, you get $9,000 upfront.</li>
+            <li>Example: For a $10,000 invoice with a 90% advance rate, you receive $9,000 upfront.</li>
           
           </ul>
         </li>
@@ -276,7 +276,7 @@ export default function Arfactoring() {
           </div>
           <div className="right-ico">
           <h4>Late Payment Fee</h4>
-          <p>A late payment fee is applied if the invoice remains unpaid for more than 91 days past the due date.</p>
+          <p>Late payment fee incurred after invoice is 91 days outstanding.</p>
           </div>
         </li>
         <li>
