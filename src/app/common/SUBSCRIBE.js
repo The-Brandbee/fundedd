@@ -13,7 +13,7 @@ const HubSpotForm = () => {
         window.hbspt.forms.create({
           portalId: "48953711",
           formId: "63c8cc6a-c81f-4d2d-bd9a-fe54d590462d",
-          target: "#hubspot-form",
+          target: "#deepak",
         });
       } 
     };
@@ -24,7 +24,7 @@ const HubSpotForm = () => {
    
     <div className="footer-middle-left-search">
                 
-                  <div id="hubspot-form"></div> 
+                  <div id="deepak"></div> 
     </div>
       
       

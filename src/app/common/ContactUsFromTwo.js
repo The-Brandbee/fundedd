@@ -11,9 +11,9 @@ const HubSpotForm = () => {
     script.onload = () => {
       if (window.hbspt) {
         window.hbspt.forms.create({
-          portalId: "48953711",
-          formId: "6b571ca5-d35c-4fbd-847b-9758f0348306",
-          target: "#New",
+            portalId: "48953711",
+          formId: "336a6d3a-6c59-4c83-9716-b92268cbc021",
+          target: "#hubspot-form",
         });
       } 
     };
@@ -22,9 +22,9 @@ const HubSpotForm = () => {
 
   return (
     <>
-     <div id="New"></div>   
+     <div id="hubspot-form"></div>   
     </>
   );
 };
 
-export default HubSpotForm;
+export default HubSpotForm;  

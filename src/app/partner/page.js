@@ -68,7 +68,7 @@ export default function Arfactoring() {
                           <h3>Empowering Staffing<br/> Companies Through<br/> <span>Strategic Partnerships</span></h3>
                           <div className="Accelerate-Your-Business-frame-left-cont">
                             <p>Partner with Fundedd to unlock tailored financial solutions and support the growth of staffing companies with accessible funding and expert guidance.</p>
-                            <p><GETFUNDEDD/> 
+                            <p><PARTNERWITHUS/>
                             </p>
                           </div>
                       </div>

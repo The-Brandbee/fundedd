@@ -7,7 +7,8 @@ import Header from "../common/Header.js";
 import HeaderMobileIn from "../common/HeaderMobile.js";
 import GETFUNDEDD from "../common/GETFUNDEDDTWO.js";
 import ContactUsFrom from "../common/ContactUsFrom.js";
-import PARTNERWITHUS from "../common/PARTNERWITHUS.js";
+import ContactUsFromTwo from "../common/ContactUsFromTwo.js";
+import PARTNERWITHUS from "../common/PARTNERWITHUS.js"; 
 import Footer from "../common/Footer.js";
 import TestimonialSlideTwoN from "../common/TestimonialSlideTwo2.js";                 
 import ClientsSay from "../common/Client.js"; 
@@ -101,7 +102,8 @@ export default function Arfactoring() {
             <div className="contact-us-page-middle-middle-right">
                 <p>Our team is here to guide you every step of the way.</p>
                 <div className="contact-us-page-middle-middle-right-from">
-                     <ContactUsFrom/>
+                     <ContactUsFrom/> 
+                    
                 </div>
             </div>
         </div>
