@@ -2347,6 +2347,55 @@ justify-content: normal;
 }
 
 @media all and (min-width:120px) and (max-width:680px){
+  .blog-detail-page-middle {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: 100%;
+    padding: 25px 26px;
+    border-radius: 0px;
+  }
+  .blog-page-inner-section-content ul {
+    padding-left: 0px !important;
+}
+.testimonial-frame-right p:nth-child(2){
+  width: 100%;
+  height: auto;
+}
+.blog-main-pagge-middle {
+  display: inline-block;
+  width: 100%;
+}
+.blog-main-pagge-middle .blog-main-pagge-middle-left {
+  width: 100%;
+}
+.blog-main-pagge-middle .blog-main-pagge-middle-right {
+  width: 100%;
+}
+.blog-main-pagge-middle-right .font-blog-main-middle {
+  display: inline-block;
+}
+.font-blog-main-middle-left {
+  width: 100%;
+  position: relative;
+
+}
+.font-blog-main-middle-left h4 {
+  color: #000 !important;
+}
+.font-blog-main-middle-right {
+  width: 100%;
+}
+.Insights-Industry-Trends p {
+ 
+  bottom: 5px;
+}
+  .blog-detail-page-middle h4{
+    font-size: 22px;
+  }
+  .blog-detail-page .container{
+    padding: 0px;
+  }
   .simple-prosess-main-frame.ne-section .simple-prosess-main-frame-middle-right {
     width: 60%;
     margin: 0 auto;

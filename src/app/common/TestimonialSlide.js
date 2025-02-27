@@ -55,7 +55,7 @@ export default function TestimonialSlide() {
            <div className="testimonial-frame-right">
               <Image src={Industry} alt="" />
               <p>Understanding AR Factoring vs. Traditional Loans: What is Best for Your Staffing Business?</p>
-              <p><a href="#"><Image src={IndustryTwo} alt="" /></a></p>
+              <p><a href="/understanding-ar-factoring-vs-traditional-loans-what-is-best-for-your-staffing-business"><Image src={IndustryTwo} alt="" /></a></p>
              </div>
            </div>
            
