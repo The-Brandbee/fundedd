@@ -37,92 +37,32 @@ export default function TestimonialSlide() {
   return (
     <div className="cder-ca-slide">
       <Carousel
-        infinite={true}
-        autoPlay={true}
+        infinite={false }
+        autoPlay={false }
         autoPlaySpeed={2000}
         responsive={responsive}
-      >
+      >          
         
           <div>
            <div className="testimonial-frame-right">
               <Image src={Industry} alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit nisl,</p>
-              <p><a href="#"><Image src={IndustryTwo} alt="" /></a></p>
+              <p>The Rise of Non-Debt Financing: Why more Staffing Businesses are looking for alternative funding solutions</p>
+              <p><a href="/the-rise-of-non-debt-financing-why-more-staffing-businesses-are-looking-for-alternative-funding-solutions"><Image src={IndustryTwo} alt="" /></a></p>
              </div>
            </div>
            
           <div>
            <div className="testimonial-frame-right">
               <Image src={Industry} alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit nisl,</p>
+              <p>Understanding AR Factoring vs. Traditional Loans: What is Best for Your Staffing Business?</p>
               <p><a href="#"><Image src={IndustryTwo} alt="" /></a></p>
              </div>
            </div>
            
-          <div>
-           <div className="testimonial-frame-right">
-              <Image src={Industry} alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit nisl,</p>
-              <p><a href="#"><Image src={IndustryTwo} alt="" /></a></p>
-             </div>
-           </div>
+       
            
-          <div>
-           <div className="testimonial-frame-right">
-              <Image src={Industry} alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit nisl,</p>
-              <p><a href="#"><Image src={IndustryTwo} alt="" /></a></p>
-             </div>
-           </div>
-           
-          <div>
-           <div className="testimonial-frame-right">
-              <Image src={Industry} alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit nisl,</p>
-              <p><a href="#"><Image src={IndustryTwo} alt="" /></a></p>
-             </div>
-           </div>
-           
-          <div>
-           <div className="testimonial-frame-right">
-              <Image src={Industry} alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit nisl,</p>
-              <p><a href="#"><Image src={IndustryTwo} alt="" /></a></p>
-             </div>
-           </div>
-           
-          <div>
-           <div className="testimonial-frame-right">
-              <Image src={Industry} alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit nisl,</p>
-              <p><a href="#"><Image src={IndustryTwo} alt="" /></a></p>
-             </div>
-           </div>
-           
-          <div>
-           <div className="testimonial-frame-right">
-              <Image src={Industry} alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit nisl,</p>
-              <p><a href="#"><Image src={IndustryTwo} alt="" /></a></p>
-             </div>
-           </div>
-           
-          <div>
-           <div className="testimonial-frame-right">
-              <Image src={Industry} alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit nisl,</p>
-              <p><a href="#"><Image src={IndustryTwo} alt="" /></a></p>
-             </div>
-           </div>
-           
-          <div>
-           <div className="testimonial-frame-right">
-              <Image src={Industry} alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit nisl,</p>
-              <p><a href="#"><Image src={IndustryTwo} alt="" /></a></p>
-             </div>
-           </div>
         
+   
       
       
       </Carousel>
