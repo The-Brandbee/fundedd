@@ -1,7 +1,8 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Industry from "../img/shutterstock_1932.png";
+import Industry from "../img/The-Ris.png";
+import IndustryT from "../img/Understanding.png";
 import IndustryTwo from "../img/arrow-up-right-2.png";
 import Image from "next/image";
 import Head from "next/head";
@@ -53,7 +54,7 @@ export default function TestimonialSlide() {
            
           <div>
            <div className="testimonial-frame-right">
-              <Image src={Industry} alt="" />
+              <Image src={IndustryT} alt="" />
               <p>Understanding AR Factoring vs. Traditional Loans: What is Best for Your Staffing Business?</p>
               <p><a href="/understanding-ar-factoring-vs-traditional-loans-what-is-best-for-your-staffing-business"><Image src={IndustryTwo} alt="" /></a></p>
              </div>
