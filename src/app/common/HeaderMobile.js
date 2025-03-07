@@ -64,7 +64,6 @@ class MobileMenu extends React.Component {
                   </AccordionItem>
 
                   
-                  
 
                   <AccordionItem>
                   <Link href="/about-us">
@@ -73,12 +72,27 @@ class MobileMenu extends React.Component {
                       </AccordionItemHeading>
                       </Link>
                   </AccordionItem>
+                
                   <AccordionItem>
-                  <Link href="/">
-                      <AccordionItemHeading>
-                        <AccordionItemButton>Resources</AccordionItemButton>
-                      </AccordionItemHeading>
-                      </Link>
+                    <AccordionItemHeading>
+                      <AccordionItemButton>Resources</AccordionItemButton>
+                    </AccordionItemHeading> 
+                    <AccordionItemPanel>
+                      <div className="Menu-underLink">
+                        <ul>
+                          <li>
+                          <a href="https://www.fundedd.com/blog">
+                          Blog
+                    </a>
+                          </li>
+                          <li>
+                          <a href="https://www.fundedd.com/data-security">
+                          Data Security
+                    </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </AccordionItemPanel>
                   </AccordionItem>
                   <AccordionItem>
                   <Link href="/contact-us">

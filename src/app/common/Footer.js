@@ -25,6 +25,8 @@ function IndexPage() {
                   <ul>
                     <li><a href="/ar-factoring">AR Factoring </a></li>
                     <li><a href="/partner">Partner </a></li>
+                    <li><a href="/data-security">Data Security </a></li>
+                    
                    
                   
                   </ul>
@@ -33,6 +35,8 @@ function IndexPage() {
                   <h4 className="nonenone">Company</h4>
                   <ul>
                     <li><a href="/about-us">About Us
+                    </a></li>
+                    <li><a href="/blog">Blog
                     </a></li>
                     <li><a href="/contact-us">Contact Us</a></li>
                    
