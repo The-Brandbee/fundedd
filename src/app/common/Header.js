@@ -80,6 +80,19 @@ function IndexPage() {
                   <li>
                   <Link href="/about-us">About Us</Link>
                   </li>
+                  <li>
+                  <Link href="#">Resources</Link>
+                  <ul>
+                    <li>
+                    <Link href="/blog">Blog</Link>
+                    
+                    </li>
+                    <li>
+                    
+                    <Link href="/data-security">Data Security</Link>
+                    </li>
+                  </ul>
+                  </li>
                  
                   <li>
                   <Link href="/contact-us">Contact Us</Link>   
