@@ -91,6 +91,10 @@ function IndexPage() {
                     
                     <Link href="/data-security">Data Security</Link>
                     </li>
+                    <li>
+                    
+                    <Link href="/faq">Faqs</Link>
+                    </li>
                   </ul>
                   </li>
                  
