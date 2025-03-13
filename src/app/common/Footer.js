@@ -38,7 +38,7 @@ function IndexPage() {
                     </a></li>
                     <li><a href="/blog">Blog
                     </a></li>
-                    <li><a href="/why-choose">Why Choose
+                    <li><a href="/why-choose">Why Fundedd
                     </a></li>
                     <li><a href="/contact-us">Contact Us</a></li>
                    
