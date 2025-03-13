@@ -35,10 +35,12 @@ import ExpertTwo from "../app/img/shutterstock-5402044.png";
 import ExpertThree from "../app/img/Ellipse-6@2x.png";    
 import ExpertThreeTW from "../app/img/Fundedd-logo-04@2x.png"; 
 import Logo from "../app/img/fund-l.png";   
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function Home() {
   return (
-    <>                      
+    <>     
+    <GoogleTagManager gtmId="GTM-MFH6JPN5" />                  
       <main>                   
         <Head>
           <meta charset="utf-8" />

@@ -27,16 +27,24 @@ import GirlFive from "../img/icckd.png";
 import GirlFourT from "../img/factors_18377058@2x-white.png";    
 import GirlFiveT from "../img/icckd-white.png"; 
 import Trusted from "../img/team-main.png";
-import headertopicon from "../img/header-top-icon.png";
+import TrustedNNN from "../img/team-02.jpg";
 import Arrowm from "../img/arrow-small.png";  
-import headertopiconFL from "../img/15-Money@2x.png";
+import TrustedN from "../img/team-01.jpg";
 import ExpertTwo from "../img/shutterstock_2159023891.png";
-import Logo from "../img/fund-l.png";  
+import TeamTwo from "../img/team-03.jpg";
+import TeamThree from "../img/team-04.jpg";
+import TeamFour from "../img/team-05.jpg";
+import TeamFive from "../img/team-06.jpg";
+import TeamSix from "../img/team-07.jpg";
+import Logo from "../img/fund-l.png"; 
 import ExpertThree from "../img/about-us-1.svg";    
+import { GoogleTagManager } from "@next/third-parties/google"
+
 
 export default function Arfactoring() {
   return (
-    <>                      
+    <>  
+    <GoogleTagManager gtmId="GTM-MFH6JPN5" />                             
       <main className="about-us-main-page">                   
         <Head>
           <meta charset="utf-8" />
@@ -168,43 +176,33 @@ export default function Arfactoring() {
      </div>
 </section>
 
-
+ 
 <section className="leadership-team-about-us nonenone">
 <div className="container">
      <div className="leadership-team-about-us-middle">
         <div className="leadership-team-about-us-left">
         <div className="heading-about-us">
                     <h3><span>Leadership</span> <br/>Team</h3>
-                    <p>At Fundedd, we believe funding is more than just financial capital—it’s an opportunity to build businesses, create jobs, and foster innovation. We are entrepreneurs, serving entrepreneurs, which means we understand your challenges and share your drive for success.</p>
+                    <p>At Fundedd, we believe funding is more than just financial capital—it's an opportunity to build businesses, create jobs, and foster innovation. We are entrepreneurs, serving entrepreneurs, which means we understand your challenges and share your drive for success.</p>
                   </div>
         </div>
         <div className="leadership-team-about-us-left"> 
             <div className="team-img">
-            <Image src={Trusted} alt="" className=""/>  
+            <Image src={TeamTwo} alt="" className=""/>  
             <div className="team-name">
                 <div className="team-name-left">
                     <h4>Rahul Bajaj</h4>
-                    <p>Strategic Chief Advisor</p>
+                    <p>Strategic Chief Advisor
+                    </p>
                 </div>
                 <div className="team-name-right"></div>
             </div>
             </div>
         </div>
+       
         <div className="leadership-team-about-us-left"> 
             <div className="team-img">
-            <Image src={Trusted} alt="" className=""/>  
-            <div className="team-name">
-                <div className="team-name-left">
-                    <h4>Anirban Ghosh</h4>
-                    <p>Global Head of Growth and Strategy</p>
-                </div>
-                <div className="team-name-right"></div>
-            </div>
-            </div>
-        </div>
-        <div className="leadership-team-about-us-left"> 
-            <div className="team-img">
-            <Image src={Trusted} alt="" className=""/>  
+            <Image src={TeamFour} alt="" className=""/>  
             <div className="team-name">
                 <div className="team-name-left">
                     <h4>Asma Manzar</h4>
@@ -219,8 +217,10 @@ export default function Arfactoring() {
             <Image src={Trusted} alt="" className=""/>  
             <div className="team-name">
                 <div className="team-name-left">
-                    <h4>Amal Ali</h4>
-                    <p>Global Head of Marketing</p>
+                    <h4>Amal Ali
+                    </h4>
+                    <p>Global Head of Marketing
+                    </p>
                 </div>
                 <div className="team-name-right"></div>
             </div>
@@ -228,7 +228,7 @@ export default function Arfactoring() {
         </div>
         <div className="leadership-team-about-us-left"> 
             <div className="team-img">
-            <Image src={Trusted} alt="" className=""/>  
+            <Image src={TeamSix} alt="" className=""/>  
             <div className="team-name">
                 <div className="team-name-left">
                     <h4>Varun Ahuja</h4>
@@ -238,6 +238,31 @@ export default function Arfactoring() {
             </div>
             </div>
         </div>
+        <div className="leadership-team-about-us-left"> 
+            <div className="team-img">
+            <Image src={TrustedN} alt="" className=""/>  
+            <div className="team-name">
+                <div className="team-name-left">
+                    <h4>Bill Fusselbaugh</h4>
+                    <p>Financial Strategist</p>
+                </div>
+                <div className="team-name-right"></div>
+            </div>
+            </div>
+        </div>
+        <div className="leadership-team-about-us-left"> 
+            <div className="team-img">
+            <Image src={TrustedNNN} alt="" className=""/>  
+            <div className="team-name">
+                <div className="team-name-left">
+                    <h4>Evan Prodromo</h4>
+                    <p>Executive Vice President</p>
+                </div>
+                <div className="team-name-right"></div>
+            </div>
+            </div>
+        </div>
+        
      </div>
 </div>
 </section>

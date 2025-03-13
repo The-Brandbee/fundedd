@@ -1823,8 +1823,9 @@ width: 40%;
 }
 .leadership-team-about-us-middle{
   display: flex;
-      justify-content: space-between;
+     
       flex-wrap: wrap;
+        
 }
 .leadership-team-about-us{
   padding: 70px 0px;
@@ -1834,6 +1835,8 @@ width: 40%;
 .leadership-team-about-us-left{
   width: 30%;
   margin-top: 35px;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
 }
 .team-img img{
   width: 90%;
