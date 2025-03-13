@@ -34,10 +34,11 @@ import headertopiconFL from "../img/Gear-Light-Bulb-Idea-Business-Management@2x.
 import ExpertTwo from "../img/shutterstock_2479065559@2x.png";
 import Logo from "../img/fund-l.png";  
 import ExpertThree from "../img/shutterstock_1955362555@2x.png";    
-
+import { GoogleTagManager } from "@next/third-parties/google";
 export default function Arfactoring() {
   return (
-    <>                      
+    <>  
+      <GoogleTagManager gtmId="GTM-MFH6JPN5" />                    
       <main className="partner-main-page">                   
         <Head>
           <meta charset="utf-8" />

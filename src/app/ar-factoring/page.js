@@ -34,10 +34,12 @@ import headertopiconFL from "../img/15-Money@2x.png";
 import ExpertTwo from "../img/pexels-tima-miroshnichenko-6693661@2x.png";
 import Logo from "../img/fund-l.png";  
 import ExpertThree from "../img/shutterstock_2280786247@2x.png";    
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function Arfactoring() {
   return (
-    <>                      
+    <>  
+     <GoogleTagManager gtmId="GTM-MFH6JPN5" />                       
       <main className="ar-factoring-main-page">                   
         <Head>
           <meta charset="utf-8" />

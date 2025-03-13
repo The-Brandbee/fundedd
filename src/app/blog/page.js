@@ -40,10 +40,12 @@ import ExpertThree from "../img/shutterstock_2122524395.png";
 import Industry from "../img/shutterstock_1932.png";
 import IndustryTwo from "../img/arrow-up-right-2.png";
 import BlogPost from "../component/BlogPost"; 
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function Arfactoring() {
   return (
-    <>                      
+    <>     
+      <GoogleTagManager gtmId="GTM-MFH6JPN5" />                  
       <main className="contact-us-page">                   
         <Head>
           <meta charset="utf-8" />

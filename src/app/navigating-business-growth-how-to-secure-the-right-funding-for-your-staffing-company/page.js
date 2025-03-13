@@ -37,10 +37,11 @@ import ExpertTwo from "../img/location@2x.png";
 import Logo from "../img/fund-l.png";  
 import BlogBanner from "../img/Group-63@2x.png";     
 import TestimonialSlide from "../common/TestimonialSlide.js"; 
-
+import { GoogleTagManager } from "@next/third-parties/google";
 export default function Arfactoring() {
   return (
-    <>                      
+    <>    
+      <GoogleTagManager gtmId="GTM-MFH6JPN5" />                   
       <main className="contact-us-page">                   
         <Head>
           <meta charset="utf-8" />
