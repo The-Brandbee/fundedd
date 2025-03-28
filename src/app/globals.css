@@ -1832,8 +1832,8 @@ width: 40%;
   background: #000000;
   padding-bottom: 30px;
 }
-.leadership-team-about-us-left{
-  width: 30%;
+.leadership-team-about-us-left{    
+  width: 100%;
   margin-top: 35px;
   margin-left: 1.5%;
   margin-right: 1.5%;
@@ -1843,11 +1843,26 @@ width: 40%;
   border-radius: 30px;
   margin-bottom: 20px;
 }
+.leadership-team-about-us-left .team-img{
+  display: flex;
+  justify-content: space-between;
+ }
+ .leadership-team-about-us-left .tear-frame-left{
+  width: 18%;
+ }
+ .leadership-team-about-us-left .team-name{
+  display: inline-block;
+    width: 80%;
+ }
+
 .team-name{
   display: flex;
 }
 .team-name-left{
-  width: 80%;
+  width: 100%;
+}
+.text-right{
+  text-align: right;
 }
 .team-name-right{
   width: 20%;
