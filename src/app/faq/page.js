@@ -92,19 +92,25 @@ export default function Arfactoring() {
             <AccordionItem uuid={'a'} >
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    <h3><span>1</span> How is Fundedd different from other financing options?</h3>
+                    <h3><span>1</span> How is Fundedd different from other financing options?
+                    </h3>
                       
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <div className="phase-main-middle-frame">
-                      <p>Fundedd offers fast, flexible, and transparent financing solutions designed specifically for staffing agencies. Unlike traditional loans, Fundedd provides quick access to funds within days through Accounts Receivable (AR) Factoring, without requiring physical collateral.</p>
+                      <p>Fundedd offers fast, flexible, and transparent financing solutions designed specifically for staffing agencies. Unlike traditional loans, Fundedd provides quick access to funds within days through Accounts Receivable (AR) Factoring, without requiring physical collateral.
+                      </p>
                       <h4>Key differences include:</h4>
                       <ul>
-                        <li><span>Quick Access to Funds:</span> Receive funding within days to cover payroll and urgent needs.</li>
-                        <li><span>Transparent Pricing:</span> Clear fees with 80%-90% advance rates and 1.5%-5% discount rates—no hidden charges.</li>
-                        <li><span>No Collateral Needed:</span> Unlock working capital using unpaid invoices.</li>
-                        <li><span>Comprehensive Support:</span> We manage receivables, credit checks, and payment collections.</li>
+                        <li><span>Quick Access to Funds:</span> Receive funding within days to cover payroll and urgent needs.
+                        </li>
+                        <li><span>Transparent Pricing:</span>  Clear fees with 80%-90% advance rates and 1.5%-5% discount rates—no hidden charges.
+                        </li>
+                        <li><span>No Collateral Needed:</span> Unlock working capital using unpaid invoices.
+                        </li>
+                        <li><span>Comprehensive Support:</span> We manage receivables, credit checks, and payment collections.
+                        </li>
                       </ul>
                       <p>Fundedd's tailored solutions help staffing agencies maintain cash flow and focus on growth.</p>
                     </div>
@@ -113,13 +119,14 @@ export default function Arfactoring() {
             <AccordionItem uuid={'b'}>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    <h3><span>2</span> Is Fundedd right for my business? </h3>
+                    <h3><span>2</span> Is Fundedd right for my business?  </h3>
                       
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                 <div className="phase-main-middle-frame PHASE-2">
-                <p>If you're a staffing agency managing payroll gaps, fluctuating client payments, or cash flow challenges, Fundedd provides fast, flexible funding solutions tailored to your needs. With rapid approval, no collateral requirements, and a transparent pricing structure, we help you access working capital quickly. Our Accounts Receivable (AR) Factoring adapts to your operational cycles, ensuring you can cover payroll, recruit talent, and scale with ease. Plus, our dedicated support team understands the staffing industry and provides personalized assistance at every step.</p>
+                <p>If you're a staffing agency managing payroll gaps, fluctuating client payments, or cash flow challenges, Fundedd provides fast, flexible funding solutions tailored to your needs. With rapid approval, no collateral requirements, and a transparent pricing structure, we help you access working capital quickly. Our Accounts Receivable (AR) Factoring adapts to your operational cycles, ensuring you can cover payroll, recruit talent, and scale with ease. Plus, our dedicated support team understands the staffing industry and provides personalized assistance at every step.
+                </p>
                     </div>
                 </AccordionItemPanel>
             </AccordionItem>
@@ -132,7 +139,8 @@ export default function Arfactoring() {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                 <div className="phase-main-middle-frame">
-                <p>AI introduces several security vulnerabilities, such as leakage and compliance risks. Ignoring the assessment of AI risk may lead to unexpected reversals in operations, along with huge losses in terms of money or data. 
+                <p>AR Factoring allows businesses to convert unpaid invoices into immediate cash, improving cash flow without taking on debt. With Fundedd’s AR Factoring, you receive 80%-90% of your invoice value upfront, while we handle payment collections. Once your customer pays, we release the remaining balance minus fees. It’s a flexible alternative to loans—with no collateral requirements, no impact on credit scores, and outsourced receivables management, allowing you to focus on growing your business while we manage the cash flow.
+                  
                 </p>
                     </div>
                 </AccordionItemPanel>
@@ -152,19 +160,26 @@ With Fundedd, you receive 75%-90% of your invoice upfront, and fees are charged 
 </p>
 <h4>Key Costs:</h4>
 <ul>
-    <li>Discount Fee (1% - 2.5%/month): Charged after collection. For a $10,000 invoice at 1%, the fee is $100/month.</li>
+    <li>Discount Fee (1% - 2.5%/month): Charged after collection. For a $10,000 invoice at 1%, the fee is $100/month.
+ </li>
     <li>Advance Rate (75%-90%): Upfront payment. For a $10,000 invoice at 90%, you get $9,000 immediately.</li>
-<li>Reserve Amount: The remaining 10%-25% is held and released after payment, minus fees.</li>
-<h4>Additional Fees:</h4>
+<li>Reserve Amount: The remaining 10%-25% is held and released after payment, minus fees.
+</li>
+<h4>Additional Fees:
+</h4>
 <ul>
-    <li>Origination Fee: One-time setup charge.</li>
+    <li>Origination Fee: One-time setup charge.
+    </li>
     <li>Late Payment Fee: Applied after 91 days past due.
+
     </li>
     <li>Credit Check Fee: For customer assessments.
+
     </li>
     <li>Default Fee: For legal collections.</li>
 </ul>
-<p>No service fees apply, and our pricing is clear and flexible.</p>
+<p>No service fees apply, and our pricing is clear and flexible.
+</p>
 </ul>
                     </div>
                 </AccordionItemPanel>

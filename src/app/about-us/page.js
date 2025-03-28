@@ -34,7 +34,7 @@ import ExpertTwo from "../img/shutterstock_2159023891.png";
 import TeamTwo from "../img/team-03.jpg";
 import TeamThree from "../img/team-04.jpg";
 import TeamFour from "../img/team-05.jpg";
-import TeamFive from "../img/team-06.jpg";
+import TeamFive from "../img/AmalAli.jpg";
 import TeamSix from "../img/team-07.jpg";
 import Logo from "../img/fund-l.png"; 
 import ExpertThree from "../img/about-us-1.svg";    
@@ -177,7 +177,7 @@ export default function Arfactoring() {
 </section>
 
  
-<section className="leadership-team-about-us nonenone">
+<section className="leadership-team-about-us ">
 <div className="container">
      <div className="leadership-team-about-us-middle">
         <div className="leadership-team-about-us-left">
@@ -214,7 +214,7 @@ export default function Arfactoring() {
         </div>
         <div className="leadership-team-about-us-left"> 
             <div className="team-img">
-            <Image src={Trusted} alt="" className=""/>  
+            <Image src={TeamFive} alt="" className=""/>  
             <div className="team-name">
                 <div className="team-name-left">
                     <h4>Amal Ali
