@@ -1,30 +1,19 @@
-import { useEffect } from 'react';
-import Close from "../img/cross-small_curved@2x.png";
-import Image from "next/image";
+"use client";
+import { useEffect } from "react";
 
-const HubSpotForm = () => {
+export default function DecipherEmbed() {
   useEffect(() => {
-    // You can add the HubSpot form embed script here if it's JavaScript-based
-    const script = document.createElement('script');
-    script.src = "https://js.hsforms.net/forms/v2.js"; // This is HubSpot's form embed script
+    const script = document.createElement("script");
+    script.src = "https://deciphercredit.net/embed/script.js";
     script.async = true;
-    script.onload = () => {
-      if (window.hbspt) {
-        window.hbspt.forms.create({
-          portalId: "48953711",
-          formId: "6b571ca5-d35c-4fbd-847b-9758f0348306",
-          target: "#New",
-        });
-      } 
-    };
     document.body.appendChild(script);
   }, []);
 
   return (
-    <>
-     <div id="New"></div>   
-    </>
+    <div
+      id="decipher"
+      style={{ height: "300px", width: "100%" }}
+      data-src="https://deciphercredit.net/products/jLKUVok3gGvYLdeHHbIxeGBKWkDubUR7PqnpdHrUYIpy2ulB5ZH2l2qzacDB/application/embed"
+    ></div>
   );
-};
-
-export default HubSpotForm;
+}

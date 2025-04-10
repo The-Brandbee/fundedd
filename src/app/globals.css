@@ -10,6 +10,57 @@
   font-family:Poppins-Regular;
   src:url('../app/fonts/Poppins-Regular.ttf');
 }
+
+.Calculator-middle-sect h3{
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.middlefe-main{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  width: 65%;
+    margin: 0 auto;
+}
+.middlefe-main .right-sect strong{
+  color: #FF7518;
+  font-size: 22px;
+  display: block;
+}
+.middlefe-main .right-sect p{
+  font-size: 22px;
+  margin-bottom: 30px;   
+}
+.cal-link-main-link a{
+  background: #FF7518 0% 0% no-repeat padding-box;
+  border-radius: 9px;
+  color: #fff;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 12px 68px;
+  margin-top: 30px;
+  display: inline-block;
+}
+.middlefe-main .space-y-4{
+width: 45%;
+}
+.middlefe-main .mt-6{
+  width: 45%;
+}
+.space-y-4 input{
+  width: 100%;
+}
+.space-y-4-new label{
+  display: block;
+  font-size: 21px;
+  margin-bottom: 12px;
+}
+.space-y-4-new {
+  margin-bottom: 40px;
+}
 .Insights-Industry-Trends.blogmi{
   position: relative;
   background: #000;
@@ -118,6 +169,8 @@ a{
 .header-top-right ul li p{
 color: #727272;
 margin-bottom: 0px;
+margin-top: 6px;
+
 }
 .header-top-right ul li a{
   background: #000;
@@ -1852,8 +1905,10 @@ width: 40%;
   margin-right: 1.5%;
 }
 .team-img img{
-  width: 100%;
+  width: 85%;
   border-radius: 30px;
+  margin: 0 auto;
+  display: table;
   margin-bottom: 20px;
 }
 .leadership-team-about-us-left .team-img{
@@ -2155,9 +2210,16 @@ z-index: 99999999999999999999999;
 }
 .contact-us-page-middle-middle-left h4{
   color: #fff;
-  font-size: 32px;
+  font-size: 30px;
 }
 .contact-us-page-middle-middle-left h4 span{
+  color: #FF7518;
+}
+.contact-us-page-middle-middle-right h4{
+  color: #fff;
+  font-size: 30px;
+}
+.contact-us-page-middle-middle-right h4 span{
   color: #FF7518;
 }
 .contact-us-page-middle-middle-left p{

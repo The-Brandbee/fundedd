@@ -37,7 +37,9 @@ import ExpertTwo from "../img/location@2x.png";
 import Logo from "../img/fund-l.png";  
 import ExpertThree from "../img/shutterstock_1540204415@2x.png";    
 import { GoogleTagManager } from "@next/third-parties/google";
-export default function Arfactoring() {
+import dynamic from 'next/dynamic';
+
+export default function Arfactoring() {  
   return (
     <>    
              <GoogleTagManager gtmId="GTM-MFH6JPN5" />              
@@ -101,14 +103,17 @@ export default function Arfactoring() {
                 <p>Explore funding opportunities or get your questions answered with ease. Access quick funding, grow your business, and discover your eligibility effortlessly. No complications—just solutions to meet your needs. Get started today!</p>
             </div>
             <div className="contact-us-page-middle-middle-right">
-                <p>Our team is here to guide you every step of the way.</p>
+              <h4>Start your application now</h4>
+                <p>Step 1:</p>
+               
+             
                 <div className="contact-us-page-middle-middle-right-from">
-                     <ContactUsFrom/> 
+                <iframe className="contact-us-page-frame" src="https://deciphercredit.net/products/jLKUVok3gGvYLdeHHbIxeGBKWkDubUR7PqnpdHrUYIpy2ulB5ZH2l2qzacDB/application/embed" ></iframe>
                     
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
  </section>
 
 <section className="read-jon-main-frame-inner-two nonenone">

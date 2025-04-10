@@ -86,6 +86,9 @@ class MobileMenu extends React.Component {
                     </a>
                           </li>
                           <li>
+                      <Link href="https://www.fundedd.com/faq">FAQs</Link>
+                    </li>
+                          <li>
                           <a href="https://www.fundedd.com/data-security">
                           Data Security
                     </a>

@@ -40,6 +40,8 @@ function IndexPage() {
                     </a></li>
                     <li><a href="/why-choose">Why Fundedd
                     </a></li>
+                    <li><a href="/faq">FAQs</a></li>
+                   
                     <li><a href="/contact-us">Contact Us</a></li>
                    
                    

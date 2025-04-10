@@ -5,7 +5,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../common/Header.js";
 import HeaderMobileIn from "../common/HeaderMobile.js";
-import GETFUNDEDD from "../common/GETFUNDEDDTWO.js";
+import Calculator from "../common/Calculator.js";
+import GETFUNDEDD from "../common/GETFUNDEDDTWO.js"; 
 import ApplyNow from "../common/ApplyNow.js"; 
 import Footer from "../common/Footer.js";
 import TestimonialSlideTwoN from "../common/TestimonialSlideTwo2.js";                 
@@ -380,7 +381,9 @@ export default function Arfactoring() {
      <h5>*Streamlined Application Process ( Disclosure )</h5>
      <p>Our application process is designed to be straightforward and convenient, taking only a few minutes of your time to complete. Once you’ve submitted your application to Fundded, we will promptly provide you with an initial proposal that outlines your factoring and advance rates. It’s important to note that signing the application and proposal does not commit your business to utilize our services. It is also not a commitment for Fundded to advance any funds whatsoever until we conduct a complete review of the underlying information that we request. We prioritize privacy and are fully dedicated to maintaining the confidentiality of all information shared with us.</p>
   </div>
-  
+  <div className="container Calculator-middle-sect">
+       <Calculator/>
+    </div>
 </section>
 
         <Footer />                

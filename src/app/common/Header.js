@@ -5,7 +5,8 @@ import Link from "next/link";
 import Logo from "../img/fund-l.png";
 import headertopicon from "../img/header-top-icon.png";
 import Search from "../img/search.png";
-import HubSpotFormpopup from "../common/HubSpotFormpopup.js";
+import LoginIcon from "../img/login-icon.png";
+import HubSpotFormpopup from "../common/HubSpotFormpopup.js";  
 
 function IndexPage() {
     // State to track whether the content is visible
@@ -52,6 +53,16 @@ function IndexPage() {
                     <p>Custom solutions for staffing industry challenges.</p>
                   </div>
                 </li>
+                <li className="login-icon-header">
+                  <div className="header-top-right-left">
+                    <Link target="_blank" href="https://deciphercredit.net/products/jLKUVok3gGvYLdeHHbIxeGBKWkDubUR7PqnpdHrUYIpy2ulB5ZH2l2qzacDB/application">
+                      <Image src={LoginIcon} alt="" />
+                      <p>Login</p>
+                  </Link>
+                  
+                  </div>
+                 
+                </li>
                 <li>
                 <Link href="#" onClick={toggleVisibility}>
                    {isVisible ? '' : ''} GET FUNDEDD
@@ -86,6 +97,9 @@ function IndexPage() {
                     <li>
                     <Link href="/blog">Blog</Link>
                     
+                    </li>
+                    <li>
+                      <Link href="/faq">FAQs</Link>
                     </li>
                     <li>
                     
