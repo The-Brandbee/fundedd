@@ -23,6 +23,7 @@
 .After-submitting{
   margin-top: 10px;
   padding-left: 10px;
+  display: none;
 }
 .middlefe-main{
   display: flex;
