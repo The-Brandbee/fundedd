@@ -54,10 +54,10 @@ function IndexPage() {
                   </div>
                 </li>
                 <li className="login-icon-header">
-                  <div className="header-top-right-left">
+                  <div className="header-top-right-left newn">
                     <Link target="_blank" href="https://deciphercredit.net/products/jLKUVok3gGvYLdeHHbIxeGBKWkDubUR7PqnpdHrUYIpy2ulB5ZH2l2qzacDB/application">
                       <Image src={LoginIcon} alt="" />
-                      <p>Login</p>
+                      <p>Login / Check Application Status</p>
                   </Link>
                   
                   </div>

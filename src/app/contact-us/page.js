@@ -111,6 +111,7 @@ export default function Arfactoring() {
                 <iframe className="contact-us-page-frame" src="https://deciphercredit.net/products/jLKUVok3gGvYLdeHHbIxeGBKWkDubUR7PqnpdHrUYIpy2ulB5ZH2l2qzacDB/application/embed" ></iframe>
                     
                 </div>
+                <p className="After-submitting">*After submitting this form, you will be redirected to complete the remaining <br/>steps of your application.</p>
             </div>
         </div>
     </div>    

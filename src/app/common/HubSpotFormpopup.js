@@ -28,10 +28,10 @@ const HubSpotForm = () => {
                  <Image src={Close} alt="" />
                  </a>
             </div>
-            <h4>Connect <span>with Our Funding Specialists</span></h4>
+            <h4>New Customer ? <br/><span>Connect with Our Funding Specialists</span></h4>  
             <iframe className="contact-us-page-frame" src="https://deciphercredit.net/products/jLKUVok3gGvYLdeHHbIxeGBKWkDubUR7PqnpdHrUYIpy2ulB5ZH2l2qzacDB/application/embed" ></iframe>
                  
-         </div>
+         </div> 
     </div>
   );
 };

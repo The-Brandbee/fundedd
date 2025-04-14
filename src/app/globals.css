@@ -17,6 +17,13 @@
   margin-bottom: 40px;
   text-align: center;
 }
+.header-top-right-left.newn{
+  text-align: center;
+}
+.After-submitting{
+  margin-top: 10px;
+  padding-left: 10px;
+}
 .middlefe-main{
   display: flex;
   justify-content: space-between;
