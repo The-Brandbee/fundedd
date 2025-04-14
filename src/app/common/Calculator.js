@@ -20,30 +20,30 @@ export default function Home() {
 
       <div className="space-y-4">
         <div className='space-y-4-new'>
-          <label>Invoice Amount ($)</label>
-          <input type="range" className="input" value={invoiceAmount} onChange={e => setInvoiceAmount(Number(e.target.value))} />
+          <label>Factored invoice total ($)</label>
+          <input type="text" className="input" value={invoiceAmount} onChange={e => setInvoiceAmount(Number(e.target.value))} />
         </div>
 
         <div className='space-y-4-new'>
-          <label>Advance Rate (%)</label>
-          <input type="range" className="input" value={advanceRate} onChange={e => setAdvanceRate(Number(e.target.value))} />
+          <label>Factoring rate (%)</label>
+          <input type="text" className="input" value={advanceRate} onChange={e => setAdvanceRate(Number(e.target.value))} />
         </div>
 
         <div className='space-y-4-new'>
-          <label>Discount Rate (%)</label>
-          <input type="range" className="input" value={discountRate} onChange={e => setDiscountRate(Number(e.target.value))} />
+          <label>Advance rate (%)</label>
+          <input type="text" className="input" value={discountRate} onChange={e => setDiscountRate(Number(e.target.value))} />
         </div>
+        
 
-        <div className='space-y-4-new'>
-          <label>Days Outstanding</label>
-          <input type="range" className="input" value={daysOutstanding} onChange={e => setDaysOutstanding(Number(e.target.value))} />
-        </div>
+        
       </div>
 
       <div className="mt-6 space-y-2 right-sect">
-        <p><strong>Advance Amount:</strong> ${advanceAmount}</p>
-        <p><strong>Discount Fee:</strong> ${discountFee}</p>
-        <p><strong>Remaining Payout:</strong> ${remaining}</p>
+      <p><strong> Cash advance:</strong> ${discountFee}</p>
+        <p><strong>Factoring fee:</strong> ${advanceAmount}</p>
+      
+        <p><strong>Cash available after the invoices have been paid:</strong> ${remaining}</p>
+      <p><strong>Total cash received by the end of the factoring process</strong> ${Number(discountFee) + Number(remaining)}</p> 
         <div className='cal-link-main-link'>
           <Link href="/contact-us">Get a quote</Link>
         </div>

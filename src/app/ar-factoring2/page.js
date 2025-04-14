@@ -200,6 +200,9 @@ export default function Arfactoring() {
      </div>
      <p>Note: Charges of Discount fee/Interest will be charged after collection from the Customer.</p>
   </div>
+  <div className="container Calculator-middle-sect">
+       <Calculator/>
+    </div>
   <div className="Lets-break-it-down">
      <div className="Lets-break-it-down-heading-2">
       <div className="Lets-break-it-down-headingthre">
@@ -381,9 +384,7 @@ export default function Arfactoring() {
      <h5>*Streamlined Application Process ( Disclosure )</h5>
      <p>Our application process is designed to be straightforward and convenient, taking only a few minutes of your time to complete. Once you’ve submitted your application to Fundded, we will promptly provide you with an initial proposal that outlines your factoring and advance rates. It’s important to note that signing the application and proposal does not commit your business to utilize our services. It is also not a commitment for Fundded to advance any funds whatsoever until we conduct a complete review of the underlying information that we request. We prioritize privacy and are fully dedicated to maintaining the confidentiality of all information shared with us.</p>
   </div>
-  <div className="container Calculator-middle-sect">
-       <Calculator/>
-    </div>
+
 </section>
 
         <Footer />                
