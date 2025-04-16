@@ -19,8 +19,8 @@ function IndexPage() {
   
   return (
     <>
-     <Link href="#" onClick={toggleVisibility}>
-                   {isVisible ? '' : ''} APPLY NOW
+     <Link href="/contact-us" >
+                   APPLY NOW
                 </Link>
                 {isVisible && (
                   <HubSpotFormpopup /> 
