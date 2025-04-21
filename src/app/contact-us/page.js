@@ -65,7 +65,27 @@ export default function Arfactoring() {
           <HeaderMobileIn />
           </div>
           </header> 
-
+          <section className="contact-us-page-middle">
+    <div className="container">
+        <div className="contact-us-page-middle-middle">
+            <div className="contact-us-page-middle-middle-left">
+                <h4>Connect <span>with Our <br/>Funding Specialists</span></h4>
+                <p>Explore funding opportunities or get your questions answered with ease. Access quick funding, grow your business, and discover your eligibility effortlessly. No complications—just solutions to meet your needs. Get started today!</p>
+            </div>
+            <div className="contact-us-page-middle-middle-right">
+              <h4>Start your application now</h4>
+                <p>Step 1:</p>
+               
+             
+                <div className="contact-us-page-middle-middle-right-from">
+                <iframe className="contact-us-page-frame" src="https://deciphercredit.net/products/jLKUVok3gGvYLdeHHbIxeGBKWkDubUR7PqnpdHrUYIpy2ulB5ZH2l2qzacDB/application/embed" ></iframe>
+                    
+                </div>
+                <p className="After-submitting">*After submitting this form, you will be redirected to complete the remaining <br/>steps of your application.</p>
+            </div>
+        </div>
+    </div>    
+ </section>
           <section className="Accelerate-Your-Business-frame">
           <div className="container">
               <div className="Accelerate-Your-Business-frame-middle new">
@@ -95,27 +115,7 @@ export default function Arfactoring() {
             </div>
           </section>
 
- <section className="contact-us-page-middle">
-    <div className="container">
-        <div className="contact-us-page-middle-middle">
-            <div className="contact-us-page-middle-middle-left">
-                <h4>Connect <span>with Our <br/>Funding Specialists</span></h4>
-                <p>Explore funding opportunities or get your questions answered with ease. Access quick funding, grow your business, and discover your eligibility effortlessly. No complications—just solutions to meet your needs. Get started today!</p>
-            </div>
-            <div className="contact-us-page-middle-middle-right">
-              <h4>Start your application now</h4>
-                <p>Step 1:</p>
-               
-             
-                <div className="contact-us-page-middle-middle-right-from">
-                <iframe className="contact-us-page-frame" src="https://deciphercredit.net/products/jLKUVok3gGvYLdeHHbIxeGBKWkDubUR7PqnpdHrUYIpy2ulB5ZH2l2qzacDB/application/embed" ></iframe>
-                    
-                </div>
-                <p className="After-submitting">*After submitting this form, you will be redirected to complete the remaining <br/>steps of your application.</p>
-            </div>
-        </div>
-    </div>    
- </section>
+ 
 
 <section className="read-jon-main-frame-inner-two nonenone">
 <div className="container">

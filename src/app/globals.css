@@ -2206,6 +2206,7 @@ color: #FF7518;
 .contact-us-page-middle{
   background: #222222;
   padding: 70px 0px;
+      overflow: hidden;
 }
 .contact-us-page-middle-middle{
   display: flex;
@@ -2217,7 +2218,7 @@ z-index: 99999999999999999999999;
 }
 .contact-us-page-middle-middle-left h4{
   color: #fff;
-  font-size: 30px;
+  font-size: 42px;
 }
 .contact-us-page-middle-middle-left h4 span{
   color: #FF7518;
