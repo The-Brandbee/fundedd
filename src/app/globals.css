@@ -2680,6 +2680,17 @@ width: 50%;
   padding: 50px;
 }           
 @media all and (min-width:120px) and (max-width:680px){
+  .contact-us-page-middle-middle-left h4 {
+    font-size: 22px;
+    
+  }
+  .contact-us-page-middle-middle-left h4 br{
+    display: none;
+  }
+  .contact-us-page-middle-middle-right h4{
+    margin-top: 40px;
+    font-size: 22px;
+  }
   .After-submitting br{     
     display: none;
   }
