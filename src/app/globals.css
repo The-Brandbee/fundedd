@@ -681,7 +681,12 @@ margin: 25px 0px;
 .Empowering-Staffing-Companies-middle-right{
   width: 45%; 
 }
-.Empowering-Staffing-Companies-middle-left h4{
+.Empowering-Staffing-Companies-middle-left h4{ 
+  color: #fff; 
+  font-size: 32px; 
+  line-height: 40px;
+}
+.Empowering-Staffing-Companies-middle-left h1{
   color: #fff; 
   font-size: 32px; 
   line-height: 40px;
@@ -3324,10 +3329,17 @@ text-align: center;
 .Empowering-Staffing-Companies-middle-left h4 br{
 display: none;
 }
+.Empowering-Staffing-Companies-middle-left h1 br{
+  display: none;
+  }
 .Empowering-Staffing-Companies-middle-right {
   width: 100%;
 }
 .Empowering-Staffing-Companies-middle-left h4 {
+  font-size: 26px;
+  line-height: 37px;
+}
+.Empowering-Staffing-Companies-middle-left h1 {
   font-size: 26px;
   line-height: 37px;
 }

@@ -67,7 +67,7 @@ export default function Home() {
 <div className="container">
    <div className="Empowering-Staffing-Companies-middle">
        <div className="Empowering-Staffing-Companies-middle-left">
-                 <h4>Empowering <br/><span>Staffing</span> Companies</h4>
+                 <h1>Empowering <br/><span>Staffing</span> Companies</h1>
        </div>
        <div className="Empowering-Staffing-Companies-middle-right">
            <p>Optimize your payroll and cash flow with funding solutions customized to your business needs. Access the funding you need, when you need it, by unlocking the value in your invoices</p>
