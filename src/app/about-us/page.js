@@ -37,7 +37,7 @@ import TeamFour from "../img/team-05.jpg";
 import TeamFive from "../img/AmalAli.jpg";
 import TeamSix from "../img/team-07.jpg";
 import Logo from "../img/fund-l.png"; 
-import ExpertThree from "../img/about-us-1.svg";    
+import ExpertThree from "../img/Fundedd-logo-04@2x.png";    
 import { GoogleTagManager } from "@next/third-parties/google"
 
 
@@ -242,7 +242,7 @@ export default function Arfactoring() {
           
             </div>
         </div>
-        <div className="leadership-team-about-us-left"> 
+        {/* <div className="leadership-team-about-us-left"> 
             <div className="team-img">
             <div className="tear-frame-left nonenone">
             <Image src={TeamFive} alt="" className=""/>  
@@ -264,7 +264,7 @@ export default function Arfactoring() {
            
             </div>
         </div>
-       {/*  <div className="leadership-team-about-us-left nonenone"> 
+        <div className="leadership-team-about-us-left nonenone"> 
             <div className="team-img">
             <div className="tear-frame-left">
             <Image src={TeamSix} alt="" className=""/>  
