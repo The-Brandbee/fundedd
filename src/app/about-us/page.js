@@ -208,7 +208,9 @@ export default function Arfactoring() {
         </div>
         <div className="leadership-team-about-us-left"> 
             <div className="team-img">
-           
+            <div className="tear-frame-left nonenone">
+                 <Image src={TrustedNNN} alt="" className=""/>  
+            </div>
             <div className="team-name">
                 <div className="team-name-left">
                     <h4 className="text-right">Evan Prodromo</h4>
@@ -218,21 +220,21 @@ export default function Arfactoring() {
                 </div>       
                 <div className="team-name-right"></div>
             </div>
-            <div className="tear-frame-left">
+            <div className="tear-frame-left desktop">  
                  <Image src={TrustedNNN} alt="" className=""/>  
             </div>
             </div>
         </div>
-        <div className="leadership-team-about-us-left nonenone"> 
+        <div className="leadership-team-about-us-left"> 
             <div className="team-img">
             <div className="tear-frame-left">
             <Image src={TeamFour} alt="" className=""/>  
             </div>
             <div className="team-name">
                 <div className="team-name-left">
-                    <h4 className="text-right"> Asma Manzar</h4>
-                    <p className="text-right">Partner, Global Head of Finance & Revenue Operations</p> 
-                    <p className="text-right">With more than 15 years of expertise in financial strategy and risk management, Asma Manzar is a leader in global finance innovation. She has orchestrated nine successful mergers and acquisitions, managing revenues exceeding $100 million. Her deep understanding of complex financial operations ensures that Fundedd delivers stable, scalable, and effective funding solutions for businesses. Asma’s leadership fortifies  the financial foundation that drives our clients’ success.
+                    <h4 > Asma Manzar</h4>
+                    <p >Partner, Global Head of Finance & Revenue Operations</p> 
+                    <p >With more than 15 years of expertise in financial strategy and risk management, Asma Manzar is a leader in global finance innovation. She has orchestrated nine successful mergers and acquisitions, managing revenues exceeding $100 million. Her deep understanding of complex financial operations ensures that Fundedd delivers stable, scalable, and effective funding solutions for businesses. Asma’s leadership fortifies  the financial foundation that drives our clients’ success.
                     </p>
                 </div>
                 <div className="team-name-right"></div>
@@ -242,19 +244,22 @@ export default function Arfactoring() {
         </div>
         <div className="leadership-team-about-us-left"> 
             <div className="team-img">
-            <div className="tear-frame-left">
+            <div className="tear-frame-left nonenone">
             <Image src={TeamFive} alt="" className=""/>  
             </div>
             <div className="team-name">
                 <div className="team-name-left">
-                    <h4>Amal Ali
+                    <h4 className="text-right">Amal Ali
                     </h4>
-                    <p>Global Head of Marketing
+                    <p className="text-right">Global Head of Marketing
                     </p>
-                    <p>Amal Ali is a marketing powerhouse with over 15 years of experience in crafting impactful brand strategies and cultivating client relationships. She specializes in transforming complex financial services into relatable, compelling narratives that connect with businesses. Through data-driven digital campaigns and innovative market positioning, Amal ensures Fundedd’s offerings are accessible and resonant, championing success stories for clients across industries.
+                    <p className="text-right">Amal Ali is a marketing powerhouse with over 15 years of experience in crafting impactful brand strategies and cultivating client relationships. She specializes in transforming complex financial services into relatable, compelling narratives that connect with businesses. Through data-driven digital campaigns and innovative market positioning, Amal ensures Fundedd’s offerings are accessible and resonant, championing success stories for clients across industries.
                     </p>
                 </div>
                 <div className="team-name-right"></div>
+            </div>
+            <div className="tear-frame-left desktop">
+            <Image src={TeamFive} alt="" className=""/>  
             </div>
            
             </div>

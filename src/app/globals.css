@@ -2683,8 +2683,41 @@ width: 50%;
 } 
 .Our-Commitment-frame-right-cont{
   padding: 50px;
-}           
+}      
+.tear-frame-left.nonenone{
+display: none;
+}     
 @media all and (min-width:120px) and (max-width:680px){
+  .tear-frame-left.desktop{
+display: none;
+  }
+  .team-name-left h4{
+    text-align: left;
+  }
+  .team-name-left p{
+    text-align: left;
+  }
+  .tear-frame-left.nonenone{
+    display: block !important;
+    }    
+  .leadership-team-about-us-left .team-img {
+    display: inline-block;
+  }
+  .leadership-team-about-us-left .team-name {
+    display: inline-block;
+    width: 100%;
+}
+.team-name-left p {
+  color: #fff;
+  font-size: 14px;
+}
+.team-img img {
+  width: 100%;
+  border-radius: 35px;
+}
+.leadership-team-about-us-left .tear-frame-left {
+  width: 30%;
+}
   .contact-us-page-middle-middle-left h4 {
     font-size: 22px;
     
