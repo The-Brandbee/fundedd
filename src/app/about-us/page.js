@@ -17,7 +17,7 @@ import Script from "next/script";
 import ExpertTwoJoin from "../img/beautiful-young-woman-home-office-working-from-home-teleworking-concept@2x.png";
 import Arrow from "../img/arrow-up-right.png";
 import BeginYour from "../img/Layer_1.png";
-import GroupTW from "../img/teamwork_11933366.svg"; 
+import GroupTW from "../img/teamwork_11933366.svg";   
 import GroupTWoo from "../img/money-bags_5557453.svg";
 import GirlTwo from "../img/Speed.svg";
 import GirlThree from "../img/thief_14015443.svg";
