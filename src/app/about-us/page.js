@@ -209,39 +209,40 @@ export default function Arfactoring() {
         <div className="leadership-team-about-us-left"> 
             <div className="team-img">
             <div className="tear-frame-left nonenone">
-                 <Image src={TrustedNNN} alt="" className=""/>  
+            <Image src={TeamFour} alt="" className=""/>  
             </div>
             <div className="team-name">
                 <div className="team-name-left">
-                    <h4 className="text-right">Evan Prodromo</h4>
-                    <p className="text-right">Executive Vice President, Sales & Business Development</p> 
-                    <p className="text-right">Evan is a seasoned financial professional with over 15 years of experience in commercial banking and specialty finance, advancing from commercial banking to become President of AGR Financial, LLC during his tenure. His specialized expertise encompasses working capital financing, M&A advisory, and tailored financial solutions for the staffing and IT consulting industries. With comprehensive advisory capabilities ,he delivers exceptional financial guidance specifically for staffing and IT consulting organizations.
+                    <h4 className="text-right"> Asma Manzar</h4>
+                    <p className="text-right">Partner, Global Head of Finance & Revenue Operations</p> 
+                    <p className="text-right">With more than 15 years of expertise in financial strategy and risk management, Asma Manzar is a leader in global finance innovation. She has orchestrated nine successful mergers and acquisitions, managing revenues exceeding $100 million. Her deep understanding of complex financial operations ensures that Fundedd delivers stable, scalable, and effective funding solutions for businesses. Asma’s leadership fortifies  the financial foundation that drives our clients’ success.
                     </p>
-                </div>       
+                </div>
                 <div className="team-name-right"></div>
             </div>
-            <div className="tear-frame-left desktop">  
-                 <Image src={TrustedNNN} alt="" className=""/>  
+            <div className="tear-frame-left desktop">
+            <Image src={TeamFour} alt="" className=""/>  
             </div>
             </div>
         </div>
         <div className="leadership-team-about-us-left"> 
             <div className="team-img">
-            <div className="tear-frame-left">
-            <Image src={TeamFour} alt="" className=""/>  
+            <div className="tear-frame-left ">
+                 <Image src={TrustedNNN} alt="" className=""/>  
             </div>
             <div className="team-name">
                 <div className="team-name-left">
-                    <h4 > Asma Manzar</h4>
-                    <p >Partner, Global Head of Finance & Revenue Operations</p> 
-                    <p >With more than 15 years of expertise in financial strategy and risk management, Asma Manzar is a leader in global finance innovation. She has orchestrated nine successful mergers and acquisitions, managing revenues exceeding $100 million. Her deep understanding of complex financial operations ensures that Fundedd delivers stable, scalable, and effective funding solutions for businesses. Asma’s leadership fortifies  the financial foundation that drives our clients’ success.
+                    <h4 >Evan Prodromo</h4>
+                    <p >Executive Vice President, Sales & Business Development</p> 
+                    <p >Evan is a seasoned financial professional with over 15 years of experience in commercial banking and specialty finance, advancing from commercial banking to become President of AGR Financial, LLC during his tenure. His specialized expertise encompasses working capital financing, M&A advisory, and tailored financial solutions for the staffing and IT consulting industries. With comprehensive advisory capabilities ,he delivers exceptional financial guidance specifically for staffing and IT consulting organizations.
                     </p>
-                </div>
+                </div>       
                 <div className="team-name-right"></div>
             </div>
-          
+            
             </div>
         </div>
+     
         {/* <div className="leadership-team-about-us-left"> 
             <div className="team-img">
             <div className="tear-frame-left nonenone">
