@@ -78,9 +78,9 @@ export default function Arfactoring() {
              
                 <div className="contact-us-page-middle-middle-right-from">
                <Contactusfrom/>
-                </div>
-                <p className="After-submitting">*After submitting this form, you will be redirected to complete the remaining <br/>steps of your application.</p>
-            </div>
+                </div>    
+                <p className="After-submitting nonenone">*After submitting this form, you will be redirected to complete the remaining <br/>steps of your application.</p>
+            </div>          
         </div>
     </div>    
  </section>

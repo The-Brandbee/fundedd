@@ -127,7 +127,7 @@ export default function Arfactoring() {
 <p>You may not reproduce, modify, distribute, display, perform, or create derivative works without prior written consent.</p>
 
 <h2>8. Privacy Policy</h2>
-<p>Our <a href="#">Privacy Policy</a> governs the collection, use, and disclosure of your personal information.</p>
+<p>Our <a href="/privacy-policy">Privacy Policy</a> governs the collection, use, and disclosure of your personal information.</p>
 
 <h2>9. Disclaimer of Warranties</h2>
 <p>THE SITE AND ITS SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE".</p>
