@@ -1,5 +1,7 @@
 'use client';
 import Link from "next/link";
+GETFUNDEDDCAL
+import GETFUNDEDDCAL from "../common/GETFUNDEDDCAL.js"; 
 import { useState } from 'react';
  
 export default function Home() {
@@ -85,7 +87,7 @@ export default function Home() {
         <p className="nonenone"><strong>Cash available after the invoices have been paid:</strong> ${remaining}</p>
       <p><strong>Total cash received by the end of the factoring process</strong> {formatINRCurrency(Number(discountFee) + Number(remaining))}</p> 
         <div className='cal-link-main-link'>
-          <Link href="/contact-us">Get a quote</Link>
+          <GETFUNDEDDCAL/>
         </div>
       </div>
      
