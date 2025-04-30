@@ -26,6 +26,9 @@ function IndexPage() {
                     <li><a href="/ar-factoring">AR Factoring </a></li>
                     <li><a href="/partner">Partner </a></li>
                     <li><a href="/data-security">Data Security </a></li>
+                    <li><a href="/privacy-policy">Privacy Policy </a></li>
+                    <li><a href="/terms-of-use">Terms of Use</a></li>
+                    
                     
                    
                   

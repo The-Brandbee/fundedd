@@ -18,15 +18,17 @@ function IndexPage() {
   
   
   return (
-    <>
-     <Link href="/contact-us" >
-                   APPLY NOW
-                </Link>
-                {isVisible && (
-                  <HubSpotFormpopup /> 
-                 )}
-          
-    </>
+ 
+
+<>
+<Link href="#" onClick={toggleVisibility}>
+              {isVisible ? '' : ''}  APPLY NOW
+           </Link>
+           {isVisible && (
+             <HubSpotFormpopup /> 
+            )}
+     
+</>
   );
 }
 

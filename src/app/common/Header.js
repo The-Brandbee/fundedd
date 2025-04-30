@@ -53,7 +53,7 @@ function IndexPage() {
                     <p>Custom solutions for staffing industry challenges.</p>
                   </div>
                 </li>
-                <li className="login-icon-header">
+                <li className="login-icon-header nonenone">
                   <div className="header-top-right-left newn">
                     <Link target="_blank" href="https://deciphercredit.net/products/jLKUVok3gGvYLdeHHbIxeGBKWkDubUR7PqnpdHrUYIpy2ulB5ZH2l2qzacDB/application">
                       <Image src={LoginIcon} alt="" />
@@ -64,9 +64,12 @@ function IndexPage() {
                  
                 </li>
                 <li>
-                <Link href="/contact-us">
-                   GET FUNDEDD
+                <Link href="#" onClick={toggleVisibility}>
+                   {isVisible ? '' : ''} GET FUNDEDD
                 </Link>
+                {isVisible && (
+                  <HubSpotFormpopup /> 
+                 )}
                 
           
                 </li>    

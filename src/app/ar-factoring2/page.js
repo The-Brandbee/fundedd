@@ -190,12 +190,12 @@ export default function Arfactoring() {
           Total Invoice Value: $10,000 
             </li>
             <li>
-          Advance Rate: 90%
+          Advance Rate: 85%
             </li>
            </ul>
        </div>
        <div className="Example-Calculation-new-middle-right">
-        <h5><span>Funding Amount</span> = $10,000 × 90% = ($10,000 × 2%) <br/><span>Funding Amount</span> = $9,000</h5>
+        <h5><span>Funding Amount</span> = $10,000 × 85% = ($10,000 × 1.25%) <br/><span>Funding Amount</span> = $9,880</h5>
        </div>
      </div>
      <p>Note: Charges of Discount fee/Interest will be charged after collection from the Customer.</p>

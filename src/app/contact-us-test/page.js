@@ -75,7 +75,7 @@ export default function Arfactoring() {
             <div className="contact-us-page-middle-middle-right">
               <h4>Start your application now</h4>
                
-             
+             <p>All fields are required*</p>
                 <div className="contact-us-page-middle-middle-right-from">
                <Contactusfrom/>
                 </div>    

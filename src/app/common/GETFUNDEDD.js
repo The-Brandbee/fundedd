@@ -19,9 +19,15 @@ function IndexPage() {
   
   return (
     <>
-     <Link href="/contact-us">
-                   GET FUNDEDD
-                </Link> 
+   <>
+     <Link href="#" onClick={toggleVisibility}>
+                   {isVisible ? '' : ''} GET FUNDEDD
+                </Link>
+                {isVisible && (
+                  <HubSpotFormpopup /> 
+                 )}
+          
+    </>
                
           
     </>

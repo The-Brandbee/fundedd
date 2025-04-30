@@ -3,9 +3,10 @@ import Link from "next/link";
 import { useState } from 'react';
  
 export default function Home() {
-  const [invoiceAmount, setInvoiceAmount] = useState(10000);
-  const [advanceRate, setAdvanceRate] = useState(80);
-  const [discountRate, setDiscountRate] = useState(2);
+  const [advanceRate, setAdvanceRate] = useState(1.2); // Default to 1.25%
+  const [invoiceAmount, setInvoiceAmount] = useState(0);
+  const [discountRate, setDiscountRate] = useState(85);
+
   const [daysOutstanding, setDaysOutstanding] = useState(30);
 
   const advanceAmount = (invoiceAmount * (advanceRate / 100)).toFixed(2);
@@ -42,17 +43,17 @@ export default function Home() {
           {/* <input type="text" className="input" value={advanceRate} onChange={e => setAdvanceRate(Number(e.target.value))} /> */}
       
           <select
-  className="input"
-  value={advanceRate}
-  onChange={e => setAdvanceRate(Number(e.target.value))}
->
-  <option value={1.00}>1.00%</option>
-  <option value={1.2}>1.25%</option>
-  <option value={1.50}>1.50%</option>
-  <option value={1.75}>1.75%</option>
-  <option value={2.00}>2.00%</option>
-  <option value={2.25}>2.25%</option>
-</select>
+      className="input"
+      value={advanceRate}
+      onChange={e => setAdvanceRate(Number(e.target.value))}
+    >
+      <option value={1.00}>1.00%</option>
+      <option value={1.2}>1.25%</option>
+      <option value={1.50}>1.50%</option>
+      <option value={1.75}>1.75%</option>
+      <option value={2.00}>2.00%</option>
+      <option value={2.25}>2.25%</option>
+    </select>
         </div>
 
         <div className='space-y-4-new'>
@@ -81,7 +82,7 @@ export default function Home() {
         <p><strong>30 Day Factoring Fee:
         </strong> {formatINRCurrency(advanceAmount)}</p>   
       
-        <p><strong>Cash available after the invoices have been paid:</strong> ${remaining}</p>
+        <p className="nonenone"><strong>Cash available after the invoices have been paid:</strong> ${remaining}</p>
       <p><strong>Total cash received by the end of the factoring process</strong> {formatINRCurrency(Number(discountFee) + Number(remaining))}</p> 
         <div className='cal-link-main-link'>
           <Link href="/contact-us">Get a quote</Link>
