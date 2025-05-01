@@ -117,14 +117,14 @@ function IndexPage() {
                   </li> 
                 </ul>
               </div>
-              <div className="header-bottom-frame_main-middle-right">
+              <div className="header-bottom-frame_main-middle-right nonenone">
                  <div className="header-sech-frame">
                     <input type="text"/>
                     <a href="">
                     <Image src={Search} alt="" />
                     </a>
                  </div>
-                {/* <SearchBar />*/}
+                {/* <SearchBar />*/} 
               </div>
            </div>
         </div>

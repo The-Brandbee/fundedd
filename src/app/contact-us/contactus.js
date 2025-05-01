@@ -8,7 +8,7 @@ import HeaderMobileIn from "../common/HeaderMobile.js";
 import GETFUNDEDD from "../common/GETFUNDEDDTWO.js";
 import ContactUsFrom from "../common/ContactUsFrom.js";
 import ContactUsFromTwo from "../common/ContactUsFromTwo.js";
-import PARTNERWITHUS from "../common/PARTNERWITHUS.js"; 
+import Contactusfrom from "../contact-us-test/contactus.js"; 
 import Footer from "../common/Footer.js";
 import TestimonialSlideTwoN from "../common/TestimonialSlideTwo2.js";                 
 import ClientsSay from "../common/Client.js"; 
@@ -74,15 +74,13 @@ export default function Arfactoring() {
             </div>
             <div className="contact-us-page-middle-middle-right">
               <h4>Start your application now</h4>
-                <p>Step 1:</p>
                
-             
+             <p>All fields are required*</p>
                 <div className="contact-us-page-middle-middle-right-from">
-                <iframe className="contact-us-page-frame" src="https://deciphercredit.net/products/jLKUVok3gGvYLdeHHbIxeGBKWkDubUR7PqnpdHrUYIpy2ulB5ZH2l2qzacDB/application/embed" ></iframe>
-                    
-                </div>
-                <p className="After-submitting">*After submitting this form, you will be redirected to complete the remaining <br/>steps of your application.</p>
-            </div>
+               <Contactusfrom/>
+                </div>    
+                <p className="After-submitting nonenone">*After submitting this form, you will be redirected to complete the remaining <br/>steps of your application.</p>
+            </div>          
         </div>
     </div>    
  </section>
