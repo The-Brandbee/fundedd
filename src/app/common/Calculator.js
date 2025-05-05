@@ -5,7 +5,7 @@ import GETFUNDEDDCAL from "../common/GETFUNDEDDCAL.js";
 import { useState } from 'react';
  
 export default function Home() {
-  const [advanceRate, setAdvanceRate] = useState(1.2); // Default to 1.25%
+  const [advanceRate, setAdvanceRate] = useState(1.25); // Default to 1.25% 
   const [invoiceAmount, setInvoiceAmount] = useState(0);
   const [discountRate, setDiscountRate] = useState(85);
 
@@ -50,7 +50,7 @@ export default function Home() {
       onChange={e => setAdvanceRate(Number(e.target.value))}
     >
       <option value={1.00}>1.00%</option>
-      <option value={1.2}>1.25%</option>
+      <option value={1.25}>1.25%</option>
       <option value={1.50}>1.50%</option>
       <option value={1.75}>1.75%</option>
       <option value={2.00}>2.00%</option>
