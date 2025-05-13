@@ -1045,6 +1045,10 @@ content: "";
 }
 .Your-Trusted-Partner-for-Payroll-Funding-left-left ul.ne-add li{
   margin-bottom: 15px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 .Your-Trusted-Partner-for-Payroll-Funding-left-left ul.ne-add li img{
   width: 18px;
