@@ -29,6 +29,7 @@ import GirlFourT from "../app/img/factors_18377058@2x-white.png";
 import GirlFiveT from "../app/img/icckd-white.png"; 
 import Trusted from "../app/img/shutterstock_2429463813@2x.png";
 import headertopicon from "../app/img/header-top-icon.png";
+import headertopiconNN from "../app/img/header-top-icon-2.png";
 import TrustedTwo from "../app/img/pexels-shkrabaanthony-5816291@2x.png";  
 import Expert from "../app/img/Component-12-1@2x.png";
 import ExpertTwo from "../app/img/shutterstock-5402044.png";
@@ -181,7 +182,12 @@ export default function Home() {
       <div className="Your-Trusted-Partner-for-Payroll-Funding-left twoo">
           <div className="Your-Trusted-Partner-for-Payroll-Funding-left-left two">
                <h4>Funding Solutions To Fuel Growth</h4>
-               <p className="hiddle">At Fundedd, we deliver specialized AR factoring solutions that put you in control of your cash flow. Our flexible funding approach ensures you can meet payroll demands, fuel growth, and optimize operations at every stage of your business journey.</p>
+             <ul className="ne-add">
+            <li><Image src={headertopiconNN} alt="" /> Customized funding that scales with your growth</li>
+            <li><Image src={headertopiconNN} alt="" /> 24-hour response on funding decisions</li>
+            <li><Image src={headertopiconNN} alt="" /> Transparent pricing with no surprises</li> 
+            <li><Image src={headertopiconNN} alt="" /> Decades of specialized staffing industry expertise</li>
+          </ul>
           </div>
           <div className="Your-Trusted-Partner-for-Payroll-Funding-right two">
         <div className="Your-Trusted-Partner-for-Payroll-Funding-right-left">
