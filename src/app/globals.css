@@ -10,6 +10,9 @@
   font-family:Poppins-Regular;
   src:url('../app/fonts/Poppins-Regular.ttf');
 }
+.hiddle{
+  visibility: hidden;
+}
 
 .Calculator-middle-sect h3{
   color: #fff;

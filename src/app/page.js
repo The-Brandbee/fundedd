@@ -181,7 +181,7 @@ export default function Home() {
       <div className="Your-Trusted-Partner-for-Payroll-Funding-left twoo">
           <div className="Your-Trusted-Partner-for-Payroll-Funding-left-left two">
                <h4>Funding Solutions To Fuel Growth</h4>
-               <p>At Fundedd, we deliver specialized AR factoring solutions that put you in control of your cash flow. Our flexible funding approach ensures you can meet payroll demands, fuel growth, and optimize operations at every stage of your business journey.</p>
+               <p className="hiddle">At Fundedd, we deliver specialized AR factoring solutions that put you in control of your cash flow. Our flexible funding approach ensures you can meet payroll demands, fuel growth, and optimize operations at every stage of your business journey.</p>
           </div>
           <div className="Your-Trusted-Partner-for-Payroll-Funding-right two">
         <div className="Your-Trusted-Partner-for-Payroll-Funding-right-left">

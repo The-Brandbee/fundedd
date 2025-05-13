@@ -7,7 +7,7 @@ import headertopicon from "../img/header-top-icon.png";
 import Search from "../img/search.png";
 import LoginIcon from "../img/login-icon.png";
 import HubSpotFormpopup from "../common/HubSpotFormpopup.js";  
-import SearchBar from "../common/SearchBar.js";  
+
 
 
 function IndexPage() {
@@ -124,7 +124,7 @@ function IndexPage() {
                     <Image src={Search} alt="" />
                     </a>
                  </div>
-                {/* <SearchBar />*/} 
+                
               </div>
            </div>
         </div>
