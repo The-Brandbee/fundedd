@@ -13,7 +13,34 @@
 .hiddle{
   visibility: hidden;
 }
-
+.home-page-lpgo-section-main{
+  background: #000;
+  padding: 80px 0px;
+}
+.home-page-lpgo-section-main-heading h4{
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.home-page-lpgo-section-main-heading h4 span{
+  
+}
+.home-page-lpgo-section-main-middle{
+  display: flex;
+      align-items: center;
+}
+.home-page-lpgo-section-main-middle-img{
+  width: 100%;
+      padding: 0px 30px;
+}
+.home-page-lpgo-section-main-middle-img:nth-child(2){
+      width: 70%;
+}
+.home-page-lpgo-section-main-middle-img img{
+  width: 100%;
+}
 .Calculator-middle-sect h3{
   color: #fff;
   margin-top: 40px;
@@ -2725,6 +2752,22 @@ width: 50%;
 display: none;
 }     
 @media all and (min-width:120px) and (max-width:680px){
+  .home-page-lpgo-section-main-heading h4 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    .home-page-lpgo-section-main-middle-img {
+    width: 47%;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+.home-page-lpgo-section-main {
+    background: #000;
+    padding: 40px 0px;
+}
+    .home-page-lpgo-section-main-middle {
+    flex-wrap: wrap;
+}
   .tear-frame-left.desktop{
 display: none;
   }

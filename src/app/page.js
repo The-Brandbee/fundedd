@@ -36,6 +36,10 @@ import ExpertTwo from "../app/img/shutterstock-5402044.png";
 import ExpertThree from "../app/img/Ellipse-6@2x.png";    
 import ExpertThreeTW from "../app/img/Fundedd-logo-04@2x.png"; 
 import Logo from "../app/img/fund-l.png";   
+import LogoOne from "../app/img/logo1.svg"; 
+import LogoTwo from "../app/img/logo2.png"; 
+import LogoThree from "../app/img/logo3.png"; 
+import LogoFour from "../app/img/logo4.png"; 
 import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function Home() {
@@ -210,6 +214,27 @@ export default function Home() {
 </div>
 </section>         
 
+<section className="home-page-lpgo-section-main">
+  <div className="container">
+    <div className="home-page-lpgo-section-main-heading">
+         <h4>Our Memberships <span>and Affiliations</span></h4>      
+    </div>
+    <div className="home-page-lpgo-section-main-middle">
+        <div className="home-page-lpgo-section-main-middle-img">
+            <Image src={LogoOne} alt="" />
+        </div>
+        <div className="home-page-lpgo-section-main-middle-img">
+            <Image src={LogoTwo} alt="" />
+        </div>
+        <div className="home-page-lpgo-section-main-middle-img">
+            <Image src={LogoThree} alt="" />
+        </div>
+        <div className="home-page-lpgo-section-main-middle-img">
+            <Image src={LogoFour} alt="" /> 
+        </div>
+    </div>
+  </div>
+</section>
 
 <section className="How-Fundedd-Stands-Out">
 <div className="container">
