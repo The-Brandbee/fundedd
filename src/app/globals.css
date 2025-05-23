@@ -25,7 +25,7 @@
     margin-top: 0px;
 }
 .home-page-lpgo-section-main-heading h4 span{
-  
+  color: #eb5e26;
 }
 .home-page-lpgo-section-main-middle{
   display: flex;
@@ -2752,6 +2752,10 @@ width: 50%;
 display: none;
 }     
 @media all and (min-width:120px) and (max-width:680px){
+  .home-page-lpgo-section-main-middle-img:nth-child(2) {
+        width: 40%;
+        margin-left: 4%;
+}
   .home-page-lpgo-section-main-heading h4 {
         font-size: 22px;
         margin-bottom: 25px;
