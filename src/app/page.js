@@ -217,7 +217,7 @@ export default function Home() {
 <section className="home-page-lpgo-section-main">
   <div className="container">
     <div className="home-page-lpgo-section-main-heading">
-         <h4>Our Memberships <span>and Affiliations</span></h4>      
+         <h4>Our <span>Memberships</span> and Affiliations</h4>      
     </div>
     <div className="home-page-lpgo-section-main-middle">
         <div className="home-page-lpgo-section-main-middle-img">
