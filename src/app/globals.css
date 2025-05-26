@@ -3711,3 +3711,142 @@ display: none;
   width: 100%;
 }
 }
+
+
+
+
+/*new code add */
+.new-home-page-main .header-top-frame_main {
+    background: #fff;
+}
+.new-home-page-main .header-top-right ul li a{
+  background: #ff7518;
+}
+.new-home-page-main .header-top-right ul li h5 {
+    color: #727272;
+}
+.new-home-page-main .header-bottom-frame_main {
+    background: #f2f2f2;
+}
+.new-home-page-main .header-bottom-frame_main-middle-left ul li{
+   background: #f2f2f2;
+}
+.new-home-page-main .Empowering-Staffing-Companies {
+    background: #f2f2f2;
+}
+.new-home-page-main .Empowering-Staffing-Companies-middle-left h1 {
+    color: #000;
+}
+.new-home-page-main .Empowering-Staffing-Companies-middle-right a{
+   background: #ff7518;
+}
+.new-home-page-main .Reliable-Funding-When-You-Need{
+  background: #fff;
+}
+.new-home-page-main .Reliable-Funding-When-You-Need::before{
+  display: none;
+}
+.new-home-page-main .Reliable-Funding-When-You-Need::after{
+   display: none;
+}
+.new-home-page-main .Reliable-Funding-When-You-Need-middle-left-header-cont-bottom{
+      background: #f2f2f2;
+}
+.new-home-page-main .Reliable-Funding-When-You-Need-middle-left-header-cont-bottom-to-left p {
+    color: #000;
+}
+.new-home-page-main .Reliable-Funding-When-You-Need-middle-left-header-cont p {
+    color: #000;
+}
+.new-home-page-main .Reliable-Funding-When-You-Need-middle-left-header-cont p a{
+      background: #FF7518;
+}
+.new-home-page-main .Rapid-Fund-Processing-main-left-middl{
+  background: #f2f2f2;
+}
+.new-home-page-main .Rapid-Fund-Processing-main-left-middl p{
+   color: #000;
+}
+.new-home-page-main .Reliable-Funding-When-You-Need-middle-left-header h4{
+   color: #000;
+}
+.new-home-page-main .Empowering-Staffing-Companies-middle-right p {
+    color: #000;
+}
+.new-home-page-main .Rapid-Fund-Processing-main-right-midl{
+   background: #f2f2f2;
+}
+.new-home-page-main .Rapid-Fund-Processing-main-right-midl p{
+   color: #000;
+}
+.new-home-page-main .Your-Trusted-Partner-for-Payroll-Funding {
+    background: #f2f2f2;
+}
+.new-home-page-main .Your-Trusted-Partner-for-Payroll-Funding::before{
+  display: none;
+}
+.new-home-page-main .Your-Trusted-Partner-for-Payroll-Funding::after{
+  display: none;
+}
+.new-home-page-main .How-Fundedd-Stands-Out {
+    background: #fff;
+}
+.new-home-page-main .tab-inner-frame p {
+    color: #000;
+}
+.new-home-page-main .tab-view .react-tabs__tab-list {
+    background: #727272;
+}
+.new-home-page-main .tab-view .react-tabs__tab {
+    color: #fff;
+}
+.new-home-page-main .tab-view .react-tabs__tab--selected {
+    color: #fff !important;
+    border-radius: 5px 5px 0 0;
+    background: #ff7518;
+    border: 0px solid #000000;
+    border-radius: 100px;
+    opacity: 1;
+}
+.new-home-page-main .How-Fundedd-Stands-Out h4{
+  color: #000;
+}
+.new-home-page-main .Expert-Advisory-for {
+    background: #f2f2f2;
+}
+.new-home-page-main .Expert-Advisory-for-middle-left-cont h3{
+  color: #000;
+}
+.new-home-page-main .Expert-Advisory-for-middle-left-cont p{
+   color: #000;
+}
+.new-home-page-main .Begin-Your-Funding-Journey {
+    background: #fff; 
+}
+.new-home-page-main .Begin-Your-Funding-Journey-middle-left-left h4{
+   color: #000;
+}
+.new-home-page-main .Begin-Your-Funding-Journey-middle-left-left p{
+   color: #000;
+}
+.new-home-page-main .Begin-Your-Funding-Journey-middle-left-left p a{
+   background: #ff7518;
+}
+.new-home-page-main footer {
+    background: #f2f2f2;
+}
+.new-home-page-main .footer-middle{
+      background: #ffffff;
+}
+.new-home-page-main .footer-middle-left h4{
+  color: #000;
+}
+.new-home-page-main .footer-middle-r ul li a{
+  color: #000;
+}
+.new-home-page-main .hs-input:not([type=file]) {
+    background-color: #f2f2f2;
+}
+.new-home-page-main .footer-middle-left p{
+  color: #000;
+}
