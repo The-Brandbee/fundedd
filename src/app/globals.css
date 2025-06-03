@@ -10,6 +10,172 @@
   font-family:Poppins-Regular;
   src:url('../app/fonts/Poppins-Regular.ttf');
 }
+.customized-detail-page-middle h4{
+     color: #fff;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+.customized-detail-page-middle span{
+ color: #FF7518;
+}
+.customized-detail-page-middle p{
+ color: #F2F2F2;
+  font-size: 17px;
+  padding-left: 80px;
+  width: 450px;
+}
+.customized-solutions-middle-page-main{
+  position: relative;
+}
+.customized-solutions-middle-page-main img{
+  width: 100%;
+}
+.customized-solutions-middle-page .react-multiple-carousel__arrow{
+display: none !important;
+}
+.customized-detail-page-middle{
+      position: absolute;
+    top: 30%;
+    z-index: 9999999;
+}
+.tab-middle-mainRevenueFinancing-middle{
+  display: flex;
+  justify-content: space-between;
+}
+.tab-middle-mainRevenueFinancing-middle-left{
+ width: 65%;
+}
+
+.tab-middle-mainRevenueFinancing-middle-right{
+  width: 25%;
+}
+.tab-middle-mainRevenueFinancing-middle-right img{
+  width: 100%;
+}
+.tab-middle-mainRevenueFinancing-middle-left h3{
+  color: #fff;
+      margin-bottom: 25px;
+      margin-top: 25px;
+}
+.tab-middle-mainRevenueFinancing-middle-left h3 span{
+  color: #ff7518;
+}
+.tab-middle-mainRevenueFinancing-middle-left p{
+  color: #fff;
+      padding-left: 60px;
+          margin-bottom: 25px;
+}
+.tab-middle-mainRevenueFinancing-middle-left p a{
+  color: #ff7518;
+}
+.tab-middle-mainRevenueFinancing-middle-left p:last-child{
+  font-weight: 600;
+}
+.Revenue-Financing .react-tabs__tab-panel--selected {
+    display: block;
+    background: #3C3C3C;
+    padding-top: 65px;
+    padding-bottom: 65px;
+
+}
+.Revenue-Financing .react-tabs__tab-list {
+    border-bottom: 0px solid #aaa;
+        background: #F2F2F2;
+        
+}
+.Revenue-Financing .react-tabs__tab--selected{
+    background: #FF7518;
+    border-color: #aaa;
+    color: #fff !important;
+    border-radius: 0px;
+    bottom: 0px;
+  
+}
+.Revenue-Financing .react-tabs__tab{
+       border: 0px solid transparent;
+    bottom: 0px;
+    font-size: 32px;
+    width: 50%;
+    text-align: center;
+    color: #FF7518;
+    font-weight: bold;
+    padding: 30px 0px;
+    position: relative;
+
+}
+.Revenue-Financing .react-tabs__tab--selected:after {
+color: #FF7518;
+    content: "\25bc";
+    font-size: 45px;
+    left: 0%;
+    padding-left: 0;
+    position: absolute;
+    bottom: -45px; 
+    width: 100%;
+     border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+   border: 0px solid #007bff;
+}
+.Revenue-Financing  .react-tabs__tab:focus:after {
+  background: transparent !important;
+color: #FF7518;
+    content: "\25bc";
+    font-size: 45px;
+    left: 0%;
+    padding-left: 0;
+    position: absolute;
+    bottom: 17px; 
+    width: 100%;
+     border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+   border: 0px solid #007bff;
+}
+.Tailored-Capital-Structures .rfm-marquee-container {
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.Tailored-Capital-Structures .marqu-main-frame-img-cont{
+  width: 340px;
+}
+.Tailored-Capital-Structures .marqu-main-frame-img-cont h4{
+  margin-top: 70px;
+}
+
+.read-jon-main-frame-inner-two.customized-solutions-page{
+background: #F2F2F2;
+}
+.read-jon-main-frame-inner-two.customized-solutions-page .Begin-Your-Funding-Journey-middle-left-left h4 {
+    color: #727272;
+}
+.customized-solutions-page .Begin-Your-Funding-Journey-middle-left-left p{
+ color: #000000;
+    margin-top: 25px;
+}
+.Tailored-Capital-Structures{
+      background: #FF7518;
+}
+.Tailored-Capital-Structures .marqu-main-frame-img-cont{
+  background: #F2F2F2;
+      margin-left: 30px;
+    margin-right: 30px;
+}
+.Tailored-Capital-Structures .marqu-main-frame-img-cont h4 {
+    color: #FF7518;
+    font-size: 22px;
+    line-height: 30px;
+}
+.Tailored-Capital-Structures .marqu-main-frame-img-cont p {
+    color: #727272;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.customized-solutions-page .Begin-Your-Funding-Journey-middle-left-left p a{
+    margin-bottom: 60px;
+}
 .hiddle{
   visibility: hidden;
 }
@@ -2752,6 +2918,52 @@ width: 50%;
 display: none;
 }     
 @media all and (min-width:120px) and (max-width:680px){
+  .tab-middle-mainRevenueFinancing-middle-left {
+    width: 100%;
+}
+.tab-middle-mainRevenueFinancing-middle-right{
+  display: none;
+}
+.tab-middle-mainRevenueFinancing-middle-left p{
+  padding-left: 30px;
+}
+.tab-middle-mainRevenueFinancing-middle-left h3 br{
+  display: none;
+}
+  .Revenue-Financing .react-tabs__tab--selected:after{
+        font-size: 30px;
+        bottom: -31px;
+  }
+  .Revenue-Financing  .react-tabs__tab:focus:after {
+      font-size: 30px;
+        bottom: 10px;
+  }
+  .Revenue-Financing .react-tabs__tab{
+    font-size: 14px;
+    padding:15px 0px;
+  }
+  .customized-detail-page-middle{
+      position: relative;
+      top: 0px;
+      z-index: 9999999;
+}
+.customized-detail-page-middle h4{
+     color: #000;
+     font-size: 24px;
+     line-height: 34px;
+     margin-bottom: 20px;
+     margin-top: 29px;
+}
+.customized-detail-page-middle p{
+ color: #000;
+ font-size: 16px;
+ padding-left: 31px;
+ width: 100%;
+     margin-bottom: 30px;
+}
+.customized-detail-page-middle h4 br{
+  display: none;
+}
   .home-page-lpgo-section-main-middle-img:nth-child(2) {
         width: 40%;
         margin-left: 4%;

@@ -144,7 +144,7 @@ export default function Arfactoring() {
             <div className="Our-Values-main-about-middle-left">
                   <div className="heading-about-us">
                     <h3><span>Our</span> Values</h3>
-                    <p>At Fundedd, we believe funding is more than just financial capital—it’s an opportunity to build businesses, create jobs, and foster innovation. We are entrepreneurs, serving entrepreneurs, which means we understand your challenges and share your drive for success.</p>
+                    <p>At Fundedd, we believe funding is more than just financial capital—it's an opportunity to build businesses, create jobs, and foster innovation. We are entrepreneurs, serving entrepreneurs, which means we understand your challenges and share your drive for success.</p>
                   </div>
                   <ul>
                     <li>
