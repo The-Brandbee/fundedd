@@ -45,7 +45,7 @@ export default function TestimonialSlide() {
         
           <div>
            <div className="customized-solutions-middle-page-main">
-                <Image src={BannerOne} alt="" className=""/>  
+                <Image src={BannerOne} alt="" className="desktop"/>  
                 <div className="container">
                      <div className="customized-detail-page-middle">
                          <h4>Growth Capital That Moves <br/>With <span>Your Revenue</span></h4>
@@ -56,7 +56,7 @@ export default function TestimonialSlide() {
            </div>
             <div>
            <div className="customized-solutions-middle-page-main">
-                <Image src={BannerTwo} alt="" className=""/>  
+                <Image src={BannerTwo} alt="" className="desktop"/>  
                 <div className="container">
                      <div className="customized-detail-page-middle">
                          <h4>Unlock Potential with <br/>Bespoke <span>Lending Solutions</span></h4>
