@@ -2918,6 +2918,12 @@ width: 50%;
 display: none;
 }     
 @media all and (min-width:120px) and (max-width:680px){
+  .customized-solutions-slider{
+    background: #000;
+  }
+  .customized-solutions-middle-page-main img{
+    display: none;
+  }
   .tab-middle-mainRevenueFinancing-middle-left {
     width: 100%;
 }
@@ -2948,14 +2954,14 @@ display: none;
       z-index: 9999999;
 }
 .customized-detail-page-middle h4{
-     color: #000;
+     
      font-size: 24px;
      line-height: 34px;
      margin-bottom: 20px;
      margin-top: 29px;
 }
 .customized-detail-page-middle p{
- color: #000;
+
  font-size: 16px;
  padding-left: 31px;
  width: 100%;

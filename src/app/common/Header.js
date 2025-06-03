@@ -88,6 +88,10 @@ function IndexPage() {
                   <li>
                   <Link href="/ar-factoring">AR Factoring</Link>
                   </li>
+                  
+                   <li>
+                  <Link href="/customized-solutions">Customized Solutions</Link>
+                  </li>
                   <li>
                   <Link href="/partner">Partner</Link>
                   </li>
