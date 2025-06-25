@@ -6,7 +6,7 @@ import Link from "next/link";
 import Header from "../common/Header.js";
 import HeaderMobileIn from "../common/HeaderMobile.js";
 import GETFUNDEDD from "../common/GETFUNDEDDTWO.js";
-import PARTNERWITHUS from "../common/PARTNERWITHUS.js";
+import PARTNERWITHUS from "../common/partnerTabopo.js";
 import Footer from "../common/Footer.js";
 import TestimonialSlideTwoN from "../common/TestimonialSlideTwo2.js";                 
 import ClientsSay from "../common/Client.js"; 
@@ -100,7 +100,7 @@ export default function Arfactoring() {
      <div className="Ongoing-Support-bottom-frame">
         <div className="Ongoing-Support-bottom-frame-left">
               <p>Get started today and refer your clients for immediate financial support!</p>
-              <p> <PARTNERWITHUS/></p>
+               <PARTNERWITHUS/>
         </div>
         
      </div>
@@ -162,7 +162,7 @@ export default function Arfactoring() {
 
 </section>
 
-<section className="home-page-lpgo-section-main">
+<section className="home-page-lpgo-section-main nonenone">
   <div className="container">
     <div className="home-page-lpgo-section-main-heading">
          <h4>Our <span>Memberships</span> and Affiliations</h4>      
@@ -192,7 +192,7 @@ export default function Arfactoring() {
       <h4><span>Partner with</span> Us Today!</h4> 
       <p className="today-and-help-your">By partnering with Fundedd, you're giving staffing companies the tools they need to thrive. Whether you're a bank, business advisor, or investment firm, together we can make a real difference in the financial success of staffing companies.</p>
     <p className="today-and-help-your">Ready to partner with Fundedd? Get in touch with us today and help your clients access the funding they need to grow and succeed!</p>
-      <p className="today-and-help-your"> <PARTNERWITHUS/> </p></div>
+       <PARTNERWITHUS/></div>
     </div>
     <div className="read-jon-main-frame-inner-two-middle-right">
     <Image src={ExpertTwoJoin} alt="" className="left-Advisory"/>  

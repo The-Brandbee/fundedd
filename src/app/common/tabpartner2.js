@@ -1,7 +1,7 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import ApplyNow from "../common/ApplyNow.js";
-import PARTNERWITHUS from "../common/PARTNERWITHUS.js";
+import PARTNERWITHUS from "../common/partnerTabopo.js"; 
 import headertopicon from "../img/header-top-icon.png";
 import Image from "next/image";  
 import Logo from "../img/fund-l.png";
@@ -25,7 +25,7 @@ export default () => (
           <div className='partrtner-middle-tab-main-section-left'>
              <h3>How Banks can help and benefit by Partnering with Fundedd?</h3>
              <p>Banks can provide staffing companies with essential working capital through customized AR factoring solutions. By unlocking cash from outstanding invoices, banks help ensure smooth operations and timely payroll, empowering businesses to overcome cash flow challenges.</p>
-              <p> <PARTNERWITHUS/></p>
+              <PARTNERWITHUS/>
        </div>
        <div className='partrtner-middle-tab-main-section-right'>
           <ul>
@@ -66,7 +66,7 @@ export default () => (
           <div className='partrtner-middle-tab-main-section-left'>
              <h3>How Business Advisors can help and benefit from partnering with Fundedd?</h3>
              <p>Business advisors play a crucial role in guiding staffing companies through financial challenges. By partnering with Fundedd, they can offer clients customized financing options to manage cash flow, secure expansion funding, and maintain business continuity.</p>
-              <p> <PARTNERWITHUS/></p>
+              <PARTNERWITHUS/>
        </div>
        <div className='partrtner-middle-tab-main-section-right'>
           <ul>
@@ -107,7 +107,7 @@ export default () => (
           <div className='partrtner-middle-tab-main-section-left'>
              <h3>How Banks can help and benefit by Partnering with Fundedd?</h3>
              <p>Banks can provide staffing companies with essential working capital through customized AR factoring solutions. By unlocking cash from outstanding invoices, banks help ensure smooth operations and timely payroll, empowering businesses to overcome cash flow challenges.</p>
-              <p> <PARTNERWITHUS/></p>
+              <PARTNERWITHUS/>
        </div>
        <div className='partrtner-middle-tab-main-section-right'>
           <ul>
