@@ -10,6 +10,148 @@
   font-family:Poppins-Regular;
   src:url('../app/fonts/Poppins-Regular.ttf');
 }
+
+/* new */
+.How-Fundedd-Stands-Out.part-new .tab-view .react-tabs__tab-list{
+    background: transparent;
+    padding: 1px 11px !important;
+    margin-top: 0px !important;
+        margin: initial !important;
+}
+.How-Fundedd-Stands-Out.part-new .react-tabs__tab{
+     font-size: 24px;
+    background: #FF7518;
+    margin-right: 25px !important;
+    margin-bottom: 0pc;
+        color: #fff;
+            border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.How-Fundedd-Stands-Out.part-new .tab-view .react-tabs__tab--selected{
+  border-radius: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: #FF7518 !important;
+  background: #fff;
+  
+    margin-right: 25px !important;
+}
+.part-logo-main{
+  display: flex;
+      align-items: center;
+}
+.part-logo img{
+  width: 240px;
+}
+.partrtner-middle-tab-main-section-right ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .partrtner-middle-tab-main-section-right ul li{
+    display: flex;
+        margin-bottom: 15px;
+  }
+  .partrtner-middle-tab-main-section-right ul li img {
+    width: 22px;
+    margin-right: 10px;
+}
+  .partrtner-middle-tab-main-section-right li h4 {
+    color: #FF7518;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+ .partrtner-middle-tab-main-section-right ul li p {
+    width: 100%;
+    color: #000;
+    margin-top: 10px;
+}
+.partrtner-middle-tab-main-section{
+    background: #fff;
+    border-radius: 20px;
+    padding: 5% 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.partrtner-middle-tab-main-section-left h3{
+  color: #FF7518;
+}
+.partrtner-middle-tab-main-section-left p{
+      margin-top: 30px;
+}
+.partrtner-middle-tab-main-section .partrtner-middle-tab-main-section-left{
+  width: 50%;
+}
+.partrtner-middle-tab-main-section .partrtner-middle-tab-main-section-right{
+width: 36%;
+}
+.How-It-Works-main-frame-partner.tow .How-It-Works-main-frame-partner-heading-left h3 {
+    color: #fff;
+        font-size: 32px;
+}
+.How-It-Works-main-frame-partner.tow .How-It-Works-main-frame-partner-heading-left h3 span{
+  color: #eb5e26;
+}
+.How-It-Works-main-frame-partner.tow .How-It-Works-main-frame-partner-heading-left p{
+    color: #fff !important;
+    margin-top: 20px;
+}
+.How-It-Works-main-frame-partner.tow .container{
+      z-index: 999;
+    position: relative;
+}
+.How-It-Works-main-frame-partner.tow{
+position: relative;
+    background: #000000;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.How-It-Works-main-frame-partner.tow::before {
+    content: "";
+    background: url(/_next/static/media/Layer1@2x.07ff8851.png);
+
+    position: absolute;
+   bottom: -44%;
+    right: 1%;
+    width: 40%;
+    height: 100%;
+    z-index: 0;
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+.How-It-Works-main-frame-partner.tow::after {
+    content: "";
+    background: linear-gradient(90deg, #ff75184a 0%, #00000030 35%, #ff75184a 100%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.Reliable-Funding-When-You-Need.What-is-AR-Factoring.new{
+      background: #fff;
+}
+.Reliable-Funding-When-You-Need.What-is-AR-Factoring.new::before{
+  background: transparent;
+}
+.Reliable-Funding-When-You-Need.What-is-AR-Factoring.new::after{
+background: transparent;
+}
+.Reliable-Funding-When-You-Need.What-is-AR-Factoring.new .Expert-Advisory-for-middle-left-cont h3{
+  color: #000;
+}
+.Reliable-Funding-When-You-Need.What-is-AR-Factoring.new .Expert-Advisory-for-middle-left-cont p{
+  color: #000;
+}
+.Reliable-Funding-When-You-Need.What-is-AR-Factoring.new .Expert-Advisory-for-middle-left-cont h5{
+  font-weight: bold;
+}
+.Reliable-Funding-When-You-Need.What-is-AR-Factoring.new .Expert-Advisory-for-middle {
+    align-items: center;
+}
+/*new end */
+
 .customized-detail-page-middle h4{
      color: #fff;
     font-size: 40px;
@@ -2917,7 +3059,71 @@ width: 50%;
 .tear-frame-left.nonenone{
 display: none;
 }     
+.part-logo img {
+   
+    margin-right: 50px;
+}
 @media all and (min-width:120px) and (max-width:680px){
+  .partner-main-page .Reliable-Funding-When-You-Need.What-is-AR-Factoring {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.middlefe-main .space-y-4 {
+    width: 100%;
+}
+.middlefe-main .mt-6 {
+    width: 100%;
+            margin-bottom: 50px;
+}
+.middlefe-main .right-sect strong {
+    color: #FF7518;
+    font-size: 16px;
+    display: block;
+}
+.space-y-4-new label{
+  font-size: 16px;
+}
+.middlefe-main {
+    display: inline-block;
+    justify-content: space-between;
+    color: #fff;
+    width: 100%;
+}
+.part-logo img {
+    width: 60%;
+    margin-right: 0px;
+}
+  .partrtner-middle-tab-main-section {
+    background: #fff;
+    border-radius: 2px;
+    padding: 5%;
+    display: inline-block;
+    justify-content: space-between;
+}
+.partrtner-middle-tab-main-section .partrtner-middle-tab-main-section-left {
+    width: 100%;
+}
+.partrtner-middle-tab-main-section .partrtner-middle-tab-main-section-right {
+    width: 100%;
+    margin-top: 30px;
+}
+  .partrtner-middle-tab-main-section{
+    margin-top: 20px;
+  }
+  .part-logo-main {
+        display: inline-block;
+}
+.How-Fundedd-Stands-Out.part-new .react-tabs__tab {
+    font-size: 18px;
+            border-radius: 0px;
+            margin-top: 10px !important;
+}
+.How-Fundedd-Stands-Out.part-new .tab-view .react-tabs__tab--selected{
+margin-top: 10px !important;
+}
+.part-logo{
+      text-align: center;
+}
   .customized-solutions-slider{
     background: #000;
   }

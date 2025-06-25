@@ -194,7 +194,7 @@ export default function Arfactoring() {
             </li>
              <li>
           Advance Rate: 85%
-            </li>
+            </li> 
            </ul>
        </div>
        <div className="Example-Calculation-new-middle-right">
