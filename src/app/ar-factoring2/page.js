@@ -190,6 +190,9 @@ export default function Arfactoring() {
           Total Invoice Value: $10,000 
             </li>
             <li>
+          Factoring Fee:  1.25%
+            </li>
+             <li>
           Advance Rate: 85%
             </li>
            </ul>
