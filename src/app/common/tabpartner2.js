@@ -12,6 +12,9 @@ export default () => (
     <div className='part-logo'>
         <Image src={Logo} alt="" />
     </div>
+    <div className='part-logo-c'>
+        X
+    </div>
     <TabList>
       <Tab>Banks</Tab>
       <Tab>Business Advisors</Tab>

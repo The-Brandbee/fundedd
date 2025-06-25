@@ -12,6 +12,9 @@
 }
 
 /* new */
+.part-logo-c{
+  color: #fff;
+}
 .How-Fundedd-Stands-Out.part-new .tab-view .react-tabs__tab-list{
     background: transparent;
     padding: 1px 11px !important;
@@ -3061,9 +3064,21 @@ display: none;
 }     
 .part-logo img {
    
-    margin-right: 50px;
+    margin-right: 15px;
 }
+.part-logo-c{
+  font-size: 22px;
+  margin-right: 15px;
+  font-family: Poppins-Bold !important;
+}
+
 @media all and (min-width:120px) and (max-width:680px){
+  .part-logo-c {
+    font-size: 22px;
+    margin-right: 0px;
+    font-family: Poppins-Bold !important;
+    text-align: center;
+}
   .partner-main-page .Reliable-Funding-When-You-Need.What-is-AR-Factoring {
     padding-top: 50px;
     padding-bottom: 50px;
