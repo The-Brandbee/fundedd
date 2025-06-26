@@ -6,7 +6,7 @@ import Link from "next/link";
 import Header from "../common/Header.js";
 import HeaderMobileIn from "../common/HeaderMobile.js";
 import Calculator from "../common/Calculator.js";
-import GETFUNDEDD from "../common/GETFUNDEDDTWO.js"; 
+import GETFUNDEDD from "../common/GETFUNDEDD.js"; 
 import ApplyNow from "../common/ApplyNow.js"; 
 import Footer from "../common/Footer.js";
 import TestimonialSlideTwoN from "../common/TestimonialSlideTwo2.js";                 
@@ -71,7 +71,7 @@ export default function Arfactoring() {
                           <h3>Turn Unpaid Invoices<br/> into Immediate Capital<br/> - Fuel Your Business<br/> Growth Today.</h3>
                           <div className="Accelerate-Your-Business-frame-left-cont">
                             <p>Get the working capital you need without delays. No collateral, no credit checks—just transparent funding solutions.</p>
-                            <p><GETFUNDEDD/> </p>
+                            <GETFUNDEDD/> 
                           </div>
                       </div>
                       <div className="Accelerate-Your-Business-frame-right">

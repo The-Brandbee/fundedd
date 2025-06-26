@@ -19,8 +19,8 @@ function IndexPage() {
   
   return (
     <>
-   <>
-     <Link href="#" onClick={toggleVisibility}>
+   <>     
+     <Link className="normal-color-buttom" href="#" onClick={toggleVisibility}>     
                    {isVisible ? '' : ''} GET FUNDEDD
                 </Link>
                 {isVisible && (
