@@ -108,8 +108,8 @@ export default () => (
     <TabPanel>
    <div className='partrtner-middle-tab-main-section'>
           <div className='partrtner-middle-tab-main-section-left'>
-             <h3>How Banks can help and benefit by Partnering with Fundedd?</h3>
-             <p>Banks can provide staffing companies with essential working capital through customized AR factoring solutions. By unlocking cash from outstanding invoices, banks help ensure smooth operations and timely payroll, empowering businesses to overcome cash flow challenges.</p>
+             <h3>How Investment Firms can help and benefit from partnering with Fundedd?</h3>
+             <p>Investment firms can support staffing companies by providing growth capital and strategic financial solutions. Through a partnership with Fundedd, investment firms can connect staffing companies with funding options that fuel long-term success and expansion.</p>
               <PARTNERWITHUS/>
        </div>
        <div className='partrtner-middle-tab-main-section-right'>
@@ -119,8 +119,8 @@ export default () => (
                     <Image src={headertopicon} alt="" />
                     </div>
                     <div className="right-ico">
-                    <h4>Flexible Funding Solutions</h4>
-                    <p>Offer AR factoring that meets the unique needs of staffing companies.</p>
+                    <h4>Growth Capital Access</h4>
+                    <p>Facilitate funding for staffing companies' growth.</p>
                     </div>
                   </li>
                   <li>
@@ -128,8 +128,8 @@ export default () => (
                     <Image src={headertopicon} alt="" />
                     </div>
                     <div className="right-ico">
-                    <h4>Support for Scaling</h4>
-                    <p>Empower staffing companies to grow with immediate working capital.</p>
+                    <h4>Expertise in Scaling</h4>
+                    <p>Guide businesses toward scalable financial strategies.</p>
                     </div>
                   </li>
                      <li>
@@ -137,8 +137,8 @@ export default () => (
                     <Image src={headertopicon} alt="" />
                     </div>
                     <div className="right-ico">
-                    <h4>Streamlined Funding Process</h4>
-                    <p>Provide quick, easy access to cash, ensuring payroll continuity.</p>
+                    <h4>Long-term Financial Solutions</h4>
+                    <p>Offer solutions tailored to the lifecycle of the business.</p>
                     </div>
                   </li>
                   
