@@ -4158,6 +4158,19 @@ display: none;
 
 
 /*new code add */
+.new-home-page-main .header-bottom-frame_main-middle-left ul li a ~ ul {
+    background: #fff;
+}
+.new-home-page-main .header-bottom-frame_main-middle-left ul li a ~ ul li a {
+    color: #000;
+}
+.new-home-page-main .header-bottom-frame_main-middle-left ul li a ~ ul li a:hover {
+    color: #000;
+}
+.new-home-page-main .header-bottom-frame_main-middle-left ul li a ~ ul li {
+    background: #fff !important;
+    padding: 5px 0px;
+}
 .new-home-page-main .header-top-frame_main {
     background: #fff;
 }
