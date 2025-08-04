@@ -31,7 +31,7 @@ import GirlFiveT from "../img/icckd-white.png";
 import Trusted from "../img/shutterstock_2510817173.png";
 import headertopicon from "../img/header-top-icon.png";
 import Arrowm from "../img/arrow-small.png";  
-import headertopiconFL from "../img/15-Money@2x.png";
+import headertopiconFL from "../img/icon-h.png";
 import ExpertTwo from "../img/pexels-tima-miroshnichenko-6693661@2x.png";
 import Logo from "../img/fund-l.png";  
 import ExpertThree from "../img/shutterstock_2280786247@2x.png";    

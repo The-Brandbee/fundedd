@@ -4158,11 +4158,24 @@ display: none;
 
 
 /*new code add */
+.new-home-page-main .These-components-ensure p{
+color: #000; 
+}
+.new-home-page-main .middlefe-main{
+  color: #000; 
+}
+.new-home-page-main .Calculator-middle-sect h3{
+   color: #000; 
+}
 .new-home-page-main .Top-Benefits-of-AR-Factoring-for-Your-Business::before {
     background: #fff;
 }
-
-
+.new-home-page-main .simple-prosess-main-frame-middle-left h6{
+    color: #000; 
+}
+.new-home-page-main .simple-prosess-main-frame-middle-left h4{
+  color: #000; 
+}
 .new-home-page-main .Top-Benefits-of-AR-Factoring-for-Your-Business-middle-right p{
 color: #000;  
 }
@@ -4171,6 +4184,9 @@ color: #000;
 }
 .new-home-page-main .Accelerate-Your-Business-frame{
       background: #f2f2f2;
+}
+.new-home-page-main .simple-prosess-main-frame{
+   background: #f2f2f2;
 }
 .new-home-page-main .Accelerate-Your-Business-frame-left h3{
   color: #FF7518;
