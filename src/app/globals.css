@@ -10,7 +10,10 @@
   font-family:Poppins-Regular;
   src:url('../app/fonts/Poppins-Regular.ttf');
 }
-
+.accordion {
+    border: 0px solid rgba(0, 0, 0, 0.1) !important;
+    border-radius: 2px;
+}
 /* new */
 .Example-Calculation-new-middle-left{
       line-height: 35px;
@@ -92,14 +95,14 @@
 width: 36%;
 }
 .How-It-Works-main-frame-partner.tow .How-It-Works-main-frame-partner-heading-left h3 {
-    color: #fff;
+    color: #000;
         font-size: 32px;
 }
 .How-It-Works-main-frame-partner.tow .How-It-Works-main-frame-partner-heading-left h3 span{
   color: #eb5e26;
 }
 .How-It-Works-main-frame-partner.tow .How-It-Works-main-frame-partner-heading-left p{
-    color: #fff !important;
+    color: #000 !important;
     margin-top: 20px;
 }
 .How-It-Works-main-frame-partner.tow .container{
@@ -108,12 +111,12 @@ width: 36%;
 }
 .How-It-Works-main-frame-partner.tow{
 position: relative;
-    background: #000000;
+    background: #fff;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 .How-It-Works-main-frame-partner.tow::before {
-    content: "";
+   
     background: url(/_next/static/media/Layer1@2x.07ff8851.png);
 
     position: absolute;
@@ -126,7 +129,7 @@ position: relative;
     background-repeat: no-repeat;
 }
 .How-It-Works-main-frame-partner.tow::after {
-    content: "";
+   
     background: linear-gradient(90deg, #ff75184a 0%, #00000030 35%, #ff75184a 100%);
     position: absolute;
     top: 0px;
@@ -202,7 +205,7 @@ display: none !important;
   width: 100%;
 }
 .tab-middle-mainRevenueFinancing-middle-left h3{
-  color: #fff;
+  color: #000;
       margin-bottom: 25px;
       margin-top: 25px;
 }
@@ -210,7 +213,7 @@ display: none !important;
   color: #ff7518;
 }
 .tab-middle-mainRevenueFinancing-middle-left p{
-  color: #fff;
+  color: #000;
       padding-left: 60px;
           margin-bottom: 25px;
 }
@@ -222,7 +225,7 @@ display: none !important;
 }
 .Revenue-Financing .react-tabs__tab-panel--selected {
     display: block;
-    background: #3C3C3C;
+    background: #fff;
     padding-top: 65px;
     padding-bottom: 65px;
 
@@ -356,7 +359,7 @@ background: #F2F2F2;
   width: 100%;
 }
 .Calculator-middle-sect h3{
-  color: #fff;
+  color: #000;
   margin-top: 40px;
   margin-bottom: 40px;
 
@@ -372,7 +375,7 @@ background: #F2F2F2;
 .middlefe-main{
   display: flex;
   justify-content: space-between;
-  color: #fff;
+  color: #000;
   width: 65%;
 }
 .middlefe-main .right-sect strong{
@@ -410,6 +413,7 @@ width: 45%;
   display: block;
   font-size: 21px;
   margin-bottom: 12px;
+  color: #000;
 }
 .space-y-4-new {
   margin-bottom: 40px;
@@ -421,7 +425,7 @@ width: 45%;
 }
 .Insights-Industry-Trends.blogmi{
   position: relative;
-  background: #000;
+  background: #fff;
   padding-bottom: 70px;
 }
 .contact-us-page-frame{
@@ -429,7 +433,7 @@ width: 45%;
     height: 350px;   
 }
 .Insights-Industry-Trends.blogmi::before { 
-  content: "";
+  
   background: linear-gradient(90deg, #ff75184a 0%, #00000030 35%, #ff75184a 100%);
   position: absolute;
   top: 0px;
@@ -465,11 +469,11 @@ a{
 }
 
 .header-top-frame_main{
-  background:#222222;
+  background:#000;
   padding: 20px 0px;
 }
 .header-bottom-frame_main{
-  background: #000000;
+  background: #f2f2f2;
 }
 .header-top-frame{
   display: flex;
@@ -525,7 +529,7 @@ a{
   font-size: 14px;
 }
 .header-top-right ul li p{
-color: #727272;
+color: #fff;
 margin-bottom: 0px;
 margin-top: 6px;
 
@@ -564,7 +568,7 @@ margin-top: 6px;
     height: 100%;
 }
 .header-bottom-frame_main-middle-left ul li{
-  background: #000000;
+  
     padding: 20px 0px;
 }
 .header-bottom-frame_main-middle-left ul li a{
@@ -600,13 +604,13 @@ margin-top: 6px;
   top: 11px
 }
 footer{
-  background: #000;
+  background: #f2f2f2;
   padding: 20px 0px;   
   margin-top: 0px;
 }
 .footer-middle{
   display: flex ;
-      background: #222222;
+      background: #fff;
       padding: 40px;
       border-radius: 25px;
       margin: 60px 0px;
@@ -627,7 +631,7 @@ footer{
   margin-bottom: 0px;
 }
 .footer-middle-r h4{
-  color: #707070;
+  color: #fff;
   font-size: 16px;
 }
 .footer-middle-r ul{
@@ -638,7 +642,7 @@ footer{
 }
 .footer-middle-r ul li a{
   letter-spacing: 0px;
-    color: #FFFFFF;
+    color: #000;
     line-height: 34px;
 }
 .footer-middle-r ul li a:hover{
@@ -655,7 +659,7 @@ footer{
   color: #FF7518;
 }
 .footer-middle-left p{
-  color: #FFFFFF;
+  color: #000;
   margin-top: 25px;
 }
 .footer-middle-left p span{
@@ -699,14 +703,14 @@ display: flex;
 position: relative;
 }
 .Begin-Your-Funding-Journey-middle-left-left h4{
-  color: #fff;
+  color: #000;
   font-size: 32px;
 }
 .Begin-Your-Funding-Journey-middle-left-left h4 span{
   color: #FF7518;
 } 
 .Begin-Your-Funding-Journey-middle-left-left p{
-  color: #fff;
+  color: #000;
   padding-left: 50px;
   margin-top: 60px;
   padding-right: 50px;
@@ -731,7 +735,7 @@ position: relative;
   margin-left: 15px;
 }
 .Begin-Your-Funding-Journey{
-  background: #222222;
+  background: #fff;
   padding: 80px 0px 0px 0px;
   position: relative;
 }
@@ -782,7 +786,7 @@ position: relative;
 }
 .Insights-Industry-Trends h4{
   text-align: center;
-  color: #fff;
+  color: #000;
   font-size: 32px;
 }
 .Insights-Industry-Trends h4 span{
@@ -872,7 +876,7 @@ position: relative;
 .blog-page-inner-section-content{
   background: #000;
   position: relative;
-  background: #000;
+  background: #fff;
   position: relative;
   padding: 60px 0px;
 }
@@ -882,7 +886,7 @@ position: relative;
   
 }
 .blog-page-inner-section-content::after {
-  content: "";
+
   background: linear-gradient(90deg, #ff75184a 0%, #00000030 35%, #ff75184a 100%);
   position: absolute;
   top: 0px;
@@ -932,7 +936,7 @@ margin: 25px 0px;
     color: #fff;
   }
 .blog-page-inner-section-content p{
-color: #fff;
+color: #000;
 margin: 25px 0px;
 }
 .blog-page-inner-section-content p a{
@@ -970,7 +974,7 @@ margin: 25px 0px;
   list-style-type: none;
 }
 .blog-page-inner-section-content ul li{
-  color: #fff;
+  color: #000;
   margin-bottom: 15px;
   list-style-type: disc;
 }
@@ -988,7 +992,7 @@ margin: 25px 0px;
 }
 .font-blog-main-middle-left{       
   width: 50%;
-  background: #FFFFFF;
+  background: #f2f2f2;
   position: relative;
   border-radius: 20px;
 }
@@ -1030,7 +1034,7 @@ margin: 25px 0px;
   margin-top: 50px;
 }
 .Empowering-Staffing-Companies{
-  background: #000;
+  background: #f2f2f2;
 }
 .Empowering-Staffing-Companies-middle{
   display: flex;
@@ -1049,7 +1053,7 @@ margin: 25px 0px;
   line-height: 40px;
 }
 .Empowering-Staffing-Companies-middle-left h1{
-  color: #fff; 
+  color: #000; 
   font-size: 32px; 
   line-height: 40px;
 }
@@ -1060,7 +1064,7 @@ margin: 25px 0px;
 
 }
 .Empowering-Staffing-Companies-middle-right p{
-  color: #F2F2F2;
+  color: #000;
 }
 .Empowering-Staffing-Companies-middle-right a{
   background: #000 0% 0% no-repeat padding-box;
@@ -1127,7 +1131,7 @@ margin-right: 40px;
   animation-play-state: paused;
 }
 .Reliable-Funding-When-You-Need{
-  background: #000000;
+  background: #fff;
   padding-top: 60px;   
   padding-bottom: 60px;
 
@@ -1141,7 +1145,7 @@ margin-right: 40px;
   width: 40%;
 }
 .Reliable-Funding-When-You-Need-middle-left-header h4{
-  color: #fff;
+  color: #000;
   font-size: 32px;
 }
 .Reliable-Funding-When-You-Need-middle-left-header h4 span{
@@ -1153,7 +1157,7 @@ margin-right: 40px;
   padding-right: 50px;
 }
 .Reliable-Funding-When-You-Need-middle-left-header-cont p{
-  color: #F2F2F2; 
+  color: #000; 
 }
 .Reliable-Funding-When-You-Need-middle-left-header-cont p a{
   background: #000 0% 0% no-repeat padding-box;
@@ -1172,7 +1176,7 @@ margin-right: 40px;
 }
 .Reliable-Funding-When-You-Need-middle-left-header-cont-bottom{
   display: flex;
-      background: #222222 0% 0% no-repeat padding-box;
+        background: #f2f2f2;
       border-radius: 25px;
       opacity: 1;
       padding: 30px 30px;
@@ -1197,7 +1201,7 @@ margin-right: 40px;
   font-weight: 600;
 }
 .Reliable-Funding-When-You-Need-middle-left-header-cont-bottom-to-left p{
-  color: #F2F2F2;
+  color: #000;
   margin-top: 20px;
   margin-bottom: 0px;
 } 
@@ -1227,7 +1231,7 @@ width: 50%;
   margin-top: 22%; 
 }
 .Rapid-Fund-Processing-main-left-middl{
-  background: #222222 0% 0% no-repeat padding-box;
+    background: #f2f2f2;
     border-radius: 25px;
     padding: 30px 30px;
     margin-top: 50px;
@@ -1238,7 +1242,7 @@ width: 50%;
   font-weight: 600;
 }
 .Rapid-Fund-Processing-main-left-middl p{
-  color: #F2F2F2;
+  color: #000;
   margin-top: 20px;
   margin-bottom: 0px;
 }
@@ -1267,7 +1271,7 @@ display: none;
   width: 70%;
 }
 .Rapid-Fund-Processing-main-right-midl{
-  background: #222222 0% 0% no-repeat padding-box;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
     border-radius: 25px;
     padding: 30px 30px;
     transform: translate(0px, 0px);
@@ -1286,19 +1290,19 @@ display: none;
     font-weight: 600;
 }
 .Rapid-Fund-Processing-main-right-midl p{
-  color: #fff;
+  color: #000;
 }
 .Rapid-Fund-Processing-main-left-middl:hover{
-  background: #cdcdcd;
+  background: #f2f2f2;
 }
 .Rapid-Fund-Processing-main-left-middl:hover h4{
   color: #FF7518;
 }
 .Rapid-Fund-Processing-main-left-middl:hover p{
-  color: #222222;
+  color: #000;
 }
 .Your-Trusted-Partner-for-Payroll-Funding{
-  background: #000;
+  background: #f2f2f2;
   padding-bottom: 7%;
   padding-top: 4%;
   position: relative;
@@ -1312,7 +1316,7 @@ content: "";
   position: relative;
 }
 .Reliable-Funding-When-You-Need::after{
-  content: "";
+  
   background: linear-gradient(90deg, #ff75184a 0%, #00000030 35%, #ff75184a 100%);
   position: absolute;
   top: 0px;
@@ -1322,7 +1326,7 @@ content: "";
   z-index: 0;
 }
 .Reliable-Funding-When-You-Need::before{
-  content: "";
+  
   background: url(../app/img/Fundedd-logo-04@2x-new.png);
   position: absolute;
   bottom: -44%;
@@ -1334,7 +1338,7 @@ content: "";
   background-repeat: no-repeat;
 }
 .Your-Trusted-Partner-for-Payroll-Funding::before{
-  content: "";
+
     background: linear-gradient(90deg, #ff75184a 0%, #00000030 35%, #ff75184a 100%);
     position: absolute;
     top: 0px;
@@ -1425,7 +1429,7 @@ content: "";
 display: none;
 }
 .How-Fundedd-Stands-Out{
-  background: #222222;
+  background: #fff;
   padding: 70px 0px;
 }
 .How-Fundedd-Stands-Out h4{
@@ -1437,7 +1441,7 @@ display: none;
   color: #FF7518;
 }
 .tab-view .react-tabs__tab-list{
-  background: #000000 0% 0% no-repeat padding-box;
+  background: #727272 0% 0% no-repeat padding-box;
   border-radius: 100px;
   opacity: 1;
   border: 0px;
@@ -1450,15 +1454,15 @@ display: none;
 }   
 
 .tab-view .react-tabs__tab--selected {
-  color: #FF7518 !important;
+  color: #fff !important;
   border-radius: 5px 5px 0 0;
-  background: #222222 0% 0% no-repeat padding-box;
+  background: #ff7518 0% 0% no-repeat padding-box;
   border: 0px solid #000000; 
   border-radius: 100px;
   opacity: 1;
 }      
 .tab-view .react-tabs__tab{
-  color: #727272;
+  color: #fff;
   font-size: 14px;
   font-weight: 600;
   padding: 10px 25px !important;
@@ -1470,7 +1474,7 @@ display: none;
   background: transparent !important;
 } 
 .tab-inner-frame p{
-  color: #fff;
+  color: #000;
   width: 80%;
   margin: 0 auto;
   line-height: 25px;
@@ -1491,7 +1495,7 @@ display: none;
   margin-top: 50px;
 } 
 .Expert-Advisory-for{
-  background: #000;
+  background: #f2f2f2;
   padding: 70px 0px;
   position: relative;
 } 
@@ -1508,7 +1512,7 @@ display: none;
 
 }
 .Expert-Advisory-for-middle-left-cont h3{
-  color: #fff;
+  color: #000;
   font-size: 32px;  
 } 
 .Expert-Advisory-for-middle-left-cont h3 span{
@@ -1520,7 +1524,7 @@ display: none;
   margin-top: 40px;
 } 
 .Expert-Advisory-for-middle-left-cont p{
-  color: #fff;
+  color: #000;
   margin-top: 50px;
   padding-left: 80px;
   width: 80%;
@@ -1750,7 +1754,7 @@ display: none;
  }
  .Accelerate-Your-Business-frame{
   padding: 50px 0px;
-  background: #000;
+  background: #f2f2f2;
  }
  .Accelerate-Your-Business-frame-middle{
   display: flex ;
@@ -1760,7 +1764,7 @@ display: none;
   width: 40%;
  }
  .Accelerate-Your-Business-frame-left h3{
-  color: #fff;
+  color: #ff7518;
   font-size: 40px;
   line-height: 48px;
   margin-bottom: 40px;  
@@ -1769,7 +1773,7 @@ display: none;
   color: #FF7518;
  }
  .Accelerate-Your-Business-frame-left-cont p{
-  color: #fff;
+  color: #000;
  }
  .Accelerate-Your-Business-frame-left-cont p a{
 
@@ -1809,7 +1813,7 @@ padding-top: 0px;
   color: #FF7518;
 }
 .Reliable-Funding-When-You-Need.What-is-AR-Factoring .Expert-Advisory-for-middle-left-cont p {
-  color: #fff;
+  color: #000;
   margin-top: 25px;
   padding-left: 0px;
   width: 100%;
@@ -1824,7 +1828,7 @@ padding-top: 0px;
   margin-top: 20px !important;
 }
 .Reliable-Funding-When-You-Need.What-is-AR-Factoring .Expert-Advisory-for-middle-left-cont ul li{
-  color: #fff;
+  color: #000;
   margin-bottom: 5px;
   list-style-type: disc;
 }
@@ -1838,13 +1842,13 @@ padding-top: 0px;
   position: relative; 
 }
 .Top-Benefits-of-AR-Factoring-for-Your-Business{
-  background: #000;
+  background: #fff;
   padding-bottom: 7%;
   padding-top: 4%;
   position: relative;
 }
 .Top-Benefits-of-AR-Factoring-for-Your-Business::before {
-  content: "";
+ 
   background: linear-gradient(90deg, #ff75184a 0%, #00000030 35%, #ff75184a 100%);
   position: absolute;
   top: 0px;
@@ -1862,7 +1866,7 @@ padding-top: 0px;
     width: 50%;
 }
 .Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left h3{      
-  color: #fff;
+  color: #000;
   font-size: 32px;
 }
 .Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left h3 span{      
@@ -1872,7 +1876,7 @@ padding-top: 0px;
   width: 50%;
 }
 .Top-Benefits-of-AR-Factoring-for-Your-Business-middle-right p{
-    color: #fff;
+    color: #000;
 } 
 .ma-slider-new-frame-inner{
   background: #222222;
@@ -1922,7 +1926,7 @@ display: block;
   
 }
 .total-invoice-value-frame-main-page{    
-  background: #222222;
+  background: #f2f2f2;
   padding: 50px 0px;
 }
 .total-invoice-value-frame-main-page-middle{
@@ -1943,7 +1947,7 @@ display: block;
   color: #FF7518;
 }
 .read-jon-main-frame-inner-two{
-  background: #222222;
+  background: #fff;
   padding: 70px 0px;
   position: relative;
 }
@@ -1970,7 +1974,7 @@ padding-right: 0px;
   width: 80%;
 }
 .Why-Fundedd-Stands-Out{
-  background: #3C3C3C;
+  background: #fff;
   padding: 70px 0px; 
 }
 .Why-Fundedd-Stands-Out-middle{
@@ -1987,7 +1991,7 @@ padding-right: 0px;
   width: 53%;
 }
 .Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame{
-  background: #222222 0% 0% no-repeat padding-box;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
   border-radius: 25px;
   opacity: 1;
   padding: 35px 30px;
@@ -2018,7 +2022,7 @@ width: 50%;
   font-weight: 600;
 }
 .Why-Fundedd-Stands-Out-middle-right-top-left-inner-frame p{
-  color: #F2F2F2;
+  color: #000;
   margin-top: 20px;
   margin-bottom: 0px;
 }
@@ -2044,7 +2048,7 @@ width: 50%;
 }
 .simple-prosess-main-frame{
   padding: 80px 0px;
-  background: #000; 
+  background: #f2f2f2; 
 }
 .simple-prosess-main-frame-middle{
   display: flex;
@@ -2054,7 +2058,7 @@ width: 50%;
   width: 70%;
 }
 .simple-prosess-main-frame-middle-left h4{
-  color: #fff;
+  color: #000;
   font-size: 32px;
   margin-bottom: 30px;
 }
@@ -2230,7 +2234,7 @@ margin-top: 30px !important;
 }
 .Our-Values-main-about{
   padding: 80px 0px;
-  background: #222222;
+  background: #f2f2f2;
 }
 .Our-Values-main-about-middle{
   display: flex;
@@ -2246,14 +2250,14 @@ width: 40%;
   width: 100%;
 }
 .heading-about-us h3{
-  color: #fff;
+  color: #000;
   font-size: 32px;
 }
 .heading-about-us h3 span{
   color: #FF7518;
 }
 .heading-about-us p{
-  color: #fff;
+  color: #000;
   margin-top: 25px;
 }
 .Our-Values-main-about-middle-left ul{
@@ -2284,7 +2288,7 @@ width: 40%;
 }
 .leadership-team-about-us{
   padding: 70px 0px;
-  background: #000000;
+  background: #fff;
   padding-bottom: 30px;
 }
 .leadership-team-about-us-left{    
@@ -2330,12 +2334,12 @@ width: 40%;
   width: 20%;
 }
 .team-name-left h4{
-  color: #fff;
+  color: #FF7518;
   font-size: 22px;
   margin-bottom: 5px;
 }
 .team-name-left p{
-  color: #fff;
+  color: #000;
   font-size: 16px;
 }
 .partner-main-page .Expert-Advisory-for-middle-left img{
@@ -2450,7 +2454,7 @@ justify-content: space-between;
 margin-top: 50px;
 }
 .Referral-Process-work-frame-left{
-  background: #FFFFFF 0% 0% no-repeat padding-box;
+      background: #f2f2f2;
   border-radius: 20px;
   padding: 40px 20px;
   width: 27%;
@@ -2560,7 +2564,7 @@ color: #FF7518;
 .conta-us-list-main-page li{
   display: flex;
       align-items: center;
-      color: #f2f2f2;
+      color: #000;
       margin-bottom: 20px;
 }
 .conta-us-list-main-page li img{
@@ -2587,7 +2591,7 @@ color: #FF7518;
   margin-top: 50px;
 }
 .contact-us-page-middle{
-  background: #222222;
+  background: #fff;
   padding: 70px 0px;
       overflow: hidden;
 }
@@ -2600,21 +2604,21 @@ width: 40%;
 z-index: 99999;
 }
 .contact-us-page-middle-middle-left h4{
-  color: #fff;
+  color: #000;
   font-size: 42px;
 }
 .contact-us-page-middle-middle-left h4 span{
   color: #FF7518;
 }
 .contact-us-page-middle-middle-right h4{
-  color: #fff;
+  color: #000;
   font-size: 30px;
 }
 .contact-us-page-middle-middle-right h4 span{
   color: #FF7518;
 }
 .contact-us-page-middle-middle-left p{
-  color: #fff;
+  color: #000;
   margin-top: 40px;
   padding-left: 50px;
 } 
@@ -2677,15 +2681,15 @@ z-index: 99999;
     width: 50%;
    }
    .ar-part-footer-page-middle{
-    background: #000;
+    background: #fff;
     padding-top:40px;
    }
    .ar-part-footer-page-middle h5{
-    color: #F2F2F2;
+    color: #000;
     font-size: 16px;
    }
    .ar-part-footer-page-middle p{
-    color: #F2F2F2;
+    color: #000;
     margin-bottom: 0px;
     margin-top: 24px;
     font-size: 12px;
@@ -2711,13 +2715,13 @@ z-index: 99999;
     margin-bottom: 0px;
    }
    .total-invoice-value-frame-main-page-middle ul li h4{
-    color: #F2F2F2;
+    color: #ff7518;
     font-size: 18px;
     font-weight: 600; 
    }
    .total-invoice-value-frame-main-page-middle ul li p{
     width: 100%;
-      color: #F2F2F2;
+      color: #000;
       margin-top: 10px;
    }
    .total-invoice-value-frame-main-page-middle ul li .right-ico{
@@ -2766,7 +2770,7 @@ z-index: 99999;
   font-size: 15px;
 }
 .simple-prosess-main-frame-middle-left h6{
-  color: #fff;
+  color: #000;
   padding-left: 50px;
   font-weight: 600;
   font-size: 15px;
@@ -2865,7 +2869,7 @@ justify-content: normal;
   color: #FF7518;
 }
 .These-components-ensure p{
-  color: #fff;
+  color: #000;
   padding-left: 50px; 
   margin-bottom: 40px; 
 }
@@ -2873,7 +2877,7 @@ justify-content: normal;
   padding-bottom: 20px;
 }
 .faq-main-page-section h1{
-  color: #fff;
+  color: #000;
   font-size: 50px;
   margin-bottom: 50px;
 }
@@ -2881,7 +2885,7 @@ justify-content: normal;
   margin-right: 20px !important; 
 }   
 .faq-main-page-section .accordion__item{
-   background: #222222;
+   background: #f2f2f2;
    border-radius: 20px;
    margin-bottom: 35px;
    position: relative;
@@ -2943,7 +2947,7 @@ justify-content: normal;
   position: relative;
 }
 .Why-Choose-pagemiddle .Accelerate-Your-Business-frame::after {
-  content: "";
+  
   background: linear-gradient(90deg, #ff75184a 0%, #00000030 35%, #ff75184a 100%);
   position: absolute;
   top: 0px;
@@ -2957,7 +2961,7 @@ justify-content: normal;
   z-index: 999;
 }
 .Experience-the-Fundedd-Advantage-frame h3{
-  color: #fff;
+  color: #000;
   font-size: 32px;
 }
 .Experience-the-Fundedd-Advantage-frame h3 span{
@@ -2988,10 +2992,10 @@ justify-content: normal;
   margin-bottom: 20px;
 }
 .Experience-the-Fundedd-Advantage-frame ul li p{
-  color: #fff;
+  color: #000;
 }
 .How-Fundedd-Stands-Out-why-choose{
-  background: #3c3c3c;
+  background: #f2f2f2;
   padding: 80px 0px;
 }
 .How-Fundedd-Stands-Out-why-choose-middle{
@@ -3002,7 +3006,7 @@ justify-content: space-between;
   width: 28%;
 }
 .How-Fundedd-Stands-Out-why-choose-middle-left h3{
-  color: #fff;
+  color: #000;
   font-size: 32px;
 }
 .How-Fundedd-Stands-Out-why-choose-middle-left h3 span{    
@@ -3016,7 +3020,7 @@ justify-content: space-between;
   justify-content: space-between;
 }
 .How-Fundedd-Stands-Out-why-choose-middle-right ul li{
-  background: #000 0% 0% no-repeat padding-box;
+  background: #fff;
   border-radius: 25px;
   opacity: 1;
   padding: 35px 30px;
@@ -3036,7 +3040,7 @@ justify-content: space-between;
   float: left;    
 }
 .How-Fundedd-Stands-Out-why-choose-middle-right ul li p{
-  color: #F2F2F2;
+  color: #000;
   margin-top: 20px;
   margin-bottom: 0px;
 }
@@ -3104,7 +3108,7 @@ display: none;
 .middlefe-main {
     display: inline-block;
     justify-content: space-between;
-    color: #fff;
+    color: #000; 
     width: 100%;
 }
 .part-logo img {
@@ -3234,7 +3238,7 @@ display: none;
     width: 100%;
 }
 .team-name-left p {
-  color: #fff;
+ 
   font-size: 14px;
 }
 .team-img img {
@@ -3298,7 +3302,7 @@ display: none;
     margin-top: 25px !important;
 }
 .Experience-the-Fundedd-Advantage-frame h3 {
-  color: #fff;
+  
   font-size: 24px;
 }
 .Experience-the-Fundedd-Advantage-frame ul li {
@@ -3521,7 +3525,7 @@ display: none;
   width: 100%;
 }
 .Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left h3 {
-  color: #fff;
+
   font-size: 22px;
 }
 .Top-Benefits-of-AR-Factoring-for-Your-Business-middle-left h3 br{
@@ -3693,7 +3697,7 @@ display: none;
   width: 100%;
 }
   .Accelerate-Your-Business-frame-left h3 {
-    color: #fff;
+    color: #000;
     font-size: 22px;
     line-height: 36px;
     margin-bottom: 20px;
@@ -3869,10 +3873,20 @@ text-align: center;
     top: 0 !important;
     width: 28px;
 }
+.Accelerate-Your-Business-frame-right img{
+  margin-top: 10px;
+}
+.read-jon-main-frame-inner-two-middle-right img{
+   margin-top: 10px;
+}
+.our-misson-middlem-main h3 {
+   
+    margin-top: 15px;
+}
   .mobile-menu-header{
     margin: 0px;
     display: flex;
-    background: #222222;
+    background: #000;
     padding: 10px 18px;  
   }
 .header-top-frame_main-desktop{
@@ -4064,7 +4078,7 @@ display: none;
   width: 30px;
 }
 .Begin-Your-Funding-Journey-middle-left-left h4 {
-  color: #fff;
+  color: #000;
   font-size: 22px;
 }
 .Begin-Your-Funding-Journey-right-icon {
@@ -4078,7 +4092,7 @@ display: none;
   height: auto;
 }
 .Begin-Your-Funding-Journey-middle-left-left p {
-  color: #fff;
+  color: #000;
   padding-left: 50px;
   margin-top: 20px;
   padding-right: 50px;
@@ -4088,7 +4102,7 @@ display: none;
   border-radius: 9px;
 }
 .Expert-Advisory-for-middle-left-cont h3 {
-  color: #fff;
+ 
   font-size: 22px;
 }
 .footer-middle {

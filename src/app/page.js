@@ -44,7 +44,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function Home() {
   return (
-       <div className="new-home-page-main">     
+       <div className="new-home-page-main--">     
     <GoogleTagManager gtmId="GTM-MFH6JPN5" />                  
       <main>                   
         <Head>
