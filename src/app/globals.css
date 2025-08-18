@@ -15,6 +15,15 @@
     border-radius: 2px;
 }
 /* new */
+.home-page-lpgo-section-main-middle.part-main-m .home-page-lpgo-section-main-middle-img:nth-child(1){
+    width: 26%;
+} 
+.home-page-lpgo-section-main-middle.part-main-m{
+  justify-content: center;
+}
+.home-page-lpgo-section-main-middle.part-main-m .home-page-lpgo-section-main-middle-img:nth-child(2){
+    width: 33%;
+}
 .Example-Calculation-new-middle-left{
       line-height: 35px;
 }
@@ -3080,6 +3089,15 @@ display: none;
 }
 
 @media all and (min-width:120px) and (max-width:680px){
+  .home-page-lpgo-section-main-middle.part-main-m .home-page-lpgo-section-main-middle-img:nth-child(1){
+    width: 40%;
+} 
+.home-page-lpgo-section-main-middle.part-main-m{
+  justify-content: center;
+}
+.home-page-lpgo-section-main-middle.part-main-m .home-page-lpgo-section-main-middle-img:nth-child(2){
+    width: 50%;
+}
   .part-logo-c {
     font-size: 22px;
     margin-right: 0px;

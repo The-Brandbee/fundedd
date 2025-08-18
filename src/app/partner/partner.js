@@ -33,8 +33,8 @@ import Arrowm from "../img/arrow-small.png";
 import headertopiconFL from "../img/Gear-Light-Bulb-Idea-Business-Management@2x.png";
 import ExpertTwo from "../img/shutterstock_2479065559@2x.png";  
 import Logo from "../img/fund-l.png";   
-import LogoOne from "../img/logo1.svg"; 
-import LogoTwo from "../img/logo2.png";  
+import LogoOne from "../img/logo-inverse.png"; 
+import LogoTwo from "../img/Gold_RGB.png";  
 import LogoThree from "../img/logo3.png"; 
 import LogoFour from "../img/logo4.png"; 
 import ExpertThree from "../img/shutterstock_1955362555@2x.png";    
@@ -162,24 +162,20 @@ export default function Arfactoring() {
 
 </section>
 
-<section className="home-page-lpgo-section-main nonenone">
+<section className="home-page-lpgo-section-main part-page">
   <div className="container">
     <div className="home-page-lpgo-section-main-heading">
-         <h4>Our <span>Memberships</span> and Affiliations</h4>      
+         <h4>Our partners </h4>      
     </div>
-    <div className="home-page-lpgo-section-main-middle">
+    <div className="home-page-lpgo-section-main-middle part-main-m"> 
         <div className="home-page-lpgo-section-main-middle-img">
             <Image src={LogoOne} alt="" />
         </div>
         <div className="home-page-lpgo-section-main-middle-img">
             <Image src={LogoTwo} alt="" />
         </div>
-        <div className="home-page-lpgo-section-main-middle-img">
-            <Image src={LogoThree} alt="" />
-        </div>
-        <div className="home-page-lpgo-section-main-middle-img">
-            <Image src={LogoFour} alt="" /> 
-        </div>
+       
+       
     </div>
   </div>
 </section>
