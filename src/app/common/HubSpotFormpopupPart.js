@@ -11,8 +11,8 @@ const HubSpotForm = () => {
     script.onload = () => {
       if (window.hbspt) {
         window.hbspt.forms.create({
-          portalId: "48953711",
-          formId: "95f32fa9-bbb3-4999-8e12-053dbef0bf49",
+          portalId: "243065414",
+          formId: "ee91595e-b65b-4c32-a5d8-931aa7b165d7",
           target: "#hubspot-form",
         });
       } 
