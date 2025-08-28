@@ -966,7 +966,7 @@ margin: 25px 0px;
   padding-left: 20px !important;
 }
 .Suggested-Blogs-main-section h4{
-  color: #fff;
+  color: #000;
   font-size: 32px;
   margin-top: 80px;
   text-align: left;
@@ -1004,6 +1004,8 @@ margin: 25px 0px;
   background: #f2f2f2;
   position: relative;
   border-radius: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 .font-blog-main-middle-left h4{
   color: #000;

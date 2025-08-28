@@ -37,7 +37,7 @@ import IN from "../img/Group52@2x.png";
 import ExpertTwo from "../img/location@2x.png";
 import Logo from "../img/fund-l.png";  
 import ExpertThree from "../img/shutterstock_2122524395.png";    
-import Industry from "../img/shutterstock_1932.png";
+import Industry from "../img/FUNDEED-BLOG-n.jpg";
 import IndustryTwo from "../img/arrow-up-right-2.png";
 import BlogPost from "../component/BlogPost"; 
 import { GoogleTagManager } from "@next/third-parties/google";
@@ -92,11 +92,13 @@ export default function Arfactoring() {
         <div className="blog-main-pagge-middle-right">
              <div className="font-blog-main-middle"> 
                   <div className="font-blog-main-middle-left">
-                    <h4>Navigating Business Growth: How to Secure the Right Funding for Your Staffing Company</h4>
-                    <p className="blog-arrow"><a href="/navigating-business-growth-how-to-secure-the-right-funding-for-your-staffing-company"><Image src={IndustryTwo} alt="" /></a></p>
+                    <h4>Receivables, Not Revolvers: How Smart Staffing CFOs Are Rethinking Liquidity</h4>
+                    <p className="blog-arrow"><a href="/receivables-not-revolvers-how-smart-staffing-cfos-are-rethinking-liquidity"><Image src={IndustryTwo} alt="" /></a></p>
                     </div> 
                     <div className="font-blog-main-middle-right">
+                      <a href="/receivables-not-revolvers-how-smart-staffing-cfos-are-rethinking-liquidity">
                     <Image src={Industry} alt="" />
+                    </a>
                     </div>    
         </div>
     </div>
