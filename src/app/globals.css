@@ -14,6 +14,228 @@
     border: 0px solid rgba(0, 0, 0, 0.1) !important;
     border-radius: 2px;
 }
+
+
+
+/* executive-forum page */
+
+.funded_sia_section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding:60px 0px;
+}
+
+/* Background Split */
+.funded_sia_section::before,
+.funded_sia_section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.funded_sia_section::before {
+    top: 0;
+    height: 45%;
+    background: #000;
+}
+
+.funded_sia_section::after {
+    bottom: 0;
+    height: 55%;
+    background: #f5f5f5;
+}
+
+/* Layout Container */
+.funded_sia_container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    gap: 40px;
+}
+
+/* Left Content Wrapper (split into two parts) */
+.funded_sia_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Top part (black area) */
+.funded_sia_left_top {
+    color: #fff;
+}
+
+.funded_sia_title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FF7518; /* Orange title */
+    margin-bottom: 20px;
+}
+
+.funded_sia_info {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #ddd;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Bottom part (white area) */
+.funded_sia_left_bottom {
+    margin-top: 40px;
+}
+
+.funded_sia_logo img {
+    max-width: 250px;
+    width: 100%;
+}
+
+/* Right Image */
+.funded_sia_right {
+    width: 50%;
+}
+
+.funded_sia_right img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+}
+
+/* Icon fix */
+.funded_sia_icon {
+        height: 30px !important;
+    width: auto;
+}
+
+
+
+
+
+
+.fundedd_ateendie_section {
+  padding: 60px 0;
+  background: #fff;
+}
+
+/* Container */
+.fundedd_ateendie_container {
+  width: 90%;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+}
+
+/* Row */
+.fundedd_ateendie_row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+/* Col */
+.fundedd_ateendie_col_12 {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.fundedd_ateendie_col_6 {
+  width: 20%;
+  padding: 0 15px;
+}
+
+/* Title */
+.fundedd_ateendie_title {
+    font-size: 25px;
+    font-weight: 900;
+    color: #ff7518;
+    margin-bottom: 35px;
+    padding-left: 7%;
+}
+/* Attendees */
+.fundedd_ateendie_attendees {
+    /* justify-content: center; */
+    text-align: center;
+    margin-bottom: 40px;
+    padding-left: 6%;
+}
+
+.fundedd_ateendie_attendee {
+  text-align: center;
+}
+
+.fundedd_ateendie_img {
+    width: 85%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.fundedd_ateendie_name {
+  font-size: 16px;
+  font-weight: 900;
+  color: #000;
+}
+
+/* Description Box */
+.fundedd_ateendie_desc_box {
+  background: #F2F2F2;
+  padding:  40px 60px;
+  border-radius: 12px;
+}
+
+.fundedd_ateendie_desc_box p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: black;
+      font-weight: 500;
+}
+
+
+/* Responsive */
+@media (max-width: 900px) {
+    .funded_sia_container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .funded_sia_left,
+    .funded_sia_right {
+        width: 100%;
+    }
+    .funded_sia_left_bottom {
+        margin: 20px auto 0;
+    }
+    .funded_sia_logo img {
+        max-width: 50%;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+.funded_sia_section::before {
+    height: 28%;
+}
+.funded_sia_section::after {
+    height: 72%;
+}
+    .fundedd_ateendie_col_6 {
+        width: 35%;
+        margin-bottom: 0px;
+    }
+    .fundedd_ateendie_attendees{
+    margin-bottom: 0px;
+    }
+    .fundedd_ateendie_desc_box{
+      padding: 20px 20px;
+    }
+}
+
+
+/* executive-forum page end */   
 /* new */
 .home-page-lpgo-section-main-middle.part-main-m .home-page-lpgo-section-main-middle-img:nth-child(1){
     width: 26%;
