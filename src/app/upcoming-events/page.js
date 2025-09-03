@@ -153,24 +153,23 @@ export default function Arfactoring() {
       <div className="past-events-container">
         {/* Card 1 */}
         <div className="past-event-card">
-          <div className="event-title">Executive Forum 2025</div>
+          <div className="event-title">Staffing World 2025</div>
           <div className="event-row">
              <Image src={Location} alt="" />  
-            <div>Miami Beach, FL</div>
+            <div>Orlando, FLL</div>
           </div>
           <div className="event-row">
               <Image src={calendar} alt="" />  
-            <div>March 11–14, 2025</div>
+            <div>October 6–8, 2025</div>
           </div>
           <p className="event-label">
-            <b>Organised by:</b> Staffing Industry Analysts
+            <b>Organised by:</b>American Staffing Association
           </p>
           <p className="event-label">
-            <b>Attending:</b> Evan, Rahul
+            <b>Attending:</b> Evan, Asma, Rahul 
           </p>
           <p className="event-details-label">
-            <b>Details:</b> Annual flagship event for staffing leaders and
-            innovators. Fundedd explored next-gen capital solutions.
+            <b>Details:</b> Fundedd will be exhibiting at the premier staffing industry convention. Stop by our booth or book time via Calendly to connect with our team.
           </p>
           <div className="past-event-logo">
             <Image src={SIA} alt="" />
@@ -182,7 +181,7 @@ export default function Arfactoring() {
         {/* Card 2 */}
         <div className="past-event-card">
           <div className="event-title">
-            International Factoring Conference 2025
+          International Factoring Association Annual Conference 2025
           </div>
           <div className="event-row">
            <Image src={Location} alt="" />  
@@ -199,8 +198,7 @@ export default function Arfactoring() {
             <b>Attending:</b> Evan, Asma
           </p>
           <p className="event-details-label">
-            <b>Details:</b> Largest event dedicated to factoring. Fundedd joined
-            key sessions on receivable financing.
+            <b>Details:</b> The largest event dedicated to the factoring industry. Fundedd engaged in key sessions on the future of receivable financing.
           </p>
           <div className="past-event-logo">
            
@@ -212,24 +210,23 @@ export default function Arfactoring() {
         </div>
         {/* Card 3 */}
         <div className="past-event-card">
-          <div className="event-title">TechServe Alliance 2024</div>
+          <div className="event-title">Executive Leadership Conference 2025</div>
           <div className="event-row">
             <Image src={Location} alt="" />  
-            <div>Orlando, FL</div>
+            <div>Hard Rock Hotel, Atlantic City, NJ</div>
           </div>
           <div className="event-row">
             <Image src={calendar} alt="" />  
-            <div>November 14–16, 2024</div>
+            <div>April 30 – May 1, 2025</div>
           </div>
           <p className="event-label">
-            <b>Organised by:</b> TechServe Alliance
+            <b>Organised by:</b> New Jersey Staffing Alliance
           </p>
           <p className="event-label">
-            <b>Attending:</b> Evan, Rahul
+            <b>Attending:</b> Evan
           </p>
           <p className="event-details-label">
-            <b>Details:</b> Premier event for IT &amp; engineering staffing.
-            Fundedd showcased financing solutions for scaling firms.
+            <b>Details:</b> A regional leadership event for staffing executives. Fundedd joined discussions around scaling operations and smarter financing models.
           </p>
           <div className="past-event-logo">
            <Image src={NIA} alt=""/>
@@ -241,25 +238,24 @@ export default function Arfactoring() {
         {/* Card 4 */}
         <div className="past-event-card">
           <div className="event-title">
-            SIA Collaboration in the Gig Economy 2024
+            Executive Forum 2025
           </div>
           <div className="event-row">
             <Image src={Location} alt="" />  
-            <div>Dallas, TX</div>
+            <div>Fontainebleau Miami Beach, FL</div>
           </div>
           <div className="event-row">
              <Image src={calendar} alt="" />  
-            <div>September 18–19, 2024</div>
+            <div>March 11–14, 2025</div>
           </div>
           <p className="event-label">
             <b>Organised by:</b> Staffing Industry Analysts
           </p>
           <p className="event-label">
-            <b>Attending:</b> Evan, Asma
+            <b>Attending:</b> Evan, Rahul 
           </p>
           <p className="event-details-label">
-            <b>Details:</b> The only event focused on the entire talent supply
-            chain. Fundedd engaged with workforce ecosystem leaders.
+            <b>Details:</b> Annual flagship event for staffing leaders and innovators. Fundedd explored next-gen capital solutions for staffing companies.
           </p>
           <div className="past-event-logo new">
            <Image src={SIAN} alt="" />  
@@ -270,14 +266,14 @@ export default function Arfactoring() {
         </div>
         {/* Card 5 */}
         <div className="past-event-card">
-          <div className="event-title">Staffing World 2024</div>
+          <div className="event-title">Staffing World 2025</div>
           <div className="event-row">
             <Image src={Location} alt="" />  
-            <div>Nashville, TN</div>
+            <div>Orlando, FL</div>
           </div>
           <div className="event-row">
              <Image src={calendar} alt="" /> 
-            <div>October 22–24, 2024</div>
+            <div>October 6–8, 2025</div>
           </div>
           <p className="event-label">
             <b>Organised by:</b> American Staffing Association
@@ -286,8 +282,7 @@ export default function Arfactoring() {
             <b>Attending:</b> Evan, Asma, Rahul
           </p>
           <p className="event-details-label">
-            <b>Details:</b> Fundedd exhibited at the premier staffing industry
-            convention, meeting partners and clients nationwide.
+            <b>Details:</b>Fundedd will be exhibiting at the premier staffing industry convention. Stop by our booth or book time via Calendly to connect with our team.
           </p>
           <div className="past-event-logo">
             <Image src={SIA} alt="" />
@@ -298,24 +293,23 @@ export default function Arfactoring() {
         </div>
         {/* Card 6 */}
         <div className="past-event-card">
-          <div className="event-title">SIA Executive Forum 2024</div>
+          <div className="event-title">Staffing World 2025</div>
           <div className="event-row">
             <Image src={Location} alt="" />  
-            <div>Las Vegas, NV</div>
+            <div>Orlando, FL</div>
           </div>
           <div className="event-row">
              <Image src={calendar} alt="" /> 
-            <div>March 4-7, 2024</div>
+            <div>October 6–8, 2025</div>
           </div>
           <p className="event-label">
-            <b>Organised by:</b> Staffing Industry Analysts
+            <b>Organised by:</b>  American Staffing Association
           </p>
           <p className="event-label">
-            <b>Attending:</b> Evan, Rahul
+            <b>Attending:</b> Evan, Asma, Rahul
           </p>
           <p className="event-details-label">
-            <b>Details:</b> The premier annual event for staffing executives.
-            Fundedd connected with leaders on strategic growth.
+            <b>Details:</b> Fundedd will be exhibiting at the premier staffing industry convention. Stop by our booth or book time via Calendly to connect with our team.
           </p>
           <div className="past-event-logo">
            <Image src={SIA} alt="" />
