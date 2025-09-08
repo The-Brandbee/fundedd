@@ -281,7 +281,7 @@ export default function Arfactoring() {
                     <p>Experienced in building brands and businesses from inception to successful exits. Strategic, results-driven global team leader, relationship builder with a proven track record of building and growing global cross-functional teams to drive growth and meet business initiatives. As an integrated marketing consultant with more than 18 years of experience and a knack of creating innovative marketing and branding strategies, his passion lies in generating incremental ROI for his customers.</p>
 
 <p>MBA in Marketing and Finance, from Simon School of Business, University of Rochester, NY</p>
-<p>Cofounder Nu Stock Images <br/>Cofounder Atmaya AI (Digital Humans)<br/> Cofounder One Eyed Jack (Poker)</p>
+<p>Cofounder Nu Stock Images <br/>Founder Atmaya AI (Digital Humans)<br/> Cofounder One Eyed Jack (Poker)</p>
 
 
                 </div>       
