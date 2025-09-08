@@ -27,15 +27,15 @@ import GirlFive from "../img/icckd.png";
 import GirlFourT from "../img/factors_18377058@2x-white.png";    
 import GirlFiveT from "../img/icckd-white.png"; 
 import Trusted from "../img/team-main.png";
-import TrustedNNN from "../img/team-02.jpg";
+import TrustedNNN from "../img/AG.png";
 import Arrowm from "../img/arrow-small.png";  
 import TrustedN from "../img/team-01.jpg";
 import ExpertTwo from "../img/shutterstock_2159023891.png";
-import TeamTwo from "../img/team-03.jpg";
+import TeamTwo from "../img/Rahul.png";
 import TeamThree from "../img/team-04.jpg";
-import TeamFour from "../img/team-05.jpg";
-import TeamFive from "../img/AmalAli.jpg";
-import TeamSix from "../img/team-07.jpg";
+import TeamFour from "../img/Evan.png";
+import TeamFive from "../img/Jay.png";
+import TeamSix from "../img/DJB.png";
 import Logo from "../img/fund-l.png"; 
 import ExpertThree from "../img/Fundedd-logo-04@2x.png";    
 import { GoogleTagManager } from "@next/third-parties/google"
@@ -193,14 +193,13 @@ export default function Arfactoring() {
             </div>
             <div className="team-name">
                 <div className="team-name-left">
-                    <h4>Rahul Bajaj                    </h4>
-                    <p>Chief Executive Officer
+                    <h4>Rahul Bajaj</h4>
+                    <p>Chairman of the Board
                     </p>
-                    <p>Rahul Bajaj is a visionary business leader with a distinguished track record of building and scaling ventures through strategic acquisitions, financial restructuring, revenue and capital optimization. With deep expertise in M&A execution, Rahul has consistently driven enterprise value and long-term growth across diverse sectors. He brings executive experience from global corporations such as IBM, Barnes & Noble, HSBC and Persistent Inc, where he developed a sharp enterprise lens for aligning financial strategies with operational goals. Rahul is particularly skilled in designing and executing recapitalization plans that unlock liquidity, strengthen balance sheets, and support reinvestment in innovation and expansion.
-</p>
-                    <p>As Co-founder and Co-CEO of <b>Data Glove, Inc, OpsArc, Inc, Avistos, LLC and Fundedd, Inc,</b> Rahul has led multiple high-growth ventures through critical financial inflection points, from startup funding to strategic acquisitions and recapitalization events, delivering sustained value creation.
+                    <p>Experienced in building businesses from inception to successful exits. Strategic, results-driven global team leader, relationship builder with a proven track record of building and growing global cross-functional teams to drive growth and meet business initiatives via mergers, integrations and acquisitions.</p>
 
-                    </p>  
+                    <p>Leadership positions at IBM, Barnes & Noble, HSBC, Cofounder/CEO Data Glove, Inc, Co-founder OpsArc, Inc, Cofounder - Avistos innovative Solutions, LLC</p>
+
                 </div>
                 <div className="team-name-right"></div>
             </div>
@@ -213,9 +212,11 @@ export default function Arfactoring() {
             </div>
             <div className="team-name">
                 <div className="team-name-left">
-                    <h4 className="text-right"> Asma Manzar</h4>
-                    <p className="text-right">Partner, Global Head of Finance & Revenue Operations</p> 
-                    <p className="text-right">With more than 15 years of expertise in financial strategy and risk management, Asma Manzar is a leader in global finance innovation. She has orchestrated nine successful mergers and acquisitions, managing revenues exceeding $100 million. Her deep understanding of complex financial operations ensures that Fundedd delivers stable, scalable, and effective funding solutions for businesses. Asma’s leadership fortifies  the financial foundation that drives our clients’ success.
+                    <h4 className="text-right"> Evan Prodromo</h4>
+                    <p className="text-right">Executive Vice President, Sales & Business Development</p> 
+                    <p className="text-right">
+                      Evan is a seasoned financial professional with over 15 years of experience in commercial banking and specialty finance, advancing from commercial banking to become President of AGR Financial, LLC during his tenure. His specialized expertise encompasses working capital financing, M&A advisory, and tailored financial solutions for the staffing and IT consulting industries. With comprehensive advisory capabilities, he delivers exceptional financial guidance specifically for staffing and IT consulting organizations.
+
                     </p>
                 </div>
                 <div className="team-name-right"></div>
@@ -232,16 +233,64 @@ export default function Arfactoring() {
             </div>
             <div className="team-name">
                 <div className="team-name-left">
-                    <h4 >Evan Prodromo</h4>
-                    <p >Executive Vice President, Sales & Business Development</p> 
-                    <p >Evan is a seasoned financial professional with over 15 years of experience in commercial banking and specialty finance, advancing from commercial banking to become President of AGR Financial, LLC during his tenure. His specialized expertise encompasses working capital financing, M&A advisory, and tailored financial solutions for the staffing and IT consulting industries. With comprehensive advisory capabilities ,he delivers exceptional financial guidance specifically for staffing and IT consulting organizations.
-                    </p>
+                    <h4 >Anirban Ghosh</h4>
+                    <p >Global Head, Growth and Strategy</p> 
+                    <p>With nearly two decades of experience with a proven record of driving business expansion, revenue growth and market positioning.</p>
+
+<p>Skilled in market analysis, developing and executing innovative growth strategies, forging strategic partnerships, and leading cross-functional teams to achieve corporate objectives.</p>
+
+<p>A visionary leader with strong analytical abilities and a strategic mindset. Excels in identifying new opportunities and implementing effective growth strategies.</p>
+
                 </div>       
                 <div className="team-name-right"></div>
             </div>
             
             </div>
         </div>
+ <div className="leadership-team-about-us-left"> 
+            <div className="team-img">
+            <div className="tear-frame-left nonenone">
+            <Image src={TeamFive} alt="" className=""/>  
+            </div>
+            <div className="team-name">
+                <div className="team-name-left">
+                    <h4 className="text-right">Jay Jaskiewicz</h4>
+                    <p className="text-right">Associate Vice President, Customer Success</p> 
+                    <p className="text-right">
+                     Jay Jaskiewicz is an accomplished finance professional with over a decade of experience in commercial finance, specializing in factoring and asset-based lending. In a previous role, he led a fully remote team, doubling the portfolio to over $30M while maintaining a high employee retention rate. Jay excels in client relationship management, portfolio oversight, and process improvement. Known for his collaborative leadership, attention to detail, and ability to streamline operations, he is passionate about connecting businesses with resources that drive growth and success.</p>
+
+                    
+                </div>
+                <div className="team-name-right"></div>
+            </div>
+            <div className="tear-frame-left desktop">
+            <Image src={TeamFive} alt="" className=""/>  
+            </div>
+            </div>
+        </div>
+
+         <div className="leadership-team-about-us-left"> 
+            <div className="team-img">
+            <div className="tear-frame-left ">
+                 <Image src={TeamSix} alt="" className=""/>  
+            </div>
+            <div className="team-name">
+                <div className="team-name-left">
+                    <h4 >Deeptanshu J. Bansal</h4>
+                    <p>CMO (Fractional)</p> 
+                    <p>Experienced in building brands and businesses from inception to successful exits. Strategic, results-driven global team leader, relationship builder with a proven track record of building and growing global cross-functional teams to drive growth and meet business initiatives. As an integrated marketing consultant with more than 18 years of experience and a knack of creating innovative marketing and branding strategies, his passion lies in generating incremental ROI for his customers.</p>
+
+<p>MBA in Marketing and Finance, from Simon School of Business, University of Rochester, NY</p>
+<p>Cofounder Nu Stock Images <br/>Cofounder Atmaya AI (Digital Humans)<br/> Cofounder One Eyed Jack (Poker)</p>
+
+
+                </div>       
+                <div className="team-name-right"></div>
+            </div>
+            
+            </div>
+        </div>
+        
      
         {/* <div className="leadership-team-about-us-left"> 
             <div className="team-img">
