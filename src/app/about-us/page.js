@@ -294,7 +294,7 @@ export default function Arfactoring() {
       <div className="leadership-team-about-us-left"> 
             <div className="team-img">
             <div className="tear-frame-left nonenone">
-            <Image src={TeamFive} alt="" className=""/>  
+            <Image src={TeamFiveb} alt="" className=""/>  
             </div>
             <div className="team-name">
                 <div className="team-name-left">
