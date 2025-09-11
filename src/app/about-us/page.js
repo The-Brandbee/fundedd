@@ -25,7 +25,7 @@ import GirlThreeNN from "../img/trust_14913416.svg";
 import GirlFour from "../img/shutterstock_568024666@2x.png";    
 import GirlFive from "../img/icckd.png"; 
 import GirlFourT from "../img/factors_18377058@2x-white.png";    
-import GirlFiveT from "../img/icckd-white.png"; 
+import TeamFiveb from "../img/Amit.png"; 
 import Trusted from "../img/team-main.png";
 import TrustedNNN from "../img/AG.png";
 import Arrowm from "../img/arrow-small.png";  
@@ -291,7 +291,28 @@ export default function Arfactoring() {
             </div>
         </div>
         
-     
+      <div className="leadership-team-about-us-left"> 
+            <div className="team-img">
+            <div className="tear-frame-left nonenone">
+            <Image src={TeamFive} alt="" className=""/>  
+            </div>
+            <div className="team-name">
+                <div className="team-name-left">
+                    <h4 className="text-right">Amit Gupta</h4>
+                    <p className="text-right">Strategic Legal Advisor</p> 
+                    <p className="text-right">
+                    With three decades of global experience, Amit is a trusted advisor in corporate legal, risk, and compliance. His career is marked by senior leadership roles at VFS Global and Teleperformance, where he led high-value transactions and post-acquisition integrations. He excels at building high-performing teams and has implemented robust operational control frameworks across more than 90 countries, demonstrating his expertise in navigating complex, multinational environments.
+                    </p>
+  
+                    
+                </div>
+                <div className="team-name-right"></div>
+            </div>
+            <div className="tear-frame-left desktop">
+            <Image src={TeamFiveb} alt="" className=""/>  
+            </div>
+            </div>
+        </div>
         {/* <div className="leadership-team-about-us-left"> 
             <div className="team-img">
             <div className="tear-frame-left nonenone">
