@@ -18,6 +18,41 @@
 .home-page-banner img{
   width: 100%;
 }
+.home-page-banner-po-m.DesktopBanner{
+ position: relative;
+}
+.home-page-banner-po-m-DesktopBanner-cont{
+      position: absolute;
+    /* left: 10%; */
+    margin-left: 7%;
+    margin-top: 10%;
+}
+.home-page-banner-po-m-DesktopBanner-cont h2 {
+    color: #ff7518;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+.home-page-banner-po-m-DesktopBanner-cont p{
+    color: #f2f2f2;
+    font-size: 22px;
+}
+.home-page-banner-po-m-DesktopBanner-cont p a{
+  background: #000 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    color: #fff;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 7px 15px;
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid #FF7518;
+        font-size: 16px;
+}
+.home-page-banner-po-m-DesktopBanner-cont p a:hover{
+  background:#ff7518;
+}
 
 /* event page start */
   
@@ -3665,6 +3700,7 @@ display: none;
     background: transparent;
     position: absolute;
     width: 100%;
+    z-index: 11;
 }
 .home-page-menu-section .header-bottom-frame_main-middle-left ul li a{
   color: #fff;

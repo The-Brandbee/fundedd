@@ -44,7 +44,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 
 
 
-import DesktopBanner from "../app/img/desktop-banner.jpg"; 
+import DesktopBanner from "../app/img/Fundedd-Website-Banner.jpg"; 
 import Mobilebanner from "../app/img/mobile-banner.jpg"; 
 
 export default function Home() {
@@ -75,11 +75,18 @@ export default function Home() {
           </header> 
 
 <section className="home-page-banner">
-  <div className="">
-   <Link  href="/executive-forum-2025">
+  <div className="home-page-banner-po-m DesktopBanner">
+     <div className="container">
+     <div className="home-page-banner-po-m-DesktopBanner-cont">
+     
+       <h2>Meet Fundedd at <br/>Staffing World 2025</h2>
+       <p>Smart Capital Solutions for <br/>the Staffing Industry</p>
+       <p><Link href="/executive-forum-2025">Schedule a meeting</Link></p>
+     </div>
+     </div>
                     
- <Image src={DesktopBanner} alt="" className="DesktopBanner" />
- </Link>
+ <Image src={DesktopBanner} alt="" className="" />
+
  </div>
  <div className="">
   <Link  href="/executive-forum-2025">
