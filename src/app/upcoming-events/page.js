@@ -246,7 +246,7 @@ export default function Arfactoring() {
           </div>
           <div className="event-row">
              <Image src={calendar} alt="" />  
-            <div>March 11–14, 2025</div>
+            <div>October 06–08, 2025</div>
           </div>
           <p className="event-label">
             <b>Organised by:</b> Staffing Industry Analysts

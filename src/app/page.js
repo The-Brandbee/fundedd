@@ -75,9 +75,14 @@ export default function Home() {
           </header> 
 
 <section className="home-page-banner">
+  <div className="">
    <Link  href="/executive-forum-2025">
                     
  <Image src={DesktopBanner} alt="" className="DesktopBanner" />
+ </Link>
+ </div>
+ <div className="">
+  <Link  href="/executive-forum-2025">
 <Image 
   src={Mobilebanner} 
   alt="" 
@@ -85,7 +90,7 @@ export default function Home() {
   style={{ display: "none" }} 
 />
 </Link>
-
+</div>
 </section>
 
 <section className="Empowering-Staffing-Companies">

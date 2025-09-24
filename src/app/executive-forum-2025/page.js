@@ -30,7 +30,7 @@ import GirlFive from "../img/icckd.png";
 import GirlFourT from "../img/email_7570711@2x.png";    
 import GirlFiveT from "../img/grow-chart_12411360@2x.png"; 
 import Trusted from "../img/cash-flow_2751464@2x.png";
-import IMageone from "../img/Sia_logo@2x.png";
+import IMageone from "../img/Orlando-logo.png";
 import IMageTwo from "../img/Conferences Image@2x.png";  
 import IMageThree from "../img/team-02@2x.png";
 import IMageFour from "../img/team-03@2x.png";    
@@ -73,19 +73,19 @@ export default function Arfactoring() {
       <div className="funded_sia_left">
         {/* Top Content (black) */}
         <div className="funded_sia_left_top">
-          <h2 className="funded_sia_title">Executive Forum 2025</h2>
+          <h2 className="funded_sia_title">American Staffing <br/>Association 2025</h2>
           <p className="funded_sia_info">
             <span>
                <Image src={IMageFive} alt="" className="funded_sia_icon"/>  
               
             </span>
-            <span>Fontainebleau Miami Beach, FL</span>
+            <span>ORLANDO, FL</span>
           </p>
           <p className="funded_sia_info">
             <span>
               <Image src={IMageSix} alt="" className="funded_sia_icon"/>  
             </span>
-            <span>March 11-14, 2025</span>
+            <span>October 06–08, 2025</span>
           </p>
         </div>
         {/* Bottom Content (white) */}
@@ -103,8 +103,10 @@ export default function Arfactoring() {
   </section>
   <section className="fundedd_ateendie_section">
     <div className="fundedd_ateendie_container">
+         <div className="fundedd_ateendie_container-mn">
+          <div className="fundedd_ateendie_row-mn">
       {/* Row for Title */}
-      <div className="fundedd_ateendie_row">
+      <div className="fundedd_ateendie_row nw">
         <div className="fundedd_ateendie_col_12">
           <h2 className="fundedd_ateendie_title">Attendees</h2>
         </div>
@@ -120,29 +122,31 @@ export default function Arfactoring() {
           <p className="fundedd_ateendie_name">Rahul</p>
         </div>
       </div>
-      {/* Row for Description */}
+    </div>
+        {/* Row for Description */}
       <div className="fundedd_ateendie_row">
         <div className="fundedd_ateendie_col_12">
           <div className="fundedd_ateendie_desc_box">
             <p>
-              We recently joined industry leaders at the Executive Forum in
-              Fontainebleau Miami Beach, March 11th - 14th, where Evan and Rahul
-              engaged in high-level strategic discussions with staffing
-              executives. This annual executive leadership conference provided
-              the ideal platform to share insights on operational excellence,
-              financial innovation, and market positioning strategies that
-              deliver competitive advantage in today's evolving staffing
-              landscape. Interested in the insights we gained? Connect with our
-              team to explore strategic opportunities.
+            We're heading to Orlando, Florida, for Staffing World 2025, happening October 6th - 8th, where innovation meets opportunity in the staffing ecosystem. As leaders in staffing solutions and financial services, our team brings deep expertise in operational excellence and strategic growth initiatives.
+
             </p>
-          </div>
-        </div>
-      </div>
-      <div className="bottom-main-page-maoin">
+               <p>
+           Meet us at our booth or schedule a 1:1 meeting to explore strategic partnerships. See you there!
+            </p>
+              <div className="bottom-main-page-maoin">
            <a target="_blank" href="https://calendly.com/evan-prodromo-fundedd">
             Book your Appointment
           </a>
       </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    
+    </div>
+    
     </div>
   </section>
 </>
