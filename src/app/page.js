@@ -42,9 +42,14 @@ import LogoThree from "../app/img/logo3.png";
 import LogoFour from "../app/img/logo4.png"; 
 import { GoogleTagManager } from "@next/third-parties/google";
 
+
+
+import DesktopBanner from "../app/img/desktop-banner.jpg"; 
+import Mobilebanner from "../app/img/mobile-banner.jpg"; 
+
 export default function Home() {
   return (
-       <div className="new-home-page-main--">     
+       <div className="new-home-page-main-- home-page-menu-section">     
     <GoogleTagManager gtmId="GTM-MFH6JPN5" />                  
       <main>                   
         <Head>
@@ -68,6 +73,21 @@ export default function Home() {
           <HeaderMobileIn />
           </div>
           </header> 
+
+<section className="home-page-banner">
+   <Link  href="/executive-forum-2025">
+                    
+ <Image src={DesktopBanner} alt="" className="DesktopBanner" />
+<Image 
+  src={Mobilebanner} 
+  alt="" 
+  className="Mobilebanner" 
+  style={{ display: "none" }} 
+/>
+</Link>
+
+</section>
+
 <section className="Empowering-Staffing-Companies">
 <div className="container">
    <div className="Empowering-Staffing-Companies-middle">
