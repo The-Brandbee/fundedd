@@ -81,7 +81,7 @@ export default function Home() {
      
        <h2>Meet Fundedd at <br/>Staffing World 2025</h2>
        <p>Smart Capital Solutions for <br/>the Staffing Industry</p>
-       <p><Link href="/executive-forum-2025">Schedule a meeting</Link></p>
+       <p><Link href="/american-staffing-association-2025">Schedule a meeting</Link></p>
      </div>
      </div>
                     
@@ -89,7 +89,7 @@ export default function Home() {
 
  </div>
  <div className="">
-  <Link  href="/executive-forum-2025">
+  <Link  href="/american-staffing-association-2025">
 <Image 
   src={Mobilebanner} 
   alt="" 
