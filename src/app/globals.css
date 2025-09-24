@@ -3654,6 +3654,9 @@ display: none;
 .home-page-menu-section .header-bottom-frame_main-middle-left ul li a{
   color: #fff;
 }
+.home-page-menu-section .header-bottom-frame_main-middle-left ul li a:hover{
+  color: #FF7518;
+}
 
 .bottom-main-page-maoin a {
     background: #000 0% 0% no-repeat padding-box;
@@ -3667,6 +3670,7 @@ display: none;
     display: inline-block;
     border: 1px solid #FF7518;
 }
+
 .bottom-main-page-maoin a:hover {
     background: #FF7518;
 }
