@@ -32,7 +32,7 @@ import GirlFiveT from "../img/grow-chart_12411360@2x.png";
 import Trusted from "../img/cash-flow_2751464@2x.png";
 import IMageone from "../img/Orlando-logo.png";
 import IMageTwo from "../img/Conferences Image@2x.png";  
-import IMageThree from "../img/team-02@2x.png";
+import IMageThree from "../img/Evan@2x.png";
 import IMageFour from "../img/team-03@2x.png";    
 import IMageFive from "../img/loc_icon.png";   
 import IMageSix from "../img/dat_icon.png";     
@@ -132,7 +132,7 @@ export default function Arfactoring() {
 
             </p>
                <p>
-           Meet us at our booth or schedule a 1:1 meeting to explore strategic partnerships. See you there!
+           <span>Meet us at  booth 310</span> or <span>schedule a 1:1</span> meeting to explore strategic partnerships. See you there!
             </p>
               <div className="bottom-main-page-maoin">
            <a target="_blank" href="https://calendly.com/evan-prodromo-fundedd">
