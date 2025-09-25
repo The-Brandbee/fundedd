@@ -33,7 +33,7 @@ import TrustedN from "../img/team-01.jpg";
 import ExpertTwo from "../img/shutterstock_2159023891.png";
 import TeamTwo from "../img/Rahul.png";
 import TeamThree from "../img/team-04.jpg";
-import TeamFour from "../img/Evan.png";
+import TeamFour from "../img/Evan-new.png";
 import TeamFive from "../img/Jay.png";
 import TeamSix from "../img/DJB.png";
 import Logo from "../img/fund-l.png"; 
