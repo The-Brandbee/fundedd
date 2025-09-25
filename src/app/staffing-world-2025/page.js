@@ -73,7 +73,7 @@ export default function Arfactoring() {
       <div className="funded_sia_left">
         {/* Top Content (black) */}
         <div className="funded_sia_left_top">
-          <h2 className="funded_sia_title">American Staffing <br/>Association 2025</h2>
+          <h2 className="funded_sia_title">Staffing World 2025 </h2>
           <p className="funded_sia_info">
             <span>
                <Image src={IMageFive} alt="" className="funded_sia_icon"/>  
@@ -136,7 +136,7 @@ export default function Arfactoring() {
             </p>
               <div className="bottom-main-page-maoin">
            <a target="_blank" href="https://calendly.com/evan-prodromo-fundedd">
-            Book your Appointment
+           Schedule a meeting
           </a>
       </div>
           </div>
