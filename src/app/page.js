@@ -49,7 +49,7 @@ import Mobilebanner from "../app/img/mobile-banner.jpg";
 
 export default function Home() {
   return (
-       <div className="new-home-page-main-- home-page-menu-section">     
+       <div className="new-home-page-main-- home-page-menu-section--">     
     <GoogleTagManager gtmId="GTM-MFH6JPN5" />                  
       <main>                   
         <Head>
@@ -74,7 +74,8 @@ export default function Home() {
           </div>
           </header> 
 
-<section className="home-page-banner">
+<section className="home-page-banner" style={{ display: "none" }}>
+
   <div className="home-page-banner-po-m DesktopBanner">
      <div className="container">
      <div className="home-page-banner-po-m-DesktopBanner-cont">
