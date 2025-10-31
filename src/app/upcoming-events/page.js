@@ -100,7 +100,7 @@ export default function Arfactoring() {
             <b>Organised by:</b> Affiliated Staffing Group
           </p>
           <p className="event-label">
-            <b>Attending:</b> Evan
+            <b>Attending:</b> Evan Prodromo, Rahul Bajaj
           </p>
           <p className="event-details-label">
             <b>Details:</b> A high-impact gathering of regional staffing firms featuring workshops, keynotes, and networking sessions focused on growth, leadership, and technology in staffing. Fundedd will be participating — more details coming soon.
@@ -127,7 +127,7 @@ export default function Arfactoring() {
             <b>Organised by:</b> Virtuosic Ventures
           </p>
           <p className="event-label">
-            <b>Attending:</b> 
+            <b>Attending:</b>  All Platform Partners
           </p>
           <p className="event-details-label">
             <b>Details:</b> Centered around the theme “Synergy & Scale: Architecting Our Future”, the summit brings together Virtuosic portfolio companies for strategic alignment, collaborative workshops, and to set the vision for 2026 for all entities. The event focuses on fostering cross-functional synergy and charting the future of innovation and growth.
@@ -164,7 +164,7 @@ export default function Arfactoring() {
             <b>Organised by:</b>American Staffing Association
           </p>
           <p className="event-label">
-            <b>Attending:</b> Evan, Asma, Rahul
+            <b>Attending:</b>  Evan Prodromo, Asma Manzar, Rahul Bajaj 
           </p>
           <p className="event-details-label">
             <b>Details:</b> The premier annual event for the staffing industry, bringing together leaders to discuss growth strategies, AI-driven innovation, and the future of workforce solutions. Fundedd connected with partners and explored opportunities shaping next-generation staffing finance.
@@ -192,13 +192,13 @@ export default function Arfactoring() {
           </div>
           <div className="event-row">
                <Image src={calendar} alt="" />  
-            <div>May 6–9, 2025</div>
+            <div>May 6-9, 2025</div>
           </div>
           <p className="event-label">
             <b>Organised by:</b> International Factoring Association
           </p>
           <p className="event-label">
-            <b>Attending:</b> Evan, Asma
+            <b>Attending:</b>  Evan Prodromo, Asma Manzar   
           </p>
           <p className="event-details-label">
             <b>Details:</b> The largest event dedicated to the factoring industry. Fundedd engaged in key sessions on the future of receivable financing.
@@ -220,13 +220,13 @@ export default function Arfactoring() {
           </div>
           <div className="event-row">
             <Image src={calendar} alt="" />  
-            <div>April 30 – May 1, 2025</div>
+            <div>April 30 - May 1, 2025</div>
           </div>
           <p className="event-label">
             <b>Organised by:</b> New Jersey Staffing Alliance
           </p>
           <p className="event-label">
-            <b>Attending:</b> Evan
+            <b>Attending:</b> Evan Prodromo
           </p>
           <p className="event-details-label">
             <b>Details:</b> A regional leadership event for staffing executives. Fundedd joined discussions around scaling operations and smarter financing models.
@@ -249,13 +249,13 @@ export default function Arfactoring() {
           </div>
           <div className="event-row">
              <Image src={calendar} alt="" />  
-            <div>October 06–08, 2025</div>
+            <div>October 06-08, 2025</div>
           </div>
           <p className="event-label">
             <b>Organised by:</b> Staffing Industry Analysts
           </p>
           <p className="event-label">
-            <b>Attending:</b> Evan, Rahul 
+            <b>Attending:</b>  Evan Prodromo, Asma Manzar, Rahul Bajaj
           </p>
           <p className="event-details-label">
             <b>Details:</b> Annual flagship event for staffing leaders and innovators. Fundedd explored next-gen capital solutions for staffing companies.
@@ -276,13 +276,13 @@ export default function Arfactoring() {
           </div>
           <div className="event-row">
              <Image src={calendar} alt="" /> 
-            <div>October 6–8, 2025</div>
+            <div>October 6-8, 2025</div>
           </div>
           <p className="event-label">
             <b>Organised by:</b> American Staffing Association
           </p>
           <p className="event-label">
-            <b>Attending:</b> Evan, Asma, Rahul
+            <b>Attending:</b> Evan Prodromo, Asma Manzar, Rahul Bajaj
           </p>
           <p className="event-details-label">
             <b>Details:</b>Fundedd will be exhibiting at the premier staffing industry convention. Stop by our booth or book time via Calendly to connect with our team.
@@ -294,33 +294,7 @@ export default function Arfactoring() {
           <Image src={arrowupNae} alt="" />  
           </div>
         </div>
-        {/* Card 6 */}
-        <div className="past-event-card">
-          <div className="event-title">Staffing World 2025</div>
-          <div className="event-row">
-            <Image src={Location} alt="" />  
-            <div>Orlando, FL</div>
-          </div>
-          <div className="event-row">
-             <Image src={calendar} alt="" /> 
-            <div>October 6–8, 2025</div>
-          </div>
-          <p className="event-label">
-            <b>Organised by:</b>  American Staffing Association
-          </p>
-          <p className="event-label">
-            <b>Attending:</b> Evan, Asma, Rahul
-          </p>
-          <p className="event-details-label">
-            <b>Details:</b> Fundedd will be exhibiting at the premier staffing industry convention. Stop by our booth or book time via Calendly to connect with our team.
-          </p>
-          <div className="past-event-logo">
-           <Image src={SIA} alt="" />
-          </div>
-          <div className="past-event-arrow">
-         <Image src={arrowupNae} alt="" />  
-          </div>
-        </div>
+      
       </div>
     </section>
   </div>
