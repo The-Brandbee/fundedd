@@ -29,7 +29,7 @@ import GirlFour from "../img/factors_18377058@2x.png";
 import GirlFive from "../img/icckd.png"; 
 import GirlFourT from "../img/email_7570711@2x.png";    
 import GirlFiveT from "../img/grow-chart_12411360@2x.png"; 
-import Trusted from "../img/cash-flow_2751464@2x.png";
+import Back from "../img/back.png";
 import IMageone from "../img/Orlando-logo.png";
 import IMageFourNM from "../img/LinkedIn_logo_initials.png";  
 import IMageThree from "../img/Evan@2x.png";
@@ -116,11 +116,11 @@ export default function Arfactoring() {
       <div className="fundedd_ateendie_row fundedd_ateendie_attendees">
         <div className="fundedd_ateendie_col_6 fundedd_ateendie_attendee">
           <Image src={IMageThree} alt="" className="fundedd_ateendie_img"/>  
-          <p className="fundedd_ateendie_name">Evan</p>
+          <p className="fundedd_ateendie_name">Evan Prodromo</p>
         </div>
         <div className="fundedd_ateendie_col_6 fundedd_ateendie_attendee">
          <Image src={IMageFour} alt="" className="fundedd_ateendie_img"/> 
-          <p className="fundedd_ateendie_name">Rahul</p>
+          <p className="fundedd_ateendie_name">Rahul Bajaj</p>
         </div>
       </div>
     </div>
@@ -142,6 +142,16 @@ export default function Arfactoring() {
   >
                <Image src={IMageFourNM} alt="" className="fundedd_ateendie_img-al"/>   
                </a>
+            </p>
+
+               <p>
+                <Link
+   
+    href="upcoming-events" 
+    rel="noopener noreferrer"
+  >
+               <Image src={Back} alt="" className="fundedd_ateendie_img-al-back"/>   
+               </Link>
             </p>
             <div className="bottom-main-page-maoin" style={{ display: "none" }}>
   <a 

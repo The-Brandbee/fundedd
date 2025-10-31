@@ -3762,8 +3762,17 @@ padding-top: 0px;
 .past-event-card.last-card{
   visibility: hidden;
 }
+.fundedd_ateendie_img-al-back{
+    width: 30px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+}
 
 @media all and (min-width:120px) and (max-width:680px){
+  .fundedd_ateendie_col_6.fundedd_ateendie_attendee{
+    width: 50%;
+  }
   .past-event-card.last-card{
   visibility: inherit;
 }
