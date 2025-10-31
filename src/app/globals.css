@@ -14,7 +14,11 @@
     border: 0px solid rgba(0, 0, 0, 0.1) !important;
     border-radius: 2px;
 }
-
+.fundedd_ateendie_img-al {
+  width: 60px;
+  height: auto;   
+      margin-top: 20px;
+}
 .home-page-banner img{
   width: 100%;
 }

@@ -86,7 +86,7 @@ export default function Arfactoring() {
       <div className="events-container">
         {/* Event Card 1 */}
         <div className="event-card">
-          <div className="event-title">Winter Conference 2025</div>
+          <div className="event-title">2025 Fall Meeting - Atlanta, GA</div>
           <div className="event-row">
            <Image src={Location} alt="" />  
             <div>Atlanta, GA</div>

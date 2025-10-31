@@ -31,7 +31,7 @@ import GirlFourT from "../img/email_7570711@2x.png";
 import GirlFiveT from "../img/grow-chart_12411360@2x.png"; 
 import Trusted from "../img/cash-flow_2751464@2x.png";
 import IMageone from "../img/Orlando-logo.png";
-import IMageTwo from "../img/Staffing.jpg";  
+import IMageFourNM from "../img/LinkedIn_logo_initials.png";  
 import IMageThree from "../img/Evan@2x.png";
 import IMageFour from "../img/team-03@2x.png";    
 import IMageFive from "../img/loc_icon.png";   
@@ -133,6 +133,15 @@ export default function Arfactoring() {
  </p>
                <p style={{ display: "none" }}>
            <span>Meet us at  booth 310</span> or <span>schedule a 1:1</span> meeting to explore strategic partnerships. See you there!
+            </p>
+            <p>
+                <a 
+    target="_blank" 
+    href="https://www.linkedin.com/feed/update/urn:li:activity:7384308387490201601/" 
+    rel="noopener noreferrer"
+  >
+               <Image src={IMageFourNM} alt="" className="fundedd_ateendie_img-al"/>   
+               </a>
             </p>
             <div className="bottom-main-page-maoin" style={{ display: "none" }}>
   <a 
