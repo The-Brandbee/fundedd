@@ -294,6 +294,35 @@ export default function Arfactoring() {
           <Image src={arrowupNae} alt="" />  
           </div>
         </div>
+
+
+         {/* Card 6 */}
+        <div className="past-event-card last-card">
+          <div className="event-title">Staffing World 2025</div>
+          <div className="event-row">
+            <Image src={Location} alt="" />  
+            <div>Orlando, FL</div>
+          </div>
+          <div className="event-row">
+             <Image src={calendar} alt="" /> 
+            <div>October 6-8, 2025</div>
+          </div>
+          <p className="event-label">
+            <b>Organised by:</b> American Staffing Association
+          </p>
+          <p className="event-label">
+            <b>Attending:</b> Evan Prodromo, Asma Manzar, Rahul Bajaj
+          </p>
+          <p className="event-details-label">
+            <b>Details:</b>Fundedd will be exhibiting at the premier staffing industry convention. Stop by our booth or book time via Calendly to connect with our team.
+          </p>
+          <div className="past-event-logo">
+            <Image src={SIA} alt="" />
+          </div>
+          <div className="past-event-arrow">
+          <Image src={arrowupNae} alt="" />  
+          </div>
+        </div>
       
       </div>
     </section>

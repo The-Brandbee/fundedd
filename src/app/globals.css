@@ -3759,8 +3759,14 @@ padding-top: 0px;
 
    text-decoration: underline;
 }
+.past-event-card.last-card{
+  visibility: hidden;
+}
 
 @media all and (min-width:120px) and (max-width:680px){
+  .past-event-card.last-card{
+  visibility: inherit;
+}
   .press-frame-middle ul li{
      width: 100%;
     border: 1px solid #dacfcf;
