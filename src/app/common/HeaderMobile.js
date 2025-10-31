@@ -70,8 +70,14 @@ class MobileMenu extends React.Component {
                     </Link>
                   </AccordionItem>
 
-                  
-
+               
+    <AccordionItem>
+                  <Link href="/upcoming-events">
+                      <AccordionItemHeading>
+                        <AccordionItemButton>Events</AccordionItemButton>
+                      </AccordionItemHeading>
+                      </Link>
+                  </AccordionItem>
                   <AccordionItem>
                   <Link href="/about-us">
                       <AccordionItemHeading>

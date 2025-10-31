@@ -99,6 +99,10 @@ function IndexPage() {
                   <Link href="/about-us">About Us</Link>
                   </li>
                   <li>
+                  <Link href="/upcoming-events">Events</Link>
+                  </li>
+                  
+                  <li>
                   <Link href="#">Resources</Link>
                   <ul>
                     <li>
