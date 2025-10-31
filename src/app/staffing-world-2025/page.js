@@ -8,7 +8,7 @@ import HeaderMobileIn from "../common/HeaderMobile.js";
 import GETFUNDEDD from "../common/GETFUNDEDDTWO.js";
 import ContactUsFrom from "../common/ContactUsFrom.js";
 import ContactUsFromTwo from "../common/ContactUsFromTwo.js";
-import PARTNERWITHUS from "../common/PARTNERWITHUS.js"; 
+import PARTNERWITHUS from "../common/SliderImg.js"; 
 import Footer from "../common/Footer.js";
 import TestimonialSlideTwoN from "../common/TestimonialSlideTwo2.js";                 
 import ClientsSay from "../common/Client.js"; 
@@ -31,7 +31,7 @@ import GirlFourT from "../img/email_7570711@2x.png";
 import GirlFiveT from "../img/grow-chart_12411360@2x.png"; 
 import Trusted from "../img/cash-flow_2751464@2x.png";
 import IMageone from "../img/Orlando-logo.png";
-import IMageTwo from "../img/Conferences Image@2x.png";  
+import IMageTwo from "../img/Staffing.jpg";  
 import IMageThree from "../img/Evan@2x.png";
 import IMageFour from "../img/team-03@2x.png";    
 import IMageFive from "../img/loc_icon.png";   
@@ -85,7 +85,7 @@ export default function Arfactoring() {
             <span>
               <Image src={IMageSix} alt="" className="funded_sia_icon"/>  
             </span>
-            <span>October 06–08, 2025</span>
+            <span>October 06-08, 2025</span>
           </p>
         </div>
         {/* Bottom Content (white) */}
@@ -97,7 +97,8 @@ export default function Arfactoring() {
       </div>
       {/* Right Side */}
       <div className="funded_sia_right">
-        <Image src={IMageTwo} alt="" className=""/> 
+        
+        <PARTNERWITHUS/>  
       </div>
     </div>
   </section>
@@ -128,17 +129,20 @@ export default function Arfactoring() {
         <div className="fundedd_ateendie_col_12">
           <div className="fundedd_ateendie_desc_box">
             <p>
-            We're heading to Orlando, Florida, for Staffing World 2025, happening October 6th - 8th, where innovation meets opportunity in the staffing ecosystem. As leaders in staffing solutions and financial services, our team brings deep expertise in operational excellence and strategic growth initiatives.
-
-            </p>
-               <p>
+           The premier annual event for the staffing industry, bringing together leaders to discuss growth strategies, AI-driven innovation, and the future of workforce solutions. Fundedd connected with partners and explored opportunities shaping next-generation staffing finance.
+ </p>
+               <p style={{ display: "none" }}>
            <span>Meet us at  booth 310</span> or <span>schedule a 1:1</span> meeting to explore strategic partnerships. See you there!
             </p>
-              <div className="bottom-main-page-maoin">
-           <a target="_blank" href="https://calendly.com/evan-prodromo-fundedd">
-           Schedule a meeting
-          </a>
-      </div>
+            <div className="bottom-main-page-maoin" style={{ display: "none" }}>
+  <a 
+    target="_blank" 
+    href="https://calendly.com/evan-prodromo-fundedd" 
+    rel="noopener noreferrer"
+  >
+    Schedule a meeting
+  </a>
+</div>
           </div>
           
         </div>

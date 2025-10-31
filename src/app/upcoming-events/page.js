@@ -37,7 +37,7 @@ import Logoone from "../img/Orlando-logo-1024x621-trimmed.png";
 import calendar from "../img/calendar.svg";   
 import Location from "../img/location-pin.svg";     
 import Logo from "../img/fund-l.png";  
-import BlogBanner from "../img/Group-63@2x.png";     
+import LogoTwoOM from "../img/ign.jpg";       
 import TestimonialSlide from "../common/TestimonialSlide.js";  
 import { GoogleTagManager } from "@next/third-parties/google";
 export default function Arfactoring() {
@@ -86,42 +86,13 @@ export default function Arfactoring() {
       <div className="events-container">
         {/* Event Card 1 */}
         <div className="event-card">
-          <div className="event-title">Staffing World 2025</div>
+          <div className="event-title">Winter Conference 2025</div>
           <div className="event-row">
            <Image src={Location} alt="" />  
-            <div>Orlando, FL</div>
+            <div>Atlanta, GA</div>
           </div>
           <div className="event-row">
           
-            <Image src={calendar} alt="" />  
-            <div>October 6-8, 2025</div>
-          </div>
-          <p className="event-label">
-            <b>Organised by:</b> American Staffing Association
-          </p>
-          <p className="event-label">
-            <b>Attending:</b> Evan, Asma, Rahul
-          </p>
-          <p className="event-details-label">
-            <b>Details:</b> Fundedd will be exhibiting at the premier staffing
-            industry convention. Stop by our booth or book time via Calendly to
-            connect with our team.
-          </p>
-          <div className="event-logo">
-           <Image src={Logoone} alt="" />  
-          </div>
-          <div className="event-arrow">
-             <Image src={ArrowN} alt="" />  
-          </div>
-        </div>
-        {/* Event Card 2 */}
-        <div className="event-card">
-          <div className="event-title">Winter Conference 2025</div>
-          <div className="event-row">
-             <Image src={Location} alt="" />  
-            <div>Location to be announced</div>
-          </div>
-          <div className="event-row">
             <Image src={calendar} alt="" />  
             <div>November 11-14, 2025</div>
           </div>
@@ -132,11 +103,38 @@ export default function Arfactoring() {
             <b>Attending:</b> Evan
           </p>
           <p className="event-details-label">
-            <b>Details:</b> A high-impact gathering of regional staffing firms.
-            Fundedd will be participating, more details coming soon.
+            <b>Details:</b> A high-impact gathering of regional staffing firms featuring workshops, keynotes, and networking sessions focused on growth, leadership, and technology in staffing. Fundedd will be participating — more details coming soon.
           </p>
           <div className="event-logo">
            <Image src={LogoTwo} alt="" />  
+          </div>
+          <div className="event-arrow">
+             <Image src={ArrowN} alt="" />  
+          </div>
+        </div>
+        {/* Event Card 2 */}
+        <div className="event-card">
+          <div className="event-title">Ignite 2026 — Virtuosic Ventures Annual Summit</div>
+          <div className="event-row">
+             <Image src={Location} alt="" />  
+            <div>Hyderabad, India</div>
+          </div>
+          <div className="event-row">
+            <Image src={calendar} alt="" />  
+            <div>November 17-18, 2025</div>
+          </div>
+          <p className="event-label">
+            <b>Organised by:</b> Virtuosic Ventures
+          </p>
+          <p className="event-label">
+            <b>Attending:</b> 
+          </p>
+          <p className="event-details-label">
+            <b>Details:</b> Centered around the theme “Synergy & Scale: Architecting Our Future”, the summit brings together Virtuosic portfolio companies for strategic alignment, collaborative workshops, and to set the vision for 2026 for all entities. The event focuses on fostering cross-functional synergy and charting the future of innovation and growth.
+
+          </p>
+          <div className="event-logo">
+           <Image src={LogoTwoOM} alt="" />  
           </div>
           <div className="event-arrow">
             <Image src={ArrowN} alt="" />  
@@ -156,26 +154,31 @@ export default function Arfactoring() {
           <div className="event-title">Staffing World 2025</div>
           <div className="event-row">
              <Image src={Location} alt="" />  
-            <div>Orlando, FLL</div>
+            <div>Orlando, FL</div>
           </div>
           <div className="event-row">
               <Image src={calendar} alt="" />  
-            <div>October 6–8, 2025</div>
+            <div>October 6-8, 2025</div>
           </div>
           <p className="event-label">
             <b>Organised by:</b>American Staffing Association
           </p>
           <p className="event-label">
-            <b>Attending:</b> Evan, Asma, Rahul 
+            <b>Attending:</b> Evan, Asma, Rahul
           </p>
           <p className="event-details-label">
-            <b>Details:</b> Fundedd will be exhibiting at the premier staffing industry convention. Stop by our booth or book time via Calendly to connect with our team.
+            <b>Details:</b> The premier annual event for the staffing industry, bringing together leaders to discuss growth strategies, AI-driven innovation, and the future of workforce solutions. Fundedd connected with partners and explored opportunities shaping next-generation staffing finance.
+
           </p>
           <div className="past-event-logo">
-            <Image src={SIA} alt="" />
+            <Link href="/staffing-world-2025">
+                 <Image style={{ marginTop: "0px" }} src={Logoone} alt="" />
+            </Link>
           </div>
           <div className="past-event-arrow">
+            <Link href="/staffing-world-2025">
               <Image src={arrowupNae} alt="" />  
+              </Link> 
           </div>
         </div>
         {/* Card 2 */}
