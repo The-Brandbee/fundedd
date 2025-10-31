@@ -106,7 +106,11 @@ class MobileMenu extends React.Component {
                           Data Security
                     </a>
                           </li>
-                         
+                         <li>
+                          <a href="https://www.fundedd.com/press-release">
+                         Press Release
+                    </a>
+                          </li>
                         </ul>
                       </div>
                     </AccordionItemPanel>

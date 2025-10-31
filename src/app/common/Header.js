@@ -116,6 +116,11 @@ function IndexPage() {
                     
                     <Link href="/data-security">Data Security</Link>
                     </li>
+                    <li>
+                    
+                    <Link href="/press-release"> Press Release</Link>
+                    </li>
+                   
                    
                   </ul>
                   </li>
