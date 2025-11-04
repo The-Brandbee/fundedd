@@ -277,7 +277,7 @@ export default function Arfactoring() {
             <div className="team-name">
                 <div className="team-name-left">
                     <h4 >Deeptanshu J. Bansal</h4>
-                    <p>CMO (Fractional)</p> 
+                    <p>CMO</p> 
                     <p>Experienced in building brands and businesses from inception to successful exits. Strategic, results-driven global team leader, relationship builder with a proven track record of building and growing global cross-functional teams to drive growth and meet business initiatives. As an integrated marketing consultant with more than 18 years of experience and a knack of creating innovative marketing and branding strategies, his passion lies in generating incremental ROI for his customers.</p>
 
 <p>MBA in Marketing and Finance, from Simon School of Business, University of Rochester, NY</p>
