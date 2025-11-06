@@ -112,7 +112,7 @@ export default function Arfactoring() {
              <Image src={ArrowN} alt="" />  
           </div>
         </div>
-        {/* Event Card 2 */}
+        {/* Event Card 
         <div className="event-card">
           <div className="event-title">Ignite 2026 — Virtuosic Ventures Annual Summit</div>
           <div className="event-row">
@@ -140,6 +140,7 @@ export default function Arfactoring() {
             <Image src={ArrowN} alt="" />  
           </div>
         </div>
+         2 */}
       </div>
     </section>
   </div>
