@@ -97,7 +97,7 @@ export default function Arfactoring() {
             <div>November 11-14, 2025</div>
           </div>
           <p className="event-label">
-            <b>Organised by:</b> Affiliated Staffing Group
+            <b>Organized by:</b> Affiliated Staffing Group
           </p>
           <p className="event-label">
             <b>Attending:</b> Evan Prodromo, Rahul Bajaj
@@ -124,7 +124,7 @@ export default function Arfactoring() {
             <div>November 17-18, 2025</div>
           </div>
           <p className="event-label">
-            <b>Organised by:</b> Virtuosic Ventures
+            <b>Organized by:</b> Virtuosic Ventures
           </p>
           <p className="event-label">
             <b>Attending:</b>  All Platform Partners
@@ -149,7 +149,7 @@ export default function Arfactoring() {
     <section className="past-events-section">
       <div className="past-events-title">Past Events</div>
       <div className="past-events-container">
-        {/* Card 1 */}
+        {/* Card 
         <div className="past-event-card">
           <div className="event-title">Staffing World 2025</div>
           <div className="event-row">
@@ -161,10 +161,10 @@ export default function Arfactoring() {
             <div>October 6-8, 2025</div>
           </div>
           <p className="event-label">
-            <b>Organised by:</b>American Staffing Association
+            <b>Organized by:</b>American Staffing Association
           </p>
           <p className="event-label">
-            <b>Attending:</b>  Evan Prodromo, Asma Manzar, Rahul Bajaj 
+            <b>Attending:</b>  Evan Prodromo, Rahul Bajaj 
           </p>
           <p className="event-details-label">
             <b>Details:</b> The premier annual event for the staffing industry, bringing together leaders to discuss growth strategies, AI-driven innovation, and the future of workforce solutions. Fundedd connected with partners and explored opportunities shaping next-generation staffing finance.
@@ -181,6 +181,8 @@ export default function Arfactoring() {
               </Link> 
           </div>
         </div>
+
+        1 */}
         {/* Card 2 */}
         <div className="past-event-card">
           <div className="event-title">
@@ -195,7 +197,7 @@ export default function Arfactoring() {
             <div>May 6-9, 2025</div>
           </div>
           <p className="event-label">
-            <b>Organised by:</b> International Factoring Association
+            <b>Organized by:</b> International Factoring Association
           </p>
           <p className="event-label">
             <b>Attending:</b>  Evan Prodromo, Asma Manzar   
@@ -223,7 +225,7 @@ export default function Arfactoring() {
             <div>April 30 - May 1, 2025</div>
           </div>
           <p className="event-label">
-            <b>Organised by:</b> New Jersey Staffing Alliance
+            <b>Organized by:</b> New Jersey Staffing Alliance
           </p>
           <p className="event-label">
             <b>Attending:</b> Evan Prodromo
@@ -252,10 +254,10 @@ export default function Arfactoring() {
             <div>October 06-08, 2025</div>
           </div>
           <p className="event-label">
-            <b>Organised by:</b> Staffing Industry Analysts
+            <b>Organized by:</b> Staffing Industry Analysts
           </p>
           <p className="event-label">
-            <b>Attending:</b>  Evan Prodromo, Asma Manzar, Rahul Bajaj
+            <b>Attending:</b>  Evan Prodromo, Rahul Bajaj
           </p>
           <p className="event-details-label">
             <b>Details:</b> Annual flagship event for staffing leaders and innovators. Fundedd explored next-gen capital solutions for staffing companies.
@@ -279,10 +281,10 @@ export default function Arfactoring() {
             <div>October 6-8, 2025</div>
           </div>
           <p className="event-label">
-            <b>Organised by:</b> American Staffing Association
+            <b>Organized by:</b> American Staffing Association
           </p>
           <p className="event-label">
-            <b>Attending:</b> Evan Prodromo, Asma Manzar, Rahul Bajaj
+            <b>Attending:</b> Evan Prodromo, Rahul Bajaj
           </p>
           <p className="event-details-label">
             <b>Details:</b>Fundedd will be exhibiting at the premier staffing industry convention. Stop by our booth or book time via Calendly to connect with our team.
@@ -308,10 +310,10 @@ export default function Arfactoring() {
             <div>October 6-8, 2025</div>
           </div>
           <p className="event-label">
-            <b>Organised by:</b> American Staffing Association
+            <b>Organized by:</b> American Staffing Association
           </p>
           <p className="event-label">
-            <b>Attending:</b> Evan Prodromo, Asma Manzar, Rahul Bajaj
+            <b>Attending:</b> Evan Prodromo, Rahul Bajaj
           </p>
           <p className="event-details-label">
             <b>Details:</b>Fundedd will be exhibiting at the premier staffing industry convention. Stop by our booth or book time via Calendly to connect with our team.
