@@ -16,7 +16,7 @@ import { Montserrat } from "next/font/google";
 import Script from "next/script";
 import ExpertTwoJoin from "../img/beautiful-young-woman-home-office-working-from-home-teleworking-concept@2x.png";
 import Arrow from "../img/arrow-up-right.png";
-import BeginYour from "../img/Layer_1.png";
+import TeamSixNM from "../img/Preeta-f.jpg";
 import GroupTW from "../img/teamwork_11933366.svg";   
 import GroupTWoo from "../img/money-bags_5557453.svg";
 import GirlTwo from "../img/Speed.svg";
@@ -311,6 +311,26 @@ export default function Arfactoring() {
             <div className="tear-frame-left desktop">
             <Image src={TeamFiveb} alt="" className=""/>  
             </div>
+            </div>
+        </div>
+
+          <div className="leadership-team-about-us-left"> 
+            <div className="team-img">
+            <div className="tear-frame-left ">
+                 <Image src={TeamSixNM} alt="" className=""/>  
+            </div>
+            <div className="team-name">
+                <div className="team-name-left">
+                    <h4 >Preeta Mohanty</h4>
+                    <p>Chief People Officer</p> 
+                    <p>Preeta is a passionate people leader known for shaping culture and enabling growth through talent and transformation. With experience across Narayana One Health, Tata Consulting Engineers, Amazon, and Tata Communications, she has led large-scale people initiatives focused on capability building and engagement. Her approach blends strategic insight with empathy, fostering workplaces that empower individuals and drive organizational success.
+</p>
+
+
+                </div>       
+                <div className="team-name-right"></div>
+            </div>
+            
             </div>
         </div>
         {/* <div className="leadership-team-about-us-left"> 
