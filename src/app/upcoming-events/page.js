@@ -112,7 +112,7 @@ export default function Arfactoring() {
              <Image src={ArrowN} alt="" />  
           </div>
         </div>
-        {/* Event Card 
+      
         <div className="event-card">
           <div className="event-title">Ignite 2026 — Virtuosic Ventures Annual Summit</div>
           <div className="event-row">
@@ -140,7 +140,7 @@ export default function Arfactoring() {
             <Image src={ArrowN} alt="" />  
           </div>
         </div>
-         2 */}
+        
       </div>
     </section>
   </div>
@@ -150,7 +150,7 @@ export default function Arfactoring() {
     <section className="past-events-section">
       <div className="past-events-title">Past Events</div>
       <div className="past-events-container">
-        {/* Card 
+       
         <div className="past-event-card">
           <div className="event-title">Staffing World 2025</div>
           <div className="event-row">
@@ -183,7 +183,7 @@ export default function Arfactoring() {
           </div>
         </div>
 
-        1 */}
+       
         {/* Card 2 */}
         <div className="past-event-card">
           <div className="event-title">
@@ -270,7 +270,7 @@ export default function Arfactoring() {
            <Image src={arrowupNae} alt="" />  
           </div>
         </div>
-        {/* Card 5 */}
+        {/* Card 
         <div className="past-event-card">
           <div className="event-title">Staffing World 2025</div>
           <div className="event-row">
@@ -298,7 +298,7 @@ export default function Arfactoring() {
           </div>
         </div>
 
-
+5 */}
          {/* Card 6 */}
         <div className="past-event-card last-card">
           <div className="event-title">Staffing World 2025</div>
