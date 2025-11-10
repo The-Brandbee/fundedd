@@ -168,7 +168,7 @@ export default function Arfactoring() {
             <b>Attending:</b>  Evan Prodromo, Rahul Bajaj 
           </p>
           <p className="event-details-label">
-            <b>Details:</b> The premier annual event for the staffing industry, bringing together leaders to discuss growth strategies, AI-driven innovation, and the future of workforce solutions. Fundedd connected with partners and explored opportunities shaping next-generation staffing finance.
+            <b>Details:</b> The premier annual event for the staffing industry, brought together leaders to discuss growth strategies, AI-driven innovation, and the future of workforce solutions. Fundedd connected with partners and explored opportunities shaping next-generation staffing finance.
 
           </p>
           <div className="past-event-logo">
