@@ -84,34 +84,7 @@ export default function Arfactoring() {
     <section className="events-section">
       <div className="events-title">Upcoming Events</div>
       <div className="events-container">
-        {/* Event Card 1 */}
-        <div className="event-card">
-          <div className="event-title">2025 Fall Meeting - Atlanta, GA</div>
-          <div className="event-row">
-           <Image src={Location} alt="" />  
-            <div>Atlanta, GA</div>
-          </div>
-          <div className="event-row">
-          
-            <Image src={calendar} alt="" />  
-            <div>November 11-14, 2025</div>
-          </div>
-          <p className="event-label">
-            <b>Organized by:</b> Affiliated Staffing Group
-          </p>
-          <p className="event-label">
-            <b>Attending:</b> Evan Prodromo, Rahul Bajaj
-          </p>
-          <p className="event-details-label">
-            <b>Details:</b> A high-impact gathering of regional staffing firms featuring workshops, keynotes, and networking sessions focused on growth, leadership, and technology in staffing. Fundedd will be participating — more details coming soon.
-          </p>
-          <div className="event-logo">
-           <Image src={LogoTwo} alt="" />  
-          </div>
-          <div className="event-arrow">
-             <Image src={ArrowN} alt="" />  
-          </div>
-        </div>
+       
       
         <div className="event-card">
           <div className="event-title">Ignite 2026 — Virtuosic Ventures Annual Summit</div>
@@ -176,7 +149,34 @@ export default function Arfactoring() {
     <section className="past-events-section">
       <div className="past-events-title">Past Events</div>
       <div className="past-events-container">
-       
+        {/* Event Card 1 */}
+        <div className="past-event-card">
+          <div className="event-title">2025 Fall Meeting - Atlanta, GA</div>
+          <div className="event-row">
+           <Image src={Location} alt="" />  
+            <div>Atlanta, GA</div>
+          </div>
+          <div className="event-row">
+          
+            <Image src={calendar} alt="" />  
+            <div>November 11-14, 2025</div>
+          </div>
+          <p className="event-label">
+            <b>Organized by:</b> Affiliated Staffing Group
+          </p>
+          <p className="event-label">
+            <b>Attending:</b> Evan
+          </p>
+          <p className="event-details-label">
+            <b>Details:</b> Fundedd attended the Winter Conference 2025, joining industry leaders for discussions on staffing innovation, market trends, and operational best practices. The event provided valuable insights and strengthened our relationships with partners across the staffing ecosystem.
+          </p>
+          <div className="event-logo">
+           <Image src={LogoTwo} alt="" />  
+          </div>
+          <div className="event-arrow">
+             <Image src={ArrowN} alt="" />  
+          </div>
+        </div>
         <div className="past-event-card">
           <div className="event-title">Staffing World 2025</div>
           <div className="event-row">
