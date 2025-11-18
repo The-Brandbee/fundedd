@@ -165,7 +165,7 @@ export default function Arfactoring() {
             <b>Organized by:</b> Affiliated Staffing Group
           </p>
           <p className="event-label">
-            <b>Attending:</b> Evan
+            <b>Attending:</b> Evan Prodromo, Rahul Bajaj
           </p>
           <p className="event-details-label">
             <b>Details:</b> Fundedd attended the Winter Conference 2025, joining industry leaders for discussions on staffing innovation, market trends, and operational best practices. The event provided valuable insights and strengthened our relationships with partners across the staffing ecosystem.
