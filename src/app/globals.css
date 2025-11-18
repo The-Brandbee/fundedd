@@ -3768,6 +3768,9 @@ padding-top: 0px;
 }
 
 @media all and (min-width:120px) and (max-width:680px){
+  .event-logo{
+    margin-bottom: 30px;
+  }
   .fundedd_ateendie_col_6.fundedd_ateendie_attendee{
     width: 50%;
   }
