@@ -26,7 +26,7 @@ import GirlTwo from "../img/support_2058768@2x.png";
 import GirlThree from "../img/Polygon-3@2x.png";
 import GirlThreeNN from "../img/reputation-12133556@2x.png"; 
 import GirlFour from "../img/factors_18377058@2x.png";    
-import GirlFive from "../img/icckd.png"; 
+import LogoTwoOMW from "../img/logo-nm.png"; 
 import arrowupNae from "../img/arrow-up-right-co.png";    
 import ArrowN from "../img/arrow-up-right.svg"; 
 import SIAN from "../img/logo.svg";
@@ -140,7 +140,33 @@ export default function Arfactoring() {
             <Image src={ArrowN} alt="" />  
           </div>
         </div>
-        
+          <div className="event-card">
+          <div className="event-title">ITServe Synergy 2025</div>
+          <div className="event-row">
+             <Image src={Location} alt="" />  
+            <div>San Juan, Puerto Rico</div>
+          </div>
+          <div className="event-row">
+            <Image src={calendar} alt="" />  
+            <div>December 4-5, 2025</div>
+          </div>
+          <p className="event-label">
+            <b>Organized by:</b> ITServe Alliance
+          </p>
+          <p className="event-label">
+            <b>Attending:</b>  Rahul Bajaj, Evan Prodromo
+          </p>
+          <p className="event-details-label">
+            <b>Details:</b> Fundedd will be attending ITServe Synergy 2025, a premier gathering for technology, consulting, and staffing leaders. Our team will join discussions centered on funding innovation, operational scalability, and the evolving financial needs of high-growth tech enterprises. The event will serve as a platform for Fundedd to connect with founders, explore partnership opportunities, and share insights into smarter, faster capital solutions for emerging businesses.
+   
+          </p>
+          <div className="event-logo">
+           <Image src={LogoTwoOMW} alt="" />  
+          </div>
+          <div className="event-arrow">
+            <Image src={ArrowN} alt="" />  
+          </div>
+        </div>
       </div>
     </section>
   </div>
