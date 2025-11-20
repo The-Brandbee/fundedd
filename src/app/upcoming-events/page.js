@@ -37,7 +37,7 @@ import Logoone from "../img/Orlando-logo-1024x621-trimmed.png";
 import calendar from "../img/calendar.svg";   
 import Location from "../img/location-pin.svg";     
 import Logo from "../img/fund-l.png";  
-import LogoTwoOM from "../img/ign.jpg";       
+import LogoTwoOM from "../img/ign-nnn.png";       
 import TestimonialSlide from "../common/TestimonialSlide.js";  
 import { GoogleTagManager } from "@next/third-parties/google";
 export default function Arfactoring() {
@@ -86,33 +86,7 @@ export default function Arfactoring() {
       <div className="events-container">
        
       
-        <div className="event-card">
-          <div className="event-title">Ignite 2026 — Virtuosic Ventures Annual Summit</div>
-          <div className="event-row">
-             <Image src={Location} alt="" />  
-            <div>Hyderabad, India</div>
-          </div>
-          <div className="event-row">
-            <Image src={calendar} alt="" />  
-            <div>November 17-18, 2025</div>
-          </div>
-          <p className="event-label">
-            <b>Organized by:</b> Virtuosic Ventures
-          </p>
-          <p className="event-label">
-            <b>Attending:</b>  All Platform Partners
-          </p>
-          <p className="event-details-label">
-            <b>Details:</b> Centered around the theme “Synergy & Scale: Architecting Our Future”, the summit brings together Virtuosic portfolio companies for strategic alignment, collaborative workshops, and to set the vision for 2026 for all entities. The event focuses on fostering cross-functional synergy and charting the future of innovation and growth.
-
-          </p>
-          <div className="event-logo">
-           <Image src={LogoTwoOM} alt="" />  
-          </div>
-          <div className="event-arrow">
-            <Image src={ArrowN} alt="" />  
-          </div>
-        </div>
+       
           <div className="event-card">
           <div className="event-title">ITServe Synergy 2025</div>
           <div className="event-row">
@@ -150,6 +124,33 @@ export default function Arfactoring() {
       <div className="past-events-title">Past Events</div>
       <div className="past-events-container">
         {/* Event Card 1 */}
+         <div className="past-event-card">
+          <div className="event-title">Ignite 2026 — Virtuosic Ventures Annual Summit</div>
+          <div className="event-row">
+             <Image src={Location} alt="" />  
+            <div>Hyderabad, India</div>
+          </div>
+          <div className="event-row">
+            <Image src={calendar} alt="" />  
+            <div>November 17-18, 2025</div>
+          </div>
+          <p className="event-label">
+            <b>Organized by:</b> Virtuosic Ventures
+          </p>
+          <p className="event-label">
+            <b>Attending:</b>  Fundedd Leadership Team
+          </p>
+          <p className="event-details-label">
+            <b>Details:</b> Fundedd took part in Ignite 2026, engaging with founders, investors, and industry specialists on the future of financing and workforce ecosystems. Discussions highlighted capital innovation, risk intelligence, and new models for supporting fast-growing businesses. The summit offered valuable collaboration opportunities and strengthened Fundedd's strategic alignment within the Virtuosic group.
+
+          </p>
+          <div className="event-logo">
+           <Image src={LogoTwoOM} alt="" />  
+          </div>
+          <div className="event-arrow">
+            <Image src={ArrowN} alt="" />  
+          </div>
+        </div>
         <div className="past-event-card">
           <div className="event-title">2025 Fall Meeting - Atlanta, GA</div>
           <div className="event-row">
@@ -325,33 +326,7 @@ export default function Arfactoring() {
         </div>
 
 5 */}
-         {/* Card 6 */}
-        <div className="past-event-card last-card">
-          <div className="event-title">Staffing World 2025</div>
-          <div className="event-row">
-            <Image src={Location} alt="" />  
-            <div>Orlando, FL</div>
-          </div>
-          <div className="event-row">
-             <Image src={calendar} alt="" /> 
-            <div>October 6-8, 2025</div>
-          </div>
-          <p className="event-label">
-            <b>Organized by:</b> American Staffing Association
-          </p>
-          <p className="event-label">
-            <b>Attending:</b> Evan Prodromo, Rahul Bajaj
-          </p>
-          <p className="event-details-label">
-            <b>Details:</b>Fundedd will be exhibiting at the premier staffing industry convention. Stop by our booth or book time via Calendly to connect with our team.
-          </p>
-          <div className="past-event-logo">
-            <Image src={SIA} alt="" />
-          </div>
-          <div className="past-event-arrow">
-          <Image src={arrowupNae} alt="" />  
-          </div>
-        </div>
+       
       
       </div>
     </section>
