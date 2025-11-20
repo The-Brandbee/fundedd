@@ -138,7 +138,7 @@ export default function Arfactoring() {
             <b>Organized by:</b> Virtuosic Ventures
           </p>
           <p className="event-label">
-            <b>Attending:</b>  Fundedd Leadership Team
+            <b>Attended:</b>  Fundedd Leadership Team
           </p>
           <p className="event-details-label">
             <b>Details:</b> Fundedd took part in Ignite 2026, engaging with founders, investors, and industry specialists on the future of financing and workforce ecosystems. Discussions highlighted capital innovation, risk intelligence, and new models for supporting fast-growing businesses. The summit offered valuable collaboration opportunities and strengthened Fundedd's strategic alignment within the Virtuosic group.
@@ -166,7 +166,7 @@ export default function Arfactoring() {
             <b>Organized by:</b> Affiliated Staffing Group
           </p>
           <p className="event-label">
-            <b>Attending:</b> Evan Prodromo, Rahul Bajaj
+            <b>Attended:</b> Evan Prodromo, Rahul Bajaj
           </p>
           <p className="event-details-label">
             <b>Details:</b> Fundedd attended the Winter Conference 2025, joining industry leaders for discussions on staffing innovation, market trends, and operational best practices. The event provided valuable insights and strengthened our relationships with partners across the staffing ecosystem.
@@ -192,7 +192,7 @@ export default function Arfactoring() {
             <b>Organized by:</b>American Staffing Association
           </p>
           <p className="event-label">
-            <b>Attending:</b>  Evan Prodromo, Rahul Bajaj 
+            <b>Attended:</b>  Evan Prodromo, Rahul Bajaj 
           </p>
           <p className="event-details-label">
             <b>Details:</b> The premier annual event for the staffing industry, brought together leaders to discuss growth strategies, AI-driven innovation, and the future of workforce solutions. Fundedd connected with partners and explored opportunities shaping next-generation staffing finance.
@@ -228,7 +228,7 @@ export default function Arfactoring() {
             <b>Organized by:</b> International Factoring Association
           </p>
           <p className="event-label">
-            <b>Attending:</b>  Evan Prodromo, Asma Manzar   
+            <b>Attended:</b>  Evan Prodromo, Asma Manzar   
           </p>
           <p className="event-details-label">
             <b>Details:</b> The largest event dedicated to the factoring industry. Fundedd engaged in key sessions on the future of receivable financing.
@@ -256,7 +256,7 @@ export default function Arfactoring() {
             <b>Organized by:</b> New Jersey Staffing Alliance
           </p>
           <p className="event-label">
-            <b>Attending:</b> Evan Prodromo
+            <b>Attended:</b> Evan Prodromo
           </p>
           <p className="event-details-label">
             <b>Details:</b> A regional leadership event for staffing executives. Fundedd joined discussions around scaling operations and smarter financing models.
@@ -285,7 +285,7 @@ export default function Arfactoring() {
             <b>Organized by:</b> Staffing Industry Analysts
           </p>
           <p className="event-label">
-            <b>Attending:</b>  Evan Prodromo, Rahul Bajaj
+            <b>Attended:</b>  Evan Prodromo, Rahul Bajaj
           </p>
           <p className="event-details-label">
             <b>Details:</b> Annual flagship event for staffing leaders and innovators. Fundedd explored next-gen capital solutions for staffing companies.
