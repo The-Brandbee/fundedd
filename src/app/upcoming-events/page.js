@@ -189,7 +189,7 @@ export default function Arfactoring() {
             <div>October 6-8, 2025</div>
           </div>
           <p className="event-label">
-            <b>Organized by:</b>American Staffing Association
+            <b>Organized by:</b> American Staffing Association
           </p>
           <p className="event-label">
             <b>Attended by:</b>  Evan Prodromo, Rahul Bajaj 
