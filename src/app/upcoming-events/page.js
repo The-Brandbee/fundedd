@@ -114,6 +114,33 @@ export default function Arfactoring() {
             <Image src={ArrowN} alt="" />  
           </div>
         </div>
+         <div className="event-card">
+          <div className="event-title">IT and Leadership Summit 2025</div>
+          <div className="event-row">
+             <Image src={Location} alt="" />  
+            <div>Mumbai & Online</div>
+          </div>
+          <div className="event-row">
+            <Image src={calendar} alt="" />  
+            <div>December 10, 2025</div>
+          </div>
+          <p className="event-label">
+            <b>Organized by:</b> Trans-Venture
+          </p>
+          <p className="event-label">
+            <b>Attending:</b>  Fundedd Leadership Team
+          </p>
+          <p className="event-details-label">
+            <b>Details:</b> Fundedd will be attending the IT and Leadership Summit 2025, an evening centered on the theme Scaling Beyond Limits. The event brings together founders, CXOs, and investors to explore how AI, HR tech, and data-led models can accelerate global growth. With keynote insights from CP Gurnani, discussions will focus on scaling financial innovation across markets, unlocking 10x value through partnerships, and leveraging next-gen technology for smarter lending. For Fundedd, it offers a strategic platform to engage with decision-makers and gain perspectives on building transformative, future-ready financial ecosystems.
+   
+          </p>
+          <div className="event-logo">
+           <img src="https://virtuosicventures.com/img/Trans-Venture-logo.png" alt="" />  
+          </div>
+          <div className="event-arrow">
+            <Image src={ArrowN} alt="" />  
+          </div>
+        </div>
       </div>
     </section>
   </div>
