@@ -114,7 +114,8 @@ export default function Arfactoring() {
             <Image src={ArrowN} alt="" />  
           </div>
         </div>
-         <div className="event-card">
+         <div className="event-card" style={{ display: "none" }}>
+
           <div className="event-title">IT and Leadership Summit 2025</div>
           <div className="event-row">
              <Image src={Location} alt="" />  
