@@ -80,7 +80,8 @@ export default function Arfactoring() {
   </div>
   <hr className="divider" />
   {/* UPCOMING EVENTS */}
-  <div className="events-section-wrapper">
+  <div className="events-section-wrapper" style={{ display: "none" }}>
+
     <section className="events-section">
       <div className="events-title">Upcoming Events</div>
       <div className="events-container">
