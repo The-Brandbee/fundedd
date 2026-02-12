@@ -15,7 +15,7 @@ export const metadata = {
   },
 
   verification: {
-    google: "O9AWrqNnaogHyF3uVrb_KSfQSXMfGvu2O_XhKag_w-A",
+    google: "lt0rwl2olLUmWdGmQOT2AL1s6DTzk5rAG30Sp8oT4Pg",
   },
 
   openGraph: {
