@@ -1,9 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
-import { GoogleTagManager } from "@next/third-parties/google"
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
+
 export const metadata = {
   title:
     "Payroll Funding Solutions for Staffing Agencies | Fundedd",
@@ -13,9 +13,13 @@ export const metadata = {
   alternates: {
     canonical: "https://www.fundedd.com/",
   },
+
+  verification: {
+    google: "O9AWrqNnaogHyF3uVrb_KSfQSXMfGvu2O_XhKag_w-A",
+  },
+
   openGraph: {
-    images:
-      "",
+    images: "",
   },
 };
 
