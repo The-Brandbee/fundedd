@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.fundedd.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Main Pages -->
+  <url><loc>https://www.fundedd.com/ar-factoring</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.fundedd.com/customized-solutions</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.fundedd.com/partner</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.fundedd.com/about-us</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.fundedd.com/upcoming-events</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.fundedd.com/blog</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.fundedd.com/faq</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.fundedd.com/data-security</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://www.fundedd.com/press-release</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.fundedd.com/contact-us</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  
+  <!-- Event / Special Pages -->
+  <url><loc>https://www.fundedd.com/staffing-world-2025</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Legal Pages -->
+  <url><loc>https://www.fundedd.com/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.fundedd.com/terms-of-use</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
+  <!-- Value Proposition Pages -->
+  <url><loc>https://www.fundedd.com/why-choose</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Blog / Resource Pages -->
+  <url><loc>https://www.fundedd.com/receivables-not-revolvers-how-smart-staffing-cfos-are-rethinking-liquidity</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.fundedd.com/navigating-business-growth-how-to-secure-the-right-funding-for-your-staffing-company</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+</urlset>
