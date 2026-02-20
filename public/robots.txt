@@ -1,7 +1,3 @@
 User-agent: *
 
-Allow:/
-
-Sitemap: https://www.fundedd.com/sitemap.xml
-
-/*new */
+Sitemap: https://www.fundedd.com/sitemap.xml 
