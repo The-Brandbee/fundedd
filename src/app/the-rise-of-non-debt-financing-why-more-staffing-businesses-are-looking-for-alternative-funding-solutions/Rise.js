@@ -69,7 +69,7 @@ export default function Arfactoring() {
              <Image src={BlogBanner} alt="" /> 
            <div className="container">
             <div className="blog-detail-page-middle">
-                      <h5>The Rise of Non-Debt Financing:</h5>
+                      <h1>The Rise of Non-Debt Financing:</h1>
                       <h4>Why more Staffing Businesses are looking for alternative funding solutions</h4>
             </div>  
             </div>

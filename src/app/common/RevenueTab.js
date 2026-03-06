@@ -19,7 +19,7 @@ export default () => (
         <div className='container'>
              <div className='tab-middle-mainRevenueFinancing-middle'>
                 <div className='tab-middle-mainRevenueFinancing-middle-left'>
-                    <h3>A Smarter Way to <span>Access Funds</span></h3>
+                    <h1>A Smarter Way to <span>Access Funds</span></h1>
                     <p>
                         Unlike traditional loans with fixed repayments or asset-based collateral requirements, revenue financing is structured around your actual earnings. Instead of pledging physical assets, you receive capital upfront and repay it as a small percentage of your future revenue. This means payments are lighter during slower months and scale seamlessly when your business booms. It’s ideal for fast-growing companies that need a flexible, non-dilutive way to fuel expansion without sacrificing ownership or predictability.
                     </p>

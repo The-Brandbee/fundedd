@@ -69,7 +69,7 @@ export default function Arfactoring() {
     <div className="container">
         <div className="contact-us-page-middle-middle">
             <div className="contact-us-page-middle-middle-left">
-                <h4>Connect <span>with Our <br/>Funding Specialists</span></h4>
+                <h1>Connect <span>with Our <br/>Funding Specialists</span></h1>
                 <p>Explore funding opportunities or get your questions answered with ease. Access quick funding, grow your business, and discover your eligibility effortlessly. No complications—just solutions to meet your needs. Get started today!</p>
             </div>
             <div className="contact-us-page-middle-middle-right">

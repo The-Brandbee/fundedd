@@ -13,6 +13,10 @@ export const metadata = {
   alternates: {
     canonical: "https://www.fundedd.com/",
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
 
   verification: {
     google: "lt0rwl2olLUmWdGmQOT2AL1s6DTzk5rAG30Sp8oT4Pg",

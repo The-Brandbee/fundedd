@@ -6,6 +6,10 @@ export const metadata = {
   alternates: {
     canonical: "https://www.fundedd.com/the-rise-of-non-debt-financing-why-more-staffing-businesses-are-looking-for-alternative-funding-solutions", 
   },
+   robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: { 
     images:
       "",

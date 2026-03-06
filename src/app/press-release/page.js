@@ -72,7 +72,7 @@ export default function Arfactoring() {
 <div className="container">
      <div className="How-It-Works-main-frame-partner-heading">
         <div className="How-It-Works-main-frame-partner-heading-left">
-            <h3>Press  <span>Release</span></h3>
+            <h1>Press  <span>Release</span></h1>
              </div>
       
      </div>

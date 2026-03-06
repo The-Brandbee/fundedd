@@ -73,7 +73,7 @@ export default function Arfactoring() {
           <div className="container">
               <div className="Accelerate-Your-Business-frame-middle new">
                       <div className="Accelerate-Your-Business-frame-left">
-                          <h3><span>Payroll Funding Insights: </span> <br/>Tips, Trends & Strategies</h3>
+                          <h1 className="fdedblackheading"><span>Payroll Funding Insights: </span> <br/>Tips, Trends & Strategies</h1>
                           
                       </div>
                       <div className="Accelerate-Your-Business-frame-right">

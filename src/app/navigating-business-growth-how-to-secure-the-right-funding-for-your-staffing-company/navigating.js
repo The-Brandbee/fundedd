@@ -69,7 +69,7 @@ export default function Arfactoring() {
              <Image src={BlogBanner} alt="" /> 
            <div className="container">
             <div className="blog-detail-page-middle">
-                      <h5>Navigating Business Growth:</h5>
+                      <h1>Navigating Business Growth:</h1>
                       <h4>How to Secure the Right Funding for Your Staffing Company</h4>
             </div>
             </div>

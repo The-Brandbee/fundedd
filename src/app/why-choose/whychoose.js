@@ -71,7 +71,7 @@ export default function Arfactoring() {
           <div className="container">
               <div className="Accelerate-Your-Business-frame-middle new">
                       <div className="Accelerate-Your-Business-frame-left">
-                      <h3>Why Choose <br/>Fundedd?</h3> 
+                      <h1>Why Choose <br/>Fundedd?</h1> 
                           
                           <div className="Accelerate-Your-Business-frame-left-cont">
                           <h4>Tailored Financial Solutions for the Staffing Industry</h4>

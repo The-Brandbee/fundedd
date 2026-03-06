@@ -6,6 +6,10 @@ export const metadata = {
   alternates: {
     canonical: "https://www.fundedd.com/understanding-ar-factoring-vs-traditional-loans-what-is-best-for-your-staffing-business", 
   },
+   robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: { 
     images:
       "",

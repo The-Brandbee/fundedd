@@ -72,7 +72,7 @@ export default function Arfactoring() {
 <div className="container">
      <div className="How-It-Works-main-frame-partner-heading">
         <div className="How-It-Works-main-frame-partner-heading-left">
-            <h3>Partner with <span>Fundedd</span></h3>
+            <h1>Partner with <span>Fundedd</span></h1>
             <p>Help your Customers Grow through Customized Financing Solutions <br/>and Earn Commissions</p>
         </div>
        

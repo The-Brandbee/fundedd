@@ -69,7 +69,7 @@ export default function Arfactoring() {
              <Image src={BlogBanner} alt="" /> 
            <div className="container">
             <div className="blog-detail-page-middle">
-                      <h5>Why AR Factoring Is a Strategic Lever for </h5>
+                      <h1>Why AR Factoring Is a Strategic Lever for </h1>
                       <h4>Staffing Firms in Tight Credit Cycles</h4>
             </div>  
             </div>

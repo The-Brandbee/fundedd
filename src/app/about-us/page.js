@@ -72,7 +72,7 @@ export default function Arfactoring() {
           <div className="container">
               <div className="Accelerate-Your-Business-frame-middle new">
                       <div className="Accelerate-Your-Business-frame-left">
-                          <h3>About <span>Us</span></h3>
+                          <h1 className="fdedblackheading">About <span>Us</span></h1>
                           <div className="Accelerate-Your-Business-frame-left-cont">
                             <p>At Fundedd, we revolutionize how businesses access funding, empowering growth-oriented companies with seamless, fast, and reliable financial solutions. Whether you're navigating delayed payments or complex cash flow challenges, our solutions are designed to keep your operations running smoothly while enabling growth.</p>
                            

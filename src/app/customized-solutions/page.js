@@ -53,6 +53,7 @@ export default function Arfactoring() {
         <meta name="description" content="This is a sample Next.js application with meta tags." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="UTF-8" />
+        <meta name="robots" content="index, follow" />
       </Head>
 
         <header>

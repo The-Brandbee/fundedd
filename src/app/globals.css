@@ -715,11 +715,14 @@ width: 100%;
 .partrtner-middle-tab-main-section .partrtner-middle-tab-main-section-right{
 width: 36%;
 }
-.How-It-Works-main-frame-partner.tow .How-It-Works-main-frame-partner-heading-left h3 {
+.How-It-Works-main-frame-partner.tow .How-It-Works-main-frame-partner-heading-left h1,h3 {
     color: #000;
         font-size: 32px;
 }
 .How-It-Works-main-frame-partner.tow .How-It-Works-main-frame-partner-heading-left h3 span{
+  color: #eb5e26;
+}
+.How-It-Works-main-frame-partner.tow .How-It-Works-main-frame-partner-heading-left h1 span{
   color: #eb5e26;
 }
 .How-It-Works-main-frame-partner.tow .How-It-Works-main-frame-partner-heading-left p{
@@ -825,12 +828,13 @@ display: none !important;
 .tab-middle-mainRevenueFinancing-middle-right img{
   width: 100%;
 }
-.tab-middle-mainRevenueFinancing-middle-left h3{
+.tab-middle-mainRevenueFinancing-middle-left h1,h3{
   color: #000;
       margin-bottom: 25px;
       margin-top: 25px;
+      font-size: 1.75rem;
 }
-.tab-middle-mainRevenueFinancing-middle-left h3 span{
+.tab-middle-mainRevenueFinancing-middle-left h1 span{
   color: #ff7518;
 }
 .tab-middle-mainRevenueFinancing-middle-left p{
@@ -1486,7 +1490,7 @@ position: relative;
   font-size: 32px;
   margin-top: 25px;
 }
-.blog-detail-page-middle h5{
+.blog-detail-page-middle h1{
   color: #000000;
     font-weight: 600;
     font-size: 17px;
@@ -2386,13 +2390,22 @@ display: none;
  .Accelerate-Your-Business-frame-left{
   width: 40%;
  }
- .Accelerate-Your-Business-frame-left h3{
+ .Accelerate-Your-Business-frame-left h1,h3{
   color: #ff7518;
   font-size: 40px;
   line-height: 48px;
   margin-bottom: 40px;  
  }
+  .Accelerate-Your-Business-frame-left h1.fdedblackheading{
+  color: #000000;
+ }
+.fdedblackheading{
+  color: #000000;
+ }
  .Accelerate-Your-Business-frame-left h3 span{
+  color: #FF7518;
+ }
+  .Accelerate-Your-Business-frame-left h1 span{
   color: #FF7518;
  }
  .Accelerate-Your-Business-frame-left-cont p{
@@ -3226,11 +3239,11 @@ color: #FF7518;
 width: 40%;
 z-index: 99999;
 }
-.contact-us-page-middle-middle-left h4{
+.contact-us-page-middle-middle-left h1{
   color: #000;
   font-size: 42px;
 }
-.contact-us-page-middle-middle-left h4 span{
+.contact-us-page-middle-middle-left h1 span{
   color: #FF7518;
 }
 .contact-us-page-middle-middle-right h4{

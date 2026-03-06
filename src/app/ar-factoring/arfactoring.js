@@ -68,7 +68,7 @@ export default function Arfactoring() {
           <div className="container">
               <div className="Accelerate-Your-Business-frame-middle new">
                       <div className="Accelerate-Your-Business-frame-left">
-                          <h3>Turn Unpaid Invoices<br/> into Immediate Capital<br/> - Fuel Your Business<br/> Growth Today.</h3>
+                          <h1>Turn Unpaid Invoices<br/> into Immediate Capital<br/> - Fuel Your Business<br/> Growth Today.</h1>
                           <div className="Accelerate-Your-Business-frame-left-cont">
                             <p>Get the working capital you need without delays. No collateral, no credit checks—just transparent funding solutions.</p>
                             <GETFUNDEDD/> 

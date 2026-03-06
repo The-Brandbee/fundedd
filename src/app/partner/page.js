@@ -6,6 +6,10 @@ export const metadata = {
   alternates: {
     canonical: "https://www.fundedd.com/partner",
   },
+   robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: {
     images:
       "",

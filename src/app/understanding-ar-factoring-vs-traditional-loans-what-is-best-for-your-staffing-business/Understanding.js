@@ -69,7 +69,7 @@ export default function Arfactoring() {
              <Image src={BlogBanner} alt="" /> 
            <div className="container">
             <div className="blog-detail-page-middle">
-                      <h5>Understanding AR Factoring vs. Traditional Loans:</h5>
+                      <h1>Understanding AR Factoring vs. Traditional Loans:</h1>
                       <h4>What is Best for Your Staffing Business?</h4>
             </div>  
             </div>

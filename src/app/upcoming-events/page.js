@@ -70,7 +70,7 @@ export default function Arfactoring() {
    {/* HERO SECTION */}
   <div className="section-wrapper">
     <section className="hero-section">
-      <div className="hero-heading">On the Ground, In the Conversation</div>
+      <div className="hero-heading"><h1>On the Ground, In the Conversation</h1></div>
       <div className="hero-subtext">
         Stay connected with Fundedd as we engage with industry leaders, explore
         innovations, and shape the future of staffing and finance. Here’s where
