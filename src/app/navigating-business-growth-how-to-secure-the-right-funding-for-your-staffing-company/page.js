@@ -1,8 +1,8 @@
 import Navigating from "../navigating-business-growth-how-to-secure-the-right-funding-for-your-staffing-company/navigating.js";
 
 export const metadata = {
-  title: "How to Fund Staffing Growth the Right Way | Fundedd",
-  description: "Discover how to secure the right funding to scale your staffing business and manage growth without compromising cash flow or operations.",
+  title: "Securing Funding for Staffing Growth | Fundedd",
+  description: "Learn how to secure the right payroll funding or AR factoring solution to support sustainable growth in your staffing company.",
   alternates: {
     canonical: "https://www.fundedd.com/navigating-business-growth-how-to-secure-the-right-funding-for-your-staffing-company", 
   },

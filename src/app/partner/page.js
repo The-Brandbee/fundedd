@@ -1,8 +1,8 @@
 import Partner from "../partner/partner.js";
 
 export const metadata = {
-  title: "Grow Your Business by Partnering with Us | Fundedd",
-  description: "Join our network and grow together. We provide payroll and AR factoring services that help businesses improve cash flow and scalability.",
+  title: "Partner With Us | Fundedd",
+  description: "Partner with Fundedd as a strategic partner and help firms secure dependable payroll funding and accounts receivable factoring solutions.",
   alternates: {
     canonical: "https://www.fundedd.com/partner",
   },

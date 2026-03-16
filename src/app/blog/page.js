@@ -1,8 +1,8 @@
 import Blog from "../blog/blog.js";
 
 export const metadata = {
-  title: "Blog: Explore Insights, Tips & Industry Updates | Fundedd",
-  description: "Read expert advice, success stories, and the latest trends shaping the financial landscape. Stay informed and inspired with every post.",
+  title: "Our Blog - Staffing Finance Insights & Updates | Fundedd",
+  description: "Explore expert insights on payroll funding, AR factoring, cash flow management, and smart financing strategies for staffing agencies.",
   alternates: {
     canonical: "https://www.fundedd.com/blog", 
   },

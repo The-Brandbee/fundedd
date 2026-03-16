@@ -1,8 +1,8 @@
 import Arfactoring from "../ar-factoring/arfactoring.js";
 
 export const metadata = {
-  title: "AR Factoring Solutions for Your Business | Fundedd",
-  description: "Fundedd offers accounts receivable factoring, invoice financing, and receivable factoring services to boost cash flow with flexible financing options.",
+  title: "AR Factoring & Invoice Finance Solutions | Fundedd",
+  description: "Access steady cash flow with account receivables factoring and accounts receivable financing services from a trusted invoice factoring company.",
   alternates: {
     canonical: "https://www.fundedd.com/ar-factoring",
   },
