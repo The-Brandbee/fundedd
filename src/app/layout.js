@@ -6,9 +6,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title:
-    "Payroll Funding Solutions for Staffing Agencies | Fundedd ",
+    "Payroll Funding & Financing for Staffing Firms | Fundedd",
   description:
-    "Explore payroll funding for staffing companies and small businesses. Fundedd offers payroll factoring, financing & staffing agency funding solutions.",
+    "Get payroll funding for staffing companies, including invoice factoring and flexible financing solutions to help staffing agencies manage payroll and cash flow.",
 
   alternates: {
     canonical: "https://www.fundedd.com/",

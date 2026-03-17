@@ -58,7 +58,6 @@ export default function Home() {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
-          {/* <title>Payroll Funding & Financing for Staffing Firms | Fundedd</title> */}
           <meta name="title" content="Payroll Funding & Financing for Staffing Firms | Fundedd" />
           <meta name="robots" content="index, follow" />
           <meta name="description" content="Get payroll funding for staffing companies, including invoice factoring and flexible financing solutions to help staffing agencies manage payroll and cash flow." />
