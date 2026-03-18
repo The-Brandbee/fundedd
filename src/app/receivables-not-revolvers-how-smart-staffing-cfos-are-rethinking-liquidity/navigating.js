@@ -69,8 +69,8 @@ export default function Arfactoring() {
              <Image src={BlogBanner} alt="" /> 
            <div className="container">
             <div className="blog-detail-page-middle">
-                      <h1>Receivables, Not Revolvers:</h1>
-                      <h4>How Smart Staffing CFOs Are Rethinking Liquidity</h4>
+                      <h1><span>Receivables, Not Revolvers:</span> <br/>
+                      How Smart Staffing CFOs Are Rethinking Liquidity</h1>
             </div>
             </div>
         </section>

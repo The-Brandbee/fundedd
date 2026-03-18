@@ -1485,15 +1485,15 @@ position: relative;
   border-radius: 20px;
   padding: 80px 45px;
 }
-.blog-detail-page-middle h4{
-  color: #fff;
-  font-size: 32px;
+.blog-detail-page-middle span{
+  color: #000000;
+  font-size: 17px;
   margin-top: 25px;
 }
 .blog-detail-page-middle h1{
-  color: #000000;
+  color: #fff;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 32px;
 }
 .blog-detail-page .container{
  
