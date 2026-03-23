@@ -4,7 +4,7 @@ export const metadata = {
   title: "How to Fund Staffing Growth the Right Way | Fundedd",
   description: "Discover how to secure the right funding to scale your staffing business and manage growth without compromising cash flow or operations.",
   alternates: {
-    canonical: "https://www.fundedd.com/navigating-business-growth-how-to-secure-the-right-funding-for-your-staffing-company", 
+    canonical: "https://www.fundedd.com/receivables-not-revolvers-how-smart-staffing-cfos-are-rethinking-liquidity", 
   },
    robots: {
     index: true,
