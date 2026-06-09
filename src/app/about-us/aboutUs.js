@@ -248,7 +248,7 @@ export default function AboutUs() {
             
             </div>
         </div>
- <div className="leadership-team-about-us-left"> 
+ {/* <div className="leadership-team-about-us-left"> 
             <div className="team-img">
             <div className="tear-frame-left nonenone">
             <Image src={TeamFive} alt="" className=""/>  
@@ -268,25 +268,25 @@ export default function AboutUs() {
             <Image src={TeamFive} alt="" className=""/>  
             </div>
             </div>
-        </div>
+        </div> */}
 
          <div className="leadership-team-about-us-left"> 
             <div className="team-img">
-            <div className="tear-frame-left ">
-                 <Image src={TeamSix} alt="" className=""/>  
-            </div>
             <div className="team-name">
                 <div className="team-name-left">
-                    <h4 >Deeptanshu J. Bansal</h4>
-                    <p>CMO</p> 
-                    <p>Experienced in building brands and businesses from inception to successful exits. Strategic, results-driven global team leader, relationship builder with a proven track record of building and growing global cross-functional teams to drive growth and meet business initiatives. As an integrated marketing consultant with more than 18 years of experience and a knack of creating innovative marketing and branding strategies, his passion lies in generating incremental ROI for his customers.</p>
+                    <h4 className="text-right" >Deeptanshu J. Bansal</h4>
+                    <p className="text-right">CMO</p> 
+                    <p className="text-right">Experienced in building brands and businesses from inception to successful exits. Strategic, results-driven global team leader, relationship builder with a proven track record of building and growing global cross-functional teams to drive growth and meet business initiatives. As an integrated marketing consultant with more than 18 years of experience and a knack of creating innovative marketing and branding strategies, his passion lies in generating incremental ROI for his customers.</p>
 
-<p>MBA in Marketing and Finance, from Simon School of Business, University of Rochester, NY</p>
-<p>Cofounder Nu Stock Images <br/>Founder Atmaya AI (Digital Humans)<br/> Cofounder One Eyed Jack (Poker)</p>
+<p className="text-right">MBA in Marketing and Finance, from Simon School of Business, University of Rochester, NY</p>
+<p className="text-right">Cofounder Nu Stock Images <br/>Founder Atmaya AI (Digital Humans)<br/> Cofounder One Eyed Jack (Poker)</p>
 
 
                 </div>       
                 <div className="team-name-right"></div>
+            </div>
+            <div className="tear-frame-left ">
+                 <Image src={TeamSix} alt="" className=""/>  
             </div>
             
             </div>
@@ -297,11 +297,14 @@ export default function AboutUs() {
             <div className="tear-frame-left nonenone">
             <Image src={TeamFiveb} alt="" className=""/>  
             </div>
+            <div className="tear-frame-left desktop">
+            <Image src={TeamFiveb} alt="" className=""/>  
+            </div>
             <div className="team-name">
                 <div className="team-name-left">
-                    <h4 className="text-right">Amit Gupta</h4>
-                    <p className="text-right">Legal Advisor</p> 
-                    <p className="text-right">
+                    <h4 >Amit Gupta</h4>
+                    <p >Legal Advisor</p> 
+                    <p >
                     With three decades of global experience, Amit is a trusted advisor in corporate legal, risk, and compliance. His career is marked by senior leadership roles at VFS Global and Teleperformance, where he led high-value transactions and post-acquisition integrations. He excels at building high-performing teams and has implemented robust operational control frameworks across more than 90 countries, demonstrating his expertise in navigating complex, multinational environments.
                     </p>
   
@@ -309,27 +312,24 @@ export default function AboutUs() {
                 </div>
                 <div className="team-name-right"></div>
             </div>
-            <div className="tear-frame-left desktop">
-            <Image src={TeamFiveb} alt="" className=""/>  
-            </div>
             </div>
         </div>
 
           <div className="leadership-team-about-us-left"> 
             <div className="team-img">
-            <div className="tear-frame-left ">
-                 <Image src={TeamSixNM} alt="" className=""/>  
-            </div>
             <div className="team-name">
                 <div className="team-name-left">
-                    <h4 >Preeta Mohanty</h4>
-                    <p>Chief People Officer</p> 
-                    <p>Preeta is a passionate people leader known for shaping culture and enabling growth through talent and transformation. With experience across Narayana One Health, Tata Consulting Engineers, Amazon, and Tata Communications, she has led large-scale people initiatives focused on capability building and engagement. Her approach blends strategic insight with empathy, fostering workplaces that empower individuals and drive organizational success.
+                    <h4  className="text-right">Preeta Mohanty</h4>
+                    <p className="text-right">Chief People Officer</p> 
+                    <p className="text-right">Preeta is a passionate people leader known for shaping culture and enabling growth through talent and transformation. With experience across Narayana One Health, Tata Consulting Engineers, Amazon, and Tata Communications, she has led large-scale people initiatives focused on capability building and engagement. Her approach blends strategic insight with empathy, fostering workplaces that empower individuals and drive organizational success.
 </p>
 
 
                 </div>       
                 <div className="team-name-right"></div>
+            </div>
+            <div className="tear-frame-left ">
+                 <Image src={TeamSixNM} alt="" className=""/>  
             </div>
             
             </div>
