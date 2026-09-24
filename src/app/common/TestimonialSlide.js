@@ -2,20 +2,51 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Industry from "../img/The-Ris.png";
-import IndustryT from "../img/Understanding.png"; 
+import IndustryT from "../img/Understanding.png";
 import IndustryThree from "../img/blog-3.jpg";
 import IndustryTwo from "../img/arrow-up-right-2.png";
-import IndustryN from "../img/shutterstock_1932.png"; 
+import IndustryN from "../img/shutterstock_1932.png";
+import IndustryBeyond from "../img/beyond-capital-growth-ready-staffing.jpg";
 import Image from "next/image";
-import Head from "next/head";
-import { useState, useEffect } from "react";
 
+const blogs = [
+  {
+    href: "/beyond-capital-building-a-growth-ready-staffing-business",
+    image: IndustryBeyond,
+    title: "Beyond Capital: Building a Growth-Ready Staffing Business..",
+    alt: "Beyond Capital: Building a Growth-Ready Staffing Business",
+    latest: true,
+    imageStyle: { width: "100%", height: "200px", objectFit: "cover" },
+  },
+  {
+    href: "/navigating-business-growth-how-to-secure-the-right-funding-for-your-staffing-company",
+    image: IndustryN,
+    title:
+      "Navigating Business Growth: How to Secure the Right Funding for Your Staffing Company..",
+  },
+  {
+    href: "/the-rise-of-non-debt-financing-why-more-staffing-businesses-are-looking-for-alternative-funding-solutions",
+    image: Industry,
+    title:
+      "The Rise of Non-Debt Financing: Why more Staffing Businesses are looking for alternative funding solutions..",
+  },
+  {
+    href: "/understanding-ar-factoring-vs-traditional-loans-what-is-best-for-your-staffing-business",
+    image: IndustryT,
+    title:
+      "Understanding AR Factoring vs. Traditional Loans: What is Best for Your Staffing Business..",
+  },
+  {
+    href: "/why-ar-factoring-is-a-strategic-lever-for-staffing-firms-in-tight-credit-cycles",
+    image: IndustryThree,
+    title:
+      "Why AR Factoring Is a Strategic Lever for Staffing Firms in Tight Credit Cycles..",
+  },
+];
 
-export default function TestimonialSlide() {
- 
+export default function TestimonialSlide({ includeLatest = true }) {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 4,
       slidesToSlide: 1,
@@ -37,50 +68,31 @@ export default function TestimonialSlide() {
     },
   };
 
+  const items = blogs.filter((blog) => includeLatest || !blog.latest);
+
   return (
     <div className="cder-ca-slide">
       <Carousel
-        infinite={false }
-        autoPlay={false }
+        infinite={false}
+        autoPlay={false}
         autoPlaySpeed={2000}
         responsive={responsive}
-      >          
-        
-        <div>
-           <div className="testimonial-frame-right">
-              <Image src={IndustryN} alt="" />
-              <p>Navigating Business Growth: How to Secure the Right Funding for Your Staffing Company..</p>
-              <p><a href="/navigating-business-growth-how-to-secure-the-right-funding-for-your-staffing-company"><Image src={IndustryTwo} alt="" /></a></p>
-             </div>
-           </div>
-          <div>
-           <div className="testimonial-frame-right">
-              <Image src={Industry} alt="" />
-              <p>The Rise of Non-Debt Financing: Why more Staffing Businesses are looking for alternative funding solutions..</p>
-              <p><a href="/the-rise-of-non-debt-financing-why-more-staffing-businesses-are-looking-for-alternative-funding-solutions"><Image src={IndustryTwo} alt="" /></a></p>
-             </div>
-           </div>
-           
-          <div>
-           <div className="testimonial-frame-right">
-              <Image src={IndustryT} alt="" />
-              <p>Understanding AR Factoring vs. Traditional Loans: What is Best for Your Staffing Business..</p>
-              <p><a href="/understanding-ar-factoring-vs-traditional-loans-what-is-best-for-your-staffing-business"><Image src={IndustryTwo} alt="" /></a></p>
-             </div>
-           </div>
-            <div>
-           <div className="testimonial-frame-right">
-              <Image src={IndustryThree} alt="" />
-              <p>Why AR Factoring Is a Strategic Lever for Staffing Firms in Tight Credit Cycles..</p>
-              <p><a href="/why-ar-factoring-is-a-strategic-lever-for-staffing-firms-in-tight-credit-cycles"><Image src={IndustryTwo} alt="" /></a></p>
-             </div>
-           </div>
-       
-           
-        
-   
-      
-      
+      >
+        {items.map((blog) => (
+          <div key={blog.href}>
+            <a href={blog.href} className="testimonial-frame-right blog-card-link">
+              <Image
+                src={blog.image}
+                alt={blog.alt || blog.title}
+                style={blog.imageStyle}
+              />
+              <p>{blog.title}</p>
+              <p className="blog-card-arrow">
+                <Image src={IndustryTwo} alt="" />
+              </p>
+            </a>
+          </div>
+        ))}
       </Carousel>
     </div>
   );

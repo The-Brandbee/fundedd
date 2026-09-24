@@ -37,7 +37,7 @@ import IN from "../img/Group52@2x.png";
 import ExpertTwo from "../img/location@2x.png";
 import Logo from "../img/fund-l.png";  
 import ExpertThree from "../img/shutterstock_2122524395.png";    
-import Industry from "../img/FUNDEED-BLOG-n.jpg";
+import Industry from "../img/beyond-capital-growth-ready-staffing.jpg";
 import IndustryTwo from "../img/arrow-up-right-2.png";
 import BlogPost from "../component/BlogPost"; 
 import { GoogleTagManager } from "@next/third-parties/google";
@@ -90,22 +90,24 @@ export default function Arfactoring() {
         <h4>Featured <br/><span>This Week</span> </h4> 
         </div>
         <div className="blog-main-pagge-middle-right">
-             <div className="font-blog-main-middle"> 
+             <a href="/beyond-capital-building-a-growth-ready-staffing-business" className="font-blog-main-middle blog-card-link"> 
                   <div className="font-blog-main-middle-left">
-                    <h4>Receivables, Not Revolvers: How Smart Staffing CFOs Are Rethinking Liquidity</h4>
-                    <p className="blog-arrow"><a href="/receivables-not-revolvers-how-smart-staffing-cfos-are-rethinking-liquidity"><Image src={IndustryTwo} alt="" /></a></p>
+                    <h4>Beyond Capital: Building a Growth-Ready Staffing Business</h4>
+                    <p className="blog-arrow"><Image src={IndustryTwo} alt="" /></p>
                     </div> 
                     <div className="font-blog-main-middle-right">
-                      <a href="/receivables-not-revolvers-how-smart-staffing-cfos-are-rethinking-liquidity">
-                    <Image src={Industry} alt="" />
-                    </a>
+                    <Image
+                      src={Industry}
+                      alt="Beyond Capital: Building a Growth-Ready Staffing Business"
+                      style={{ width: "100%", height: "auto", objectFit: "cover" }}
+                    />
                     </div>    
-        </div>
+        </a>
     </div>
     </div>
  <div className="rain-main-images-main">
 
-               <TestimonialSlide />    
+               <TestimonialSlide includeLatest={false} />    
              </div>
           </div>   
  </section>

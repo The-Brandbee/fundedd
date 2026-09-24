@@ -1429,6 +1429,31 @@ position: relative;
 .testimonial-frame-right img{
   width: 100%;
 }
+.Insights-Industry-Trends.blogmi .testimonial-frame-right > img,
+.Insights-Industry-Trends.blogmi .testimonial-frame-right > span img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 25px 25px 0 0;
+}
+a.blog-card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+a.blog-card-link:hover {
+  opacity: 0.95;
+}
+a.testimonial-frame-right.blog-card-link {
+  color: inherit;
+}
+a.font-blog-main-middle.blog-card-link {
+  color: inherit;
+}
+a.font-blog-main-middle.blog-card-link h4 {
+  color: #000;
+}
 .testimonial-frame-right p:nth-child(2){
   color: #707070;
     font-weight: 600;
@@ -1475,6 +1500,25 @@ position: relative;
 .blog-detail-page {
   position: relative;
 }
+.blog-detail-page.blog-detail-page--cover {
+  max-height: 800px;
+  height: min(800px, calc(100vh - 200px));
+  overflow: hidden;
+}
+.blog-detail-page.blog-detail-page--cover .blog-detail-banner {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.blog-detail-page.blog-detail-page--cover .blog-detail-banner img {
+  object-fit: cover;
+  object-position: center;
+}
+.blog-detail-page.blog-detail-page--cover .container {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
 .blog-detail-page-middle{
   position: absolute;
   left: 10%;
@@ -1485,6 +1529,10 @@ position: relative;
   border-radius: 20px;
   padding: 80px 45px;
 }
+.blog-detail-page.blog-detail-page--cover .blog-detail-page-middle {
+  top: 50%;
+  transform: translateY(-50%);
+}
 .blog-detail-page-middle span{
   color: #000000;
   font-size: 17px;
@@ -1492,8 +1540,8 @@ position: relative;
 }
 .blog-detail-page-middle h1{
   color: #fff;
-    font-weight: 600;
-    font-size: 32px;
+  font-weight: 600;
+  font-size: 32px;
 }
 .blog-detail-page .container{
  
@@ -1650,7 +1698,10 @@ margin: 25px 0px;
   width: 50%;
 }
 .font-blog-main-middle-right img{
-  width: 100%;   
+  width: 100%;
+  max-height: 800px;
+  height: auto;
+  object-fit: cover;
 }
 .testimonial-frame-right p:nth-child(3){
   display: inline-block;
@@ -4075,6 +4126,23 @@ display: none;
     padding: 25px 26px;
     border-radius: 0px;
   }
+  .blog-detail-page.blog-detail-page--cover {
+    height: auto;
+    max-height: none;
+    overflow: visible;
+  }
+  .blog-detail-page.blog-detail-page--cover .blog-detail-page-middle {
+    transform: none;
+  }
+  .blog-detail-page.blog-detail-page--cover .blog-detail-banner {
+    position: relative;
+    height: 280px;
+    max-height: 280px;
+    overflow: hidden;
+  }
+  .blog-detail-page.blog-detail-page--cover .container {
+    height: auto;
+  }
   .blog-page-inner-section-content ul {
     padding-left: 0px !important;
 }
@@ -4088,23 +4156,65 @@ display: none;
 }
 .blog-main-pagge-middle .blog-main-pagge-middle-left {
   width: 100%;
+  margin-bottom: 15px;
+}
+.blog-main-pagge-middle .blog-main-pagge-middle-left h4 {
+  font-size: 28px;
+  margin: 0;
+}
+.blog-main-pagge-middle .blog-main-pagge-middle-left h4 span {
+  font-size: 32px;
 }
 .blog-main-pagge-middle .blog-main-pagge-middle-right {
   width: 100%;
 }
 .blog-main-pagge-middle-right .font-blog-main-middle {
-  display: inline-block;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  background: #E4E4E4;
+  border-radius: 20px;
+  overflow: hidden;
 }
 .font-blog-main-middle-left {
   width: 100%;
   position: relative;
-
+  background: transparent;
+  border-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  min-height: auto;
 }
 .font-blog-main-middle-left h4 {
   color: #000 !important;
+  padding: 14px 16px 40px;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.35;
+}
+.font-blog-main-middle-left .blog-arrow {
+  right: 16px;
+  bottom: 12px;
 }
 .font-blog-main-middle-right {
   width: 100%;
+  display: block;
+}
+.font-blog-main-middle-right a {
+  display: block;
+  width: 100%;
+  line-height: 0;
+}
+.font-blog-main-middle-right img {
+  width: 100% !important;
+  height: 180px !important;
+  max-height: 180px !important;
+  object-fit: cover !important;
+  display: block !important;
+  border-radius: 0;
+}
+.rain-main-images-main {
+  margin-top: 30px;
 }
 .Insights-Industry-Trends p {
  
