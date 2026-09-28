@@ -7,7 +7,7 @@ import HeaderMobileIn from "../common/HeaderMobile.js";
 import Footer from "../common/Footer.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Logo from "../img/fund-l.png";
-import BlogBanner from "../img/beyond-capital-growth-ready-staffing.jpg";
+import BlogBanner from "../img/beyond-capital-banner.jpg";
 import TestimonialSlide from "../common/TestimonialSlide.js";
 import { GoogleTagManager } from "@next/third-parties/google";
 
@@ -38,17 +38,13 @@ export default function BeyondCapital() {
           </div>
         </header>
 
-        <section className="blog-detail-page blog-detail-page--cover">
-          <div className="blog-detail-banner">
-            <Image
-              src={BlogBanner}
-              alt="Beyond Capital: Building a Growth-Ready Staffing Business"
-              fill
-              priority
-              sizes="100vw"
-              style={{ objectFit: "cover", objectPosition: "center" }}
-            />
-          </div>
+        <section className="blog-detail-page blog-detail-page--stacked">
+          <Image
+            src={BlogBanner}
+            alt="uKnowva Staffing and Fundedd partnership"
+            priority
+            sizes="100vw"
+          />
           <div className="container">
             <div className="blog-detail-page-middle">
               <h1>

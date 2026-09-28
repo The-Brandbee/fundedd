@@ -37,7 +37,7 @@ import IN from "../img/Group52@2x.png";
 import ExpertTwo from "../img/location@2x.png";
 import Logo from "../img/fund-l.png";  
 import ExpertThree from "../img/shutterstock_2122524395.png";    
-import Industry from "../img/beyond-capital-growth-ready-staffing.jpg";
+import Industry from "../img/beyond-capital-banner.jpg";
 import IndustryTwo from "../img/arrow-up-right-2.png";
 import BlogPost from "../component/BlogPost"; 
 import { GoogleTagManager } from "@next/third-parties/google";
@@ -90,7 +90,7 @@ export default function Arfactoring() {
         <h4>Featured <br/><span>This Week</span> </h4> 
         </div>
         <div className="blog-main-pagge-middle-right">
-             <a href="/beyond-capital-building-a-growth-ready-staffing-business" className="font-blog-main-middle blog-card-link"> 
+             <a href="/beyond-capital-building-a-growth-ready-staffing-business" className="font-blog-main-middle font-blog-main-middle--banner blog-card-link"> 
                   <div className="font-blog-main-middle-left">
                     <h4>Beyond Capital: Building a Growth-Ready Staffing Business</h4>
                     <p className="blog-arrow"><Image src={IndustryTwo} alt="" /></p>
@@ -98,8 +98,7 @@ export default function Arfactoring() {
                     <div className="font-blog-main-middle-right">
                     <Image
                       src={Industry}
-                      alt="Beyond Capital: Building a Growth-Ready Staffing Business"
-                      style={{ width: "100%", height: "auto", objectFit: "cover" }}
+                      alt="uKnowva Staffing and Fundedd partnership"
                     />
                     </div>    
         </a>
