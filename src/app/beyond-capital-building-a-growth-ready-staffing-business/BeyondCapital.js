@@ -7,7 +7,7 @@ import HeaderMobileIn from "../common/HeaderMobile.js";
 import Footer from "../common/Footer.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Logo from "../img/fund-l.png";
-import BlogBanner from "../img/beyond-capital-banner.jpg";
+import BlogBanner from "../img/beyond-capital-banner.webp";
 import TestimonialSlide from "../common/TestimonialSlide.js";
 import { GoogleTagManager } from "@next/third-parties/google";
 
@@ -43,6 +43,7 @@ export default function BeyondCapital() {
             src={BlogBanner}
             alt="uKnowva Staffing and Fundedd partnership"
             priority
+            quality={100}
             sizes="100vw"
           />
           <div className="container">

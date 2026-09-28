@@ -37,7 +37,7 @@ import IN from "../img/Group52@2x.png";
 import ExpertTwo from "../img/location@2x.png";
 import Logo from "../img/fund-l.png";  
 import ExpertThree from "../img/shutterstock_2122524395.png";    
-import Industry from "../img/beyond-capital-banner.jpg";
+import Industry from "../img/beyond-capital-banner.webp";
 import IndustryTwo from "../img/arrow-up-right-2.png";
 import BlogPost from "../component/BlogPost"; 
 import { GoogleTagManager } from "@next/third-parties/google";
@@ -99,6 +99,8 @@ export default function Arfactoring() {
                     <Image
                       src={Industry}
                       alt="uKnowva Staffing and Fundedd partnership"
+                      quality={100}
+                      sizes="(max-width: 680px) 100vw, 60vw"
                     />
                     </div>    
         </a>
