@@ -38,6 +38,7 @@ import calendar from "../img/calendar.svg";
 import Location from "../img/location-pin.svg";     
 import Logo from "../img/fund-l.png";  
 import LogoTwoOM from "../img/ign-nnn.png";       
+import StaffingWorld2026Logo from "../img/staffing-world-2026-logo.png";
 import TestimonialSlide from "../common/TestimonialSlide.js";  
 import { GoogleTagManager } from "@next/third-parties/google";
 export default function UpcomingEvents() {
@@ -80,15 +81,46 @@ export default function UpcomingEvents() {
   </div>
   <hr className="divider" />
   {/* UPCOMING EVENTS */}
-  <div className="events-section-wrapper" style={{ display: "none" }}>
+  <div className="events-section-wrapper">
 
     <section className="events-section">
       <div className="events-title">Upcoming Events</div>
       <div className="events-container">
-       
-      
-       
-          <div className="event-card">
+        <div className="event-card">
+          <div className="event-title">
+            <a href="https://americanstaffing.net/sw26/" target="_blank" rel="noopener noreferrer">Staffing World 2026</a>
+          </div>
+          <div className="event-row">
+            <Image src={Location} alt="" />
+            <div>Denver, CO</div>
+          </div>
+          <div className="event-row">
+            <Image src={calendar} alt="" />
+            <div>October 12–14, 2026</div>
+          </div>
+          <p className="event-label">
+            <b>Organized by:</b> American Staffing Association
+          </p>
+          <p className="event-details-label">
+            <b>Details:</b> The premier annual event for the staffing industry brings together leaders to discuss growth strategies, AI-driven innovation, and the future of workforce solutions. This year, Fundedd is proud to exhibit alongside our new partner, uKnowva Staffing Software, to introduce a first-of-its-kind partnership built to help staffing companies grow and scale.
+          </p>
+          <p className="event-links">
+            <a href="https://calendly.com/evan-prodromo-fundedd" target="_blank" rel="noopener noreferrer">Book a meeting with our team</a>
+            <Link href="/beyond-capital-building-a-growth-ready-staffing-business">Read more about the partnership</Link>
+          </p>
+          <div className="event-logo event-logo--dark">
+            <a href="https://americanstaffing.net/sw26/" target="_blank" rel="noopener noreferrer">
+              <Image src={StaffingWorld2026Logo} alt="ASA Staffing World 2026 – Oct. 12–14, 2026, Denver, CO" />
+            </a>
+          </div>
+          <div className="event-arrow">
+            <a href="https://americanstaffing.net/sw26/" target="_blank" rel="noopener noreferrer" aria-label="Staffing World 2026 website">
+              <Image src={ArrowN} alt="" />
+            </a>
+          </div>
+        </div>
+
+          <div className="event-card" style={{ display: "none" }}>
           <div className="event-title">ITServe Synergy 2025</div>
           <div className="event-row">
              <Image src={Location} alt="" />  

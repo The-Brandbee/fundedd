@@ -201,6 +201,28 @@
     .event-logo img {
         width: 200px;
 }
+.event-title a {
+  color: inherit;
+}
+.event-links {
+  margin-top: 13px;
+  margin-bottom: 0;
+  font-size: 0.98rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.event-links a {
+  color: #FF7518;
+  font-weight: 600;
+  text-decoration: underline !important;
+}
+.event-logo.event-logo--dark img {
+  width: 260px;
+  height: auto;
+  border-radius: 10px;
+}
 .event-arrow img{
         transform: rotate(4deg);
     transition: transform 0.3s ease;
